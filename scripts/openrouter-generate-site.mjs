@@ -222,7 +222,8 @@ async function genQuoteWizardImages(key, imageModel, force = false) {
   }
 }
 
-async function genBrandImages(key, imageModel) {
+async function genBrandImages(key, imageModel, opts = {}) {
+  const { logoOnly = false, force = false } = opts;
   const pub = join(ROOT, "public");
   const photos = join(pub, "photos");
   mkdirSync(photos, { recursive: true });
@@ -230,7 +231,8 @@ async function genBrandImages(key, imageModel) {
   const jobs = [
     {
       out: join(pub, "logo.png"),
-      prompt: "Logo mark for BH Drywall Metro Detroit: navy and gold shield with drywall trowel and wall panel, clean vector-style icon, centered, no text letters, transparent-friendly dark navy background",
+      prompt:
+        "Professional logo icon for BH Drywall Metro Detroit: navy shield shape with gold/brass drywall trowel and gypsum board panel, clean flat vector logo mark, centered, no long text, no watermark, Michigan contractor brand",
       aspect_ratio: "1:1",
     },
     {
@@ -245,7 +247,13 @@ async function genBrandImages(key, imageModel) {
     },
   ];
 
-  for (const j of jobs) {
+  const runJobs = logoOnly ? jobs.slice(0, 1) : jobs;
+
+  for (const j of runJobs) {
+    if (existsSync(j.out) && !force && !logoOnly) {
+      console.log("Brand skip (exists)", j.out.replace(ROOT, ""));
+      continue;
+    }
     try {
       console.log("Brand", j.out.replace(ROOT, ""), "…");
       const buf = await generateImage(key, j.prompt, { model: imageModel, aspect_ratio: j.aspect_ratio });
@@ -259,6 +267,8 @@ async function genBrandImages(key, imageModel) {
       console.error("  failed:", e.message);
     }
   }
+
+  if (logoOnly) return;
 
   for (const s of SERVICE_HERO) {
     const out = join(photos, `service-hero-${s.slug}.png`);
@@ -331,6 +341,8 @@ async function main() {
   if (args.includes("--images-gallery-pro"))
     await genGalleryImages(key, imageModel, { pro: true, extraOnly: true, force });
   if (args.includes("--images-brand") || args.includes("--all")) await genBrandImages(key, imageModel);
+  if (args.includes("--images-logo"))
+    await genBrandImages(key, imageModel, { logoOnly: true, force });
   if (args.includes("--images-quote") || args.includes("--all"))
     await genQuoteWizardImages(key, imageModel, force);
   if (args.includes("--areas") || args.includes("--all")) await refreshAreas(key, chatModel);

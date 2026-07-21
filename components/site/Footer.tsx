@@ -24,17 +24,17 @@ export function Footer() {
               <Clock className="h-3.5 w-3.5" /> Mon–Sat service
             </span>
           </div>
-          {BIZ.social.instagram && (
+          {BIZ.social.instagram ? (
             <a
               href={BIZ.social.instagram}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="@ohlockkey on Instagram"
+              aria-label="BH Drywall Metro Detroit on Instagram"
               className="mt-4 inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300 transition hover:border-brass-400 hover:text-brass-200"
             >
-              <Instagram className="h-4 w-4" /> @ohlockkey
+              <Instagram className="h-4 w-4" /> Instagram
             </a>
-          )}
+          ) : null}
         </div>
 
         {/* Services — accordion on mobile, plain list on desktop */}
@@ -83,7 +83,7 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Get a drywall contractor</h2>
           <p className="mt-3 max-w-xs text-sm text-ink-300">
-            Tap a button — we&apos;ll dispatch a Licensed & insured technician.
+            Tap a button — a licensed estimator or crew lead will follow up fast.
           </p>
           <div className="mt-4">
             <ContactCTA size="sm" showLabels />

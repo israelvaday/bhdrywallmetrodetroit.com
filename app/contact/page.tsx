@@ -25,7 +25,7 @@ export default function ContactPage() {
             Get a <span className="text-brass-gradient">licensed drywall contractor</span>.
           </h1>
           <p className="mt-4 text-ink-200">
-            Skip the small talk. Tap a button — we&apos;ll dispatch a Licensed & insured technician anywhere in Metro Detroit.
+            Skip the small talk. Tap a button — we&apos;ll connect you with a licensed drywall estimator anywhere in Metro Detroit.
           </p>
           <div className="mt-7 flex justify-center">
             <ContactCTA size="lg" showEmail />
