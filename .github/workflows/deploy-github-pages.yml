@@ -33,9 +33,11 @@ jobs:
           NEXT_EXPORT: "1"
           NEXT_PUBLIC_GH_PAGES: "1"
           NEXT_PUBLIC_SITE_URL: https://bhdrywallmetrodetroit.com
+          NEXT_PUBLIC_QUOTE_API_URL: ${{ vars.QUOTE_API_URL }}
         run: |
           rm -rf app/api
           npx next build
+          node scripts/sync-static-assets.mjs
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
