@@ -6,7 +6,25 @@ import { BIZ } from "@/lib/business";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { MobileDock } from "@/components/site/MobileDock";
+import { MatomoRouteTracker } from "@/components/site/MatomoRouteTracker";
 import { localBusinessJsonLd } from "@/lib/schema";
+
+const MATOMO_SNIPPET = `
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.bhdrywallmetrodetroit.com"]);
+  _paq.push(["setDomains", ["*.bhdrywallmetrodetroit.com"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://matomo.alphalockandsafe.com/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '23']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+`;
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "optional", adjustFontFallback: true });
 // Jakarta = display-font for headlines (LCP target). Use "optional" so the
@@ -85,6 +103,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd()) }}
         />
+        {/* Matomo */}
+        <script dangerouslySetInnerHTML={{ __html: MATOMO_SNIPPET }} />
+        <noscript>
+          <p>
+            <img
+              referrerPolicy="no-referrer-when-downgrade"
+              src="https://matomo.alphalockandsafe.com/matomo/matomo.php?idsite=23&rec=1"
+              style={{ border: 0 }}
+              alt=""
+            />
+          </p>
+        </noscript>
+        <MatomoRouteTracker />
+        {/* End Matomo Code */}
       </body>
     </html>
   );
