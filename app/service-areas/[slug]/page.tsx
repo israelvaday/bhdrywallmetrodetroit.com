@@ -74,7 +74,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
                   <ShieldCheck className="h-3.5 w-3.5" /> Licensed · {BIZ.bsis}
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
-                  <Clock className="h-3.5 w-3.5" /> Mon–Sat service
+                  <Clock className="h-3.5 w-3.5" /> Sun–Thu 9am–5pm · Fri 9am–12pm
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
                   <MapPin className="h-3.5 w-3.5 text-brass-400" /> {a.kind === "city" ? "City" : "Neighborhood"}

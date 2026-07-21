@@ -142,7 +142,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-4xl px-4 md:px-6">
           <div className="rounded-3xl border border-brass-500/30 bg-gradient-to-br from-brass-500/10 to-ink-900/40 p-8 text-center">
             <h2 className="font-display text-2xl font-bold md:text-3xl">Talk to a real human.</h2>
-            <p className="mt-2 text-ink-300">Open Mon–Sat. We pick up.</p>
+            <p className="mt-2 text-ink-300">Open Sunday through Thursday 9am to 5pm and Friday until noon. We pick up.</p>
             <div className="mt-5 flex flex-wrap items-center justify-center gap-3 text-sm">
               <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
                 <Phone className="h-4 w-4 text-brass-400" /> {BIZ.phone}
@@ -151,7 +151,7 @@ export default function AboutPage() {
                 <MapPin className="h-4 w-4 text-brass-400" /> Detroit, MI
               </span>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-900/70 px-3 py-1.5">
-                <Clock className="h-4 w-4 text-brass-400" /> Mon–Sat service
+                <Clock className="h-4 w-4 text-brass-400" /> Sun–Thu 9am–5pm · Fri 9am–12pm
               </span>
             </div>
             <div className="mt-6 flex justify-center">

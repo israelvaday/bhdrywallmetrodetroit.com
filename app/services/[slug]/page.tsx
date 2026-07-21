@@ -59,7 +59,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               BH Drywall Metro Detroit · Licensed · {BIZ.bsis}
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
-              <Clock className="h-3.5 w-3.5" /> Mon–Sat service
+              <Clock className="h-3.5 w-3.5" /> Sun–Thu 9am–5pm · Fri 9am–12pm
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
               <MapPin className="h-3.5 w-3.5 text-brass-400" /> All of Metro Detroit
@@ -173,7 +173,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                   {s.shortName} service across Metro Detroit
                 </h2>
                 <p className="mt-2 max-w-2xl text-ink-300">
-                  Mon–Sat service across Wayne, Oakland & Macomb counties.
+                  Crews across Wayne, Oakland & Macomb counties — Sunday through Thursday 9am to 5pm and Friday until noon.
                 </p>
               </div>
               <Link href="/service-areas" className="hidden text-sm font-semibold text-brass-400 hover:text-brass-300 md:inline-flex">

@@ -5,7 +5,7 @@ export function HoursBadge({ className }: { className?: string }) {
   return (
     <Badge tone="open" className={className}>
       <Clock className="h-3 w-3" />
-      Mon–Sat service
+      Sun–Thu 9am–5pm
     </Badge>
   );
 }

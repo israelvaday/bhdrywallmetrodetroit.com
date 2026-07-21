@@ -28,7 +28,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
       },
       {
         q: "What are your hours?",
-        a: "Monday–Friday 7:00 AM–6:00 PM, Saturday 8:00 AM–2:00 PM. Same-day repair slots when crews are available.",
+        a: "Sunday–Thursday 9:00 AM–5:00 PM, Friday 9:00 AM–12:00 PM. Closed Saturday. Same-day repair slots when crews are available.",
       },
       {
         q: "Do you offer free estimates?",

@@ -71,11 +71,11 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-brass-300 backdrop-blur">
             <ShieldCheck className="h-3.5 w-3.5" />
-            Licensed &amp; insured · Mon–Sat
+            Licensed &amp; insured · Sun–Thu 9am–5pm
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-emerald-300 backdrop-blur">
             <Clock className="h-3.5 w-3.5" />
-            Mon–Sat service
+            Sun–Thu 9am–5pm · Fri 9am–12pm
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700/80 bg-ink-900/60 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-ink-200 backdrop-blur">
             <MapPin className="h-3.5 w-3.5 text-brass-400" />

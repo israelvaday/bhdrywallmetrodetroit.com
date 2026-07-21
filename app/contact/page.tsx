@@ -6,9 +6,9 @@ import { ContactCTA } from "@/components/site/ContactCTA";
 import { ServiceMap } from "@/components/site/ServiceMap";
 
 export const metadata: Metadata = {
-  title: `Contact — Mon–Sat Metro Detroit drywall contractor`,
+  title: `Contact — Metro Detroit drywall contractor`,
   description:
-    "Reach BH Drywall Metro Detroit any time. Tap to call, text photos, or request a free quote. Licensed & insured — serving all of Metro Detroit, MI.",
+    "Reach BH Drywall Metro Detroit Sun–Thu 9am–5pm · Fri 9am–12pm. Tap to call, text photos, or request a free quote. Licensed & insured — serving all of Metro Detroit, MI.",
   alternates: { canonical: "/contact" },
 };
 
@@ -19,7 +19,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative mx-auto max-w-4xl px-4 text-center md:px-6">
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
-            <Clock className="h-3.5 w-3.5" /> Mon–Sat service · Dispatching now
+            <Clock className="h-3.5 w-3.5" /> Sun–Thu 9am–5pm · Fri 9am–12pm
           </div>
           <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
             Get a <span className="text-brass-gradient">licensed drywall contractor</span>.
@@ -50,7 +50,7 @@ export default function ContactPage() {
               <span className="text-sm font-semibold uppercase tracking-wider">Hours</span>
             </div>
             <p className="mt-3 text-sm text-ink-200">
-              <strong className="text-white">Mon–Sat</strong> — see our{" "}
+              <strong className="text-white">Sun–Thu 9am–5pm · Fri 9am–12pm</strong> — see our{" "}
               <a href="/hours" className="text-brass-300 underline-offset-2 hover:underline">hours page</a>{" "}
               for same-day repair when crews are available. Real people answer — not a robocall.
             </p>

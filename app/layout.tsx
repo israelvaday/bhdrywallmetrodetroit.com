@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${BIZ.name} — Metro Detroit drywall contractor`,
-    description: "Licensed Metro Detroit drywall. Mon–Sat dispatch. Licensed & insured.",
+    description: "Licensed Metro Detroit drywall. Sun–Thu 9am–5pm · Fri 9am–12pm. Licensed & insured.",
     images: ["/opengraph-image.png"],
   },
   alternates: { canonical: "/" },

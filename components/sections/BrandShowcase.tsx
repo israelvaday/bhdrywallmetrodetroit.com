@@ -55,7 +55,7 @@ export function BrandShowcase() {
                       {F.label}
                     </div>
                     <h3 className="mt-3 font-display text-2xl font-extrabold text-white md:text-3xl">
-                      Branded mobile drywall contractor — dispatched Mon–Sat.
+                      Branded mobile drywall contractor — dispatched Sun–Thu, plus Friday mornings.
                     </h3>
                   </div>
                 </>

@@ -238,7 +238,7 @@ export default async function BlogPostPage(
               Need a drywall contractor in Metro Detroit?
             </h3>
             <p className="mx-auto mt-2 max-w-xl text-sm text-ink-200 md:text-base">
-              Licensed & insured (#{BIZ.bsis}), Mon–Sat, Wayne, Oakland & Macomb counties. Tap a button and a tech is on the way.
+              Licensed & insured (#{BIZ.bsis}), Sunday through Thursday 9am to 5pm and Friday until noon, Wayne, Oakland & Macomb counties. Tap a button and a tech is on the way.
             </p>
             <div className="mt-5 flex justify-center">
               <ContactCTA size="lg" />

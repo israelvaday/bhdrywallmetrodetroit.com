@@ -57,7 +57,7 @@ export default function QuotePage() {
           <div>
             <h2 className="font-display text-2xl font-bold text-white md:text-3xl">Pricing & expectations</h2>
             <p className="mt-3">
-              Estimates itemize labor, materials, finish level, and timeline. Change orders are written before extra work. Text photos to {BIZ.phone} anytime — same team, Mon–Sat.
+              Estimates itemize labor, materials, finish level, and timeline. Change orders are written before extra work. Text photos to {BIZ.phone} whenever it suits you — the same team replies Sunday through Thursday 9am to 5pm and Friday until noon.
             </p>
           </div>
         </div>

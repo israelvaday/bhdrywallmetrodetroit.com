@@ -6,7 +6,7 @@ import { BIZ } from "./business";
 export type HoursStatus = {
   isOpen: boolean;
   todayLabel: string;
-  message: string; // e.g. "Open now until 12:00 AM" or "Closed — opens Sun 6:00 AM"
+  message: string; // e.g. "Open now until 5:00 PM" or "Closed — opens Sunday 9:00 AM"
 };
 
 function laParts(): { day: number; hours: number; minutes: number } {
@@ -71,15 +71,17 @@ export function getHoursStatus(): HoursStatus {
     };
   }
 
-  // find next open day
-  for (let i = 1; i <= 7; i++) {
+  // Find the next opening. Start at today when we're still before its opening
+  // time (e.g. 8:00 AM on a 9:00 AM day), otherwise look ahead to a later day.
+  const startOffset = openMin !== null && now < openMin ? 0 : 1;
+  for (let i = startOffset; i <= 7; i++) {
     const next = BIZ.hours[(day + i) % 7];
     if ("closed" in next && next.closed) continue;
     if (next.open) {
       return {
         isOpen: false,
         todayLabel,
-        message: `Closed — opens ${next.label} ${fmtTime(next.open)}`,
+        message: `Closed — opens ${i === 0 ? "today" : next.label} ${fmtTime(next.open)}`,
       };
     }
   }
