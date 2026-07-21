@@ -2,6 +2,29 @@ import { NextResponse } from "next/server";
 
 export const runtime = "nodejs";
 
+const ALLOWED_ORIGINS = new Set([
+  "https://bhdrywallmetrodetroit.com",
+  "http://localhost:3000",
+  "http://127.0.0.1:3000",
+]);
+
+function corsHeaders(origin: string | null) {
+  const allow =
+    origin && ALLOWED_ORIGINS.has(origin) ? origin : "https://bhdrywallmetrodetroit.com";
+  return {
+    "Access-Control-Allow-Origin": allow,
+    "Access-Control-Allow-Methods": "POST, OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type",
+  };
+}
+
+export async function OPTIONS(req: Request) {
+  return new NextResponse(null, {
+    status: 204,
+    headers: corsHeaders(req.headers.get("origin")),
+  });
+}
+
 const MAX_FILE_BYTES = 8 * 1024 * 1024;
 const MAX_TOTAL_BYTES = 20 * 1024 * 1024;
 const MAX_FILES = 6;
@@ -22,6 +45,12 @@ type QuoteFields = {
 };
 
 export async function POST(req: Request) {
+  const origin = req.headers.get("origin");
+  const withCors = (res: NextResponse) => {
+    for (const [k, v] of Object.entries(corsHeaders(origin))) res.headers.set(k, v);
+    return res;
+  };
+
   const ctype = req.headers.get("content-type") || "";
   let fields: QuoteFields = { name: "", phone: "", email: "", location: "", service: "", property: "", urgency: "", message: "" };
   const attachments: { filename: string; content: string; contentType: string }[] = [];
@@ -45,14 +74,14 @@ export async function POST(req: Request) {
         if (!(f instanceof File)) continue;
         if (attachments.length >= MAX_FILES) break;
         if (!ALLOWED.has(f.type)) {
-          return NextResponse.json({ error: `Unsupported file type: ${f.type}` }, { status: 400 });
+          return withCors(NextResponse.json({ error: `Unsupported file type: ${f.type}` }, { status: 400 }));
         }
         if (f.size > MAX_FILE_BYTES) {
-          return NextResponse.json({ error: `File too large: ${f.name}` }, { status: 400 });
+          return withCors(NextResponse.json({ error: `File too large: ${f.name}` }, { status: 400 }));
         }
         total += f.size;
         if (total > MAX_TOTAL_BYTES) {
-          return NextResponse.json({ error: "Total upload exceeds 20 MB" }, { status: 400 });
+          return withCors(NextResponse.json({ error: "Total upload exceeds 20 MB" }, { status: 400 }));
         }
         const buf = Buffer.from(await f.arrayBuffer());
         attachments.push({
@@ -66,11 +95,11 @@ export async function POST(req: Request) {
       fields = { ...fields, ...body };
     }
   } catch {
-    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+    return withCors(NextResponse.json({ error: "Invalid request" }, { status: 400 }));
   }
 
   if (!fields.name || !fields.phone || !fields.service) {
-    return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+    return withCors(NextResponse.json({ error: "Missing required fields" }, { status: 400 }));
   }
 
   const apiKey = process.env.RESEND_API_KEY;
@@ -82,7 +111,7 @@ export async function POST(req: Request) {
       ...fields,
       attachmentCount: attachments.length,
     });
-    return NextResponse.json({ ok: true, queued: false });
+    return withCors(NextResponse.json({ ok: true, queued: false }));
   }
 
   const html = renderQuoteEmail(fields, attachments.length);
@@ -108,12 +137,12 @@ export async function POST(req: Request) {
     if (!res.ok) {
       const errText = await res.text();
       console.error("[quote] resend error", res.status, errText);
-      return NextResponse.json({ ok: false, error: "Email failed" }, { status: 502 });
+      return withCors(NextResponse.json({ ok: false, error: "Email failed" }, { status: 502 }));
     }
-    return NextResponse.json({ ok: true });
+    return withCors(NextResponse.json({ ok: true }));
   } catch (err) {
     console.error("[quote] exception", err);
-    return NextResponse.json({ ok: false, error: "Server error" }, { status: 500 });
+    return withCors(NextResponse.json({ ok: false, error: "Server error" }, { status: 500 }));
   }
 }
 

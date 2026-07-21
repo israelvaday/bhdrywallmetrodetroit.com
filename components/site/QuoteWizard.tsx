@@ -132,6 +132,27 @@ export function QuoteWizard() {
       const propLabel = PROPERTIES.find((p) => p.key === property)?.label || property;
       const urgLabel = URGENCIES.find((u) => u.key === urgency)?.label || urgency;
 
+      const quoteApi = (process.env.NEXT_PUBLIC_QUOTE_API_URL || "").replace(/\/$/, "");
+
+      const fd = new FormData();
+      fd.set("name", name);
+      fd.set("phone", phone);
+      fd.set("email", email);
+      fd.set("location", location);
+      fd.set("service", svcLabel);
+      fd.set("property", propLabel);
+      fd.set("urgency", urgLabel);
+      fd.set("message", message);
+      files.forEach((f) => fd.append("files", f, f.name));
+
+      if (quoteApi) {
+        const res = await fetch(quoteApi, { method: "POST", body: fd });
+        if (!res.ok) throw new Error("Server error");
+        toast.success("Quote request sent — we will be in touch shortly.");
+        window.location.href = "/thank-you";
+        return;
+      }
+
       if (process.env.NEXT_PUBLIC_GH_PAGES === "1") {
         const body = [
           `Name: ${name}`,
@@ -148,17 +169,6 @@ export function QuoteWizard() {
         window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Quote request — " + location)}&body=${encodeURIComponent(body)}`;
         return;
       }
-
-      const fd = new FormData();
-      fd.set("name", name);
-      fd.set("phone", phone);
-      fd.set("email", email);
-      fd.set("location", location);
-      fd.set("service", SERVICES.find((s) => s.key === service)?.label || service);
-      fd.set("property", PROPERTIES.find((p) => p.key === property)?.label || property);
-      fd.set("urgency", URGENCIES.find((u) => u.key === urgency)?.label || urgency);
-      fd.set("message", message);
-      files.forEach((f) => fd.append("files", f, f.name));
 
       const res = await fetch("/api/quote", { method: "POST", body: fd });
       if (!res.ok) throw new Error("Server error");

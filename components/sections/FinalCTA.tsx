@@ -14,7 +14,7 @@ export function FinalCTA() {
           Need a drywall contractor in Metro Detroit right now?
         </h2>
         <p className="mt-4 text-ink-200">
-          Tap a button — a Licensed & insured technician will be on the way.
+          Tap a button — a licensed drywall estimator will follow up fast.
         </p>
         <div className="mt-7 flex justify-center">
           <ContactCTA size="lg" />

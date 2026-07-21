@@ -9,6 +9,8 @@ export const BIZ = {
   smsHref: "sms:+13132364558",
   email: "info@bhdrywallmetrodetroit.com",
   emailHref: "mailto:info@bhdrywallmetrodetroit.com",
+  /** Routed via Cloudflare Email Routing → your personal inbox (see Cloudflare dashboard). */
+  quotesEmail: "quotes@bhdrywallmetrodetroit.com",
   /** Shown in trust badges (contractor credentials). */
   licenseId: "Insured",
   /** Legacy field name used in templates — displays contractor credential line. */

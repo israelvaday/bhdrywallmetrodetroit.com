@@ -223,7 +223,7 @@ async function genQuoteWizardImages(key, imageModel, force = false) {
 }
 
 async function genBrandImages(key, imageModel, opts = {}) {
-  const { logoOnly = false, force = false } = opts;
+  const { logoOnly = false, heroOnly = false, force = false } = opts;
   const pub = join(ROOT, "public");
   const photos = join(pub, "photos");
   mkdirSync(photos, { recursive: true });
@@ -237,7 +237,8 @@ async function genBrandImages(key, imageModel, opts = {}) {
     },
     {
       out: join(photos, "branding-generated--hero-drywall-metro-detroit.png"),
-      prompt: "Wide hero photo professional drywall crew finishing smooth walls in new Michigan home construction, cinematic 16:9",
+      prompt:
+        "Wide cinematic hero photo drywall finisher taping seams in bright Michigan home remodel, natural window light, shallow depth of field, dark edges for website hero overlay, photorealistic, no text",
       aspect_ratio: "16:9",
     },
     {
@@ -247,10 +248,10 @@ async function genBrandImages(key, imageModel, opts = {}) {
     },
   ];
 
-  const runJobs = logoOnly ? jobs.slice(0, 1) : jobs;
+  const runJobs = logoOnly ? jobs.slice(0, 1) : heroOnly ? jobs.slice(1, 2) : jobs;
 
   for (const j of runJobs) {
-    if (existsSync(j.out) && !force && !logoOnly) {
+    if (existsSync(j.out) && !force) {
       console.log("Brand skip (exists)", j.out.replace(ROOT, ""));
       continue;
     }
@@ -268,7 +269,7 @@ async function genBrandImages(key, imageModel, opts = {}) {
     }
   }
 
-  if (logoOnly) return;
+  if (logoOnly || heroOnly) return;
 
   for (const s of SERVICE_HERO) {
     const out = join(photos, `service-hero-${s.slug}.png`);
@@ -343,6 +344,8 @@ async function main() {
   if (args.includes("--images-brand") || args.includes("--all")) await genBrandImages(key, imageModel);
   if (args.includes("--images-logo"))
     await genBrandImages(key, imageModel, { logoOnly: true, force });
+  if (args.includes("--images-hero"))
+    await genBrandImages(key, imageModel, { heroOnly: true, force });
   if (args.includes("--images-quote") || args.includes("--all"))
     await genQuoteWizardImages(key, imageModel, force);
   if (args.includes("--areas") || args.includes("--all")) await refreshAreas(key, chatModel);

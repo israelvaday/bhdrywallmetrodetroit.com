@@ -36,17 +36,33 @@ export const metadata: Metadata = {
     siteName: BIZ.name,
     url: BIZ.url,
     locale: "en_US",
+    title: `${BIZ.name} — Metro Detroit Drywall Contractor`,
+    description:
+      "Licensed & insured drywall hang, finish, repair, and commercial work across Wayne, Oakland & Macomb counties.",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: `${BIZ.name} — Metro Detroit drywall contractor`,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: `${BIZ.name} — Metro Detroit drywall contractor`,
     description: "Licensed Metro Detroit drywall. Mon–Sat dispatch. Licensed & insured.",
+    images: ["/opengraph-image.png"],
   },
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   icons: {
-    icon: [{ url: "/icon.png", type: "image/png", sizes: "32x32" }],
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "32x32" },
+    ],
     apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "180x180" }],
+    shortcut: ["/favicon.ico"],
   },
 };
 

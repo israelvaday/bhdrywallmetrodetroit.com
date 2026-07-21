@@ -4,15 +4,10 @@ import { ShieldCheck, Star, Clock, MapPin, Sparkles, Wrench } from "lucide-react
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LogoMark } from "@/components/site/Logo";
-import { serviceHero } from "@/lib/photos";
 
 export function Hero() {
-  const hero =
-    serviceHero("residential") ??
-    serviceHero("commercial");
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-  const poster =
-    hero?.src ?? `${base}/photos/branding-generated--hero-drywall-metro-detroit.png`;
+  const poster = `${base}/photos/branding-generated--hero-drywall-metro-detroit.png`;
 
   return (
     <section className="relative isolate overflow-hidden">
@@ -21,7 +16,15 @@ export function Hero() {
         <img
           src={poster}
           alt=""
-          className="h-full w-full object-cover opacity-50"
+          className="h-full w-full object-cover object-[center_35%] opacity-[0.42] mix-blend-luminosity"
+          fetchPriority="high"
+        />
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={poster}
+          alt=""
+          aria-hidden
+          className="absolute inset-0 h-full w-full object-cover object-[center_35%] opacity-30"
           fetchPriority="high"
         />
         {/* Layered overlays for legibility.

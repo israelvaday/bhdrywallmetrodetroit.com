@@ -8,7 +8,7 @@ export function localBusinessJsonLd() {
     "@type": "HomeAndConstructionBusiness",
     "@id": `${BIZ.url}/#business`,
     name: BIZ.name,
-    image: `${BIZ.url}/og-default.jpg`,
+    image: `${BIZ.url}/opengraph-image.png`,
     logo: `${BIZ.url}/logo.png`,
     telephone: BIZ.phoneE164,
     email: BIZ.email,
