@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /thank-you
+
+Host: https://bhdrywallmetrodetroit.com
+Sitemap: https://bhdrywallmetrodetroit.com/sitemap.xml
