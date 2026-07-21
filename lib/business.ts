@@ -6,7 +6,7 @@ export const BIZ = {
   phone: "(313) 236-4558",
   phoneE164: "+13132364558",
   phoneHref: "tel:+13132364558",
-  whatsappHref: "https://wa.me/13132364558",
+  smsHref: "sms:+13132364558",
   email: "info@bhdrywallmetrodetroit.com",
   emailHref: "mailto:info@bhdrywallmetrodetroit.com",
   /** Shown in trust badges (contractor credentials). */

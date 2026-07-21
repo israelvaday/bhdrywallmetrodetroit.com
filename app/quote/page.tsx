@@ -62,6 +62,7 @@ export default function QuotePage() {
           </div>
         </div>
       </section>
-      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />    </>
+      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />
+    </>
   );
 }

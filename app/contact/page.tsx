@@ -8,7 +8,7 @@ import { ServiceMap } from "@/components/site/ServiceMap";
 export const metadata: Metadata = {
   title: `Contact — Mon–Sat Metro Detroit drywall contractor`,
   description:
-    "Reach BH Drywall Metro Detroit any time. Tap to call, WhatsApp, or request a free quote. Licensed & insured — serving all of Metro Detroit, MI.",
+    "Reach BH Drywall Metro Detroit any time. Tap to call, text photos, or request a free quote. Licensed & insured — serving all of Metro Detroit, MI.",
   alternates: { canonical: "/contact" },
 };
 
@@ -102,10 +102,13 @@ export default function ContactPage() {
               </a>
             </div>
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
-              <h3 className="font-display text-xl font-bold text-white">Text or WhatsApp</h3>
+              <h3 className="font-display text-xl font-bold text-white">Text photos</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Text or WhatsApp photos of the wall, ceiling, or damage. Wide shots plus close-ups help us quote patch work, texture match, or full-room finish without an extra trip. Great for basement projects, tenant punch lists, and insurance documentation.
+                Text photos of the wall, ceiling, or damage to {BIZ.phone}. Wide shots plus close-ups help us quote patch work, texture match, or full-room finish without an extra trip. Great for basement projects, tenant punch lists, and insurance documentation.
               </p>
+              <a href={BIZ.smsHref} className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
+                Text {BIZ.phone} →
+              </a>
             </div>
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
               <h3 className="font-display text-xl font-bold text-white">Free written quote</h3>

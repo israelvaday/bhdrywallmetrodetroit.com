@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 import type { FAQ } from "@/content/faq";
 
 export function FAQAccordion({ items, sectionId }: { items: FAQ[]; sectionId: string }) {
-  const [openIdx, setOpenIdx] = useState<number | null>(0);
+  const [openIdx, setOpenIdx] = useState<number | null>(null);
   return (
     <div className="overflow-hidden rounded-2xl border border-ink-800 bg-ink-900/40">
       {items.map((it, i) => {

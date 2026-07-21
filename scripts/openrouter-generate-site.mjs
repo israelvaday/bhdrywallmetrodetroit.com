@@ -7,6 +7,7 @@
  *   node scripts/openrouter-generate-site.mjs --images-gallery
  *   node scripts/openrouter-generate-site.mjs --images-gallery-pro
  *   node scripts/openrouter-generate-site.mjs --images-brand
+ *   node scripts/openrouter-generate-site.mjs --images-quote
  *   node scripts/openrouter-generate-site.mjs --areas
  *   node scripts/openrouter-generate-site.mjs --all
  */
@@ -107,6 +108,23 @@ const GALLERY_EXTRA = [
   { file: "gen-v2--exterior-soffit.png", prompt: "Exterior porch soffit new drywall and fascia detail on Michigan colonial home" },
 ];
 
+/** Square tiles for /quote wizard — one image per tap option */
+const QUOTE_WIZARD = [
+  { file: "emergency.png", prompt: "Same-day drywall patch repair: worker filling hole in living room wall before texture, Michigan home interior" },
+  { file: "residential.png", prompt: "Residential basement drywall finishing, smooth taped walls, recessed lights, Michigan ranch home" },
+  { file: "commercial.png", prompt: "Commercial office tenant improvement, drywall hung on metal studs, wide corridor, Metro Detroit" },
+  { file: "storefront.png", prompt: "Retail storefront buildout, drywall soffits above display windows, restaurant interior under construction" },
+  { file: "smart-locks.png", prompt: "Level 5 skim coat smooth white walls, critical side lighting showing flawless finish, modern Michigan living room, no locks no doors hardware focus" },
+  { file: "access-control.png", prompt: "Metal stud partition framing for commercial interior, studs and track before drywall hang" },
+  { file: "automotive.png", prompt: "Basement flood cut: lower drywall removed exposing studs, water damage restoration Michigan" },
+  { file: "safes.png", prompt: "Suspended acoustical drop ceiling grid with gypsum board perimeter, commercial office Michigan" },
+  { file: "rekey.png", prompt: "New construction drywall phase: crew hanging sheets on walls and ceilings, multi-family unit Michigan" },
+  { file: "property-home.png", prompt: "Single-family Michigan house interior, finished drywall living room, suburban home" },
+  { file: "property-business.png", prompt: "Commercial office suite interior with fresh drywall partitions, empty tenant space" },
+  { file: "property-vehicle.png", prompt: "Apartment building hallway with new drywall, multiple unit doors, multi-family Michigan" },
+  { file: "property-other.png", prompt: "Garage or basement workspace with drywall repair and ceiling patch, Michigan home" },
+];
+
 const SERVICE_HERO = [
   { slug: "emergency", prompt: "Same-day drywall hole repair in living room, Michigan home, realistic" },
   { slug: "residential", prompt: "Residential basement drywall finishing, smooth walls, Michigan" },
@@ -174,6 +192,30 @@ async function genGalleryImages(key, imageModel, opts = {}) {
       );
       await saveImage(buf, out);
       await sleep(pro ? 2200 : 1500);
+    } catch (e) {
+      console.error("  failed:", e.message);
+    }
+  }
+}
+
+async function genQuoteWizardImages(key, imageModel, force = false) {
+  const dir = join(ROOT, "public/photos/quote");
+  mkdirSync(dir, { recursive: true });
+  for (const q of QUOTE_WIZARD) {
+    const out = join(dir, q.file);
+    if (existsSync(out) && !force) {
+      console.log("Quote skip (exists)", q.file);
+      continue;
+    }
+    try {
+      console.log("Quote wizard", q.file, "…");
+      const buf = await generateImage(
+        key,
+        `${q.prompt}. ${PHOTO_REALISM}. ${BIZ}, Metro Detroit Michigan drywall contractor jobsite.`,
+        { model: imageModel, aspect_ratio: "1:1", resolution: "1K", quality: "high" }
+      );
+      await saveImage(buf, out);
+      await sleep(1800);
     } catch (e) {
       console.error("  failed:", e.message);
     }
@@ -289,11 +331,13 @@ async function main() {
   if (args.includes("--images-gallery-pro"))
     await genGalleryImages(key, imageModel, { pro: true, extraOnly: true, force });
   if (args.includes("--images-brand") || args.includes("--all")) await genBrandImages(key, imageModel);
+  if (args.includes("--images-quote") || args.includes("--all"))
+    await genQuoteWizardImages(key, imageModel, force);
   if (args.includes("--areas") || args.includes("--all")) await refreshAreas(key, chatModel);
 
   if (!args.length) {
     console.log(
-      "Pass --test, --images-blog, --images-gallery, --images-gallery-pro, --images-brand, --areas, or --all"
+      "Pass --test, --images-blog, --images-gallery, --images-gallery-pro, --images-brand, --images-quote, --areas, or --all"
     );
   } else {
     console.log("Running rebuild-photos-gallery…");

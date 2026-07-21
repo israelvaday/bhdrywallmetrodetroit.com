@@ -312,7 +312,7 @@ export function QuoteWizard() {
             {step === 3 && (
               <>
                 <h2 className="font-display text-2xl font-extrabold md:text-3xl">Anything we should know?</h2>
-                <p className="mt-1 text-sm text-ink-300">Brand of lock, door type, # of doors, gate code… optional.</p>
+                <p className="mt-1 text-sm text-ink-300">Room size, ceiling height, texture type, access notes… optional.</p>
                 <textarea
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
@@ -326,7 +326,9 @@ export function QuoteWizard() {
             {step === 4 && (
               <>
                 <h2 className="font-display text-2xl font-extrabold md:text-3xl">Got a picture or document?</h2>
-                <p className="mt-1 text-sm text-ink-300">Upload photos of the lock, the door, or any quote / spec sheet. Optional (max {MAX_FILES} files, 8 MB each).</p>
+                <p className="mt-1 text-sm text-ink-300">
+                  Upload wide shots and close-ups of walls, ceilings, damage, or plans. Optional (max {MAX_FILES} files, 8 MB each).
+                </p>
                 <label className="mt-5 flex cursor-pointer flex-col items-center justify-center gap-2 rounded-2xl border-2 border-dashed border-brass-500/40 bg-ink-950/50 p-8 text-center hover:border-brass-400">
                   <Upload className="h-7 w-7 text-brass-300" />
                   <span className="font-display text-base font-bold text-ink-50">Tap to upload</span>
@@ -369,7 +371,7 @@ export function QuoteWizard() {
                   <Field label="Name" value={name} onChange={setName} required />
                   <Field label="Phone" value={phone} onChange={setPhone} required type="tel" />
                   <Field label="Email (optional)" value={email} onChange={setEmail} type="email" />
-                  <Field label="City / ZIP" value={location} onChange={setLocation} required placeholder="Detroit, 92701" />
+                  <Field label="City / ZIP" value={location} onChange={setLocation} required placeholder="Warren, 48089" />
                 </div>
 
                 <div className="mt-6 rounded-2xl border border-ink-800 bg-ink-950/60 p-4">

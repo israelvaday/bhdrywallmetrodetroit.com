@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, ClipboardList } from "lucide-react";
+import { Phone, Mail, ClipboardList } from "lucide-react";
 import { BIZ } from "@/lib/business";
 
 export function MobileDock() {
@@ -14,14 +14,12 @@ export function MobileDock() {
           Call
         </a>
         <a
-          href={BIZ.whatsappHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Open WhatsApp chat"
+          href={BIZ.emailHref}
+          aria-label="Email us"
           className="flex flex-col items-center gap-1 py-3 text-xs font-semibold text-emerald-300"
         >
-          <MessageCircle className="h-5 w-5" />
-          WhatsApp
+          <Mail className="h-5 w-5" />
+          Email
         </a>
         <a
           href="/quote"
