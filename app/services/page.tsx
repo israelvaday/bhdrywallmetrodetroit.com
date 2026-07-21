@@ -7,9 +7,9 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: "Locksmith Services in Orange County",
+  title: "drywall contractor Services in Metro Detroit",
   description:
-    "All locksmith services from OH Lock & Key Solutions — residential, commercial, storefront, smart locks, access control, automotive, safes, and rekeys.",
+    "All drywall services from BH Drywall Metro Detroit — repair, residential, commercial, smooth finish, framing, water damage, texture, ceilings, and new construction.",
   alternates: { canonical: `${BIZ.url}/services` },
 };
 
@@ -21,10 +21,10 @@ export default function ServicesPage() {
         <div className="relative mx-auto max-w-5xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Services</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Full-service <span className="text-brass-gradient">Orange County</span> locksmith.
+            Full-service <span className="text-brass-gradient">Metro Detroit</span> drywall contractor.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Ten specialized service lines, one BSIS-licensed team. Tap any card for details, pricing factors, and example jobs.
+            Ten specialized service lines, one Licensed & insured team. Tap any card for details, pricing factors, and example jobs.
           </p>
         </div>
       </section>
@@ -45,14 +45,14 @@ export default function ServicesPage() {
                 photoAlt={hero.alt}
                 photoW={hero.width}
                 photoH={hero.height}
-                city="Orange County, CA"
+                city="Metro Detroit, MI"
                 priority={i < 3}
               />
             );
           })}
         </div>
       </section>
-      <LongFormFaq subject="OC Locksmith Services" kind="service" />
+      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />
       <FinalCTA />
     </>
   );

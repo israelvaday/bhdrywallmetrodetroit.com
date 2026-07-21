@@ -11,10 +11,10 @@ export function ServiceGrid({ city }: { city?: string }) {
         <div className="mb-10 flex flex-col items-center text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">What we do</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
-            Every lock. Every door. Every vehicle.
+            Hang, finish, repair &amp; build out.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Ten specialized service lines, one licensed team. Tap any card to see real jobs, pricing factors, and book a tech.
+            Ten drywall service lines across Metro Detroit. Tap a card for scope, photos, and a free estimate.
           </p>
           <Link href="/services" className="mt-4 text-sm font-semibold text-brass-400 hover:text-brass-300">
             View all services →
@@ -36,7 +36,7 @@ export function ServiceGrid({ city }: { city?: string }) {
                   photoAlt={hero.alt}
                   photoW={hero.width}
                   photoH={hero.height}
-                  city={city ?? "Orange County, CA"}
+                  city={city ?? "Metro Detroit, MI"}
                   priority={false}
                 />
               </Reveal>

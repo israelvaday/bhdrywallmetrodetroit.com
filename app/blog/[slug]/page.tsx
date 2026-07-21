@@ -221,7 +221,7 @@ export default async function BlogPostPage(
                   <Clock className="h-4 w-4" /> {post.readMinutes} min read
                 </span>
                 <span className="inline-flex items-center gap-1.5">
-                  <ShieldCheck className="h-4 w-4 text-brass-400" /> BSIS #{BIZ.bsis}
+                  <ShieldCheck className="h-4 w-4 text-brass-400" /> Licensed · {BIZ.bsis}
                 </span>
               </div>
             </div>
@@ -235,10 +235,10 @@ export default async function BlogPostPage(
           {/* Inline CTA */}
           <div className="mt-12 rounded-3xl border border-brass-500/30 bg-gradient-to-br from-brass-500/10 to-ink-900/40 p-6 text-center md:p-8">
             <h3 className="font-display text-xl font-extrabold md:text-2xl">
-              Need a locksmith in Orange County?
+              Need a drywall contractor in Metro Detroit?
             </h3>
             <p className="mx-auto mt-2 max-w-xl text-sm text-ink-200 md:text-base">
-              BSIS-licensed (#{BIZ.bsis}), 24/7, every OC city. Tap a button and a tech is on the way.
+              Licensed & insured (#{BIZ.bsis}), Mon–Sat, Wayne, Oakland & Macomb counties. Tap a button and a tech is on the way.
             </p>
             <div className="mt-5 flex justify-center">
               <ContactCTA size="lg" />
@@ -278,7 +278,7 @@ export default async function BlogPostPage(
         </section>
       )}
 
-      <LongFormFaq subject="OC Locksmith Articles" kind="service" />
+      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />
 
       <FinalCTA />
     </>

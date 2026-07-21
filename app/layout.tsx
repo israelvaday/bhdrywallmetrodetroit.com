@@ -6,7 +6,6 @@ import { BIZ } from "@/lib/business";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { MobileDock } from "@/components/site/MobileDock";
-import { LazyScrollProgress } from "@/components/site/LazyScrollFx";
 import { localBusinessJsonLd } from "@/lib/schema";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "optional", adjustFontFallback: true });
@@ -20,14 +19,17 @@ const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", displ
 export const metadata: Metadata = {
   metadataBase: new URL(BIZ.url),
   title: {
-    default: `${BIZ.name} — Orange County Locksmith (BSIS #${BIZ.bsis})`,
+    default: `${BIZ.name} — Metro Detroit Drywall Contractor`,
     template: `%s — ${BIZ.name}`,
   },
   description:
-    "Licensed Orange County locksmith. Residential, commercial, automotive, smart locks, access control, safes. Free quote — call 714-757-7574. BSIS #8663.",
+    `${BIZ.name} — licensed & insured drywall hang, finish, repair, and commercial work across Metro Detroit. Free estimates — call ${BIZ.phone}.`,
   keywords: [
-    "locksmith Orange County", "locksmith Santa Ana", "locksmith Irvine",
-    "rekey locks", "smart lock install", "auto locksmith", "BSIS 8663",
+    "drywall contractor Detroit",
+    "drywall repair Metro Detroit",
+    "basement drywall Michigan",
+    "commercial drywall Wayne County",
+    "Level 5 finish Detroit",
   ],
   openGraph: {
     type: "website",
@@ -37,8 +39,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${BIZ.name} — Orange County Locksmith`,
-    description: "Licensed OC locksmith. 24/7 dispatch. BSIS #8663.",
+    title: `${BIZ.name} — Metro Detroit drywall contractor`,
+    description: "Licensed Metro Detroit drywall. Mon–Sat dispatch. Licensed & insured.",
   },
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
@@ -54,7 +56,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-US" className={`${inter.variable} ${jakarta.variable} ${mono.variable}`}>
       <body className="font-sans bg-ink-950 text-ink-50 antialiased">
-        <LazyScrollProgress />
         <Navbar />
         <main>{children}</main>
         <Footer />

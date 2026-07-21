@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const isExport = process.env.NEXT_EXPORT === "1";
-const basePath = isExport ? "/oh-lock-and-key" : "";
+const basePath = isExport ? "" : "";
 
 const config: NextConfig = {
   reactStrictMode: true,

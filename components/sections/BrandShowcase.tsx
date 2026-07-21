@@ -10,7 +10,7 @@ export function BrandShowcase() {
     all.find((p) => p.id.includes(suffix));
 
   const frames = [
-    { p: pick("service-van-three-quarter-front"), Icon: Truck,      label: "Mobile Locksmith Van" },
+    { p: pick("service-van-three-quarter-front"), Icon: Truck,      label: "Mobile drywall contractor Van" },
     { p: pick("service-van-side-magnet-daylight"), Icon: Truck,     label: "Branded Side Magnet" },
     { p: pick("orange-county-map-physical-mockup"), Icon: MapIcon,  label: "Serving All of OC" },
     { p: pick("business-card-mockup-photo"),       Icon: CreditCard, label: "Business Card" },
@@ -25,10 +25,10 @@ export function BrandShowcase() {
         <div className="mb-10 flex flex-col items-center text-center">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Our Brand</p>
           <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-5xl">
-            A real, local locksmith — not a call-center middleman.
+            A real, local drywall contractor — not a call-center middleman.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Branded vans, a real Santa Ana office, and a BSIS-licensed crew you can actually meet.
+            Branded vans, a real Detroit office, and a Licensed & insured crew you can actually meet.
           </p>
         </div>
 
@@ -55,7 +55,7 @@ export function BrandShowcase() {
                       {F.label}
                     </div>
                     <h3 className="mt-3 font-display text-2xl font-extrabold text-white md:text-3xl">
-                      Branded mobile locksmith — dispatched 24/7.
+                      Branded mobile drywall contractor — dispatched Mon–Sat.
                     </h3>
                   </div>
                 </>

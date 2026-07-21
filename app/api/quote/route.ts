@@ -74,8 +74,8 @@ export async function POST(req: Request) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.QUOTE_TO_EMAIL || "service@ohlockandkey.com";
-  const from = process.env.QUOTE_FROM_EMAIL || "OH Lock & Key <onboarding@resend.dev>";
+  const to = process.env.QUOTE_TO_EMAIL || "service@bhdrywallmetrodetroit.com";
+  const from = process.env.QUOTE_FROM_EMAIL || "BH Drywall Metro Detroit <onboarding@resend.dev>";
 
   if (!apiKey) {
     console.warn("[quote] RESEND_API_KEY not set — accepting quote without email.", {
@@ -127,7 +127,7 @@ function escapeHtml(s: string): string {
 
 function renderQuoteText(f: QuoteFields, count: number): string {
   return [
-    "New quote request — OH Lock & Key Solutions",
+    "New quote request — BH Drywall Metro Detroit",
     "",
     `Name:     ${f.name}`,
     `Phone:    ${f.phone}`,
@@ -204,7 +204,7 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
                 </tr>
               </table>
               <h1 style="margin:18px 0 4px 0;font-size:24px;line-height:1.25;color:#ffffff;font-weight:800;letter-spacing:-0.3px">🔑 New quote request</h1>
-              <p style="margin:0;color:#9aa6c1;font-size:13px;">Submitted ${submittedAt} • Orange County, CA</p>
+              <p style="margin:0;color:#9aa6c1;font-size:13px;">Submitted ${submittedAt} • Metro Detroit, MI</p>
             </td>
           </tr>
 
@@ -289,7 +289,7 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
                   ${
                     email
                       ? `<td style="padding:0 6px">
-                          <a href="mailto:${email}?subject=Re:%20Your%20OH%20Lock%20%26%20Key%20quote" style="display:inline-block;background:transparent;color:#e6c266;text-decoration:none;font-weight:700;font-size:14px;padding:13px 20px;border-radius:12px;border:1.5px solid #e6c266">✉ Reply</a>
+                          <a href="mailto:${email}?subject=Re:%20Your%20BH%20Drywall%20Metro%20Detroit%20quote" style="display:inline-block;background:transparent;color:#e6c266;text-decoration:none;font-weight:700;font-size:14px;padding:13px 20px;border-radius:12px;border:1.5px solid #e6c266">✉ Reply</a>
                         </td>`
                       : ""
                   }
@@ -304,9 +304,9 @@ function renderQuoteEmail(f: QuoteFields, attachmentCount: number): string {
               <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%">
                 <tr>
                   <td style="font-size:11px;color:#6b7794;line-height:1.6">
-                    <b style="color:#9aa6c1">OH Lock &amp; Key Solutions</b><br>
-                    Licensed locksmith • BSIS #8663 • Orange County, CA<br>
-                    <a href="https://ohlockandkey.com" style="color:#b58a3a;text-decoration:none">ohlockandkey.com</a>
+                    <b style="color:#9aa6c1">BH Drywall Metro Detroit</b><br>
+                    Licensed drywall contractor • Licensed & insured • Metro Detroit, MI<br>
+                    <a href="https://bhdrywallmetrodetroit.com" style="color:#b58a3a;text-decoration:none">bhdrywallmetrodetroit.com</a>
                   </td>
                 </tr>
               </table>

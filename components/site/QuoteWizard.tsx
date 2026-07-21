@@ -20,29 +20,29 @@ type PropertyKey = "property-home" | "property-business" | "property-vehicle" | 
 type Urgency = "now" | "today" | "this-week" | "scheduling";
 
 const SERVICES: { key: ServiceKey; label: string; sub: string }[] = [
-  { key: "emergency",      label: "Emergency lockout",   sub: "Locked out now" },
-  { key: "residential",    label: "Residential",         sub: "Home rekey / install / repair" },
-  { key: "commercial",     label: "Commercial / office", sub: "Office hardware" },
-  { key: "storefront",     label: "Storefront / glass",  sub: "Adams Rite, panic, paddle" },
-  { key: "smart-locks",    label: "Smart / keypad",      sub: "Schlage, Yale, Lockly" },
-  { key: "access-control", label: "Access control",      sub: "Maglock, REX, keypads" },
-  { key: "automotive",     label: "Automotive",          sub: "Car keys & fobs" },
-  { key: "safes",          label: "Safe service",        sub: "Open, repair, install" },
-  { key: "rekey",          label: "Rekey / master key",  sub: "Rekey or master system" },
+  { key: "emergency",      label: "Same-day repair",     sub: "Holes, cracks, patches" },
+  { key: "residential",    label: "Residential",         sub: "Basements, remodels" },
+  { key: "commercial",     label: "Commercial",          sub: "Office & retail TI" },
+  { key: "storefront",     label: "Retail buildout",     sub: "Storefronts & restaurants" },
+  { key: "smart-locks",    label: "Level 5 / smooth",    sub: "Skim coat & smooth walls" },
+  { key: "access-control", label: "Metal framing",       sub: "Partitions & soffits" },
+  { key: "automotive",     label: "Water damage",        sub: "Flood cut & rebuild" },
+  { key: "safes",          label: "Ceilings",            sub: "Grid & gypsum ceilings" },
+  { key: "rekey",          label: "New construction",    sub: "Hang, tape, finish" },
 ];
 
 const PROPERTIES: { key: PropertyKey; label: string; sub: string }[] = [
-  { key: "property-home",     label: "Home",     sub: "House, condo, apt" },
-  { key: "property-business", label: "Business", sub: "Office, retail, storefront" },
-  { key: "property-vehicle",  label: "Vehicle",  sub: "Car, truck, van" },
-  { key: "property-other",    label: "Other",    sub: "Safe, gate, mailbox…" },
+  { key: "property-home",     label: "Home",     sub: "House, condo, townhouse" },
+  { key: "property-business", label: "Business", sub: "Office, retail, industrial" },
+  { key: "property-vehicle",  label: "Multi-family", sub: "Apartments, HOA" },
+  { key: "property-other",    label: "Other",    sub: "Garage, basement, ceiling…" },
 ];
 
 const URGENCIES: { key: Urgency; label: string; sub: string; Icon: typeof Zap }[] = [
-  { key: "now",        label: "Right now",   sub: "I&rsquo;m locked out / need it ASAP", Icon: Zap },
-  { key: "today",      label: "Today",       sub: "Within a few hours",      Icon: CalendarClock },
-  { key: "this-week",  label: "This week",   sub: "Flexible timing",         Icon: Calendar },
-  { key: "scheduling", label: "Just pricing", sub: "Quote only, no rush",    Icon: FileText },
+  { key: "now",        label: "ASAP",        sub: "Need repair or walkthrough soon", Icon: Zap },
+  { key: "today",      label: "This week",   sub: "Within a few days",      Icon: CalendarClock },
+  { key: "this-week",  label: "Scheduling",  sub: "Planning a project",         Icon: Calendar },
+  { key: "scheduling", label: "Quote only", sub: "Ballpark pricing",    Icon: FileText },
 ];
 
 const STEP_LABELS = ["Service", "Property", "Urgency", "Details", "Photos", "Contact"] as const;
@@ -128,6 +128,27 @@ export function QuoteWizard() {
     }
     setSubmitting(true);
     try {
+      const svcLabel = SERVICES.find((s) => s.key === service)?.label || service;
+      const propLabel = PROPERTIES.find((p) => p.key === property)?.label || property;
+      const urgLabel = URGENCIES.find((u) => u.key === urgency)?.label || urgency;
+
+      if (process.env.NEXT_PUBLIC_GH_PAGES === "1") {
+        const body = [
+          `Name: ${name}`,
+          `Phone: ${phone}`,
+          `Email: ${email || "—"}`,
+          `Location: ${location}`,
+          `Service: ${svcLabel}`,
+          `Property: ${propLabel}`,
+          `Timing: ${urgLabel}`,
+          message ? `Notes: ${message}` : "",
+        ]
+          .filter(Boolean)
+          .join("\n");
+        window.location.href = `mailto:${BIZ.email}?subject=${encodeURIComponent("Quote request — " + location)}&body=${encodeURIComponent(body)}`;
+        return;
+      }
+
       const fd = new FormData();
       fd.set("name", name);
       fd.set("phone", phone);
@@ -158,7 +179,7 @@ export function QuoteWizard() {
       {/* Header / progress */}
       <div className="relative flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-          <ShieldCheck className="h-3 w-3" /> BSIS #{BIZ.bsis}
+          <ShieldCheck className="h-3 w-3" /> Licensed · {BIZ.bsis}
         </span>
         <span className="text-[11px] font-bold uppercase tracking-wider text-ink-400">
           Step {step + 1} of {STEP_LABELS.length} — {STEP_LABELS[step]}
@@ -297,7 +318,7 @@ export function QuoteWizard() {
                   onChange={(e) => setMessage(e.target.value)}
                   rows={6}
                   className="mt-5 w-full rounded-xl border border-ink-800 bg-ink-950 p-4 outline-none focus:border-brass-500"
-                  placeholder="e.g. Schlage deadbolt won't turn, single-family home in Tustin, need same-day rekey for 3 doors."
+                  placeholder="e.g. 12×12 hole in basement wall, knockdown texture in Livonia ranch, need patch before paint next week."
                 />
               </>
             )}
@@ -348,7 +369,7 @@ export function QuoteWizard() {
                   <Field label="Name" value={name} onChange={setName} required />
                   <Field label="Phone" value={phone} onChange={setPhone} required type="tel" />
                   <Field label="Email (optional)" value={email} onChange={setEmail} type="email" />
-                  <Field label="City / ZIP" value={location} onChange={setLocation} required placeholder="Santa Ana, 92701" />
+                  <Field label="City / ZIP" value={location} onChange={setLocation} required placeholder="Detroit, 92701" />
                 </div>
 
                 <div className="mt-6 rounded-2xl border border-ink-800 bg-ink-950/60 p-4">

@@ -10,7 +10,7 @@ export function PhotoMarquee() {
       <div className="mx-auto mb-6 flex max-w-7xl flex-col items-center px-4 text-center md:px-6">
         <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Real jobs</p>
         <h2 className="mt-1 font-display text-2xl font-bold tracking-tight md:text-3xl">
-          Real work, in real Orange County homes &amp; businesses.
+          Real work, in real Metro Detroit homes &amp; businesses.
         </h2>
       </div>
       <div className="relative">

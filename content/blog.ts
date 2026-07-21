@@ -1,4 +1,4 @@
-// Blog post data + body content. Hand-written by the OH Lock & Key team for SEO + customer value.
+// Blog post data + body content. Hand-written by the BH Drywall Metro Detroit team for SEO + customer value.
 // Bodies use a very small markdown-ish dialect: lines starting with `## ` are H2, `### ` are H3,
 // lines starting with `- ` are list items, blank lines split paragraphs.
 
@@ -7,7 +7,7 @@ export type BlogPost = {
   title: string;
   metaTitle?: string;
   excerpt: string;
-  category: "Lockouts" | "Smart Locks" | "Commercial" | "Auto" | "Safety" | "Security";
+  category: "Residential" | "Commercial" | "Safety" | "Security";
   readMinutes: number;
   date: string; // ISO
   heroImage: string;      // /blog/<slug>-hero.png
@@ -19,617 +19,517 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    slug: "locked-out-house-7-things-to-try",
-    title: "Locked Out of Your House? 7 Things to Try Before Calling a Locksmith",
-    metaTitle: "Locked Out at Home? 7 Things to Try First",
+    slug: "basement-drywall-finishing-metro-detroit",
+    title: "Basement Drywall Finishing in Metro Detroit: Moisture, Code, and a Clean Finish",
+    metaTitle: "Basement Drywall Finishing Metro Detroit Guide",
     excerpt:
-      "Before you panic — or worse, kick in a door — run through these 7 quick checks. Most home lockouts in Orange County resolve in under 5 minutes with the right approach.",
-    category: "Lockouts",
+      "Finished basements add living space across Wayne, Oakland, and Macomb counties — but Michigan humidity and concrete walls demand the right board, insulation, and finishing sequence.",
+    category: "Residential",
+    readMinutes: 7,
+    date: "2026-01-14",
+    heroImage: "/blog/basement-drywall-finishing-metro-detroit-hero.png",
+    heroAlt: "Crew hanging moisture-resistant drywall on framed basement walls in a Metro Detroit home",
+    secondaryImage: "/blog/basement-drywall-finishing-metro-detroit-secondary.png",
+    secondaryAlt: "Freshly mudded and sanded basement drywall ready for primer in Michigan",
+    body: `
+A finished basement is one of the smartest square-footage upgrades you can make in Metro Detroit. Whether you are building a family room in Sterling Heights, a home office in Royal Oak, or extra bedrooms in Livonia, drywall is what turns raw framing into a space that feels like the rest of the house. At BH Drywall Metro Detroit, we finish basements every week — and the difference between a project that stays flat for years and one that develops mold lines or cracked corners almost always comes down to prep, product choice, and sequencing.
+
+Basements are not just another floor. Concrete foundations breathe, seasonal groundwater shifts, and Michigan winters drive humidity swings that upstairs walls never see. Before the first sheet goes up, we walk the job with homeowners and discuss how the space will be used, where heat runs, and whether a bathroom or wet bar is part of the plan. Those answers dictate fire taping, moisture-resistant board zones, and how aggressively we need to control vapor at the foundation.
+
+## Start with framing and insulation — not drywall
+
+Drywall only performs as well as what is behind it. In most Metro Detroit basements we see either steel stud or wood framing on standoffs from the foundation wall, with rigid or batt insulation in the cavity. Gaps at the sill plate, rim joist, and any plumbing chases must be sealed before board. Cold spots that are not addressed will show up later as ghosting or condensation stains on the finished surface.
+
+We also verify ceiling height against local code and egress requirements if bedrooms are involved. Low soffits around ducts are common; we plan drywall breaks so joints land on backing and future cracks are minimized. Homeowners in Warren, Troy, and Dearborn often underestimate how much layout work happens before mud touches the wall.
+
+### Moisture-resistant board where it matters
+
+Not every basement wall needs green board, but any surface near a shower, laundry, or bar sink should be moisture-resistant gypsum. We still insist on proper waterproofing behind tile in wet areas — board alone is not a tank. For general living walls, standard drywall paired with a continuous vapor strategy and dehumidification is usually appropriate when the exterior drainage and foundation are in reasonable shape.
+
+If you have had seepage or active leaks, drywall is the last step, not the first. We will tell you plainly to fix water entry before we hang a single panel. Covering a problem only delays bigger repair bills.
+
+## Hanging strategy for below-grade walls
+
+Basement ceilings are often a mix of main beams, soffits, and recessed can lights. We stagger joints, use the right screw spacing, and keep edge distances consistent so tape has a fair chance to hide movement. Long walls without control joints can telegraph cracks when the house settles; we discuss where reasonable breaks belong so you are not surprised a year later.
+
+Around windows and bulkheads, we build out square and true even when the concrete is not. That extra time at hang is what makes trim and paint look intentional instead of wavy.
+
+## Finishing levels and paint readiness
+
+Most living-space basements in Michigan homes call for a Level 4 finish at minimum — embedded tape, two coats of compound, sanding ready for flat or eggshell paint. If you are planning glossy paint, strong raking light, or a media wall with side lighting, ask about Level 5 skim options. We explain the tradeoff in cost versus how perfect the wall reads under LED strips or large-screen glare.
+
+Corners receive metal or paper-faced bead depending on traffic and abuse tolerance. Kids, hockey bags, and furniture moves punish outside corners; we beef those up where it makes sense.
+
+## Mechanical, electrical, and inspections
+
+Basement projects frequently trigger permit and inspection paths depending on municipality — Detroit, Ferndale, Clinton Township, and others each have their own timelines. We coordinate hang and finish around rough inspections so you are not tearing off completed work. Fireblocking at soffits and around stair enclosures must be correct before close-in.
+
+## Working with BH Drywall Metro Detroit
+
+Our crews serve homeowners across Metro Detroit MI with hang, tape, texture match, and repair. We give clear scopes: hang only, hang and finish, or full turn-key ready for primer. You get straight answers about timeline, dust control, and what you should handle before we arrive — insulation, framing inspection, HVAC final placement.
+
+Ready to turn unused basement footage into usable rooms? Call BH Drywall Metro Detroit at (313) 236-4558. We will schedule a walkthrough, confirm board types and finish level, and build a schedule that respects Michigan weather and your move-in goals.
+`,
+  },
+
+  {
+    slug: "level-5-smooth-walls-michigan-homes",
+    title: "Level 5 Smooth Walls for Michigan Homes: When Skim Coats Are Worth It",
+    metaTitle: "Level 5 Drywall Finish Michigan Homes",
+    excerpt:
+      "Raking light and bold paint colors expose every joint. Here is how a Level 5 skim coat changes the look of great rooms, stair halls, and open floor plans in Metro Detroit.",
+    category: "Residential",
+    readMinutes: 8,
+    date: "2026-02-03",
+    heroImage: "/blog/level-5-smooth-walls-michigan-homes-hero.png",
+    heroAlt: "Sunlight across a perfectly smooth Level 5 drywall wall in a Michigan great room",
+    secondaryImage: "/blog/level-5-smooth-walls-michigan-homes-secondary.png",
+    secondaryAlt: "Drywall finisher applying a skim coat with a wide knife in Metro Detroit",
+    body: `
+Walk into a newly built or remodeled home in Birmingham, Canton, or Grosse Pointe with floor-to-ceiling windows and the first thing your eye catches is the quality of the walls. Under natural light, standard Level 4 drywall can show faint joint bands and tool marks — not defects, just physics. Homeowners who choose deep grays, pure whites, or high-gloss trim often want better. That is where Level 5 comes in: a thin skim coat over the entire surface so paint sees one uniform texture.
+
+BH Drywall Metro Detroit finishes hundreds of walls each year. We are honest when Level 4 is enough and when skipping Level 5 will haunt you after the first coat of paint.
+
+## What Level 4 versus Level 5 actually means
+
+Drywall finishing levels are industry definitions, not marketing labels. Level 4 means embedded tape, multiple coats on joints and fasteners, and sanding suitable for flat, eggshell, or light texture under normal lighting. Level 4 is the default for most bedrooms, closets, and secondary halls in Michigan production and custom work alike.
+
+Level 5 adds a full-surface skim — typically roller-applied compound or troweled skim — then sanded smooth. The goal is to eliminate the slight porosity difference between joint compound and paper face so paint does not flash. In rooms with large windows, low-angle sun, or open sightlines across long walls, Level 5 is the difference between “nice” and “magazine.”
+
+### Rooms that benefit most
+
+- Two-story great rooms and stair walls with east or west exposure.
+- Open kitchen and living areas with no breaks to hide imperfections.
+- Home offices on video calls where ring lights rake the wall behind you.
+- Any space getting dark paint, metallics, or high sheen on the gypsum itself.
+
+Bedrooms with one small window and matte paint? Level 4 is usually fine and saves budget for other upgrades.
+
+## How we execute Level 5 in Metro Detroit homes
+
+Skim work is unforgiving. We start with Level 4 joints done right — if corners are wavy or fasteners are proud, a skim will not save you. Surfaces get a uniform primer or sealer coat compatible with our skim compound so absorption is even. We apply skim in manageable sections, keep wet edges organized, and sand with dust control because fine compound dust travels through HVAC returns fast.
+
+Ceilings deserve the same conversation. Coffered and tray ceilings with LED coves show every bump. Matching ceiling Level 5 to wall Level 5 avoids a perfect wall meeting a “good enough” ceiling that still reads under light.
+
+## Cost, schedule, and paint coordination
+
+Level 5 adds labor and drying time. Michigan humidity in summer can extend skim cure windows; we plan coats so you are not trapping moisture under vinyl paint. We coordinate with your painter on primer spec — some painters prefer specific sealers over fresh skim. BH Drywall Metro Detroit documents finish level on the scope so everyone on the job speaks the same language.
+
+Texture is the alternative when you want to hide variation without full skim. Knockdown, light orange peel, or hand texture can be beautiful in basements and secondary spaces. We match existing texture on repairs so patches disappear.
+
+## Common mistakes we see on other jobs
+
+Skipping primer before skim leads to pinholes and drag marks. Sanding through paper face creates fuzzy spots that telegraph forever. Mixing compound brands between coats causes bond issues. Hiring hang-only crews then asking a painter to “skim it” rarely yields true Level 5 — taping and skim are different trades with different touch.
+
+## Repairs and partial Level 5
+
+Remodels sometimes need Level 5 on one accent wall while the rest stays Level 4. We feather transitions at outside corners and casework so you do not see a “better wall” rectangle after paint. Insurance repairs after water damage often reset finish level in affected rooms only; we blend to undamaged areas when possible.
+
+## Talk to our finish team
+
+If you are building new in Macomb County, renovating in Midtown Detroit, or fixing a botched skim from a prior contractor, we can assess under your actual lighting — not just flashlight at noon. Bring paint samples and fixture plans if you have them.
+
+Call BH Drywall Metro Detroit at (313) 236-4558 for Level 4 and Level 5 scopes, written timelines, and crews who treat smooth walls as craft work, not an upsell checkbox. Metro Detroit MI homeowners deserve walls that look as good at 6 p.m. in January as they do at noon in June.
+`,
+  },
+
+  {
+    slug: "drywall-hole-repair-vs-large-patch",
+    title: "Drywall Hole Repair vs. Large Patch: Size, Structure, and When to Replace a Section",
+    metaTitle: "Drywall Hole Repair vs Large Patch Michigan",
+    excerpt:
+      "Doorknob dents, plumbing access, and accident damage each need a different fix. Learn how BH Drywall Metro Detroit sizes repairs so patches never telegraph through paint.",
+    category: "Residential",
     readMinutes: 6,
-    date: "2026-03-04",
-    heroImage: "/blog/locked-out-house-7-things-to-try-hero.png",
-    heroAlt: "Frustrated person standing on a Southern California front porch checking pockets for keys",
-    secondaryImage: "/blog/locked-out-house-7-things-to-try-secondary.png",
-    secondaryAlt: "Close-up of a residential deadbolt being opened with locksmith pick tools, no damage",
+    date: "2026-02-21",
+    heroImage: "/blog/drywall-hole-repair-vs-large-patch-hero.png",
+    heroAlt: "Before and after drywall patch repair in a Metro Detroit hallway",
+    secondaryImage: "/blog/drywall-hole-repair-vs-large-patch-secondary.png",
+    secondaryAlt: "Drywall contractor installing a California patch with backing board",
     body: `
-Getting locked out of your own house is one of the most stressful five minutes of your week. Take a breath — we handle dozens of these calls every day across Orange County, and the truth is most lockouts have a fast, non-destructive solution.
+Every Metro Detroit home accumulates wall damage: door swings without stops, furniture moves in Taylor, kids practicing sports in the garage corridor, or a plumber cutting access in Southfield. The question is never “can this be fixed?” — it is whether a small repair, a structured patch, or a partial sheet replacement gives you a wall that disappears after paint. BH Drywall Metro Detroit handles everything from nail pops to entire wall resets; sizing the fix correctly up front saves money and callbacks.
 
-Here are the seven things our techs ask you to try **before** dispatching a truck.
+## Small holes and surface dents
 
-## 1. Check the obvious spots — twice
+Holes roughly the size of a quarter or smaller — picture hangers, anchor pulls, minor impacts — often qualify for lightweight spackle or setting compound fills after confirming nothing behind the board is damaged. We remove loose paper, feather a few inches, sand, and prime. These repairs are quick and inexpensive when the surrounding wall is sound and finish level is standard.
 
-Sounds silly, but 1 in 5 lockout calls end before we arrive because the homeowner finally found the keys in a jacket pocket, the diaper bag, or the front seat of the car. Check:
+Nail pops are not really holes but they behave like them in paint. We reset fasteners, add screws into framing if the original missed, spot compound, and sand. In older Detroit and Redford homes with plaster-over-board or multiple paint layers, we check for movement before cosmetically hiding chronic pops.
 
-- Every pocket on you (not just the one you usually use).
-- The car cup holder, console, and floor mat.
-- The mailbox, planter, and door mat (you'd be surprised).
+### When “small” still needs backing
 
-## 2. Try every door, not just the front
+If a hole is ping-pong-ball sized or larger, compound alone will sag or crack. We install backing — wood cleats or repair plates — so new gypsum has support. California patches (backer board with a fitted plug) work well for fist-sized damage without replacing a full sheet. Edges must be tight and tapered for tape to hide the seam.
 
-Sliding glass doors, side gates, garage service doors, and second-story balconies are forgotten constantly. Walk the whole perimeter once before doing anything else.
+## Medium patches and access cuts
 
-## 3. Call the person you live with
+Plumbers and electricians often leave rectangular cuts 8 to 16 inches wide. Those are patch jobs, not fill jobs. We square the opening, add backing at studs or cross blocking, insert a matching thickness board, tape with paper or mesh depending on stress, and feather compound wider than you think — often 12 to 16 inches each side under raking light.
 
-If you share the house with a spouse, roommate, parent, or kid — call them. ETA on a locksmith is 15–30 minutes; ETA on a roommate might be 4.
+Texture match matters as much as flatness. Metro Detroit homes from the 1970s through 2000s carry orange peel, knockdown, and skip trowel patterns. We duplicate pattern and density so the patch does not read as a smooth island in a textured field.
 
-## 4. Check your phone's smart-home app
+## Large damage: partial sheet replacement
 
-If you have a smart lock — August, Schlage Encode, Yale Assure, Kwikset Halo, Level Lock — open the app. You can unlock from your phone anywhere with signal. Same goes for some Ring and Nest doorbell systems linked to a smart deadbolt.
+When damage spans multiple studs, sat wet, or crumbled from impact, partial replacement is the right call. We cut back to the nearest stud centers, install full-height pieces where possible to minimize horizontal joints at eye level, and re-tape entire seams rather than spot-wadding compound on a bowed panel.
 
-## 5. Ask your landlord or property manager
+Water-stained but structurally dry board may still need replacement if the paper face is compromised — paint will not hold and mold risk rises in humid summers. We document moisture readings when staining is present so you know we are not sealing in a problem.
 
-For renters, your property manager is legally required (in California) to provide reasonable access. They usually have a master key and can be cheaper than emergency dispatch.
+## Finish level and paint flashing
 
-## 6. Skip YouTube "credit card" tricks
+Repairs on Level 4 walls need feathering that matches porosity or primer will flash. On previously skimmed Level 5 walls, we skim the patch field or the whole wall section to uniform texture — partial Level 5 touch-up is an art. Homeowners planning bold colors should budget for primer sealer and sometimes full-wall repaint after major patches.
 
-Please don't. They almost never work on modern deadbolts, and you'll just bend up a card. Worse, scraping the latch can damage the strike plate, which means a real repair bill on top of the lockout fee.
+## Rental and resale scenarios
 
-## 7. Call a **licensed** locksmith — not the first ad on Google
+Landlords in Hamtramck and Dearborn Heights need durable fixes between tenants. We prioritize speed with correct technique: backing, tape, texture match, primer-ready surface. Sellers preparing listings in Rochester Hills or Plymouth benefit from repairs done before photography — phone cameras pick up bumps worse than the human eye.
 
-This is the big one. Most "$15 locksmith" ads at the top of Google are unlicensed call centers that quote $15, show up, and charge $400–$800 with damage to your door. In California, every legitimate locksmith carries a [BSIS license](/license).
+## DIY limits
 
-When you call us, we tell you the flat-rate price on the phone, send a licensed technician (BSIS #8663), and use non-destructive entry tools that pop most residential locks in under 2 minutes.
+Store patch kits work for tiny holes. Beyond that, frustration rises: compound shrinks, tape bubbles, corners crack. Michigan seasons change indoor humidity; bad patches expand in summer. Calling a pro early often costs less than repainting twice.
 
-## When to skip steps 1–6 and call right away
+## Get a clear scope from BH Drywall Metro Detroit
 
-- It's after 10pm.
-- You have a child, pet, or stove turned on inside.
-- It's raining or you're in an unsafe area.
-- The lock is high-security (Medeco, Mul-T-Lock, Abloy) and a manager can't help.
+Send photos if you like — we still verify in person for texture and moisture. We quote by repair class: spot, backed patch, or sheet replacement, with texture and primer notes spelled out.
 
-In those cases, just [dial dispatch](/contact). We're 24/7, OC-wide, and we'll give you an honest ETA and a flat quote before the truck rolls.
+Dial (313) 236-4558 to schedule repair visits anywhere in Metro Detroit MI. We arrive with backing stock, compound, and the patience to feather until the wall is truly gone under your lights.
 `,
   },
 
   {
-    slug: "rekey-vs-replace-after-moving-in",
-    title: "Should You Rekey or Replace Your Locks After Moving Into a New Home?",
-    metaTitle: "Rekey vs. Replace Locks After Moving In",
+    slug: "water-damage-flood-cut-michigan",
+    title: "Water Damage and Flood Cuts: Drywall Steps After Michigan Basements and Burst Pipes",
+    metaTitle: "Drywall Flood Cut Water Damage Michigan",
     excerpt:
-      "Rekeying is faster, cheaper, and uses the same hardware — replacement gives you new finishes and security features. Here's how to decide for your new OC home.",
-    category: "Security",
+      "After leaks and floods, how high do you cut drywall? BH Drywall Metro Detroit explains drying, mold prevention, and rebuild sequencing for Metro Detroit properties.",
+    category: "Safety",
     readMinutes: 7,
-    date: "2026-03-11",
-    heroImage: "/blog/rekey-vs-replace-after-moving-in-hero.png",
-    heroAlt: "Smiling young couple receiving new house keys from a locksmith in front of a sunny Orange County home",
-    secondaryImage: "/blog/rekey-vs-replace-after-moving-in-secondary.png",
-    secondaryAlt: "Locksmith hands pinning a Schlage residential lock cylinder on a clean workbench",
+    date: "2026-03-08",
+    heroImage: "/blog/water-damage-flood-cut-michigan-hero.png",
+    heroAlt: "Flood cut drywall removed along a basement wall showing clean studs in Michigan",
+    secondaryImage: "/blog/water-damage-flood-cut-michigan-secondary.png",
+    secondaryAlt: "New drywall installed after water damage restoration in Metro Detroit",
     body: `
-You just closed on a house in Tustin, Irvine, or Anaheim. Congratulations! Now — who else has a key?
+Water in your walls is an emergency for both structure and health. Burst pipes in January, sump failures in Roseville, ice dam seepage in Ann Arbor suburbs, and appliance leaks in upstairs baths — each scenario leaves drywall soaked to different heights. BH Drywall Metro Detroit works alongside restoration contractors and homeowners daily to remove compromised board, confirm dry framing, and rebuild to a paint-ready finish across Metro Detroit MI.
 
-The previous owners. Their cleaners. The realtor. The contractor who rebuilt the deck three years ago. Anyone they ever gave a key to and forgot about.
+The first priority is stopping the source and documenting for insurance if you are filing a claim. Our role begins when it is time to remove wet gypsum safely and replace it so mold does not get a foothold behind new paint.
 
-This is the single most important locksmith call you'll make as a new homeowner. The only question is whether you **rekey** or **replace**.
+## Why flood cuts exist
 
-## What's the difference?
+Gypsum core acts like a sponge. Once water wicks above the visible stain line, the paper face and core stay elevated in moisture long after floors look dry. Industry practice and restoration protocols often call for a **flood cut** — removing drywall 12 to 24 inches above the highest moisture reading or the documented water line — to expose the cavity for drying equipment and inspection.
 
-**Rekeying** keeps your existing lock and door hardware in place. We remove the cylinder, swap the internal pins to match a brand-new key, and hand you fresh keys. The old keys no longer work. Cost: usually $19–$25 per cylinder plus a service call.
+In basements, cuts may run full height if saturation was total or if contamination (sewage or gray water) requires discard. Clean water on an upper floor might need only lower sections of wall removed if moisture meters on studs read dry within days.
 
-**Replacement** takes out the entire lock — knob, deadbolt, or both — and installs brand-new hardware. Cost: the price of the new hardware plus install labor.
+### Who measures moisture?
 
-## When rekeying is the right choice
+Restoration companies typically log readings; we respect their cut lines when sequencing rebuild. If you are owner-managed, we still meter before hang. Installing new board against damp framing traps liability and odor. Michigan basements need dehumidification and airflow until wood moisture is in acceptable range — rushing hang is false economy.
 
-- The existing locks are quality hardware (Schlage, Kwikset SmartKey, Baldwin, Emtek, Yale).
-- They look good, match the door, and operate smoothly.
-- You just want the previous owners' keys to stop working.
-- You want all your doors (front, back, side, garage entry) keyed alike — one key for everything.
+## Safety and containment
 
-For a typical 3-cylinder OC home, a rekey runs $90–$140 all-in. That's the right answer for 70% of move-ins.
+Disturbed wet drywall can release spores if mold already started. Containment, HEPA filtration, and PPE belong on heavy jobs. We follow site safety plans when lead or asbestos surveys apply — older Detroit housing stock may require testing before aggressive demolition.
 
-## When replacement is the right choice
+Electrical outlets in wet zones stay off until cleared. We coordinate with electricians to reset boxes and verify GFCI paths in kitchens, baths, and unfinished basement areas before close-in.
 
-- The hardware is corroded, sticking, or visibly cheap (think: builder-grade brass).
-- The deadbolt is single-cylinder and you want a thumb-turn upgrade.
-- You want to upgrade to a [smart lock](/services/smart-locks) so you can let cleaners and Airbnb guests in remotely.
-- The finish doesn't match your new front-door paint or hardware refresh.
-- The lock fails an ANSI Grade-1 inspection (anything less than Grade 2 should go on an exterior door).
+## Rebuild sequencing after dry-out
 
-## The hybrid approach we recommend
+Once framing is dry and treated per restoration spec ( antimicrobial where required ), we hang replacement sheets, tape, and finish to match undamaged areas. Partial height replacements in living rooms need horizontal seams placed thoughtfully — sometimes we replace full sheets floor to ceiling on affected walls to avoid a visible “belt line” at 24 inches.
 
-For most OC move-ins, we do this:
+Insulation that sat wet must be replaced before drywall returns. Vapor barriers and sill areas in Metro Detroit basements are common failure points; we flag them even when scope is “drywall only.”
 
-1. **Rekey** the back, side, and garage doors (cheap, keep existing hardware).
-2. **Replace** the front-door deadbolt with a smart lock or ANSI Grade-1 unit.
-3. **Match the key** so the same physical key still opens every door (smart lock has its own keypad PIN).
+## Texture, color, and insurance scopes
 
-Total: about $250–$400 depending on smart-lock choice. New homeowners sleep better, the front door looks great, and you control access from your phone.
+Insurance adjusters often authorize “like kind and quality” repair. We document finish level and texture type so supplements are accurate. Orange peel match on a flood-cut wall in Warren should include primer sealer on new work to prevent flashing against older painted surfaces.
 
-## What about a single key for everything?
+If only one wall in an open plan was damaged, full-wall repaint on adjacent walls may still be necessary for color uniformity — we tell you that before final coat so you are not surprised at touch-up day.
 
-Yes — this is called **keyed alike** and it's free with a rekey. We just pin every cylinder to the same key bitting. One key for the front door, garage entry, back patio, and gate. Beats the giant keyring most people inherit from a closing.
+## Whole-home versus localized events
 
-## Should I do this on the day of close?
+Whole-home pipe freezes can damage multiple levels. We phase work: main living areas first for occupancy, bedrooms next, garage and utility last. Commercial-style drying timelines still apply in houses — families need clear move-back dates.
 
-Yes. Don't sleep in the house until the locks are yours. We routinely show up the morning of move-in day in Newport Beach, Mission Viejo, Yorba Linda, and Anaheim Hills — call dispatch and we'll work around the movers.
+## Prevention conversations
+
+After rebuild, we talk about door sweeps, hose bib shutoffs, water alarms, and maintaining sump pumps — not as alarmism, but because repeat events destroy twice the drywall. Proper board type in wet zones and keeping paint sealed at baseboards reduces wicking.
+
+## Call for damage assessment and rebuild
+
+If you see swelling baseboards, soft drywall near tubs, or staining after a storm, do not wait for the smell to confirm mold risk. BH Drywall Metro Detroit responds to emergency cut-out and scheduled rebuild scopes with clear lines: demo, dry verification, hang, finish, texture.
+
+Reach us at (313) 236-4558. We serve homeowners and property managers throughout Metro Detroit MI with water damage drywall removal and professional replacement that respects drying science, not just cosmetic cover-up.
 `,
   },
 
   {
-    slug: "smart-locks-2026-best-for-oc-homes",
-    title: "Smart Locks 101: The Best Smart Locks for Orange County Homes in 2026",
-    metaTitle: "Best Smart Locks for OC Homes in 2026",
+    slug: "commercial-tenant-drywall-detroit",
+    title: "Commercial Tenant Drywall in Detroit: Build-Outs, Repairs, and Minimal Downtime",
+    metaTitle: "Commercial Tenant Drywall Detroit Build-Outs",
     excerpt:
-      "Schlage Encode, Yale Assure, Level Bolt, Aqara U200 — we install and service all of them. Here's what actually works for OC homes, Airbnbs, and short-term rentals.",
-    category: "Smart Locks",
-    readMinutes: 9,
-    date: "2026-03-18",
-    heroImage: "/blog/smart-locks-2026-best-for-oc-homes-hero.png",
-    heroAlt: "Modern keypad smart lock installed on a craftsman-style front door, golden hour California light",
-    secondaryImage: "/blog/smart-locks-2026-best-for-oc-homes-secondary.png",
-    secondaryAlt: "Homeowner unlocking a smart deadbolt with a phone, smart home app visible on screen",
-    body: `
-Smart locks are no longer a novelty. In 2026, more than half the homes we work on in Irvine, Newport Coast, and Costa Mesa have at least one connected lock — and Airbnb hosts run smart locks on every door.
-
-But there are 30+ models on the market and they are not all created equal. Here's our 2026 buyer's guide, written from the trenches — these are the locks we actually install, service, and recover for OC clients.
-
-## Tier 1 — The ones we recommend without reservation
-
-### Schlage Encode (Plus)
-
-The workhorse. ANSI Grade 1, Wi-Fi built in, no hub required. Works with Alexa, Google, and Apple Home (the **Plus** model adds Apple Home Key tap-to-unlock with iPhone or Apple Watch).
-
-- Best for: Owner-occupied homes, long-term rentals.
-- Battery: 4× AA, 6–12 months.
-- OC install: $189–$229 hardware + $89 install.
-
-### Yale Assure SL 2 (with Z-Wave or Matter)
-
-Slimmer, key-free, gorgeous on a flat front door. The Matter version pairs cleanly with Apple Home, Google Home, and SmartThings.
-
-- Best for: Modern homes, condos, no-key purists.
-- Battery: 4× AA, 9–12 months.
-- Watch out: No physical key — if batteries die, you'll need 9V contact unlock.
-
-### Level Lock+ (Touch / Home Key)
-
-Hidden inside the door — looks like a regular deadbolt from the outside. Tap your iPhone to unlock. The favorite of Newport Beach designer homes.
-
-- Best for: Aesthetic-first installs, smart home integrations.
-- Battery: CR123A, 1 year.
-- OC install: $329 hardware + $89 install.
-
-## Tier 2 — Great for short-term rentals
-
-### Schlage Encode (commercial keypad)
-
-When you need to issue 50 codes a year and never look at it, this is the lock. Dashboard auto-syncs with Hostfully, Hospitable, OwnerRez, and Guesty.
-
-### Yale Assure Lever (for interior locking doors on big homes)
-
-If your Airbnb has multiple lockable bedrooms, this is the lever version of the Assure.
-
-## Tier 3 — Avoid or proceed with caution
-
-- **No-name Amazon smart locks under $80.** Batteries die in 6 weeks, app gets pulled, security questionable.
-- **Original August (pre-Yale acquisition).** Service is winding down.
-- **Anything that requires only a proprietary app with no Matter / HomeKit support.** You're locked into a dying ecosystem.
-
-## What about Aqara U200 and U300?
-
-The U200 (retrofit) and U300 (full replacement) are excellent — Matter-over-Thread, fingerprint, Apple Home Key. We've installed dozens this year. If you're deep in the Aqara/Apple ecosystem, this is our newest favorite.
-
-## Do you need a smart lock if you're not in tech?
-
-If you have a cleaner, a dog walker, an Airbnb, college kids, or aging parents — yes. The ability to issue a one-time PIN at 9am that expires at noon is a quality-of-life upgrade.
-
-## Installation in Orange County
-
-We install smart locks across all of OC, usually same-day. Includes:
-
-- Hardware purchase (or BYO).
-- Door prep (most doors need a strike-plate tuneup).
-- Wi-Fi / Matter / HomeKit pairing.
-- Walkthrough with you on the app.
-- 90-day install warranty.
-
-[Book a smart-lock install →](/services/smart-locks)
-`,
-  },
-
-  {
-    slug: "storefront-lockouts-24-7-locksmith-business",
-    title: "Storefront Lockouts: Why Your OC Business Needs a 24/7 Locksmith On Call",
-    metaTitle: "24/7 Storefront Lockout Locksmith in OC",
-    excerpt:
-      "Every hour a storefront is locked out is revenue on the floor. Here's how OC restaurants, retailers, and offices avoid the lockout panic — and what to do if you're already in it.",
+      "Retail, office, and medical tenant improvements need code-aware drywall, after-hours hang, and finishes that match your brand — across Metro Detroit corridors.",
     category: "Commercial",
     readMinutes: 7,
-    date: "2026-03-25",
-    heroImage: "/blog/storefront-lockouts-24-7-locksmith-business-hero.png",
-    heroAlt: "Orange County restaurant storefront at dawn, owner unlocking the glass door with a locksmith helping",
-    secondaryImage: "/blog/storefront-lockouts-24-7-locksmith-business-secondary.png",
-    secondaryAlt: "Adams-Rite commercial mortise lock with stainless trim on a glass storefront door",
+    date: "2026-04-02",
+    heroImage: "/blog/commercial-tenant-drywall-detroit-hero.png",
+    heroAlt: "Commercial drywall partition framing in a Detroit tenant build-out",
+    secondaryImage: "/blog/commercial-tenant-drywall-detroit-secondary.png",
+    secondaryAlt: "Finished commercial drywall with paint-ready walls in Metro Detroit office space",
     body: `
-A commercial lockout is not the same animal as a residential one. When a Lake Forest restaurant can't get in at 5am, every minute the doors stay locked is prep time lost and a dinner service at risk. When a Costa Mesa retailer is locked out at noon, customers walk.
+Detroit and the surrounding Metro Detroit MI market continue to see tenant churn — new restaurants in Midtown, clinics in Southfield, professional offices in Troy, and flex space along major corridors. Every lease turnover brings partition changes, soffit updates, and damage repair from prior tenants. BH Drywall Metro Detroit supports general contractors, property managers, and business owners with commercial hang, finish, and patch work sized for tight schedules and inspection requirements.
 
-We run a dedicated commercial dispatch line — here's what we've learned in a thousand storefront calls.
+Commercial drywall is not “residential, but bigger.” Fire ratings, shaft walls, acoustic assemblies, and ADA path clearances drive board type and joint treatment. We read life-safety sheets and follow spec — Type X where required, proper stagger, and labeled photos for close-out packages when owners ask.
 
-## The three common storefront lockout causes
+## Typical tenant improvement scopes
 
-### 1. Aluminum storefront / Adams-Rite cylinder failure
+- Demising walls between suites with rated assemblies when drawings call for them.
+- New conference rooms, manager offices, and reception features with glass-ready openings.
+- Soffits for HVAC, lighting, and exposed structure concealment in loft-style spaces.
+- Damage repair after fixture removal — anchor holes, cart impacts, prior tenant shortcuts.
 
-The most common cause in OC. The little mortise cylinder that drives the deadlatch fails after 8–12 years of daily use. Symptoms: key turns but the bolt doesn't move, or the cylinder spins freely. We carry replacement Adams-Rite cylinders on every truck.
+We coordinate with electricians and sprinkler fitters so ceiling grid and drywall close-in order avoids rework. Night and weekend shifts are available when storefronts cannot shut down weekdays.
 
-### 2. Lost or broken key in a high-cycle environment
+### Retail and hospitality pressures
 
-Restaurants and retail spaces cycle keys constantly between owners, managers, and night cleaners. Keys get lost, copied, or worn down. By the time a key snaps in the cylinder, it's been on its last legs for months.
+Restaurants and bars in Detroit need grease-rated considerations near kitchens — drywall selection pairs with hood and MEP work we do not perform, but we respect clearance zones and fire wrap locations. Fast-turn paint-ready walls get primed scope notes so your painter hits opening week.
 
-### 3. Push-bar / panic device misfire
+For retail, clean sightlines matter. Level 4 is standard; feature walls may get Level 5 or accent texture. We protect floors and fixtures when only a portion of the suite changes.
 
-Von Duprin, Detex, and Falcon panic bars eventually wear out. The dogging mechanism freezes, or the latch fails to retract. Often happens at the worst time — closing on a Saturday night.
+## Office and medical build-outs
 
-## What it costs
+Medical and dental tenants often need lead-lined partitions or enhanced acoustic privacy — those are engineered systems beyond standard gypsum. When plans specify multi-layer board or resilient channel, we install per detail and leave inspection access until sign-off.
 
-For a typical OC commercial lockout — non-destructive entry, no replacement parts:
+Open offices with demountable partitions still need permanent drywall at cores, restrooms, and stair enclosures. We tie into existing slabs and decks with fire caulk at penetrations per code officials in different municipalities — Detroit, Highland Park, and suburban townships each have inspection habits we plan for.
 
-- Business hours (Mon–Fri 8am–6pm): **$89 service call**.
-- After hours / weekend: **$129 service call**.
-- Cylinder replacement (if needed): **$45–$95 per cylinder**.
-- Panic bar repair: **$120 + parts**.
+## Property manager maintenance programs
 
-## The smarter play — get on a maintenance plan
+Multi-tenant centers in Madison Heights, Oak Park, and along Eight Mile see recurring damage: loading dock hits, wayfinding anchor scars, water heater closet leaks. BH Drywall Metro Detroit offers response lists for managers who need consistent vendor paperwork — COI, W-9, and photo closeouts for asset files.
 
-For restaurants, retailers, medical offices, and property managers, we offer **commercial maintenance retainers**:
+Matching decade-old orange peel in a hallway wing is slower than new hang but cheaper than repainting entire corridors. We sample texture and confirm under corridor LED before promising invisible patches.
 
-- Priority dispatch (we move you to the top of the queue).
-- Annual on-site inspection of every cylinder, hinge, closer, and panic bar.
-- Loaner hardware while parts ship.
-- Flat-rate emergency call after hours.
+## Budgeting TI allowances
 
-Roughly the cost of one emergency call per year. Worth it for any business with more than two exterior doors.
+Landlord work letters often cap TI dollars. We help prioritize: life-safety and wet-area board first, then public-facing walls, then back-of-house. Value engineering should not mean deleting fire tape or using improper fasteners on rated walls — failed inspection delays certificate of occupancy and costs more than doing it right once.
 
-## What about master key systems?
+## Communication and phasing
 
-Most of our OC commercial clients run a 3-tier master key system:
+Commercial clients get daily progress notes when requested, clear demarcation of areas still open to other trades, and dust control for occupied adjacent suites. We label rooms on invoices the way your drawings do — Suite 210 east wall — so billing matches GC pay apps.
 
-1. **Owner / GM** — opens everything.
-2. **Shift manager** — opens public areas + back of house + office.
-3. **Line staff / cleaners** — opens only what they need.
+## Partner with BH Drywall Metro Detroit
 
-This means a lost key from a line cook doesn't compromise the office or the safe. Setting up a master system is a 1-day job we can scope for free.
+Whether you are a GC bidding a full build-out or an owner refreshing one bay, we bring crews experienced with metal stud, high ceilings, and inspection loops common in Metro Detroit commercial work.
 
-## Already locked out right now?
-
-Call dispatch. Tell us the door type (aluminum storefront, wood, glass with mortise lock, hollow metal) and we'll roll the right truck with the right cylinders pre-staged. Most commercial lockouts in central OC are 15–30 minutes door-to-key.
-
-[Commercial 24/7 line →](/services/commercial)
+Call (313) 236-4558 to discuss drawings, schedule windows, and fire-rated scopes. We translate architect language into hang dates and finish levels your painter and inspector can live with — without the downtime of learning on the job.
 `,
   },
 
   {
-    slug: "car-key-replacement-orange-county",
-    title: "Car Key Replacement in Orange County: Fobs, Transponders & What It Actually Costs",
-    metaTitle: "Car Key Replacement in Orange County",
+    slug: "popcorn-ceiling-removal-metro-detroit",
+    title: "Popcorn Ceiling Removal in Metro Detroit: Asbestos Era Homes and Modern Finishes",
+    metaTitle: "Popcorn Ceiling Removal Metro Detroit",
     excerpt:
-      "The dealer quoted you $700 for a replacement key. We can do most cars for $180–$350, mobile, in your driveway. Here's how it works and what your car needs.",
-    category: "Auto",
+      "Textured ceilings date many Michigan ranches and split-levels. Learn testing, containment, skim options, and what BH Drywall Metro Detroit recommends before you scrape.",
+    category: "Residential",
     readMinutes: 8,
-    date: "2026-04-01",
-    heroImage: "/blog/car-key-replacement-orange-county-hero.png",
-    heroAlt: "Locksmith programming a car key fob with a diagnostic tool inside an SUV in a sunny OC driveway",
-    secondaryImage: "/blog/car-key-replacement-orange-county-secondary.png",
-    secondaryAlt: "Close-up of a cut and chipped automotive transponder key next to a remote head fob on a workbench",
+    date: "2026-04-19",
+    heroImage: "/blog/popcorn-ceiling-removal-metro-detroit-hero.png",
+    heroAlt: "Worker removing popcorn ceiling texture in a Metro Detroit ranch home",
+    secondaryImage: "/blog/popcorn-ceiling-removal-metro-detroit-secondary.png",
+    secondaryAlt: "Smooth ceiling after skim coat following popcorn removal in Michigan",
     body: `
-You lost your car key. The dealer quoted $650 + tow + a 5-day wait for parts. Don't panic — most cars on the road today can be done mobile, in your driveway, the same afternoon, for half that.
+Popcorn ceilings — acoustic spray texture — cover thousands of Metro Detroit MI homes built from the 1950s through 1980s. They hid imperfect taping, added minor sound dampening, and were fashionable until they were not. Today’s buyers and owners want flat or lightly textured ceilings that read clean with recessed lights and open floor plans. BH Drywall Metro Detroit removes and resurfaces popcorn ceilings weekly in Livonia, Westland, St. Clair Shores, and inside the city limits — always with the right conversation about age, testing, and mess control first.
 
-Here's a no-BS breakdown of what every kind of car key actually costs to replace in Orange County in 2026.
+## Test before you scrape
 
-## Step 1 — Identify what kind of key you have
+In homes built before roughly 1980, popcorn may contain asbestos. Disturbing it without proper testing and abatement is illegal and unsafe. We stop projects until lab results or licensed abatement clearance says proceed. Negative tests still deserve plastic containment and HEPA vacuuming because fine dust travels through returns.
 
-There are four main families:
+If abatement is required, a licensed abatement contractor removes material; we follow with skim, sand, and prime to paint-ready smooth or new texture. Do not let an handyman scrape first and ask questions later — disposal and air quality penalties are serious.
 
-### Mechanical keys (pre-1996, plus some classics)
+### Lead paint at ceiling/wall joints
 
-A flat steel key, no chip, no fob. Cuts on a key machine for $15–$35. Done in 5 minutes.
+Older homes may have lead painted trim and ceiling edges. EPA RRP rules apply to disturbed painted surfaces in pre-1978 housing. We work within certified practices when joint areas are affected, protecting occupants and workers.
 
-### Transponder keys (most 1996–2015 cars)
+## Removal methods that work
 
-A plastic-headed key with a chip inside. Has to be **cut** and **programmed** to your car's immobilizer. Cost: typically $90–$180.
+Wet scrape softens texture when asbestos is not present and material tests safe. We mist in sections, scrape to board or skim-coat base, bag debris, and keep floors protected. Dry scraping creates airborne dust — we avoid it on occupied homes.
 
-### Remote head keys ("RHK", 2005–present)
+After scrape, the ceiling rarely looks paint-ready. Paper may tear, joints expose, and fasteners pop. Skim coat — sometimes two passes — levels the field. Wide sanding follows with dust extraction. Primer sealer locks surface before your painter applies flat ceiling paint.
 
-The all-in-one key with buttons. Cut + transponder programming + remote pairing. Cost: $150–$280.
+## Lighting and structural updates during removal
 
-### Smart / proximity keys ("push-to-start", 2010–present)
+Popcorn removal is the perfect time to add recessed cans, move fixtures, or patch old hook scars. Electricians cut and mount; we patch and skim around each opening so rings sit flush. Beams and coffered details can be added in larger remodels — scope creep is manageable when trades sequence correctly.
 
-The fob that lives in your pocket. Pricier — encrypted, multi-stage programming. Cost: **$230–$520** depending on make.
+Vaulted ceilings in two-story foyers need scaffold or lift access. We price access honestly so bids are not surprise change orders mid-job.
 
-## What we can do mobile in OC
+## Alternatives to full removal
 
-Pretty much everything except a few outliers. Our auto-locksmith trucks carry:
+Encapsulation with specialized coatings exists for some textured ceilings when removal is not feasible — not our primary service, but we tell owners when skim-over-texture after bonding primer works for low ceilings that cannot tolerate abatement cost. Results vary; sampling and adhesion tests matter.
 
-- Silca and JMA key blanks for 200+ makes.
-- Smart Pro, MVP, and Autel programmers.
-- A 12V profiler for cutting in-driveway.
+Knockdown re-texture after skim can unify a home that still wants some pattern without popcorn’s dated look. We match sample boards on site before full application.
 
-Brands we routinely program on-site:
+## Mess, move-out, and timing
 
-- **Toyota / Lexus** — almost all, including Smart Key.
-- **Honda / Acura** — almost all.
-- **Ford / Lincoln** — most, including PATS and Tibbe.
-- **GM / Chevy / Cadillac / GMC** — most, including PEPS.
-- **Hyundai / Kia** — most non-2022+ proximity keys.
-- **Nissan / Infiniti** — most, including I-Key.
-- **VW / Audi (pre-2018)** — most.
-- **Mazda, Subaru, Mitsubishi** — most.
+Popcorn jobs are messy even when done right. Furniture covers, floor protection, and sealing doorways keep dust out of bedrooms. Many families leave for a long weekend while scrape and skim cure. Michigan humidity affects skim dry time — we schedule sand and primer when compound is actually ready, not when the calendar is impatient.
 
-## The cars that still need the dealer
+HVAC should be off or returns sealed during heavy work; we remind you before start day.
 
-A few makes have hard-locked their security in recent years. We'll tell you on the phone if your car is one of them — we don't waste your time:
+## Value and resale
 
-- Most 2017+ BMW with CAS4+.
-- Most 2018+ Mercedes-Benz with FBS4.
-- Some 2022+ Hyundai/Kia proximity keys.
-- All Tesla (their parts, their app — but we can still help with mechanical access).
+Flat ceilings brighten rooms and help listings photograph better in Ferndale, Royal Oak, and suburban ranches. Disclosure rules apply to known asbestos history — keep test paperwork. Done properly, removal is a one-time upgrade with decades of payoff.
 
-## What we need from you
+## Schedule with BH Drywall Metro Detroit
 
-To quote your job in under 60 seconds on the phone we need:
+We walk ceilings, ask build year, recommend testing path, and quote scrape, skim, sand, and prime as integrated scope — not a low scrape number that hides skim reality.
 
-1. Year, make, model.
-2. Trim (sometimes determines key type).
-3. Do you have **all** keys lost, or one working key?
-
-The third one matters a lot. If you have one working key, programming a spare is fast and cheap (often 30 minutes, $150 ish). If **all** keys are lost, we have to add the car to the immobilizer from scratch — extra step, extra cost.
-
-## Mobile means in your driveway, parking lot, or office lot
-
-We come to you anywhere in OC. Common scenes:
-
-- South Coast Plaza valet level.
-- Disneyland and Anaheim hotel lots.
-- John Wayne Airport long-term parking.
-- Any home driveway from San Clemente to La Habra.
-
-[Call our auto line →](/services/automotive)
+Phone (313) 236-4558 for popcorn ceiling removal and resurfacing across Metro Detroit MI. You get straight talk on asbestos era homes, containment, and a ceiling that finally matches the walls you already upgraded.
 `,
   },
 
   {
-    slug: "how-to-spot-locksmith-scam-southern-california",
-    title: "How to Spot a Locksmith Scam in Southern California (and What a Legit Quote Looks Like)",
-    metaTitle: "How to Spot a Locksmith Scam in SoCal",
+    slug: "hire-drywall-contractor-michigan-checklist",
+    title: "How to Hire a Drywall Contractor in Michigan: Checklist Before You Sign",
+    metaTitle: "Hire a Drywall Contractor Michigan Checklist",
     excerpt:
-      "Locksmith scams cost SoCal homeowners millions every year. Here's how to recognize a fake $15 ad, what questions to ask, and how to verify a real BSIS license.",
+      "Licenses, insurance, scope clarity, and finish levels — use this BH Drywall Metro Detroit checklist so your next hang and finish job does not stall at inspection or paint.",
     category: "Safety",
-    readMinutes: 8,
-    date: "2026-04-08",
-    heroImage: "/blog/how-to-spot-locksmith-scam-southern-california-hero.png",
-    heroAlt: "Concerned homeowner reading a high invoice handed to her by a suspicious locksmith outside her California home",
-    secondaryImage: "/blog/how-to-spot-locksmith-scam-southern-california-secondary.png",
-    secondaryAlt: "Hand holding a California BSIS locksmith license card next to a clean work van",
+    readMinutes: 6,
+    date: "2026-05-06",
+    heroImage: "/blog/hire-drywall-contractor-michigan-checklist-hero.png",
+    heroAlt: "Homeowner reviewing drywall contract scope with contractor in Metro Detroit",
+    secondaryImage: "/blog/hire-drywall-contractor-michigan-checklist-secondary.png",
+    secondaryAlt: "Insured drywall crew with tools and protection at a Michigan job site",
     body: `
-The California Bureau of Security and Investigative Services (BSIS) gets thousands of complaints a year about unlicensed locksmiths. Most follow the same playbook: a $15 ad, a 2x markup at the door, and a destroyed lock.
+Drywall looks straightforward until joints telegraph, corners crack, or an inspector red-tags a commercial suite. Hiring the lowest hourly bid without a written scope is how Metro Detroit MI homeowners and business owners lose weeks and repainting budgets. BH Drywall Metro Detroit built this checklist so you can compare contractors fairly — and so you know what we will put in writing when you call (313) 236-4558.
 
-Here's how to read a quote and not get burned.
+## Verify business legitimacy
 
-## The five red flags
+- Michigan business registration and a verifiable local address or established service area in Metro Detroit.
+- General liability insurance and workers compensation — ask for current certificates; your project should not become your homeowner policy’s problem if someone is hurt.
+- References or recent photos of similar work — repairs, new construction, commercial TI, not unrelated trades.
 
-### 1. "$15" or "$19" in the ad
+We provide documentation when general contractors and property managers require it. If a bidder refuses insurance proof, stop there.
 
-There is no legitimate locksmith in California who can drive to your house and unlock it for $15. The number is bait. The real number shows up after they're already on your porch with the drill in hand.
+### Written scope beats verbal promises
 
-### 2. No company name on the phone
+Your contract or proposal should state:
 
-A legit dispatcher answers "OH Lock & Key Solutions, this is dispatch" or similar. A scammer answers "locksmith service" — vague on purpose, because the same call center fronts 12 fake brand names.
+- Hang only versus hang and finish versus repair classification.
+- Finish level — Level 4 or Level 5 — and rooms included.
+- Texture type and match requirements for repairs.
+- Who supplies board, compound, bead, and primer.
+- Cleanup, disposal, and protection of floors and fixtures.
+- Schedule milestones and weather or drying disclaimers where relevant.
 
-### 3. Unmarked vehicle
+Vague “tape and mud” language causes disputes when paint goes on and joints flash. Insist on room lists and square footage or linear foot notes for commercial work.
 
-When the tech arrives, look at the truck. Real locksmiths drive labeled vans with the company name, phone number, and BSIS license number. An unmarked sedan with a backpack is the #1 scam signal.
+## Understand pricing models
 
-### 4. "We'll have to drill"
+Some contractors bid per sheet hung; others per square foot finished; repairs often per patch class. Each model is fine if assumptions are explicit — ceiling height, access, fire board upcharges, after-hours commercial premiums. Compare total number, not just unit rate.
 
-A skilled locksmith should resolve **at least 95% of residential lockouts non-destructively**. If a tech immediately says "we'll have to drill" on a standard Kwikset or Schlage residential deadbolt, walk them off the job. They're either unskilled or padding the bill.
+Change orders happen when framing is out of plane or plans shift. Good contractors document extras before work, not at invoice surprise.
 
-### 5. Price changes on the porch
+## Site readiness expectations
 
-If the price you were quoted on the phone ($79) becomes the price at the door ($380), that's the scam. A real locksmith honors the phone quote unless there's a clear, agreed-upon scope change (e.g. you also want a rekey).
+You save money when the job is ready:
 
-## What a legitimate California locksmith looks like
+- Framing straight, inspected if required, with backing at corners and openings.
+- Electrical and plumbing rough complete before close-in where applicable.
+- HVAC boots and cans placed; soffit lines marked.
+- Heat or dehumidification running so compound cures in Michigan seasons.
 
-- Has a **BSIS Locksmith Company License** — a 4 to 5-digit number. (Ours is **#8663**.)
-- Has the license number printed on the truck, business card, and invoice.
-- Tells you the **service-call fee** and **flat lockout rate** on the phone, before dispatch.
-- Carries a wallet copy of the BSIS license.
-- Carries insurance — for damage to your door, frame, or property.
+We pre-walk jobs to flag unreadiness — better a one-week delay than cracked mud from freezing garages.
 
-## How to verify a BSIS license in 30 seconds
+## Safety and occupied homes
 
-1. Go to [search.dca.ca.gov](https://search.dca.ca.gov).
-2. Select "Bureau of Security and Investigative Services."
-3. Type the company name or license number.
+Lead, asbestos, silica dust, and ladder work are real. Contractors should use dust control, proper PPE, and containment on demolition. Kids and pets need clear work zones. Night work in commercial spaces needs lighting and fire exit paths maintained.
 
-It returns the company name, status (Active / Expired / Suspended), city, and license expiration. Always verify before letting anyone drill into your door.
+BH Drywall Metro Detroit treats occupied residences with floor protection and daily vacuuming on repair jobs — ask any bidder how they control dust.
 
-## What to do if you've already been scammed
+## Red flags
 
-1. **Don't pay in cash.** Use a credit card so you have chargeback rights.
-2. **Get a written invoice** with the company name, address, BSIS number, and tech name.
-3. **File a complaint** with BSIS at bsis.ca.gov.
-4. **Report to the attorney general** at oag.ca.gov.
-5. **Leave an honest review** with the business name (Google, Yelp, BBB).
+- Large upfront deposits with no schedule tied to progress.
+- No mention of finish level or texture on repair quotes.
+- Willingness to skim over wet water damage without metering.
+- Cannot explain fire taping on commercial rated walls.
+- Only accepts cash and provides no written warranty on workmanship.
 
-The faster you report, the faster the call-center brand gets taken down.
+Michigan law evolves; when permits are required, the contractor should facilitate inspection timing, not tell you to skip city contact.
 
-## The OH Lock & Key Solutions guarantee
+## Warranty and punch list
 
-When you call us, you get:
+Clarify workmanship warranty length — typically one year on labor for residential finish defects not caused by structural movement or exterior water. Punch walk before final payment: corners, screw pops visible in raking light, texture uniformity, ready for primer.
 
-- The flat-rate price on the phone, in writing if you ask.
-- A BSIS-licensed tech (#8663) in a marked truck.
-- Non-destructive entry on 99% of residential lockouts.
-- Insurance coverage for any property damage.
-- A receipt with our license number and full company info.
+## Why homeowners choose BH Drywall Metro Detroit
 
-That's the bar. Anything less and you're at risk.
+We are specialists — not a side service from a handyman or unrelated trade. Our crews hang metal and wood stud, match textures across Oakland and Wayne county housing stock, and speak plainly when Level 5 is worth your money.
 
-[See our license page →](/license)
+Use this checklist on every bid you collect. When you are ready, call (313) 236-4558 for a walkthrough and written scope aligned with how you will actually paint and use the space. Metro Detroit deserves drywall done once, done right.
 `,
   },
 
   {
-    slug: "master-key-systems-for-small-businesses",
-    title: "Master Key Systems for Small Businesses: A Practical OC Guide",
-    metaTitle: "Master Key Systems for OC Small Businesses",
+    slug: "new-construction-drywall-phases",
+    title: "New Construction Drywall Phases: From First Board to Paint-Ready in Metro Detroit",
+    metaTitle: "New Construction Drywall Phases Michigan",
     excerpt:
-      "Stop giving every employee a giant keyring. A small-business master key system gives the right access to the right people — without compromising the office or safe.",
-    category: "Commercial",
-    readMinutes: 8,
-    date: "2026-04-15",
-    heroImage: "/blog/master-key-systems-for-small-businesses-hero.png",
-    heroAlt: "Locksmith and small business owner reviewing a key access chart in a small modern office",
-    secondaryImage: "/blog/master-key-systems-for-small-businesses-secondary.png",
-    secondaryAlt: "Organized commercial pin kit and tagged keys on a workbench, with a master key chart on paper",
+      "Hang, tape, sand, texture — sequencing matters on new builds and major additions. BH Drywall Metro Detroit breaks down phases so trades and inspections stay on track.",
+    category: "Residential",
+    readMinutes: 7,
+    date: "2026-05-24",
+    heroImage: "/blog/new-construction-drywall-phases-hero.png",
+    heroAlt: "New construction home with drywall hung awaiting tape in Metro Detroit",
+    secondaryImage: "/blog/new-construction-drywall-phases-secondary.png",
+    secondaryAlt: "Finished taped and sanded drywall in a new Michigan home build",
     body: `
-If you run a 5–50 person business in Orange County — restaurant, retail, dental office, law firm, distribution warehouse — you've probably hit the "too many keys" problem. The bookkeeper has the office key. The cleaners have the back door. The manager has everything. The new hire just got handed a key with no record of what it opens.
+New construction and large additions across Metro Detroit MI — custom homes in Northville, subdivisions in Macomb Township, infill in Detroit neighborhoods — all share the same drywall rhythm. Miss a phase and painters stall, trim carpenters chip fresh corners, or inspectors hold certificates. BH Drywall Metro Detroit coordinates with builders and homeowners so hang, finish, and texture land in the right order with clear handoffs.
 
-A master key system fixes this in one afternoon.
+## Phase 1: Pre-hang verification
 
-## What is a master key system?
+Before trucks arrive, we confirm:
 
-It's a single pinning scheme that allows different keys to open different combinations of locks. The most common structure for small businesses:
+- Framing inspection passed where required.
+- Ceiling joists and studs aligned; backing at tub surrounds, corners, and heavy cabinetry walls.
+- Moisture-sensitive areas identified — tubs, laundry, basement wet walls.
+- Board delivery path and stock storage dry and flat.
 
-- **Master key (MK)** — opens every lock in the building. Owner / GM only.
-- **Sub-master keys (SMK)** — open a defined zone. Examples:
-  - "Front of house" SMK: front door, retail floor, point-of-sale closet.
-  - "Back of house" SMK: kitchen, walk-in, dry storage.
-  - "Office" SMK: office, supply closet, server room.
-- **Change keys (CK)** — open a single lock. Given to whoever needs that one room.
+We lay out sheet orientation to minimize butt joints on long walls visible from entries. Stagger vertical seams on high walls in two-story foyers. Fire tape locations on garage-to-house separations and rated walls get marked from plans — not guessed at hang day.
 
-Each employee gets exactly the access they need — no more, no less.
+### Board hang and screw pattern
 
-## When you should set this up
+Hang crews install ceiling first, then walls, maintaining screw spacing per code and manufacturer spec. Excessive or missing fasteners cause future pops and failed inspections. Openings for windows and doors stay square for trim subs; we communicate with supers when rough openings need adjustment before board locks them in.
 
-- You have 3+ exterior or interior doors that need key control.
-- You have a safe, server room, or controlled-substance cabinet that should not be on the same key as everything else.
-- You have rotating staff (cleaners, contractors, part-time).
-- You're tired of replacing every lock when an employee leaves.
+## Phase 2: Taping and embedding
 
-## How OC locksmiths design a master system
+Tapers embed tape on flats, inside corners, and outside bead. Quick-set compound may be used on first coats where drying speed helps; all-purpose on finish coats. Butt joints and angles get wider feathering than nail spots because they move more with seasonal humidity in Michigan.
 
-Here's what a real consult looks like:
+Mold-resistant compound in wet zones pairs with board type from phase one. We keep mud out of tub pans and shower pans — waterproofing trades own those planes.
 
-1. **Site walk-through** — we list every lockable opening and ask who needs to open what.
-2. **Hierarchy chart** — we draft a tree: MK → SMK → CK with a master-keying chart. You sign off.
-3. **Cylinder count** — we tally how many cylinders need to be pinned, and what hardware they live in. Some legacy hardware can be repinned; old or worn cylinders get replaced.
-4. **Key control** — we recommend a restricted keyway (Medeco, Mul-T-Lock, Schlage Primus, Assa Twin) so employees can't duplicate keys at the hardware store.
-5. **Install day** — usually 4–8 hours for a small office. Cylinders get pulled, repinned, reinstalled, and tested.
-6. **Documentation** — you get the master chart in a sealed envelope. Don't lose this.
+## Phase 3: Coat progression and sanding
 
-## What does it cost?
+Second and third coats build feather width. Sanding between coats finds highs and ridges before they become paint problems. Dust control matters in occupied adjacent areas; on new builds we sand before trim when possible to reduce damage to finished wood, or we protect trim if sequence demands mud after casing.
 
-For a typical 8–12 cylinder OC small business:
+Window returns and sills get attention so painters do not chase gaps later. Garage fire separation joints receive listed systems when spec requires — not generic mud alone.
 
-- Standard keyway, no new hardware: **$450–$750**.
-- Restricted keyway (recommended), no new hardware: **$700–$1,200**.
-- Restricted keyway + new high-security cylinders: **$1,500–$2,800**.
+## Phase 4: Texture or Level 5 skim
 
-We give a fixed bid after the walk-through, and the install is a flat day rate — no surprises.
+Production builders often choose uniform orange peel or machine texture for speed. Custom homes may specify hand skip, knockdown, or Level 5 smooth in main living areas. Texture hides minor variation; Level 5 demands earlier commitment in budget and schedule.
 
-## What if an employee leaves?
+We texture before trim when builder sequence allows — less masking. When trim installs first, we back-mask carefully and touch texture lines at base and casing.
 
-Two options:
+## Phase 5: Primer readiness and painter handoff
 
-1. **Replace the lost or unreturned change key only.** Cheap, fast — but if you're paranoid, do #2.
-2. **Rekey just that branch of the master system.** The MK and other SMKs still work; the departed employee's CK is dead.
+Drywall is not done when it “looks good” at noon. We define done as: specified finish level achieved, sanded, vacuumed, primer-sealer compatible surface, punch items from superintendent walk closed. Painters should not have to skim-fix our work — if they do, scope was wrong or execution failed.
 
-That's the whole point of a master system — you don't have to rekey the whole building when one person leaves.
+Touch-up after other trades is normal: plumbers cut access, electricians add cans. We return for labeled repair tickets rather than open-ended “come fix everything.”
 
-## Restricted vs. standard keyways
+## Additions and remodel tie-ins
 
-If you only take one thing from this article: **use a restricted keyway**. Standard keys (KW1, SC1, KW10) can be duplicated at any Home Depot. Restricted keys can only be cut by us, on a signed authorization, with the master chart on file. This is the difference between a master system that actually controls access and one that's security theater.
+Matching old and new drywall planes in Wyandotte or Grosse Pointe Park remodels requires blending thickness at transitions — furring or shaving so wallpaper or paint does not reveal a step. Texture match on existing wings is slower than new construction uniform spray.
 
-## Ready to talk through your office?
+## Weather and seasonal builds
 
-We do free 30-minute site walk-throughs for OC small businesses. We'll bring the master chart template, ask you the right questions, and have a bid in your inbox the same day.
+Winter builds need heat for compound cure. Spring humidity extends dry times. We align coat schedules with HVAC startup so you are not sanding soft mud because the furnace was not running.
 
-[Book a commercial consult →](/services/commercial)
-`,
-  },
+## Builder and homeowner communication
 
-  {
-    slug: "after-a-break-in-24-hour-security-checklist",
-    title: "What To Do After a Break-In: A 24-Hour Security Checklist",
-    metaTitle: "After a Break-In: 24-Hour Security Checklist",
-    excerpt:
-      "If your home or business was broken into, the next 24 hours determine whether it happens again. This is the exact checklist we walk OC clients through.",
-    category: "Safety",
-    readMinutes: 9,
-    date: "2026-04-22",
-    heroImage: "/blog/after-a-break-in-24-hour-security-checklist-hero.png",
-    heroAlt: "Locksmith installing a new reinforced strike plate and deadbolt on a residential door after a break-in",
-    secondaryImage: "/blog/after-a-break-in-24-hour-security-checklist-secondary.png",
-    secondaryAlt: "Hand holding a new high-security deadbolt and reinforced strike plate next to a damaged door frame",
-    body: `
-A break-in is a violation, and the first instinct is usually to clean up and try to forget. Don't. The most common pattern we see in Orange County is the second break-in — when nothing was changed and the same person comes back two weeks later for the rest.
+Weekly percent-complete updates help supers schedule trim, cabinet, and floor vendors. Homeowners on owner-builder projects get the same clarity — what rooms release to paint each Friday matters for move-in dreams.
 
-Here's the exact 24-hour checklist we walk break-in clients through.
+## Work with BH Drywall Metro Detroit on new builds
 
-## Hour 0–1: Stop, secure, document
+From first sheet on a slab ranch to a 4,000-square-foot custom in Oakland County, we staff hang and finish crews who understand inspection loops and painter expectations.
 
-- **Don't go in alone.** If the break-in is fresh, call the police from outside. Wait for them.
-- **Photograph everything** before you touch it. Doors, frames, drawers, windows. Even if you don't think you'll need the photos, your insurance will.
-- **Get a police report number.** Insurance will not pay without it. Most OC cities will dispatch within 30 minutes for a residential break-in.
-
-## Hour 1–4: Secure entry points
-
-- **Replace the door / frame / hardware that was breached.** A reinforced strike plate alone is usually enough to upgrade a kicked-in door so it won't kick again — assuming the frame is intact.
-- **Rekey or replace every exterior lock.** If the intruder took keys, you cannot trust any lock they had access to. We routinely roll trucks within an hour of a 911 break-in call.
-- **Replace any compromised garage opener.** Most modern openers use rolling codes, but if a paper-clip clone of your remote was in the car they hit, replace the opener.
-
-## Hour 4–24: Audit and upgrade
-
-This is where the long-term security work happens.
-
-### 1. Hardware audit
-
-- Every exterior deadbolt should be **ANSI Grade 1** (commercial) or **Grade 2** (residential high-end).
-- Every strike plate should be **reinforced** with 3-inch screws into the frame stud, not just the trim.
-- Every door should have a **functional dead-latch guard** (the little plunger that stops credit-card-style attacks).
-
-### 2. Glass and window check
-
-Most OC break-ins go through a side window, sliding glass door, or back patio door — not the front door.
-
-- Sliding doors: install a pin lock or charley bar. Cheap and effective.
-- French doors: add flush bolts top and bottom on the inactive leaf.
-- Single-hung windows: add a window pin or sash lock.
-
-### 3. Smart lock + camera review
-
-- If you have smart locks, **audit the access log** for the 30 days before the break-in. Any unfamiliar codes? Any guest codes that should have been deleted?
-- If you have cameras, **pull and save the footage** — most cloud cameras only retain 7–30 days. Save the relevant window to your phone.
-
-### 4. Safe & valuables
-
-- If a safe was attacked but not opened, get it inspected. A pry attack can damage the bolt-work even if the door held.
-- If a safe was taken, file the serial number with the police report and the manufacturer. Same for any electronics — Apple and Google can flag stolen serials.
-
-### 5. The "second attempt" countermeasures
-
-- **Light up the perimeter.** Motion-activated LED floodlights on the side and back of the house. Cheap, effective.
-- **Re-trim landscaping** that creates hiding spots near windows.
-- **Schedule a vacation hold** on mail and package deliveries if the house is empty.
-
-## What about renters?
-
-You have the same rights as a homeowner to demand a rekey from your landlord after a break-in. In California, the landlord must rekey or replace locks within a reasonable time (usually 1–3 business days). If they refuse, document the request in writing, and you can hire a locksmith yourself and deduct from rent under California Civil Code §1941.
-
-## Insurance tip
-
-Most home and business insurance policies will cover lock replacement and frame repair as part of a break-in claim — but you have to ask. Get an itemized invoice from your locksmith (we provide one with our BSIS license number on every job) and submit with the police report.
-
-## The fast version
-
-If you're reading this at 2am with a broken door, here's the 5-minute summary:
-
-1. Call police, stay outside.
-2. Photograph the damage.
-3. Call a 24/7 locksmith with BSIS license.
-4. Get the door secured tonight, the rekey done in the morning.
-5. Schedule the security audit within 7 days.
-
-[We're 24/7, OC-wide →](/contact)
+Call (313) 236-4558 to bid your plans or walk your framing. Metro Detroit new construction deserves phased drywall executed in order — so the last thing you worry about at certificate of occupancy is the wall behind your family photos.
 `,
   },
 ];
@@ -637,5 +537,3 @@ If you're reading this at 2am with a broken door, here's the 5-minute summary:
 export function findPost(slug: string): BlogPost | undefined {
   return BLOG_POSTS.find((p) => p.slug === slug);
 }
-
-export const BLOG_CATEGORIES = Array.from(new Set(BLOG_POSTS.map((p) => p.category)));

@@ -1,3307 +1,1012 @@
 [
   {
-    "slug": "aliso-viejo",
-    "name": "Aliso Viejo",
-    "city": "Aliso Viejo",
+    "slug": "detroit",
+    "name": "Detroit",
+    "city": "Detroit",
     "kind": "city",
-    "lat": 33.5767,
-    "lng": -117.7256,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "anaheim",
-    "name": "Anaheim",
-    "city": "Anaheim",
-    "kind": "city",
-    "lat": 33.8366,
-    "lng": -117.9143,
+    "lat": 42.3314,
+    "lng": -83.0458,
     "parent": null,
     "main": true
   },
   {
-    "slug": "brea",
-    "name": "Brea",
-    "city": "Brea",
+    "slug": "dearborn",
+    "name": "Dearborn",
+    "city": "Dearborn",
     "kind": "city",
-    "lat": 33.9167,
-    "lng": -117.9,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "buena-park",
-    "name": "Buena Park",
-    "city": "Buena Park",
-    "kind": "city",
-    "lat": 33.8675,
-    "lng": -117.9981,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "costa-mesa",
-    "name": "Costa Mesa",
-    "city": "Costa Mesa",
-    "kind": "city",
-    "lat": 33.6411,
-    "lng": -117.9187,
+    "lat": 42.3223,
+    "lng": -83.1763,
     "parent": null,
     "main": true
   },
   {
-    "slug": "cypress",
-    "name": "Cypress",
-    "city": "Cypress",
+    "slug": "livonia",
+    "name": "Livonia",
+    "city": "Livonia",
     "kind": "city",
-    "lat": 33.8169,
-    "lng": -118.0373,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "dana-point",
-    "name": "Dana Point",
-    "city": "Dana Point",
-    "kind": "city",
-    "lat": 33.4669,
-    "lng": -117.6981,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "fountain-valley",
-    "name": "Fountain Valley",
-    "city": "Fountain Valley",
-    "kind": "city",
-    "lat": 33.7092,
-    "lng": -117.9536,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "fullerton",
-    "name": "Fullerton",
-    "city": "Fullerton",
-    "kind": "city",
-    "lat": 33.8704,
-    "lng": -117.9242,
+    "lat": 42.3684,
+    "lng": -83.3527,
     "parent": null,
     "main": true
   },
   {
-    "slug": "garden-grove",
-    "name": "Garden Grove",
-    "city": "Garden Grove",
+    "slug": "westland",
+    "name": "Westland",
+    "city": "Westland",
     "kind": "city",
-    "lat": 33.7739,
-    "lng": -117.9414,
+    "lat": 42.3242,
+    "lng": -83.4002,
     "parent": null,
     "main": true
   },
   {
-    "slug": "huntington-beach",
-    "name": "Huntington Beach",
-    "city": "Huntington Beach",
+    "slug": "canton",
+    "name": "Canton",
+    "city": "Canton",
     "kind": "city",
-    "lat": 33.6595,
-    "lng": -117.9988,
+    "lat": 42.3087,
+    "lng": -83.4822,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "taylor",
+    "name": "Taylor",
+    "city": "Taylor",
+    "kind": "city",
+    "lat": 42.2409,
+    "lng": -83.2697,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "redford",
+    "name": "Redford",
+    "city": "Redford",
+    "kind": "city",
+    "lat": 42.3964,
+    "lng": -83.2966,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "garden-city",
+    "name": "Garden City",
+    "city": "Garden City",
+    "kind": "city",
+    "lat": 42.3256,
+    "lng": -83.331,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "inkster",
+    "name": "Inkster",
+    "city": "Inkster",
+    "kind": "city",
+    "lat": 42.2942,
+    "lng": -83.3099,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "romulus",
+    "name": "Romulus",
+    "city": "Romulus",
+    "kind": "city",
+    "lat": 42.2223,
+    "lng": -83.3966,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "wayne",
+    "name": "Wayne",
+    "city": "Wayne",
+    "kind": "city",
+    "lat": 42.2814,
+    "lng": -83.3863,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "highland-park",
+    "name": "Highland Park",
+    "city": "Highland Park",
+    "kind": "city",
+    "lat": 42.4056,
+    "lng": -83.0978,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "hamtramck",
+    "name": "Hamtramck",
+    "city": "Hamtramck",
+    "kind": "city",
+    "lat": 42.3928,
+    "lng": -83.0496,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "dearborn-heights",
+    "name": "Dearborn Heights",
+    "city": "Dearborn Heights",
+    "kind": "city",
+    "lat": 42.3369,
+    "lng": -83.2733,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "lincoln-park",
+    "name": "Lincoln Park",
+    "city": "Lincoln Park",
+    "kind": "city",
+    "lat": 42.2506,
+    "lng": -83.1785,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "allen-park",
+    "name": "Allen Park",
+    "city": "Allen Park",
+    "kind": "city",
+    "lat": 42.2575,
+    "lng": -83.211,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "wyandotte",
+    "name": "Wyandotte",
+    "city": "Wyandotte",
+    "kind": "city",
+    "lat": 42.2142,
+    "lng": -83.1499,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "southgate",
+    "name": "Southgate",
+    "city": "Southgate",
+    "kind": "city",
+    "lat": 42.2139,
+    "lng": -83.1938,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "grosse-pointe",
+    "name": "Grosse Pointe",
+    "city": "Grosse Pointe",
+    "kind": "city",
+    "lat": 42.3861,
+    "lng": -82.9118,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "harper-woods",
+    "name": "Harper Woods",
+    "city": "Harper Woods",
+    "kind": "city",
+    "lat": 42.4331,
+    "lng": -82.9248,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "troy",
+    "name": "Troy",
+    "city": "Troy",
+    "kind": "city",
+    "lat": 42.6064,
+    "lng": -83.1498,
     "parent": null,
     "main": true
   },
   {
-    "slug": "irvine",
-    "name": "Irvine",
-    "city": "Irvine",
+    "slug": "rochester-hills",
+    "name": "Rochester Hills",
+    "city": "Rochester Hills",
     "kind": "city",
-    "lat": 33.6846,
-    "lng": -117.8265,
+    "lat": 42.6583,
+    "lng": -83.1499,
     "parent": null,
     "main": true
   },
   {
-    "slug": "la-habra",
-    "name": "La Habra",
-    "city": "La Habra",
+    "slug": "southfield",
+    "name": "Southfield",
+    "city": "Southfield",
     "kind": "city",
-    "lat": 33.9319,
-    "lng": -117.9461,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "la-palma",
-    "name": "La Palma",
-    "city": "La Palma",
-    "kind": "city",
-    "lat": 33.8464,
-    "lng": -118.0467,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "laguna-beach",
-    "name": "Laguna Beach",
-    "city": "Laguna Beach",
-    "kind": "city",
-    "lat": 33.5427,
-    "lng": -117.7854,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "laguna-hills",
-    "name": "Laguna Hills",
-    "city": "Laguna Hills",
-    "kind": "city",
-    "lat": 33.597,
-    "lng": -117.7259,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "laguna-niguel",
-    "name": "Laguna Niguel",
-    "city": "Laguna Niguel",
-    "kind": "city",
-    "lat": 33.5225,
-    "lng": -117.7075,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "laguna-woods",
-    "name": "Laguna Woods",
-    "city": "Laguna Woods",
-    "kind": "city",
-    "lat": 33.6103,
-    "lng": -117.7286,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "lake-forest",
-    "name": "Lake Forest",
-    "city": "Lake Forest",
-    "kind": "city",
-    "lat": 33.6469,
-    "lng": -117.6891,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "los-alamitos",
-    "name": "Los Alamitos",
-    "city": "Los Alamitos",
-    "kind": "city",
-    "lat": 33.8028,
-    "lng": -118.0728,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "mission-viejo",
-    "name": "Mission Viejo",
-    "city": "Mission Viejo",
-    "kind": "city",
-    "lat": 33.6,
-    "lng": -117.672,
+    "lat": 42.4734,
+    "lng": -83.2219,
     "parent": null,
     "main": true
   },
   {
-    "slug": "newport-beach",
-    "name": "Newport Beach",
-    "city": "Newport Beach",
+    "slug": "farmington-hills",
+    "name": "Farmington Hills",
+    "city": "Farmington Hills",
     "kind": "city",
-    "lat": 33.6189,
-    "lng": -117.9298,
+    "lat": 42.4988,
+    "lng": -83.3677,
     "parent": null,
     "main": true
   },
   {
-    "slug": "orange",
-    "name": "Orange",
-    "city": "Orange",
+    "slug": "pontiac",
+    "name": "Pontiac",
+    "city": "Pontiac",
     "kind": "city",
-    "lat": 33.7878,
-    "lng": -117.8531,
+    "lat": 42.6389,
+    "lng": -83.291,
     "parent": null,
     "main": true
   },
   {
-    "slug": "placentia",
-    "name": "Placentia",
-    "city": "Placentia",
+    "slug": "royal-oak",
+    "name": "Royal Oak",
+    "city": "Royal Oak",
     "kind": "city",
-    "lat": 33.8722,
-    "lng": -117.8703,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "rancho-santa-margarita",
-    "name": "Rancho Santa Margarita",
-    "city": "Rancho Santa Margarita",
-    "kind": "city",
-    "lat": 33.6406,
-    "lng": -117.6031,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "san-clemente",
-    "name": "San Clemente",
-    "city": "San Clemente",
-    "kind": "city",
-    "lat": 33.4269,
-    "lng": -117.612,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "san-juan-capistrano",
-    "name": "San Juan Capistrano",
-    "city": "San Juan Capistrano",
-    "kind": "city",
-    "lat": 33.5017,
-    "lng": -117.6625,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "santa-ana",
-    "name": "Santa Ana",
-    "city": "Santa Ana",
-    "kind": "city",
-    "lat": 33.7455,
-    "lng": -117.8677,
+    "lat": 42.4895,
+    "lng": -83.1446,
     "parent": null,
     "main": true
   },
   {
-    "slug": "seal-beach",
-    "name": "Seal Beach",
-    "city": "Seal Beach",
+    "slug": "birmingham",
+    "name": "Birmingham",
+    "city": "Birmingham",
     "kind": "city",
-    "lat": 33.7414,
-    "lng": -118.1048,
+    "lat": 42.5467,
+    "lng": -83.2113,
     "parent": null,
     "main": false
   },
   {
-    "slug": "stanton",
-    "name": "Stanton",
-    "city": "Stanton",
+    "slug": "bloomfield-hills",
+    "name": "Bloomfield Hills",
+    "city": "Bloomfield Hills",
     "kind": "city",
-    "lat": 33.8025,
-    "lng": -117.9931,
+    "lat": 42.5836,
+    "lng": -83.2455,
     "parent": null,
     "main": false
   },
   {
-    "slug": "tustin",
-    "name": "Tustin",
-    "city": "Tustin",
+    "slug": "west-bloomfield",
+    "name": "West Bloomfield",
+    "city": "West Bloomfield",
     "kind": "city",
-    "lat": 33.7458,
-    "lng": -117.8261,
+    "lat": 42.5689,
+    "lng": -83.3836,
     "parent": null,
     "main": false
   },
   {
-    "slug": "villa-park",
-    "name": "Villa Park",
-    "city": "Villa Park",
+    "slug": "novi",
+    "name": "Novi",
+    "city": "Novi",
     "kind": "city",
-    "lat": 33.8147,
-    "lng": -117.8131,
+    "lat": 42.4806,
+    "lng": -83.4755,
     "parent": null,
     "main": false
   },
   {
-    "slug": "westminster",
-    "name": "Westminster",
-    "city": "Westminster",
+    "slug": "auburn-hills",
+    "name": "Auburn Hills",
+    "city": "Auburn Hills",
     "kind": "city",
-    "lat": 33.7514,
-    "lng": -117.9939,
+    "lat": 42.6875,
+    "lng": -83.2341,
     "parent": null,
     "main": false
   },
   {
-    "slug": "yorba-linda",
-    "name": "Yorba Linda",
-    "city": "Yorba Linda",
+    "slug": "madison-heights",
+    "name": "Madison Heights",
+    "city": "Madison Heights",
     "kind": "city",
-    "lat": 33.8886,
-    "lng": -117.8131,
+    "lat": 42.4859,
+    "lng": -83.1052,
     "parent": null,
     "main": false
   },
   {
-    "slug": "coto-de-caza",
-    "name": "Coto de Caza",
-    "city": "Coto de Caza",
+    "slug": "ferndale",
+    "name": "Ferndale",
+    "city": "Ferndale",
+    "kind": "city",
+    "lat": 42.4606,
+    "lng": -83.1346,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "oak-park",
+    "name": "Oak Park",
+    "city": "Oak Park",
+    "kind": "city",
+    "lat": 42.4595,
+    "lng": -83.1827,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "rochester",
+    "name": "Rochester",
+    "city": "Rochester",
+    "kind": "city",
+    "lat": 42.6806,
+    "lng": -83.1338,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "warren",
+    "name": "Warren",
+    "city": "Warren",
+    "kind": "city",
+    "lat": 42.5145,
+    "lng": -83.0147,
+    "parent": null,
+    "main": true
+  },
+  {
+    "slug": "sterling-heights",
+    "name": "Sterling Heights",
+    "city": "Sterling Heights",
+    "kind": "city",
+    "lat": 42.5803,
+    "lng": -83.0302,
+    "parent": null,
+    "main": true
+  },
+  {
+    "slug": "clinton-township",
+    "name": "Clinton Township",
+    "city": "Clinton Township",
+    "kind": "city",
+    "lat": 42.5869,
+    "lng": -82.9195,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "shelby-township",
+    "name": "Shelby Township",
+    "city": "Shelby Township",
+    "kind": "city",
+    "lat": 42.6704,
+    "lng": -83.032,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "macomb-township",
+    "name": "Macomb Township",
+    "city": "Macomb Township",
+    "kind": "city",
+    "lat": 42.6695,
+    "lng": -82.959,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "st-clair-shores",
+    "name": "St. Clair Shores",
+    "city": "St. Clair Shores",
+    "kind": "city",
+    "lat": 42.497,
+    "lng": -82.8968,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "roseville",
+    "name": "Roseville",
+    "city": "Roseville",
+    "kind": "city",
+    "lat": 42.4972,
+    "lng": -82.9371,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "fraser",
+    "name": "Fraser",
+    "city": "Fraser",
+    "kind": "city",
+    "lat": 42.5553,
+    "lng": -82.9494,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "mount-clemens",
+    "name": "Mount Clemens",
+    "city": "Mount Clemens",
+    "kind": "city",
+    "lat": 42.5973,
+    "lng": -82.8779,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "utica",
+    "name": "Utica",
+    "city": "Utica",
+    "kind": "city",
+    "lat": 42.6261,
+    "lng": -83.0335,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "eastpointe",
+    "name": "Eastpointe",
+    "city": "Eastpointe",
+    "kind": "city",
+    "lat": 42.468,
+    "lng": -82.9554,
+    "parent": null,
+    "main": false
+  },
+  {
+    "slug": "grosse-pointe-park",
+    "name": "Grosse Pointe Park",
+    "city": "Grosse Pointe Park",
     "kind": "community",
-    "lat": 33.6086,
-    "lng": -117.5856,
+    "lat": 42.3753,
+    "lng": -82.9374,
     "parent": null,
     "main": false
   },
   {
-    "slug": "ladera-ranch",
-    "name": "Ladera Ranch",
-    "city": "Ladera Ranch",
+    "slug": "grosse-pointe-woods",
+    "name": "Grosse Pointe Woods",
+    "city": "Grosse Pointe Woods",
     "kind": "community",
-    "lat": 33.5519,
-    "lng": -117.6353,
+    "lat": 42.4436,
+    "lng": -82.9069,
     "parent": null,
     "main": false
   },
   {
-    "slug": "las-flores",
-    "name": "Las Flores",
-    "city": "Las Flores",
+    "slug": "belleville",
+    "name": "Belleville",
+    "city": "Belleville",
     "kind": "community",
-    "lat": 33.6347,
-    "lng": -117.6303,
+    "lat": 42.2048,
+    "lng": -83.4852,
     "parent": null,
     "main": false
   },
   {
-    "slug": "midway-city",
-    "name": "Midway City",
-    "city": "Midway City",
+    "slug": "chesterfield-township",
+    "name": "Chesterfield Township",
+    "city": "Chesterfield Township",
     "kind": "community",
-    "lat": 33.7444,
-    "lng": -117.9881,
+    "lat": 42.6728,
+    "lng": -82.8423,
     "parent": null,
     "main": false
   },
   {
-    "slug": "north-tustin",
-    "name": "North Tustin",
-    "city": "North Tustin",
+    "slug": "new-baltimore",
+    "name": "New Baltimore",
+    "city": "New Baltimore",
     "kind": "community",
-    "lat": 33.7711,
-    "lng": -117.79,
+    "lat": 42.6811,
+    "lng": -82.7368,
     "parent": null,
     "main": false
   },
   {
-    "slug": "rossmoor",
-    "name": "Rossmoor",
-    "city": "Rossmoor",
-    "kind": "community",
-    "lat": 33.7869,
-    "lng": -118.0817,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "silverado",
-    "name": "Silverado",
-    "city": "Silverado",
-    "kind": "community",
-    "lat": 33.7456,
-    "lng": -117.6411,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "modjeska-canyon",
-    "name": "Modjeska Canyon",
-    "city": "Modjeska Canyon",
-    "kind": "community",
-    "lat": 33.7228,
-    "lng": -117.6403,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "trabuco-canyon",
-    "name": "Trabuco Canyon",
-    "city": "Trabuco Canyon",
-    "kind": "community",
-    "lat": 33.6603,
-    "lng": -117.5894,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "cowan-heights",
-    "name": "Cowan Heights",
-    "city": "Cowan Heights",
-    "kind": "community",
-    "lat": 33.7689,
-    "lng": -117.7728,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "lemon-heights",
-    "name": "Lemon Heights",
-    "city": "Lemon Heights",
-    "kind": "community",
-    "lat": 33.77,
-    "lng": -117.7867,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "olive",
-    "name": "Olive",
-    "city": "Olive",
-    "kind": "community",
-    "lat": 33.8197,
-    "lng": -117.8261,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "el-modena",
-    "name": "El Modena",
-    "city": "El Modena",
-    "kind": "community",
-    "lat": 33.7833,
-    "lng": -117.8,
-    "parent": null,
-    "main": false
-  },
-  {
-    "slug": "anaheim-anaheim-hills",
-    "name": "Anaheim Hills",
-    "city": "Anaheim",
+    "slug": "detroit-downtown",
+    "name": "Downtown",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.8286,
-    "lng": -117.9223,
-    "parent": "anaheim",
+    "lat": 42.3234,
+    "lng": -83.0538,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "anaheim-platinum-triangle",
-    "name": "Platinum Triangle",
-    "city": "Anaheim",
+    "slug": "detroit-midtown",
+    "name": "Midtown",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.8326,
-    "lng": -117.9223,
-    "parent": "anaheim",
+    "lat": 42.3274,
+    "lng": -83.0538,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "anaheim-anaheim-resort",
-    "name": "Anaheim Resort",
-    "city": "Anaheim",
+    "slug": "detroit-new-center",
+    "name": "New Center",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.8366,
-    "lng": -117.9223,
-    "parent": "anaheim",
+    "lat": 42.3314,
+    "lng": -83.0538,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "anaheim-the-colony",
-    "name": "The Colony",
-    "city": "Anaheim",
+    "slug": "detroit-corktown",
+    "name": "Corktown",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.8406,
-    "lng": -117.9223,
-    "parent": "anaheim",
+    "lat": 42.3354,
+    "lng": -83.0538,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "anaheim-anaheim-canyon",
-    "name": "Anaheim Canyon",
-    "city": "Anaheim",
+    "slug": "detroit-greektown",
+    "name": "Greektown",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.8446,
-    "lng": -117.9223,
-    "parent": "anaheim",
+    "lat": 42.3394,
+    "lng": -83.0538,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "anaheim-sycamore",
-    "name": "Sycamore",
-    "city": "Anaheim",
+    "slug": "detroit-eastern-market",
+    "name": "Eastern Market",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.8286,
-    "lng": -117.9183,
-    "parent": "anaheim",
+    "lat": 42.3234,
+    "lng": -83.0498,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "anaheim-west-anaheim",
-    "name": "West Anaheim",
-    "city": "Anaheim",
+    "slug": "detroit-brush-park",
+    "name": "Brush Park",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.8326,
-    "lng": -117.9183,
-    "parent": "anaheim",
+    "lat": 42.3274,
+    "lng": -83.0498,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "anaheim-south-anaheim",
-    "name": "South Anaheim",
-    "city": "Anaheim",
-    "kind": "neighborhood",
-    "lat": 33.8366,
-    "lng": -117.9183,
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-downtown-anaheim",
-    "name": "Downtown Anaheim",
-    "city": "Anaheim",
-    "kind": "neighborhood",
-    "lat": 33.8406,
-    "lng": -117.9183,
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-peralta-hills",
-    "name": "Peralta Hills",
-    "city": "Anaheim",
-    "kind": "neighborhood",
-    "lat": 33.8446,
-    "lng": -117.9183,
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-hermosa-village",
-    "name": "Hermosa Village",
-    "city": "Anaheim",
-    "kind": "neighborhood",
-    "lat": 33.8286,
-    "lng": -117.9143,
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-five-coves",
-    "name": "Five Coves",
-    "city": "Anaheim",
-    "kind": "neighborhood",
-    "lat": 33.8326,
-    "lng": -117.9143,
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-downtown-santa-ana",
-    "name": "Downtown Santa Ana",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7375,
-    "lng": -117.8757,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-south-coast-metro",
-    "name": "South Coast Metro",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7415,
-    "lng": -117.8757,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-french-park",
-    "name": "French Park",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7455,
-    "lng": -117.8757,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-floral-park",
-    "name": "Floral Park",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7495,
-    "lng": -117.8757,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-park-santiago",
-    "name": "Park Santiago",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7535,
-    "lng": -117.8757,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-washington-square",
-    "name": "Washington Square",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7375,
-    "lng": -117.8717,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-logan",
-    "name": "Logan",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7415,
-    "lng": -117.8717,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-wilshire-square",
-    "name": "Wilshire Square",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7455,
-    "lng": -117.8717,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-riverview-west",
-    "name": "Riverview West",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7495,
-    "lng": -117.8717,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-heninger-park",
-    "name": "Heninger Park",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7535,
-    "lng": -117.8717,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-pico-lowell",
-    "name": "Pico-Lowell",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7375,
-    "lng": -117.8677,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-madison-park",
-    "name": "Madison Park",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7415,
-    "lng": -117.8677,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-delhi",
-    "name": "Delhi",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7455,
-    "lng": -117.8677,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-lacy",
-    "name": "Lacy",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7495,
-    "lng": -117.8677,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-saddleback-view",
-    "name": "Saddleback View",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7535,
-    "lng": -117.8677,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-mid-city",
-    "name": "Mid-City",
-    "city": "Santa Ana",
-    "kind": "neighborhood",
-    "lat": 33.7375,
-    "lng": -117.8637,
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "irvine-woodbridge",
+    "slug": "detroit-woodbridge",
     "name": "Woodbridge",
-    "city": "Irvine",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6766,
-    "lng": -117.8345,
-    "parent": "irvine",
+    "lat": 42.3314,
+    "lng": -83.0498,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-northwood",
-    "name": "Northwood",
-    "city": "Irvine",
+    "slug": "detroit-indian-village",
+    "name": "Indian Village",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6806,
-    "lng": -117.8345,
-    "parent": "irvine",
+    "lat": 42.3354,
+    "lng": -83.0498,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-turtle-rock",
-    "name": "Turtle Rock",
-    "city": "Irvine",
+    "slug": "detroit-boston-edison",
+    "name": "Boston-Edison",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6846,
-    "lng": -117.8345,
-    "parent": "irvine",
+    "lat": 42.3394,
+    "lng": -83.0498,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-university-park",
-    "name": "University Park",
-    "city": "Irvine",
+    "slug": "detroit-palmer-woods",
+    "name": "Palmer Woods",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6886,
-    "lng": -117.8345,
-    "parent": "irvine",
+    "lat": 42.3234,
+    "lng": -83.0458,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-university-town-center",
-    "name": "University Town Center",
-    "city": "Irvine",
+    "slug": "detroit-palmer-park",
+    "name": "Palmer Park",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6926,
-    "lng": -117.8345,
-    "parent": "irvine",
+    "lat": 42.3274,
+    "lng": -83.0458,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-quail-hill",
-    "name": "Quail Hill",
-    "city": "Irvine",
+    "slug": "detroit-lafayette-park",
+    "name": "Lafayette Park",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6766,
-    "lng": -117.8305,
-    "parent": "irvine",
+    "lat": 42.3314,
+    "lng": -83.0458,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-oak-creek",
-    "name": "Oak Creek",
-    "city": "Irvine",
+    "slug": "detroit-mexicantown",
+    "name": "Mexicantown",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6806,
-    "lng": -117.8305,
-    "parent": "irvine",
+    "lat": 42.3354,
+    "lng": -83.0458,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-westpark",
-    "name": "Westpark",
-    "city": "Irvine",
+    "slug": "detroit-southwest-detroit",
+    "name": "Southwest Detroit",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6846,
-    "lng": -117.8305,
-    "parent": "irvine",
+    "lat": 42.3394,
+    "lng": -83.0458,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-northpark",
-    "name": "Northpark",
-    "city": "Irvine",
+    "slug": "detroit-north-end",
+    "name": "North End",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6886,
-    "lng": -117.8305,
-    "parent": "irvine",
+    "lat": 42.3234,
+    "lng": -83.0418,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-northwood-pointe",
-    "name": "Northwood Pointe",
-    "city": "Irvine",
+    "slug": "detroit-east-english-village",
+    "name": "East English Village",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6926,
-    "lng": -117.8305,
-    "parent": "irvine",
+    "lat": 42.3274,
+    "lng": -83.0418,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-el-camino-real",
-    "name": "El Camino Real",
-    "city": "Irvine",
+    "slug": "detroit-jefferson-chalmers",
+    "name": "Jefferson-Chalmers",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6766,
-    "lng": -117.8265,
-    "parent": "irvine",
+    "lat": 42.3314,
+    "lng": -83.0418,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-walnut",
-    "name": "Walnut",
-    "city": "Irvine",
+    "slug": "detroit-warrendale",
+    "name": "Warrendale",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6806,
-    "lng": -117.8265,
-    "parent": "irvine",
+    "lat": 42.3354,
+    "lng": -83.0418,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-rancho-san-joaquin",
-    "name": "Rancho San Joaquin",
-    "city": "Irvine",
+    "slug": "detroit-grandmont-rosedale",
+    "name": "Grandmont-Rosedale",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6846,
-    "lng": -117.8265,
-    "parent": "irvine",
+    "lat": 42.3394,
+    "lng": -83.0418,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-turtle-ridge",
-    "name": "Turtle Ridge",
-    "city": "Irvine",
+    "slug": "detroit-rosedale-park",
+    "name": "Rosedale Park",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6886,
-    "lng": -117.8265,
-    "parent": "irvine",
+    "lat": 42.3234,
+    "lng": -83.0378,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-shady-canyon",
-    "name": "Shady Canyon",
-    "city": "Irvine",
+    "slug": "detroit-northwest-detroit",
+    "name": "Northwest Detroit",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6926,
-    "lng": -117.8265,
-    "parent": "irvine",
+    "lat": 42.3274,
+    "lng": -83.0378,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-cypress-village",
-    "name": "Cypress Village",
-    "city": "Irvine",
+    "slug": "detroit-east-side",
+    "name": "East Side",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6766,
-    "lng": -117.8225,
-    "parent": "irvine",
+    "lat": 42.3314,
+    "lng": -83.0378,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-stonegate",
-    "name": "Stonegate",
-    "city": "Irvine",
+    "slug": "detroit-west-side",
+    "name": "West Side",
+    "city": "Detroit",
     "kind": "neighborhood",
-    "lat": 33.6806,
-    "lng": -117.8225,
-    "parent": "irvine",
+    "lat": 42.3354,
+    "lng": -83.0378,
+    "parent": "detroit",
     "main": false
   },
   {
-    "slug": "irvine-woodbury",
-    "name": "Woodbury",
-    "city": "Irvine",
+    "slug": "dearborn-west-dearborn",
+    "name": "West Dearborn",
+    "city": "Dearborn",
     "kind": "neighborhood",
-    "lat": 33.6846,
-    "lng": -117.8225,
-    "parent": "irvine",
+    "lat": 42.3143,
+    "lng": -83.1843,
+    "parent": "dearborn",
     "main": false
   },
   {
-    "slug": "irvine-portola-springs",
-    "name": "Portola Springs",
-    "city": "Irvine",
+    "slug": "dearborn-east-dearborn",
+    "name": "East Dearborn",
+    "city": "Dearborn",
     "kind": "neighborhood",
-    "lat": 33.6886,
-    "lng": -117.8225,
-    "parent": "irvine",
+    "lat": 42.3183,
+    "lng": -83.1843,
+    "parent": "dearborn",
     "main": false
   },
   {
-    "slug": "irvine-orchard-hills",
-    "name": "Orchard Hills",
-    "city": "Irvine",
+    "slug": "dearborn-ford-rouge-area",
+    "name": "Ford Rouge area",
+    "city": "Dearborn",
     "kind": "neighborhood",
-    "lat": 33.6926,
-    "lng": -117.8225,
-    "parent": "irvine",
+    "lat": 42.3223,
+    "lng": -83.1843,
+    "parent": "dearborn",
     "main": false
   },
   {
-    "slug": "irvine-eastwood-village",
-    "name": "Eastwood Village",
-    "city": "Irvine",
+    "slug": "dearborn-southend-dearborn",
+    "name": "Southend Dearborn",
+    "city": "Dearborn",
     "kind": "neighborhood",
-    "lat": 33.6766,
-    "lng": -117.8185,
-    "parent": "irvine",
+    "lat": 42.3263,
+    "lng": -83.1843,
+    "parent": "dearborn",
     "main": false
   },
   {
-    "slug": "irvine-great-park-neighborhoods",
-    "name": "Great Park Neighborhoods",
-    "city": "Irvine",
+    "slug": "livonia-rosedale-gardens",
+    "name": "Rosedale Gardens",
+    "city": "Livonia",
     "kind": "neighborhood",
-    "lat": 33.6806,
-    "lng": -117.8185,
-    "parent": "irvine",
+    "lat": 42.3604,
+    "lng": -83.3607,
+    "parent": "livonia",
     "main": false
   },
   {
-    "slug": "irvine-beacon-park",
-    "name": "Beacon Park",
-    "city": "Irvine",
+    "slug": "livonia-greenmead",
+    "name": "Greenmead",
+    "city": "Livonia",
     "kind": "neighborhood",
-    "lat": 33.6846,
-    "lng": -117.8185,
-    "parent": "irvine",
+    "lat": 42.3644,
+    "lng": -83.3607,
+    "parent": "livonia",
     "main": false
   },
   {
-    "slug": "irvine-pavilion-park",
-    "name": "Pavilion Park",
-    "city": "Irvine",
+    "slug": "livonia-livonia-downtown",
+    "name": "Livonia Downtown",
+    "city": "Livonia",
     "kind": "neighborhood",
-    "lat": 33.6886,
-    "lng": -117.8185,
-    "parent": "irvine",
+    "lat": 42.3684,
+    "lng": -83.3607,
+    "parent": "livonia",
     "main": false
   },
   {
-    "slug": "irvine-parasol-park",
-    "name": "Parasol Park",
-    "city": "Irvine",
+    "slug": "royal-oak-downtown-royal-oak",
+    "name": "Downtown Royal Oak",
+    "city": "Royal Oak",
     "kind": "neighborhood",
-    "lat": 33.6926,
-    "lng": -117.8185,
-    "parent": "irvine",
+    "lat": 42.4815,
+    "lng": -83.1526,
+    "parent": "royal-oak",
     "main": false
   },
   {
-    "slug": "irvine-rise-park",
-    "name": "Rise Park",
-    "city": "Irvine",
+    "slug": "royal-oak-norman-oaks",
+    "name": "Norman Oaks",
+    "city": "Royal Oak",
     "kind": "neighborhood",
-    "lat": 33.6766,
-    "lng": -117.8145,
-    "parent": "irvine",
+    "lat": 42.4855,
+    "lng": -83.1526,
+    "parent": "royal-oak",
     "main": false
   },
   {
-    "slug": "irvine-cadence-park",
-    "name": "Cadence Park",
-    "city": "Irvine",
+    "slug": "royal-oak-northwood-ferndale-border",
+    "name": "Northwood-Ferndale border",
+    "city": "Royal Oak",
     "kind": "neighborhood",
-    "lat": 33.6806,
-    "lng": -117.8145,
-    "parent": "irvine",
+    "lat": 42.4895,
+    "lng": -83.1526,
+    "parent": "royal-oak",
     "main": false
   },
   {
-    "slug": "irvine-solis-park",
-    "name": "Solis Park",
-    "city": "Irvine",
+    "slug": "troy-big-beaver-corridor",
+    "name": "Big Beaver Corridor",
+    "city": "Troy",
     "kind": "neighborhood",
-    "lat": 33.6846,
-    "lng": -117.8145,
-    "parent": "irvine",
+    "lat": 42.5984,
+    "lng": -83.1578,
+    "parent": "troy",
     "main": false
   },
   {
-    "slug": "irvine-los-olivos",
-    "name": "Los Olivos",
-    "city": "Irvine",
+    "slug": "troy-somerset-area",
+    "name": "Somerset area",
+    "city": "Troy",
     "kind": "neighborhood",
-    "lat": 33.6886,
-    "lng": -117.8145,
-    "parent": "irvine",
+    "lat": 42.6024,
+    "lng": -83.1578,
+    "parent": "troy",
     "main": false
   },
   {
-    "slug": "irvine-the-spectrum",
-    "name": "The Spectrum",
-    "city": "Irvine",
+    "slug": "troy-troy-historic-village-area",
+    "name": "Troy Historic Village area",
+    "city": "Troy",
     "kind": "neighborhood",
-    "lat": 33.6926,
-    "lng": -117.8145,
-    "parent": "irvine",
+    "lat": 42.6064,
+    "lng": -83.1578,
+    "parent": "troy",
     "main": false
   },
   {
-    "slug": "irvine-airport-area",
-    "name": "Airport Area",
-    "city": "Irvine",
+    "slug": "warren-warren-civic-center",
+    "name": "Warren Civic Center",
+    "city": "Warren",
     "kind": "neighborhood",
-    "lat": 33.6766,
-    "lng": -117.8105,
-    "parent": "irvine",
+    "lat": 42.5065,
+    "lng": -83.0227,
+    "parent": "warren",
     "main": false
   },
   {
-    "slug": "huntington-beach-downtown-hb",
-    "name": "Downtown HB",
-    "city": "Huntington Beach",
+    "slug": "warren-van-dyke-corridor",
+    "name": "Van Dyke Corridor",
+    "city": "Warren",
     "kind": "neighborhood",
-    "lat": 33.6515,
-    "lng": -118.0068,
-    "parent": "huntington-beach",
+    "lat": 42.5105,
+    "lng": -83.0227,
+    "parent": "warren",
     "main": false
   },
   {
-    "slug": "huntington-beach-huntington-harbour",
-    "name": "Huntington Harbour",
-    "city": "Huntington Beach",
+    "slug": "warren-warren-woods",
+    "name": "Warren Woods",
+    "city": "Warren",
     "kind": "neighborhood",
-    "lat": 33.6555,
-    "lng": -118.0068,
-    "parent": "huntington-beach",
+    "lat": 42.5145,
+    "lng": -83.0227,
+    "parent": "warren",
     "main": false
   },
   {
-    "slug": "huntington-beach-sunset-beach",
-    "name": "Sunset Beach",
-    "city": "Huntington Beach",
+    "slug": "sterling-heights-sterling-heights-utica-corridor",
+    "name": "Sterling Heights Utica corridor",
+    "city": "Sterling Heights",
     "kind": "neighborhood",
-    "lat": 33.6595,
-    "lng": -118.0068,
-    "parent": "huntington-beach",
+    "lat": 42.5723,
+    "lng": -83.0382,
+    "parent": "sterling-heights",
     "main": false
   },
   {
-    "slug": "huntington-beach-bolsa-chica",
-    "name": "Bolsa Chica",
-    "city": "Huntington Beach",
+    "slug": "sterling-heights-dodge-park-area",
+    "name": "Dodge Park area",
+    "city": "Sterling Heights",
     "kind": "neighborhood",
-    "lat": 33.6635,
-    "lng": -118.0068,
-    "parent": "huntington-beach",
+    "lat": 42.5763,
+    "lng": -83.0382,
+    "parent": "sterling-heights",
     "main": false
   },
   {
-    "slug": "huntington-beach-goldenwest",
-    "name": "Goldenwest",
-    "city": "Huntington Beach",
+    "slug": "farmington-hills-downtown-farmington",
+    "name": "Downtown Farmington",
+    "city": "Farmington Hills",
     "kind": "neighborhood",
-    "lat": 33.6675,
-    "lng": -118.0068,
-    "parent": "huntington-beach",
+    "lat": 42.4908,
+    "lng": -83.3757,
+    "parent": "farmington-hills",
     "main": false
   },
   {
-    "slug": "huntington-beach-seacliff",
-    "name": "Seacliff",
-    "city": "Huntington Beach",
+    "slug": "farmington-hills-heritage-park-area",
+    "name": "Heritage Park area",
+    "city": "Farmington Hills",
     "kind": "neighborhood",
-    "lat": 33.6515,
-    "lng": -118.0028,
-    "parent": "huntington-beach",
+    "lat": 42.4948,
+    "lng": -83.3757,
+    "parent": "farmington-hills",
     "main": false
   },
   {
-    "slug": "huntington-beach-edwards-hill",
-    "name": "Edwards Hill",
-    "city": "Huntington Beach",
+    "slug": "southfield-southfield-town-center",
+    "name": "Southfield Town Center",
+    "city": "Southfield",
     "kind": "neighborhood",
-    "lat": 33.6555,
-    "lng": -118.0028,
-    "parent": "huntington-beach",
+    "lat": 42.4654,
+    "lng": -83.2299,
+    "parent": "southfield",
     "main": false
   },
   {
-    "slug": "huntington-beach-brightwater",
-    "name": "Brightwater",
-    "city": "Huntington Beach",
+    "slug": "southfield-northland-area",
+    "name": "Northland area",
+    "city": "Southfield",
     "kind": "neighborhood",
-    "lat": 33.6595,
-    "lng": -118.0028,
-    "parent": "huntington-beach",
+    "lat": 42.4694,
+    "lng": -83.2299,
+    "parent": "southfield",
     "main": false
   },
   {
-    "slug": "huntington-beach-surf-city",
-    "name": "Surf City",
-    "city": "Huntington Beach",
+    "slug": "pontiac-downtown-pontiac",
+    "name": "Downtown Pontiac",
+    "city": "Pontiac",
     "kind": "neighborhood",
-    "lat": 33.6635,
-    "lng": -118.0028,
-    "parent": "huntington-beach",
+    "lat": 42.6309,
+    "lng": -83.299,
+    "parent": "pontiac",
     "main": false
   },
   {
-    "slug": "huntington-beach-bella-terra",
-    "name": "Bella Terra",
-    "city": "Huntington Beach",
+    "slug": "pontiac-phoenix-center-area",
+    "name": "Phoenix Center area",
+    "city": "Pontiac",
     "kind": "neighborhood",
-    "lat": 33.6675,
-    "lng": -118.0028,
-    "parent": "huntington-beach",
+    "lat": 42.6349,
+    "lng": -83.299,
+    "parent": "pontiac",
     "main": false
   },
   {
-    "slug": "huntington-beach-beachwalk",
-    "name": "Beachwalk",
-    "city": "Huntington Beach",
+    "slug": "rochester-hills-rochester-hills-downtown",
+    "name": "Rochester Hills Downtown",
+    "city": "Rochester Hills",
     "kind": "neighborhood",
-    "lat": 33.6515,
-    "lng": -117.9988,
-    "parent": "huntington-beach",
+    "lat": 42.6503,
+    "lng": -83.1579,
+    "parent": "rochester-hills",
     "main": false
   },
   {
-    "slug": "huntington-beach-pacific-ranch",
-    "name": "Pacific Ranch",
-    "city": "Huntington Beach",
+    "slug": "rochester-hills-stoney-creek-area",
+    "name": "Stoney Creek area",
+    "city": "Rochester Hills",
     "kind": "neighborhood",
-    "lat": 33.6555,
-    "lng": -117.9988,
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "huntington-beach-five-points",
-    "name": "Five Points",
-    "city": "Huntington Beach",
-    "kind": "neighborhood",
-    "lat": 33.6595,
-    "lng": -117.9988,
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "huntington-beach-yorktown-adams",
-    "name": "Yorktown-Adams",
-    "city": "Huntington Beach",
-    "kind": "neighborhood",
-    "lat": 33.6635,
-    "lng": -117.9988,
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "huntington-beach-newland",
-    "name": "Newland",
-    "city": "Huntington Beach",
-    "kind": "neighborhood",
-    "lat": 33.6675,
-    "lng": -117.9988,
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-historic-main-street",
-    "name": "Historic Main Street",
-    "city": "Garden Grove",
-    "kind": "neighborhood",
-    "lat": 33.7659,
-    "lng": -117.9494,
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-west-garden-grove",
-    "name": "West Garden Grove",
-    "city": "Garden Grove",
-    "kind": "neighborhood",
-    "lat": 33.7699,
-    "lng": -117.9494,
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-garden-park",
-    "name": "Garden Park",
-    "city": "Garden Grove",
-    "kind": "neighborhood",
-    "lat": 33.7739,
-    "lng": -117.9494,
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-garden-grove-north",
-    "name": "Garden Grove North",
-    "city": "Garden Grove",
-    "kind": "neighborhood",
-    "lat": 33.7779,
-    "lng": -117.9494,
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-brookhurst-triangle",
-    "name": "Brookhurst Triangle",
-    "city": "Garden Grove",
-    "kind": "neighborhood",
-    "lat": 33.7819,
-    "lng": -117.9494,
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-little-saigon-gg",
-    "name": "Little Saigon (GG)",
-    "city": "Garden Grove",
-    "kind": "neighborhood",
-    "lat": 33.7659,
-    "lng": -117.9454,
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-buena-clinton",
-    "name": "Buena-Clinton",
-    "city": "Garden Grove",
-    "kind": "neighborhood",
-    "lat": 33.7699,
-    "lng": -117.9454,
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "orange-old-towne-orange",
-    "name": "Old Towne Orange",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7798,
-    "lng": -117.8611,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-orange-park-acres",
-    "name": "Orange Park Acres",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7838,
-    "lng": -117.8611,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-mabury-ranch",
-    "name": "Mabury Ranch",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7878,
-    "lng": -117.8611,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-serrano-heights",
-    "name": "Serrano Heights",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7918,
-    "lng": -117.8611,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-east-orange",
-    "name": "East Orange",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7958,
-    "lng": -117.8611,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-west-orange",
-    "name": "West Orange",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7798,
-    "lng": -117.8571,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-santiago-hills",
-    "name": "Santiago Hills",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7838,
-    "lng": -117.8571,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-the-reserve-at-orange",
-    "name": "The Reserve at Orange",
-    "city": "Orange",
-    "kind": "neighborhood",
-    "lat": 33.7878,
-    "lng": -117.8571,
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "fullerton-downtown-fullerton",
-    "name": "Downtown Fullerton",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8624,
-    "lng": -117.9322,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-sunny-hills",
-    "name": "Sunny Hills",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8664,
-    "lng": -117.9322,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-raymond-hills",
-    "name": "Raymond Hills",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8704,
-    "lng": -117.9322,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-coyote-hills",
-    "name": "Coyote Hills",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8744,
-    "lng": -117.9322,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-acacia",
-    "name": "Acacia",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8784,
-    "lng": -117.9322,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-amerige-heights",
-    "name": "Amerige Heights",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8624,
-    "lng": -117.9282,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-golden-hill",
-    "name": "Golden Hill",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8664,
-    "lng": -117.9282,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-parks",
-    "name": "Parks",
-    "city": "Fullerton",
-    "kind": "neighborhood",
-    "lat": 33.8704,
-    "lng": -117.9282,
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-south-coast-metro-cm",
-    "name": "South Coast Metro (CM)",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6331,
-    "lng": -117.9267,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-eastside-costa-mesa",
-    "name": "Eastside Costa Mesa",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6371,
-    "lng": -117.9267,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-westside-costa-mesa",
-    "name": "Westside Costa Mesa",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6411,
-    "lng": -117.9267,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-mesa-verde",
-    "name": "Mesa Verde",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6451,
-    "lng": -117.9267,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-mesa-del-mar",
-    "name": "Mesa del Mar",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6491,
-    "lng": -117.9267,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-halecrest",
-    "name": "Halecrest",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6331,
-    "lng": -117.9227,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-college-park",
-    "name": "College Park",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6371,
-    "lng": -117.9227,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-newport-heights-cm-border",
-    "name": "Newport Heights (CM border)",
-    "city": "Costa Mesa",
-    "kind": "neighborhood",
-    "lat": 33.6411,
-    "lng": -117.9227,
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-balboa-island",
-    "name": "Balboa Island",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6109,
-    "lng": -117.9378,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-balboa-peninsula",
-    "name": "Balboa Peninsula",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6149,
-    "lng": -117.9378,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-corona-del-mar",
-    "name": "Corona del Mar",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6189,
-    "lng": -117.9378,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-newport-coast",
-    "name": "Newport Coast",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6229,
-    "lng": -117.9378,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-newport-heights",
-    "name": "Newport Heights",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6269,
-    "lng": -117.9378,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-lido-isle",
-    "name": "Lido Isle",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6109,
-    "lng": -117.9338,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-eastbluff",
-    "name": "Eastbluff",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6149,
-    "lng": -117.9338,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-big-canyon",
-    "name": "Big Canyon",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6189,
-    "lng": -117.9338,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-bay-shores",
-    "name": "Bay Shores",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6229,
-    "lng": -117.9338,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-dover-shores",
-    "name": "Dover Shores",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6269,
-    "lng": -117.9338,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-cliff-haven",
-    "name": "Cliff Haven",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6109,
-    "lng": -117.9298,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-harbor-view-homes",
-    "name": "Harbor View Homes",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6149,
-    "lng": -117.9298,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-spyglass-hill",
-    "name": "Spyglass Hill",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6189,
-    "lng": -117.9298,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-crystal-cove",
-    "name": "Crystal Cove",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6229,
-    "lng": -117.9298,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-newport-ridge",
-    "name": "Newport Ridge",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6269,
-    "lng": -117.9298,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-pelican-hill",
-    "name": "Pelican Hill",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6109,
-    "lng": -117.9258,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-pelican-crest",
-    "name": "Pelican Crest",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6149,
-    "lng": -117.9258,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-bayside-village",
-    "name": "Bayside Village",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6189,
-    "lng": -117.9258,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-mariners-mile",
-    "name": "Mariners Mile",
-    "city": "Newport Beach",
-    "kind": "neighborhood",
-    "lat": 33.6229,
-    "lng": -117.9258,
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-mission-viejo-north",
-    "name": "Mission Viejo North",
-    "city": "Mission Viejo",
-    "kind": "neighborhood",
-    "lat": 33.592,
-    "lng": -117.68,
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-mission-viejo-south",
-    "name": "Mission Viejo South",
-    "city": "Mission Viejo",
-    "kind": "neighborhood",
-    "lat": 33.596,
-    "lng": -117.68,
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-lake-mission-viejo",
-    "name": "Lake Mission Viejo",
-    "city": "Mission Viejo",
-    "kind": "neighborhood",
-    "lat": 33.6,
-    "lng": -117.68,
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-mission-viejo-country-club",
-    "name": "Mission Viejo Country Club",
-    "city": "Mission Viejo",
-    "kind": "neighborhood",
-    "lat": 33.604,
-    "lng": -117.68,
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-painted-trails",
-    "name": "Painted Trails",
-    "city": "Mission Viejo",
-    "kind": "neighborhood",
-    "lat": 33.608,
-    "lng": -117.68,
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-stoneridge",
-    "name": "Stoneridge",
-    "city": "Mission Viejo",
-    "kind": "neighborhood",
-    "lat": 33.592,
-    "lng": -117.676,
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-pacific-hills",
-    "name": "Pacific Hills",
-    "city": "Mission Viejo",
-    "kind": "neighborhood",
-    "lat": 33.596,
-    "lng": -117.676,
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "tustin-old-town-tustin",
-    "name": "Old Town Tustin",
-    "city": "Tustin",
-    "kind": "neighborhood",
-    "lat": 33.7378,
-    "lng": -117.8341,
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "tustin-tustin-ranch",
-    "name": "Tustin Ranch",
-    "city": "Tustin",
-    "kind": "neighborhood",
-    "lat": 33.7418,
-    "lng": -117.8341,
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "tustin-tustin-legacy",
-    "name": "Tustin Legacy",
-    "city": "Tustin",
-    "kind": "neighborhood",
-    "lat": 33.7458,
-    "lng": -117.8341,
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "tustin-tustin-field",
-    "name": "Tustin Field",
-    "city": "Tustin",
-    "kind": "neighborhood",
-    "lat": 33.7498,
-    "lng": -117.8341,
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "tustin-columbus-square",
-    "name": "Columbus Square",
-    "city": "Tustin",
-    "kind": "neighborhood",
-    "lat": 33.7538,
-    "lng": -117.8341,
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "tustin-columbus-grove",
-    "name": "Columbus Grove",
-    "city": "Tustin",
-    "kind": "neighborhood",
-    "lat": 33.7378,
-    "lng": -117.8301,
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "lake-forest-foothill-ranch",
-    "name": "Foothill Ranch",
-    "city": "Lake Forest",
-    "kind": "neighborhood",
-    "lat": 33.6389,
-    "lng": -117.6971,
-    "parent": "lake-forest",
-    "main": false
-  },
-  {
-    "slug": "lake-forest-portola-hills",
-    "name": "Portola Hills",
-    "city": "Lake Forest",
-    "kind": "neighborhood",
-    "lat": 33.6429,
-    "lng": -117.6971,
-    "parent": "lake-forest",
-    "main": false
-  },
-  {
-    "slug": "lake-forest-baker-ranch",
-    "name": "Baker Ranch",
-    "city": "Lake Forest",
-    "kind": "neighborhood",
-    "lat": 33.6469,
-    "lng": -117.6971,
-    "parent": "lake-forest",
-    "main": false
-  },
-  {
-    "slug": "lake-forest-serrano-highlands",
-    "name": "Serrano Highlands",
-    "city": "Lake Forest",
-    "kind": "neighborhood",
-    "lat": 33.6509,
-    "lng": -117.6971,
-    "parent": "lake-forest",
-    "main": false
-  },
-  {
-    "slug": "lake-forest-lake-forest-keys",
-    "name": "Lake Forest Keys",
-    "city": "Lake Forest",
-    "kind": "neighborhood",
-    "lat": 33.6549,
-    "lng": -117.6971,
-    "parent": "lake-forest",
-    "main": false
-  },
-  {
-    "slug": "lake-forest-the-parke",
-    "name": "The Parke",
-    "city": "Lake Forest",
-    "kind": "neighborhood",
-    "lat": 33.6389,
-    "lng": -117.6931,
-    "parent": "lake-forest",
-    "main": false
-  },
-  {
-    "slug": "laguna-niguel-marina-hills",
-    "name": "Marina Hills",
-    "city": "Laguna Niguel",
-    "kind": "neighborhood",
-    "lat": 33.5145,
-    "lng": -117.7155,
-    "parent": "laguna-niguel",
-    "main": false
-  },
-  {
-    "slug": "laguna-niguel-bear-brand-ranch",
-    "name": "Bear Brand Ranch",
-    "city": "Laguna Niguel",
-    "kind": "neighborhood",
-    "lat": 33.5185,
-    "lng": -117.7155,
-    "parent": "laguna-niguel",
-    "main": false
-  },
-  {
-    "slug": "laguna-niguel-niguel-summit",
-    "name": "Niguel Summit",
-    "city": "Laguna Niguel",
-    "kind": "neighborhood",
-    "lat": 33.5225,
-    "lng": -117.7155,
-    "parent": "laguna-niguel",
-    "main": false
-  },
-  {
-    "slug": "laguna-niguel-beacon-hill",
-    "name": "Beacon Hill",
-    "city": "Laguna Niguel",
-    "kind": "neighborhood",
-    "lat": 33.5265,
-    "lng": -117.7155,
-    "parent": "laguna-niguel",
-    "main": false
-  },
-  {
-    "slug": "laguna-niguel-kite-hill",
-    "name": "Kite Hill",
-    "city": "Laguna Niguel",
-    "kind": "neighborhood",
-    "lat": 33.5305,
-    "lng": -117.7155,
-    "parent": "laguna-niguel",
-    "main": false
-  },
-  {
-    "slug": "laguna-beach-north-laguna",
-    "name": "North Laguna",
-    "city": "Laguna Beach",
-    "kind": "neighborhood",
-    "lat": 33.5347,
-    "lng": -117.7934,
-    "parent": "laguna-beach",
-    "main": false
-  },
-  {
-    "slug": "laguna-beach-south-laguna",
-    "name": "South Laguna",
-    "city": "Laguna Beach",
-    "kind": "neighborhood",
-    "lat": 33.5387,
-    "lng": -117.7934,
-    "parent": "laguna-beach",
-    "main": false
-  },
-  {
-    "slug": "laguna-beach-top-of-the-world",
-    "name": "Top of the World",
-    "city": "Laguna Beach",
-    "kind": "neighborhood",
-    "lat": 33.5427,
-    "lng": -117.7934,
-    "parent": "laguna-beach",
-    "main": false
-  },
-  {
-    "slug": "laguna-beach-three-arch-bay",
-    "name": "Three Arch Bay",
-    "city": "Laguna Beach",
-    "kind": "neighborhood",
-    "lat": 33.5467,
-    "lng": -117.7934,
-    "parent": "laguna-beach",
-    "main": false
-  },
-  {
-    "slug": "laguna-beach-emerald-bay",
-    "name": "Emerald Bay",
-    "city": "Laguna Beach",
-    "kind": "neighborhood",
-    "lat": 33.5507,
-    "lng": -117.7934,
-    "parent": "laguna-beach",
-    "main": false
-  },
-  {
-    "slug": "laguna-beach-bluebird-canyon",
-    "name": "Bluebird Canyon",
-    "city": "Laguna Beach",
-    "kind": "neighborhood",
-    "lat": 33.5347,
-    "lng": -117.7894,
-    "parent": "laguna-beach",
-    "main": false
-  },
-  {
-    "slug": "laguna-beach-laguna-village",
-    "name": "Laguna Village",
-    "city": "Laguna Beach",
-    "kind": "neighborhood",
-    "lat": 33.5387,
-    "lng": -117.7894,
-    "parent": "laguna-beach",
-    "main": false
-  },
-  {
-    "slug": "dana-point-dana-point-harbor",
-    "name": "Dana Point Harbor",
-    "city": "Dana Point",
-    "kind": "neighborhood",
-    "lat": 33.4589,
-    "lng": -117.7061,
-    "parent": "dana-point",
-    "main": false
-  },
-  {
-    "slug": "dana-point-capistrano-beach",
-    "name": "Capistrano Beach",
-    "city": "Dana Point",
-    "kind": "neighborhood",
-    "lat": 33.4629,
-    "lng": -117.7061,
-    "parent": "dana-point",
-    "main": false
-  },
-  {
-    "slug": "dana-point-monarch-beach",
-    "name": "Monarch Beach",
-    "city": "Dana Point",
-    "kind": "neighborhood",
-    "lat": 33.4669,
-    "lng": -117.7061,
-    "parent": "dana-point",
-    "main": false
-  },
-  {
-    "slug": "dana-point-lantern-village",
-    "name": "Lantern Village",
-    "city": "Dana Point",
-    "kind": "neighborhood",
-    "lat": 33.4709,
-    "lng": -117.7061,
-    "parent": "dana-point",
-    "main": false
-  },
-  {
-    "slug": "dana-point-niguel-shores",
-    "name": "Niguel Shores",
-    "city": "Dana Point",
-    "kind": "neighborhood",
-    "lat": 33.4749,
-    "lng": -117.7061,
-    "parent": "dana-point",
-    "main": false
-  },
-  {
-    "slug": "san-clemente-talega",
-    "name": "Talega",
-    "city": "San Clemente",
-    "kind": "neighborhood",
-    "lat": 33.4189,
-    "lng": -117.62,
-    "parent": "san-clemente",
-    "main": false
-  },
-  {
-    "slug": "san-clemente-forster-ranch",
-    "name": "Forster Ranch",
-    "city": "San Clemente",
-    "kind": "neighborhood",
-    "lat": 33.4229,
-    "lng": -117.62,
-    "parent": "san-clemente",
-    "main": false
-  },
-  {
-    "slug": "san-clemente-rancho-san-clemente",
-    "name": "Rancho San Clemente",
-    "city": "San Clemente",
-    "kind": "neighborhood",
-    "lat": 33.4269,
-    "lng": -117.62,
-    "parent": "san-clemente",
-    "main": false
-  },
-  {
-    "slug": "san-clemente-coast-district",
-    "name": "Coast District",
-    "city": "San Clemente",
-    "kind": "neighborhood",
-    "lat": 33.4309,
-    "lng": -117.62,
-    "parent": "san-clemente",
-    "main": false
-  },
-  {
-    "slug": "san-clemente-marblehead",
-    "name": "Marblehead",
-    "city": "San Clemente",
-    "kind": "neighborhood",
-    "lat": 33.4349,
-    "lng": -117.62,
-    "parent": "san-clemente",
-    "main": false
-  },
-  {
-    "slug": "san-clemente-sea-pointe-estates",
-    "name": "Sea Pointe Estates",
-    "city": "San Clemente",
-    "kind": "neighborhood",
-    "lat": 33.4189,
-    "lng": -117.616,
-    "parent": "san-clemente",
-    "main": false
-  },
-  {
-    "slug": "san-juan-capistrano-mission-san-juan",
-    "name": "Mission San Juan",
-    "city": "San Juan Capistrano",
-    "kind": "neighborhood",
-    "lat": 33.4937,
-    "lng": -117.6705,
-    "parent": "san-juan-capistrano",
-    "main": false
-  },
-  {
-    "slug": "san-juan-capistrano-los-rios-district",
-    "name": "Los Rios District",
-    "city": "San Juan Capistrano",
-    "kind": "neighborhood",
-    "lat": 33.4977,
-    "lng": -117.6705,
-    "parent": "san-juan-capistrano",
-    "main": false
-  },
-  {
-    "slug": "san-juan-capistrano-stoneridge-sjc",
-    "name": "Stoneridge SJC",
-    "city": "San Juan Capistrano",
-    "kind": "neighborhood",
-    "lat": 33.5017,
-    "lng": -117.6705,
-    "parent": "san-juan-capistrano",
-    "main": false
-  },
-  {
-    "slug": "san-juan-capistrano-whispering-hills",
-    "name": "Whispering Hills",
-    "city": "San Juan Capistrano",
-    "kind": "neighborhood",
-    "lat": 33.5057,
-    "lng": -117.6705,
-    "parent": "san-juan-capistrano",
-    "main": false
-  },
-  {
-    "slug": "yorba-linda-east-lake-village",
-    "name": "East Lake Village",
-    "city": "Yorba Linda",
-    "kind": "neighborhood",
-    "lat": 33.8806,
-    "lng": -117.8211,
-    "parent": "yorba-linda",
-    "main": false
-  },
-  {
-    "slug": "yorba-linda-vista-del-verde",
-    "name": "Vista del Verde",
-    "city": "Yorba Linda",
-    "kind": "neighborhood",
-    "lat": 33.8846,
-    "lng": -117.8211,
-    "parent": "yorba-linda",
-    "main": false
-  },
-  {
-    "slug": "yorba-linda-yorba-linda-estates",
-    "name": "Yorba Linda Estates",
-    "city": "Yorba Linda",
-    "kind": "neighborhood",
-    "lat": 33.8886,
-    "lng": -117.8211,
-    "parent": "yorba-linda",
-    "main": false
-  },
-  {
-    "slug": "yorba-linda-kerrigan-ranch",
-    "name": "Kerrigan Ranch",
-    "city": "Yorba Linda",
-    "kind": "neighborhood",
-    "lat": 33.8926,
-    "lng": -117.8211,
-    "parent": "yorba-linda",
-    "main": false
-  },
-  {
-    "slug": "yorba-linda-hidden-hills",
-    "name": "Hidden Hills",
-    "city": "Yorba Linda",
-    "kind": "neighborhood",
-    "lat": 33.8966,
-    "lng": -117.8211,
-    "parent": "yorba-linda",
-    "main": false
-  },
-  {
-    "slug": "brea-olinda-village",
-    "name": "Olinda Village",
-    "city": "Brea",
-    "kind": "neighborhood",
-    "lat": 33.9087,
-    "lng": -117.908,
-    "parent": "brea",
-    "main": false
-  },
-  {
-    "slug": "brea-country-hills",
-    "name": "Country Hills",
-    "city": "Brea",
-    "kind": "neighborhood",
-    "lat": 33.9127,
-    "lng": -117.908,
-    "parent": "brea",
-    "main": false
-  },
-  {
-    "slug": "brea-blackstone",
-    "name": "Blackstone",
-    "city": "Brea",
-    "kind": "neighborhood",
-    "lat": 33.9167,
-    "lng": -117.908,
-    "parent": "brea",
-    "main": false
-  },
-  {
-    "slug": "brea-la-floresta",
-    "name": "La Floresta",
-    "city": "Brea",
-    "kind": "neighborhood",
-    "lat": 33.9207,
-    "lng": -117.908,
-    "parent": "brea",
-    "main": false
-  },
-  {
-    "slug": "buena-park-buena-park-downtown",
-    "name": "Buena Park Downtown",
-    "city": "Buena Park",
-    "kind": "neighborhood",
-    "lat": 33.8595,
-    "lng": -118.0061,
-    "parent": "buena-park",
-    "main": false
-  },
-  {
-    "slug": "buena-park-knott-avenue-corridor",
-    "name": "Knott Avenue Corridor",
-    "city": "Buena Park",
-    "kind": "neighborhood",
-    "lat": 33.8635,
-    "lng": -118.0061,
-    "parent": "buena-park",
-    "main": false
-  },
-  {
-    "slug": "buena-park-bellehurst",
-    "name": "Bellehurst",
-    "city": "Buena Park",
-    "kind": "neighborhood",
-    "lat": 33.8675,
-    "lng": -118.0061,
-    "parent": "buena-park",
-    "main": false
-  },
-  {
-    "slug": "westminster-little-saigon",
-    "name": "Little Saigon",
-    "city": "Westminster",
-    "kind": "neighborhood",
-    "lat": 33.7434,
-    "lng": -118.0019,
-    "parent": "westminster",
-    "main": false
-  },
-  {
-    "slug": "westminster-bolsa-avenue",
-    "name": "Bolsa Avenue",
-    "city": "Westminster",
-    "kind": "neighborhood",
-    "lat": 33.7474,
-    "lng": -118.0019,
-    "parent": "westminster",
-    "main": false
-  },
-  {
-    "slug": "westminster-westminster-north",
-    "name": "Westminster North",
-    "city": "Westminster",
-    "kind": "neighborhood",
-    "lat": 33.7514,
-    "lng": -118.0019,
-    "parent": "westminster",
-    "main": false
-  },
-  {
-    "slug": "cypress-sorrento",
-    "name": "Sorrento",
-    "city": "Cypress",
-    "kind": "neighborhood",
-    "lat": 33.8089,
-    "lng": -118.0453,
-    "parent": "cypress",
-    "main": false
-  },
-  {
-    "slug": "cypress-cypress-village-cy",
-    "name": "Cypress Village (CY)",
-    "city": "Cypress",
-    "kind": "neighborhood",
-    "lat": 33.8129,
-    "lng": -118.0453,
-    "parent": "cypress",
-    "main": false
-  },
-  {
-    "slug": "cypress-lincoln-avenue-corridor",
-    "name": "Lincoln Avenue Corridor",
-    "city": "Cypress",
-    "kind": "neighborhood",
-    "lat": 33.8169,
-    "lng": -118.0453,
-    "parent": "cypress",
-    "main": false
-  },
-  {
-    "slug": "aliso-viejo-glenwood",
-    "name": "Glenwood",
-    "city": "Aliso Viejo",
-    "kind": "neighborhood",
-    "lat": 33.5687,
-    "lng": -117.7336,
-    "parent": "aliso-viejo",
-    "main": false
-  },
-  {
-    "slug": "aliso-viejo-westridge",
-    "name": "Westridge",
-    "city": "Aliso Viejo",
-    "kind": "neighborhood",
-    "lat": 33.5727,
-    "lng": -117.7336,
-    "parent": "aliso-viejo",
-    "main": false
-  },
-  {
-    "slug": "aliso-viejo-pacific-park",
-    "name": "Pacific Park",
-    "city": "Aliso Viejo",
-    "kind": "neighborhood",
-    "lat": 33.5767,
-    "lng": -117.7336,
-    "parent": "aliso-viejo",
-    "main": false
-  },
-  {
-    "slug": "aliso-viejo-california-renaissance",
-    "name": "California Renaissance",
-    "city": "Aliso Viejo",
-    "kind": "neighborhood",
-    "lat": 33.5807,
-    "lng": -117.7336,
-    "parent": "aliso-viejo",
-    "main": false
-  },
-  {
-    "slug": "rancho-santa-margarita-dove-canyon",
-    "name": "Dove Canyon",
-    "city": "Rancho Santa Margarita",
-    "kind": "neighborhood",
-    "lat": 33.6326,
-    "lng": -117.6111,
-    "parent": "rancho-santa-margarita",
-    "main": false
-  },
-  {
-    "slug": "rancho-santa-margarita-robinson-ranch",
-    "name": "Robinson Ranch",
-    "city": "Rancho Santa Margarita",
-    "kind": "neighborhood",
-    "lat": 33.6366,
-    "lng": -117.6111,
-    "parent": "rancho-santa-margarita",
-    "main": false
-  },
-  {
-    "slug": "rancho-santa-margarita-melinda-heights",
-    "name": "Melinda Heights",
-    "city": "Rancho Santa Margarita",
-    "kind": "neighborhood",
-    "lat": 33.6406,
-    "lng": -117.6111,
-    "parent": "rancho-santa-margarita",
-    "main": false
-  },
-  {
-    "slug": "rancho-santa-margarita-las-flores-rsm",
-    "name": "Las Flores RSM",
-    "city": "Rancho Santa Margarita",
-    "kind": "neighborhood",
-    "lat": 33.6446,
-    "lng": -117.6111,
-    "parent": "rancho-santa-margarita",
-    "main": false
-  },
-  {
-    "slug": "placentia-alta-vista",
-    "name": "Alta Vista",
-    "city": "Placentia",
-    "kind": "neighborhood",
-    "lat": 33.8642,
-    "lng": -117.8783,
-    "parent": "placentia",
-    "main": false
-  },
-  {
-    "slug": "placentia-placentia-old-town",
-    "name": "Placentia Old Town",
-    "city": "Placentia",
-    "kind": "neighborhood",
-    "lat": 33.8682,
-    "lng": -117.8783,
-    "parent": "placentia",
-    "main": false
-  },
-  {
-    "slug": "fountain-valley-green-valley",
-    "name": "Green Valley",
-    "city": "Fountain Valley",
-    "kind": "neighborhood",
-    "lat": 33.7012,
-    "lng": -117.9616,
-    "parent": "fountain-valley",
-    "main": false
-  },
-  {
-    "slug": "fountain-valley-mile-square",
-    "name": "Mile Square",
-    "city": "Fountain Valley",
-    "kind": "neighborhood",
-    "lat": 33.7052,
-    "lng": -117.9616,
-    "parent": "fountain-valley",
-    "main": false
-  },
-  {
-    "slug": "seal-beach-old-town-seal-beach",
-    "name": "Old Town Seal Beach",
-    "city": "Seal Beach",
-    "kind": "neighborhood",
-    "lat": 33.7334,
-    "lng": -118.1128,
-    "parent": "seal-beach",
-    "main": false
-  },
-  {
-    "slug": "seal-beach-leisure-world",
-    "name": "Leisure World",
-    "city": "Seal Beach",
-    "kind": "neighborhood",
-    "lat": 33.7374,
-    "lng": -118.1128,
-    "parent": "seal-beach",
-    "main": false
-  },
-  {
-    "slug": "seal-beach-bridgeport",
-    "name": "Bridgeport",
-    "city": "Seal Beach",
-    "kind": "neighborhood",
-    "lat": 33.7414,
-    "lng": -118.1128,
-    "parent": "seal-beach",
-    "main": false
-  },
-  {
-    "slug": "seal-beach-the-hill",
-    "name": "The Hill",
-    "city": "Seal Beach",
-    "kind": "neighborhood",
-    "lat": 33.7454,
-    "lng": -118.1128,
-    "parent": "seal-beach",
-    "main": false
-  },
-  {
-    "slug": "la-habra-la-habra-heights-border",
-    "name": "La Habra Heights border",
-    "city": "La Habra",
-    "kind": "neighborhood",
-    "lat": 33.9239,
-    "lng": -117.9541,
-    "parent": "la-habra",
-    "main": false
-  },
-  {
-    "slug": "la-habra-westridge-lh",
-    "name": "Westridge LH",
-    "city": "La Habra",
-    "kind": "neighborhood",
-    "lat": 33.9279,
-    "lng": -117.9541,
-    "parent": "la-habra",
-    "main": false
-  },
-  {
-    "slug": "stanton-stanton-central",
-    "name": "Stanton Central",
-    "city": "Stanton",
-    "kind": "neighborhood",
-    "lat": 33.7945,
-    "lng": -118.0011,
-    "parent": "stanton",
-    "main": false
-  },
-  {
-    "slug": "stanton-tina-pacific",
-    "name": "Tina-Pacific",
-    "city": "Stanton",
-    "kind": "neighborhood",
-    "lat": 33.7985,
-    "lng": -118.0011,
-    "parent": "stanton",
-    "main": false
-  },
-  {
-    "slug": "laguna-hills-nellie-gail-ranch",
-    "name": "Nellie Gail Ranch",
-    "city": "Laguna Hills",
-    "kind": "neighborhood",
-    "lat": 33.589,
-    "lng": -117.7339,
-    "parent": "laguna-hills",
-    "main": false
-  },
-  {
-    "slug": "laguna-hills-moulton-ranch",
-    "name": "Moulton Ranch",
-    "city": "Laguna Hills",
-    "kind": "neighborhood",
-    "lat": 33.593,
-    "lng": -117.7339,
-    "parent": "laguna-hills",
-    "main": false
-  },
-  {
-    "slug": "laguna-hills-aliso-meadows",
-    "name": "Aliso Meadows",
-    "city": "Laguna Hills",
-    "kind": "neighborhood",
-    "lat": 33.597,
-    "lng": -117.7339,
-    "parent": "laguna-hills",
-    "main": false
-  },
-  {
-    "slug": "laguna-woods-laguna-woods-village",
-    "name": "Laguna Woods Village",
-    "city": "Laguna Woods",
-    "kind": "neighborhood",
-    "lat": 33.6023,
-    "lng": -117.7366,
-    "parent": "laguna-woods",
-    "main": false
-  },
-  {
-    "slug": "anaheim-92801",
-    "name": "Anaheim 92801",
-    "city": "Anaheim",
-    "kind": "zip-area",
-    "lat": 33.8306,
-    "lng": -117.9203,
-    "zip": [
-      "92801"
-    ],
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-92802",
-    "name": "Anaheim 92802",
-    "city": "Anaheim",
-    "kind": "zip-area",
-    "lat": 33.8366,
-    "lng": -117.9203,
-    "zip": [
-      "92802"
-    ],
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-92804",
-    "name": "Anaheim 92804",
-    "city": "Anaheim",
-    "kind": "zip-area",
-    "lat": 33.8426,
-    "lng": -117.9203,
-    "zip": [
-      "92804"
-    ],
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-92805",
-    "name": "Anaheim 92805",
-    "city": "Anaheim",
-    "kind": "zip-area",
-    "lat": 33.8486,
-    "lng": -117.9203,
-    "zip": [
-      "92805"
-    ],
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-92806",
-    "name": "Anaheim 92806",
-    "city": "Anaheim",
-    "kind": "zip-area",
-    "lat": 33.8306,
-    "lng": -117.9143,
-    "zip": [
-      "92806"
-    ],
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-92807",
-    "name": "Anaheim 92807",
-    "city": "Anaheim",
-    "kind": "zip-area",
-    "lat": 33.8366,
-    "lng": -117.9143,
-    "zip": [
-      "92807"
-    ],
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "anaheim-92808",
-    "name": "Anaheim 92808",
-    "city": "Anaheim",
-    "kind": "zip-area",
-    "lat": 33.8426,
-    "lng": -117.9143,
-    "zip": [
-      "92808"
-    ],
-    "parent": "anaheim",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-92701",
-    "name": "Santa Ana 92701",
-    "city": "Santa Ana",
-    "kind": "zip-area",
-    "lat": 33.7395,
-    "lng": -117.8737,
-    "zip": [
-      "92701"
-    ],
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-92703",
-    "name": "Santa Ana 92703",
-    "city": "Santa Ana",
-    "kind": "zip-area",
-    "lat": 33.7455,
-    "lng": -117.8737,
-    "zip": [
-      "92703"
-    ],
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-92704",
-    "name": "Santa Ana 92704",
-    "city": "Santa Ana",
-    "kind": "zip-area",
-    "lat": 33.7515,
-    "lng": -117.8737,
-    "zip": [
-      "92704"
-    ],
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-92705",
-    "name": "Santa Ana 92705",
-    "city": "Santa Ana",
-    "kind": "zip-area",
-    "lat": 33.7575,
-    "lng": -117.8737,
-    "zip": [
-      "92705"
-    ],
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-92706",
-    "name": "Santa Ana 92706",
-    "city": "Santa Ana",
-    "kind": "zip-area",
-    "lat": 33.7395,
-    "lng": -117.8677,
-    "zip": [
-      "92706"
-    ],
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "santa-ana-92707",
-    "name": "Santa Ana 92707",
-    "city": "Santa Ana",
-    "kind": "zip-area",
-    "lat": 33.7455,
-    "lng": -117.8677,
-    "zip": [
-      "92707"
-    ],
-    "parent": "santa-ana",
-    "main": false
-  },
-  {
-    "slug": "irvine-92602",
-    "name": "Irvine 92602",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6786,
-    "lng": -117.8325,
-    "zip": [
-      "92602"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92603",
-    "name": "Irvine 92603",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6846,
-    "lng": -117.8325,
-    "zip": [
-      "92603"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92604",
-    "name": "Irvine 92604",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6906,
-    "lng": -117.8325,
-    "zip": [
-      "92604"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92606",
-    "name": "Irvine 92606",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6966,
-    "lng": -117.8325,
-    "zip": [
-      "92606"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92612",
-    "name": "Irvine 92612",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6786,
-    "lng": -117.8265,
-    "zip": [
-      "92612"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92614",
-    "name": "Irvine 92614",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6846,
-    "lng": -117.8265,
-    "zip": [
-      "92614"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92617",
-    "name": "Irvine 92617",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6906,
-    "lng": -117.8265,
-    "zip": [
-      "92617"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92618",
-    "name": "Irvine 92618",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6966,
-    "lng": -117.8265,
-    "zip": [
-      "92618"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "irvine-92620",
-    "name": "Irvine 92620",
-    "city": "Irvine",
-    "kind": "zip-area",
-    "lat": 33.6786,
-    "lng": -117.8205,
-    "zip": [
-      "92620"
-    ],
-    "parent": "irvine",
-    "main": false
-  },
-  {
-    "slug": "huntington-beach-92646",
-    "name": "Huntington Beach 92646",
-    "city": "Huntington Beach",
-    "kind": "zip-area",
-    "lat": 33.6535,
-    "lng": -118.0048,
-    "zip": [
-      "92646"
-    ],
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "huntington-beach-92647",
-    "name": "Huntington Beach 92647",
-    "city": "Huntington Beach",
-    "kind": "zip-area",
-    "lat": 33.6595,
-    "lng": -118.0048,
-    "zip": [
-      "92647"
-    ],
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "huntington-beach-92648",
-    "name": "Huntington Beach 92648",
-    "city": "Huntington Beach",
-    "kind": "zip-area",
-    "lat": 33.6655,
-    "lng": -118.0048,
-    "zip": [
-      "92648"
-    ],
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "huntington-beach-92649",
-    "name": "Huntington Beach 92649",
-    "city": "Huntington Beach",
-    "kind": "zip-area",
-    "lat": 33.6715,
-    "lng": -118.0048,
-    "zip": [
-      "92649"
-    ],
-    "parent": "huntington-beach",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-92840",
-    "name": "Garden Grove 92840",
-    "city": "Garden Grove",
-    "kind": "zip-area",
-    "lat": 33.7679,
-    "lng": -117.9474,
-    "zip": [
-      "92840"
-    ],
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-92841",
-    "name": "Garden Grove 92841",
-    "city": "Garden Grove",
-    "kind": "zip-area",
-    "lat": 33.7739,
-    "lng": -117.9474,
-    "zip": [
-      "92841"
-    ],
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-92843",
-    "name": "Garden Grove 92843",
-    "city": "Garden Grove",
-    "kind": "zip-area",
-    "lat": 33.7799,
-    "lng": -117.9474,
-    "zip": [
-      "92843"
-    ],
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-92844",
-    "name": "Garden Grove 92844",
-    "city": "Garden Grove",
-    "kind": "zip-area",
-    "lat": 33.7859,
-    "lng": -117.9474,
-    "zip": [
-      "92844"
-    ],
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "garden-grove-92845",
-    "name": "Garden Grove 92845",
-    "city": "Garden Grove",
-    "kind": "zip-area",
-    "lat": 33.7679,
-    "lng": -117.9414,
-    "zip": [
-      "92845"
-    ],
-    "parent": "garden-grove",
-    "main": false
-  },
-  {
-    "slug": "orange-92865",
-    "name": "Orange 92865",
-    "city": "Orange",
-    "kind": "zip-area",
-    "lat": 33.7818,
-    "lng": -117.8591,
-    "zip": [
-      "92865"
-    ],
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-92866",
-    "name": "Orange 92866",
-    "city": "Orange",
-    "kind": "zip-area",
-    "lat": 33.7878,
-    "lng": -117.8591,
-    "zip": [
-      "92866"
-    ],
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-92867",
-    "name": "Orange 92867",
-    "city": "Orange",
-    "kind": "zip-area",
-    "lat": 33.7938,
-    "lng": -117.8591,
-    "zip": [
-      "92867"
-    ],
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-92868",
-    "name": "Orange 92868",
-    "city": "Orange",
-    "kind": "zip-area",
-    "lat": 33.7998,
-    "lng": -117.8591,
-    "zip": [
-      "92868"
-    ],
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "orange-92869",
-    "name": "Orange 92869",
-    "city": "Orange",
-    "kind": "zip-area",
-    "lat": 33.7818,
-    "lng": -117.8531,
-    "zip": [
-      "92869"
-    ],
-    "parent": "orange",
-    "main": false
-  },
-  {
-    "slug": "fullerton-92831",
-    "name": "Fullerton 92831",
-    "city": "Fullerton",
-    "kind": "zip-area",
-    "lat": 33.8644,
-    "lng": -117.9302,
-    "zip": [
-      "92831"
-    ],
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-92832",
-    "name": "Fullerton 92832",
-    "city": "Fullerton",
-    "kind": "zip-area",
-    "lat": 33.8704,
-    "lng": -117.9302,
-    "zip": [
-      "92832"
-    ],
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-92833",
-    "name": "Fullerton 92833",
-    "city": "Fullerton",
-    "kind": "zip-area",
-    "lat": 33.8764,
-    "lng": -117.9302,
-    "zip": [
-      "92833"
-    ],
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "fullerton-92835",
-    "name": "Fullerton 92835",
-    "city": "Fullerton",
-    "kind": "zip-area",
-    "lat": 33.8824,
-    "lng": -117.9302,
-    "zip": [
-      "92835"
-    ],
-    "parent": "fullerton",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-92626",
-    "name": "Costa Mesa 92626",
-    "city": "Costa Mesa",
-    "kind": "zip-area",
-    "lat": 33.6351,
-    "lng": -117.9247,
-    "zip": [
-      "92626"
-    ],
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "costa-mesa-92627",
-    "name": "Costa Mesa 92627",
-    "city": "Costa Mesa",
-    "kind": "zip-area",
-    "lat": 33.6411,
-    "lng": -117.9247,
-    "zip": [
-      "92627"
-    ],
-    "parent": "costa-mesa",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-92660",
-    "name": "Newport Beach 92660",
-    "city": "Newport Beach",
-    "kind": "zip-area",
-    "lat": 33.6129,
-    "lng": -117.9358,
-    "zip": [
-      "92660"
-    ],
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-92661",
-    "name": "Newport Beach 92661",
-    "city": "Newport Beach",
-    "kind": "zip-area",
-    "lat": 33.6189,
-    "lng": -117.9358,
-    "zip": [
-      "92661"
-    ],
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-92662",
-    "name": "Newport Beach 92662",
-    "city": "Newport Beach",
-    "kind": "zip-area",
-    "lat": 33.6249,
-    "lng": -117.9358,
-    "zip": [
-      "92662"
-    ],
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-92663",
-    "name": "Newport Beach 92663",
-    "city": "Newport Beach",
-    "kind": "zip-area",
-    "lat": 33.6309,
-    "lng": -117.9358,
-    "zip": [
-      "92663"
-    ],
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "newport-beach-92657",
-    "name": "Newport Beach 92657",
-    "city": "Newport Beach",
-    "kind": "zip-area",
-    "lat": 33.6129,
-    "lng": -117.9298,
-    "zip": [
-      "92657"
-    ],
-    "parent": "newport-beach",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-92691",
-    "name": "Mission Viejo 92691",
-    "city": "Mission Viejo",
-    "kind": "zip-area",
-    "lat": 33.594,
-    "lng": -117.678,
-    "zip": [
-      "92691"
-    ],
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "mission-viejo-92692",
-    "name": "Mission Viejo 92692",
-    "city": "Mission Viejo",
-    "kind": "zip-area",
-    "lat": 33.6,
-    "lng": -117.678,
-    "zip": [
-      "92692"
-    ],
-    "parent": "mission-viejo",
-    "main": false
-  },
-  {
-    "slug": "tustin-92780",
-    "name": "Tustin 92780",
-    "city": "Tustin",
-    "kind": "zip-area",
-    "lat": 33.7398,
-    "lng": -117.8321,
-    "zip": [
-      "92780"
-    ],
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "tustin-92782",
-    "name": "Tustin 92782",
-    "city": "Tustin",
-    "kind": "zip-area",
-    "lat": 33.7458,
-    "lng": -117.8321,
-    "zip": [
-      "92782"
-    ],
-    "parent": "tustin",
-    "main": false
-  },
-  {
-    "slug": "lake-forest-92630",
-    "name": "Lake Forest 92630",
-    "city": "Lake Forest",
-    "kind": "zip-area",
-    "lat": 33.6409,
-    "lng": -117.6951,
-    "zip": [
-      "92630"
-    ],
-    "parent": "lake-forest",
-    "main": false
-  },
-  {
-    "slug": "yorba-linda-92886",
-    "name": "Yorba Linda 92886",
-    "city": "Yorba Linda",
-    "kind": "zip-area",
-    "lat": 33.8826,
-    "lng": -117.8191,
-    "zip": [
-      "92886"
-    ],
-    "parent": "yorba-linda",
-    "main": false
-  },
-  {
-    "slug": "yorba-linda-92887",
-    "name": "Yorba Linda 92887",
-    "city": "Yorba Linda",
-    "kind": "zip-area",
-    "lat": 33.8886,
-    "lng": -117.8191,
-    "zip": [
-      "92887"
-    ],
-    "parent": "yorba-linda",
-    "main": false
-  },
-  {
-    "slug": "westminster-92683",
-    "name": "Westminster 92683",
-    "city": "Westminster",
-    "kind": "zip-area",
-    "lat": 33.7454,
-    "lng": -117.9999,
-    "zip": [
-      "92683"
-    ],
-    "parent": "westminster",
+    "lat": 42.6543,
+    "lng": -83.1579,
+    "parent": "rochester-hills",
     "main": false
   }
 ]

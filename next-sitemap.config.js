@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://ohlockandkey.com",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://bhdrywallmetrodetroit.com",
   generateRobotsTxt: false, // we ship a custom robots.ts
   changefreq: "weekly",
   priority: 0.7,

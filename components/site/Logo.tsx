@@ -3,12 +3,11 @@ import Image from "next/image";
 import { cn } from "@/lib/cn";
 
 /**
- * OH Lock & Key Solutions brand mark.
- * Photographic brass shield logo served from /public/logo.png.
+ * BH Drywall Metro Detroit brand mark.
  */
 export function LogoMark({
   className,
-  title = "OH Lock & Key Solutions",
+  title = "BH Drywall Metro Detroit",
   priority = false,
 }: { className?: string; title?: string; priority?: boolean }) {
   return (
@@ -36,9 +35,9 @@ export function Logo({
       <LogoMark className={dim} />
       {showWordmark && (
         <span className={cn("font-display font-extrabold tracking-tight leading-none flex flex-col", text)}>
-          <span>OH Lock <span className="text-brass-400">&</span> Key</span>
+          <span>BH Drywall</span>
           <span className="mt-1 text-[9px] font-semibold tracking-[0.25em] text-brass-400/80 uppercase">
-            Solutions · OC
+            Metro Detroit
           </span>
         </span>
       )}

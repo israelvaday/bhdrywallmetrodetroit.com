@@ -5,7 +5,7 @@ import { SERVICES } from "@/content/services";
 export function localBusinessJsonLd() {
   return {
     "@context": "https://schema.org",
-    "@type": "Locksmith",
+    "@type": "HomeAndConstructionBusiness",
     "@id": `${BIZ.url}/#business`,
     name: BIZ.name,
     image: `${BIZ.url}/og-default.jpg`,
@@ -32,25 +32,19 @@ export function localBusinessJsonLd() {
       name: a.name,
       ...(a.zip ? { postalCode: a.zip[0] } : {}),
     })),
-    openingHoursSpecification: [
-      {
+    openingHoursSpecification: BIZ.hours
+      .filter((h) => !("closed" in h && h.closed))
+      .map((h) => ({
         "@type": "OpeningHoursSpecification",
-        dayOfWeek: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
-        opens: "06:00",
-        closes: "23:59",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: "Friday",
-        opens: "06:00",
-        closes: "18:00",
-      },
-    ],
+        dayOfWeek: h.label,
+        opens: h.open,
+        closes: h.close,
+      })),
     hasCredential: {
       "@type": "EducationalOccupationalCredential",
       credentialCategory: "license",
-      name: "California BSIS Locksmith License",
-      identifier: BIZ.bsis,
+      name: "Licensed & Insured Drywall Contractor",
+      identifier: BIZ.licenseId,
     },
     sameAs: Object.values(BIZ.social).filter(Boolean),
   };
@@ -65,7 +59,7 @@ export function serviceJsonLd(slug: string) {
     serviceType: s.name,
     description: s.description,
     provider: { "@id": `${BIZ.url}/#business` },
-    areaServed: { "@type": "AdministrativeArea", name: "Orange County, CA" },
+    areaServed: { "@type": "AdministrativeArea", name: "Metro Detroit, MI" },
     url: `${BIZ.url}/services/${s.slug}`,
   };
 }

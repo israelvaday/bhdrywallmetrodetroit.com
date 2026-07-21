@@ -18,7 +18,7 @@ export function ServiceMap({
   className?: string;
 }) {
   // Prefer exact coordinates when given so the map is centered on the
-  // specific service area, not a generic Google "locksmith near you" pin.
+  // specific service area, not a generic Google "drywall contractor near you" pin.
   const src =
     typeof lat === "number" && typeof lng === "number"
       ? `https://maps.google.com/maps?q=${lat},${lng}&z=${zoom}&t=m&ie=UTF8&iwloc=&output=embed`

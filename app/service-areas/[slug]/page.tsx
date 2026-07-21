@@ -32,10 +32,10 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!a) return {};
   const info = INSIGHTS[slug];
   const desc = info?.tagline
-    ? `${info.tagline} 24/7 BSIS #${BIZ.bsis} locksmith dispatch with 15–30 min ETA.`
-    : `24/7 BSIS-licensed locksmith serving ${a.name}, Orange County. Residential, commercial, automotive, smart locks, safes.`;
+    ? `${info.tagline} Free estimates from a licensed & insured drywall crew serving ${a.name}, MI.`
+    : `Drywall hang, finish, and repair in ${a.name}, Metro Detroit. Residential & commercial.`;
   return {
-    title: `Locksmith in ${a.name}, CA`,
+    title: `Drywall Contractor in ${a.name}, MI`,
     description: desc,
     keywords: info?.keywords,
     alternates: { canonical: `/service-areas/${a.slug}` },
@@ -71,17 +71,17 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             <div>
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
-                  <ShieldCheck className="h-3.5 w-3.5" /> BSIS #{BIZ.bsis}
+                  <ShieldCheck className="h-3.5 w-3.5" /> Licensed · {BIZ.bsis}
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
-                  <Clock className="h-3.5 w-3.5" /> Open 24 / 7
+                  <Clock className="h-3.5 w-3.5" /> Mon–Sat service
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-950/60 px-3 py-1.5 text-xs font-semibold text-ink-200 backdrop-blur">
                   <MapPin className="h-3.5 w-3.5 text-brass-400" /> {a.kind === "city" ? "City" : "Neighborhood"}
                 </span>
               </div>
               <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-                Locksmith in <span className="text-brass-gradient">{a.name}</span>, CA
+                Drywall Contractor in <span className="text-brass-gradient">{a.name}</span>, MI
               </h1>
               {info.tagline && (
                 <p className="mt-3 text-lg font-medium text-brass-200 md:text-xl">{info.tagline}</p>
@@ -146,14 +146,14 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
               Exact coverage centered on {a.name}
             </h2>
             <p className="mt-2 text-sm text-ink-300">
-              Live dispatch radius — {a.lat.toFixed(3)}°, {a.lng.toFixed(3)}°
+              Map centered on {a.name} — {a.lat.toFixed(3)}°, {a.lng.toFixed(3)}°
             </p>
           </div>
           <ServiceMap
             lat={a.lat}
             lng={a.lng}
             zoom={a.kind === "city" ? 13 : 14}
-            title={`${a.name}, CA`}
+            title={`${a.name}, MI`}
             height={460}
           />
         </div>
@@ -164,7 +164,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           <div className="mb-6">
             <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Full service menu</p>
             <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-4xl">
-              Every locksmith service — dispatched to {a.name}.
+              All drywall services in {a.name}
             </h2>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -237,19 +237,28 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       <section className="border-t border-ink-800 py-16">
         <div className="mx-auto max-w-3xl space-y-5 px-4 text-sm text-ink-200 md:px-6 md:text-base">
           <h2 className="font-display text-2xl font-bold text-white md:text-3xl">
-            What working as a locksmith in {a.name} actually looks like
+            Drywall work we do in {a.name}
           </h2>
           <p>
-            {a.name} sits inside our standard 24/7 dispatch zone, which means a real OH Lock &amp; Key technician — not a call-center contractor — can be at the door, the car, or the storefront, typically within 15 to 30 minutes. Every job is performed by a California BSIS-licensed locksmith (license #{BIZ.bsis}), with a written quote agreed in advance and a non-destructive entry method whenever the lock cooperates.
+            {a.name} is inside our regular Metro Detroit service area. {BIZ.name} schedules free estimates for hang,
+            finish, repair, and commercial projects — with written scope before crews mobilize. Call {BIZ.phone} or
+            request a quote online; a real estimator reviews photos or walks the site, not a national call center.
           </p>
           <p>
-            The mix of work in {a.name} is what you&apos;d expect from this part of Orange County. On the residential side it&apos;s house and condo lockouts, rekeys after a move-in or roommate change, deadbolt and smart-lock upgrades (August, Yale, Schlage, Kwikset, Level, Aqara), high-security cylinders for front doors, mailbox locks, and garage side-door hardware. On the commercial side it&apos;s glass-door storefront patches, panic and exit-device service, master-key system design for offices and retail, electronic access control and prox-card readers, and after-hours emergency openings for managers who got locked out mid-close.
+            Residential jobs in {a.name} often include basement finishing, patch-and-texture after plumbing or
+            electrical, Level 5 skim in open floor plans, garage fire-separation board, and popcorn ceiling removal.
+            Many neighborhoods mix brick colonials, mid-century ranches, and newer subdivisions — each needs a different
+            texture and finish plan.
           </p>
           <p>
-            Automotive work in {a.name} is steady year-round — fob replacements and proximity-key programming for late-model Toyotas, Hondas, Fords, BMWs and Teslas, transponder cloning, ignition repairs, and emergency car lockouts in driveways, lots, and on the side of the road. We also handle the less-glamorous-but-critical jobs: safe lockouts, combination changes for floor and gun safes, file-cabinet keys, and specialty hardware for restaurants, dental offices, and short-term rentals.
+            Commercial and multi-family work includes tenant-improvement partitions, suspended ceilings, metal stud
+            framing, and after-hours punch for property managers. We coordinate with GC schedules and document daily
+            progress for occupied buildings.
           </p>
           <p>
-            Pricing in {a.name} is flat-rate for the common jobs (lockouts, rekeys, standard smart-lock installs) and clearly itemized for the rest, with no trip-fee bait-and-switch. If you&apos;re comparing quotes against an unlicensed locksmith, ask for the BSIS number and a written estimate before the truck rolls — that single step eliminates the majority of locksmith scams reported across Southern California. Our BSIS number is on every page of this site, on every invoice, and on the side of every truck.
+            Pricing is itemized: board, finish level, texture, ceiling height, and access. Compare bids using the same
+            finish spec — Level 4 vs Level 5 changes cost more than brand of gypsum. We carry liability and workers
+            comp; certificates are available for commercial clients.
           </p>
         </div>
       </section>
@@ -259,9 +268,9 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
       <section className="border-t border-ink-800 bg-aurora py-16 text-center">
         <div className="mx-auto max-w-3xl px-4 md:px-6">
           <h2 className="font-display text-3xl font-extrabold md:text-4xl">
-            Need a locksmith in {a.name} now?
+            Need a drywall contractor in {a.name} now?
           </h2>
-          <p className="mt-3 text-ink-200">One tap reaches a real BSIS-licensed locksmith.</p>
+          <p className="mt-3 text-ink-200">One tap reaches {BIZ.name} — licensed & insured drywall.</p>
           <div className="mt-6 flex justify-center">
             <ContactCTA size="lg" />
           </div>

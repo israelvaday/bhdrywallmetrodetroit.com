@@ -1,7 +1,7 @@
 import { BIZ } from "./business";
 
 /**
- * Compute open/closed state in America/Los_Angeles regardless of the user's tz.
+ * Compute open/closed state in America/Detroit regardless of the user's tz.
  */
 export type HoursStatus = {
   isOpen: boolean;
@@ -11,7 +11,7 @@ export type HoursStatus = {
 
 function laParts(): { day: number; hours: number; minutes: number } {
   const fmt = new Intl.DateTimeFormat("en-US", {
-    timeZone: "America/Los_Angeles",
+    timeZone: "America/Detroit",
     weekday: "short",
     hour: "2-digit",
     minute: "2-digit",
@@ -46,6 +46,20 @@ export function getHoursStatus(): HoursStatus {
   const today = BIZ.hours[day];
   const todayLabel = today.label;
 
+  if ("closed" in today && today.closed) {
+    for (let i = 1; i <= 7; i++) {
+      const next = BIZ.hours[(day + i) % 7];
+      if (!("closed" in next && next.closed) && next.open) {
+        return {
+          isOpen: false,
+          todayLabel,
+          message: `Closed — opens ${next.label} ${fmtTime(next.open)}`,
+        };
+      }
+    }
+    return { isOpen: false, todayLabel, message: "Closed today" };
+  }
+
   const openMin = toMinutes(today.open);
   const closeMin = toMinutes(today.close);
 
@@ -60,6 +74,7 @@ export function getHoursStatus(): HoursStatus {
   // find next open day
   for (let i = 1; i <= 7; i++) {
     const next = BIZ.hours[(day + i) % 7];
+    if ("closed" in next && next.closed) continue;
     if (next.open) {
       return {
         isOpen: false,

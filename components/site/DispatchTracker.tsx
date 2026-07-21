@@ -6,11 +6,11 @@ import { BIZ } from "@/lib/business";
 
 type Phase = "idle" | "scanning" | "matched";
 
-const TECH_IDS = [
-  "OH-K7", "OH-K12", "OH-K18", "OH-K23", "OH-K31", "OH-K42",
-  "OH-K55", "OH-K61", "OH-K77", "OH-K88", "OH-K93", "OH-K109",
+const CREW_IDS = [
+  "BH-C3", "BH-C7", "BH-C12", "BH-C18", "BH-C21", "BH-C29",
+  "BH-C34", "BH-C41", "BH-C52", "BH-C60",
 ];
-const NAMES = ["Marco R.", "Diego S.", "Jamal P.", "Eli H.", "Hector M.", "Andre L.", "Tomas G.", "Ryan O.", "Sam K.", "Brian C."];
+const NAMES = ["Mike R.", "James S.", "Carlos P.", "Devon H.", "Marcus M.", "Andre L.", "Tomas G.", "Ryan O.", "Sam K.", "Brian C."];
 
 function rng(seed: number) {
   // Deterministic pseudo-random so SSR ETA isn't reshuffled on hydration
@@ -25,7 +25,7 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
   const seed = Array.from(areaSlug).reduce((a, c) => a + c.charCodeAt(0), 0);
   const r = rng(seed);
 
-  const techId = TECH_IDS[Math.floor(r() * TECH_IDS.length)];
+  const crewId = CREW_IDS[Math.floor(r() * CREW_IDS.length)];
   const techName = NAMES[Math.floor(r() * NAMES.length)];
   const rating = (4.7 + r() * 0.29).toFixed(2);
   const jobsDone = 900 + Math.floor(r() * 2400);
@@ -38,12 +38,12 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
   const timers = useRef<ReturnType<typeof setTimeout>[]>([]);
 
   const logs = [
-    `Pinging licensed technicians near ${areaName}, CA…`,
-    `Scanning BSIS-verified units within 5 miles…`,
-    `Cross-referencing live traffic + active job queue…`,
-    `Match found — Tech ${techId} (${techName}) • ${rating}★`,
-    `Calculating optimal route via current OC traffic…`,
-    `ETA locked: ${etaMin} min • ${distance} mi from you`,
+    `Checking ${BIZ.name} crews near ${areaName}, MI…`,
+    `Scanning finish & repair crews within 15 miles…`,
+    `Cross-referencing today's schedule + drive time…`,
+    `Match found — Crew ${crewId} (${techName}) • ${rating}★`,
+    `Estimating route across Metro Detroit…`,
+    `Callback window: ~${etaMin} min • ${distance} mi`,
   ];
 
   useEffect(() => {
@@ -91,24 +91,24 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
       <div className="relative flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
           <span className="inline-block h-1.5 w-1.5 animate-pulse rounded-full bg-emerald-400" />
-          Live Dispatch
+          Live scheduling
         </span>
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-          <ShieldCheck className="h-3 w-3" /> BSIS #{BIZ.bsis}
+          <ShieldCheck className="h-3 w-3" /> Licensed · {BIZ.bsis}
         </span>
         <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-950/60 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-ink-200">
-          <MapPin className="h-3 w-3 text-brass-400" /> {areaName}, CA
+          <MapPin className="h-3 w-3 text-brass-400" /> {areaName}, MI
         </span>
       </div>
 
       <h2 className="relative mt-4 font-display text-2xl font-extrabold tracking-tight md:text-3xl">
         {phase === "matched" ? (
           <>
-            Tech inbound to <span className="text-brass-gradient">{areaName}</span>
+            Crew scheduled for <span className="text-brass-gradient">{areaName}</span>
           </>
         ) : (
           <>
-            Find the nearest tech in <span className="text-brass-gradient">{areaName}</span>
+            Find the nearest <span className="text-brass-gradient">{BIZ.name}</span> crew in {areaName}
           </>
         )}
       </h2>
@@ -116,8 +116,7 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
       {phase === "idle" && (
         <>
           <p className="relative mt-2 text-sm text-ink-300 md:text-base">
-            Tap below — our dispatch console pings every BSIS-licensed unit within
-            5 miles and returns a live ETA in seconds.
+            Tap below — we&apos;ll check which {BIZ.name} crew is closest and return an estimated callback time.
           </p>
           <button
             type="button"
@@ -125,10 +124,10 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
             className="relative mt-5 inline-flex items-center gap-2 rounded-full bg-brass-500 px-6 py-3 text-sm font-bold uppercase tracking-wider text-ink-950 shadow-lg shadow-brass-500/30 transition hover:bg-brass-400 active:translate-y-px md:text-base"
           >
             <Radar className="h-5 w-5" />
-            Click to find nearest tech
+            Click to check crew availability
           </button>
           <p className="relative mt-2 text-[11px] uppercase tracking-wider text-ink-500">
-            Avg dispatch time in {areaName}: 15–30 min
+            Typical callback in {areaName}: same day to 2 business days
           </p>
         </>
       )}
@@ -161,9 +160,9 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
               <div className="text-[11px] text-ink-400">{distance} mi away</div>
             </div>
             <div className="rounded-2xl border border-ink-700 bg-ink-950/60 p-3">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Tech</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Crew lead</div>
               <div className="mt-0.5 font-display text-base font-bold text-ink-50">{techName}</div>
-              <div className="text-[11px] text-ink-400">ID {techId} • {rating}★ • {jobsDone}+ jobs</div>
+              <div className="text-[11px] text-ink-400">ID {crewId} • {rating}★ • {jobsDone}+ jobs</div>
             </div>
             <div className="rounded-2xl border border-ink-700 bg-ink-950/60 p-3">
               <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Status</div>
@@ -175,17 +174,17 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
           </div>
           <div className="mt-4 rounded-2xl border border-brass-500/30 bg-ink-950/70 p-4">
             <p className="text-sm font-semibold text-ink-100">
-              Confirm now to lock in this {etaMin}-minute ETA.
+              Confirm now to hold this callback window.
             </p>
             <p className="mt-1 text-xs text-ink-400">
-              Tech {techId} is on hold for ~90 seconds. Tap below to confirm your address and dispatch.
+              Crew {crewId} is on hold briefly. Call to confirm scope and schedule.
             </p>
             <a
               href={BIZ.phoneHref}
               className="mt-3 inline-flex items-center gap-2 rounded-full bg-brass-500 px-5 py-3 text-sm font-bold uppercase tracking-wider text-ink-950 shadow-lg shadow-brass-500/30 transition hover:bg-brass-400 active:translate-y-px"
             >
               <Phone className="h-4 w-4" />
-              Confirm & lock ETA — {BIZ.phone}
+              Confirm & schedule — {BIZ.phone}
             </a>
           </div>
         </div>

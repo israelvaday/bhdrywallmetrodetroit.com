@@ -2,14 +2,14 @@
   "redirects": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "www.ohlockandkey.com" }],
-      "destination": "https://ohlockandkey.com/",
+      "has": [{ "type": "host", "value": "www.bhdrywallmetrodetroit.com" }],
+      "destination": "https://bhdrywallmetrodetroit.com/",
       "permanent": true
     },
     {
       "source": "/:path+",
-      "has": [{ "type": "host", "value": "www.ohlockandkey.com" }],
-      "destination": "https://ohlockandkey.com/:path+",
+      "has": [{ "type": "host", "value": "www.bhdrywallmetrodetroit.com" }],
+      "destination": "https://bhdrywallmetrodetroit.com/:path+",
       "permanent": true
     }
   ]

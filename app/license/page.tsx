@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { ShieldCheck } from "lucide-react";
-import { LICENSE_PHOTO } from "@/lib/photos";
+import { LOGO_PHOTO } from "@/lib/photos";
 import { BIZ } from "@/lib/business";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 
 export const metadata: Metadata = {
-  title: `California BSIS Locksmith License #${BIZ.bsis}`,
-  description: `OH Lock & Key Solutions is a California BSIS-licensed locksmith (#${BIZ.bsis}) serving Orange County. View our verified license.`,
+  title: "Licensed & Insured Drywall Contractor",
+  description: `${BIZ.name} is a licensed and insured drywall contractor serving Wayne, Oakland, and Macomb counties.`,
   alternates: { canonical: `${BIZ.url}/license` },
 };
 
 export default function LicensePage() {
+  const logo = LOGO_PHOTO;
   return (
     <>
       <section className="relative bg-aurora py-20">
@@ -19,33 +20,31 @@ export default function LicensePage() {
         <div className="relative mx-auto max-w-3xl px-4 text-center md:px-6">
           <ShieldCheck className="mx-auto h-10 w-10 text-brass-400" />
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            California BSIS Licensed
+            Licensed &amp; insured
           </h1>
-          <p className="mt-3 font-mono text-brass-300">License #{BIZ.bsis}</p>
+          <p className="mt-3 font-mono text-brass-300">{BIZ.licenseId}</p>
           <p className="mx-auto mt-4 max-w-xl text-ink-200">
-            Every locksmith service we provide is performed under our active California
-            Bureau of Security & Investigative Services (BSIS) locksmith license.
-            Verify us anytime on the official BSIS license lookup.
+            {BIZ.name} carries general liability and workers compensation for residential and commercial drywall
+            work across Metro Detroit. Certificates of insurance are available for property managers and general
+            contractors.
           </p>
         </div>
       </section>
-      {LICENSE_PHOTO && (
+      {logo && (
         <section className="py-12">
           <div className="mx-auto max-w-3xl px-4 md:px-6">
-            <div className="overflow-hidden rounded-2xl border border-brass-500/30 bg-ink-900/50 p-2">
+            <div className="overflow-hidden rounded-2xl border border-brass-500/30 bg-ink-900/50 p-6 text-center">
               <Image
-                src={LICENSE_PHOTO.src}
-                alt={LICENSE_PHOTO.alt}
-                width={LICENSE_PHOTO.width}
-                height={LICENSE_PHOTO.height}
-                sizes="(max-width: 768px) 100vw, 800px"
-                className="w-full rounded-xl"
-                priority
+                src={logo.src}
+                alt={logo.alt}
+                width={256}
+                height={256}
+                className="mx-auto h-32 w-32 object-contain"
               />
+              <p className="mt-4 text-sm text-ink-300">
+                Questions about coverage? Call {BIZ.phone} or email {BIZ.email}.
+              </p>
             </div>
-            <p className="mt-4 text-center text-sm text-ink-400">
-              Verify at <a className="text-brass-300 underline" href="https://search.dca.ca.gov/" target="_blank" rel="noopener noreferrer">search.dca.ca.gov</a>
-            </p>
           </div>
         </section>
       )}

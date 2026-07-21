@@ -1,8 +1,8 @@
 import { ImageResponse } from "next/og";
 import { BIZ } from "@/lib/business";
 
-export const runtime = "edge";
-export const alt = `${BIZ.name} — Orange County Locksmith (BSIS #${BIZ.bsis})`;
+export const dynamic = "force-static";
+export const alt = `${BIZ.name} — Metro Detroit drywall contractor (Licensed · ${BIZ.bsis})`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -26,7 +26,6 @@ export default async function OgImage() {
           position: "relative",
         }}
       >
-        {/* gold rule top */}
         <div
           style={{
             position: "absolute",
@@ -39,7 +38,6 @@ export default async function OgImage() {
           }}
         />
 
-        {/* brand row */}
         <div style={{ display: "flex", alignItems: "center", gap: 20 }}>
           <div
             style={{
@@ -54,25 +52,24 @@ export default async function OgImage() {
               boxShadow: "0 10px 30px rgba(201,162,74,0.35)",
             }}
           >
-            🔑
+            🧱
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
-            <div style={{ fontSize: 30, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1 }}>
-              OH LOCK & KEY
+            <div style={{ fontSize: 28, fontWeight: 800, letterSpacing: -0.5, lineHeight: 1.1 }}>
+              {BIZ.name.toUpperCase()}
             </div>
             <div style={{ fontSize: 18, color: "#C9A24A", marginTop: 6, letterSpacing: 2, fontWeight: 700 }}>
-              ORANGE COUNTY LOCKSMITH
+              METRO DETROIT DRYWALL
             </div>
           </div>
         </div>
 
-        {/* headline */}
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
           <div
             style={{
-              fontSize: 92,
+              fontSize: 72,
               fontWeight: 900,
-              lineHeight: 1.02,
+              lineHeight: 1.05,
               letterSpacing: -2,
               backgroundImage: "linear-gradient(135deg, #F4E3B1 0%, #C9A24A 55%, #8A6A1F 100%)",
               backgroundClip: "text",
@@ -80,21 +77,20 @@ export default async function OgImage() {
               display: "flex",
             }}
           >
-            Locked out? We&apos;re 15 min away.
+            Hang · Finish · Repair · Ceilings
           </div>
-          <div style={{ fontSize: 30, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
-            BSIS-licensed locksmith. Residential · Commercial · Auto · Smart Locks · Safes.
+          <div style={{ fontSize: 28, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
+            Licensed & insured drywall across Wayne, Oakland & Macomb counties. Free estimates.
           </div>
         </div>
 
-        {/* footer chips */}
         <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
-          <Chip>BSIS #{BIZ.bsis}</Chip>
+          <Chip>Licensed · {BIZ.bsis}</Chip>
           <Chip>{BIZ.phone}</Chip>
-          <Chip>ohlockandkey.com</Chip>
+          <Chip>bhdrywallmetrodetroit.com</Chip>
           <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 10 }}>
             <Star /><Star /><Star /><Star /><Star />
-            <div style={{ fontSize: 22, color: "#C8C4BB", marginLeft: 6 }}>5.0 · OC trusted</div>
+            <div style={{ fontSize: 22, color: "#C8C4BB", marginLeft: 6 }}>5.0 · Metro Detroit</div>
           </div>
         </div>
       </div>
@@ -109,14 +105,14 @@ function Chip({ children }: { children: React.ReactNode }) {
       style={{
         display: "flex",
         alignItems: "center",
-        padding: "12px 22px",
+        padding: "10px 18px",
         borderRadius: 999,
         border: "1px solid rgba(201,162,74,0.45)",
         background: "rgba(201,162,74,0.08)",
         color: "#E9D08A",
-        fontSize: 24,
+        fontSize: 18,
         fontWeight: 700,
-        letterSpacing: 0.5,
+        letterSpacing: 1,
       }}
     >
       {children}
@@ -125,7 +121,5 @@ function Chip({ children }: { children: React.ReactNode }) {
 }
 
 function Star() {
-  return (
-    <div style={{ fontSize: 26, color: "#C9A24A", display: "flex" }}>★</div>
-  );
+  return <div style={{ fontSize: 22, color: "#C9A24A", display: "flex" }}>★</div>;
 }

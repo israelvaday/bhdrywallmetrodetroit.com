@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+
 import { ShieldCheck, Star, Clock, MapPin, Sparkles, Wrench } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
@@ -8,84 +8,22 @@ import { serviceHero } from "@/lib/photos";
 
 export function Hero() {
   const hero =
-    serviceHero("smart-locks") ??
     serviceHero("residential") ??
     serviceHero("commercial");
   const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-
-  // Lazy-load the video AFTER first paint, so the poster (= video's first frame)
-  // is what LCP measures. The user sees a still image instantly, then it starts
-  // moving — looks like the same image, just coming to life.
-  const [loadVideo, setLoadVideo] = useState(false);
-  const videoRef = useRef<HTMLVideoElement | null>(null);
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    let done = false;
-    const arm = () => {
-      if (done) return;
-      done = true;
-      setLoadVideo(true);
-    };
-    // Fire after a delay that's past the typical Lighthouse trace window, or
-    // immediately on any real user interaction. This keeps the video out of
-    // the perf measurement window while still feeling instant for humans
-    // (any scroll / pointer / key event triggers it well before the timer).
-    const timer = window.setTimeout(arm, 4000);
-    const events: (keyof WindowEventMap)[] = ["scroll", "pointerdown", "touchstart", "keydown", "mousemove", "wheel"];
-    events.forEach((e) => window.addEventListener(e, arm, { once: true, passive: true }));
-    return () => {
-      window.clearTimeout(timer);
-      events.forEach((e) => window.removeEventListener(e, arm));
-    };
-  }, []);
-
-  // Once the source elements are mounted, kick the video to load + play.
-  useEffect(() => {
-    if (!loadVideo) return;
-    const v = videoRef.current;
-    if (!v) return;
-    try {
-      v.load();
-      const p = v.play();
-      if (p && typeof p.catch === "function") p.catch(() => {});
-    } catch {
-      /* ignore — autoplay may be blocked, poster stays visible */
-    }
-  }, [loadVideo]);
+  const poster =
+    hero?.src ?? `${base}/photos/branding-generated--hero-drywall-metro-detroit.png`;
 
   return (
     <section className="relative isolate overflow-hidden">
-      {/* Full-bleed background video. We intentionally do NOT set a poster
-          image or preload it — the dark gradient overlay (and bg-ink-950
-          background) cover the transparent video frame so the hero starts
-          in its final dark state immediately. This lets the H1 be the LCP
-          element instead of a full-viewport image, dramatically lowering
-          mobile LCP. The video fades in moments later via lazy load. */}
       <div className="absolute inset-0 -z-10 bg-ink-950">
-        <video
-          ref={videoRef}
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="none"
-          aria-hidden
-          className="h-full w-full object-cover"
-        >
-          {loadVideo && (
-            <>
-              <source
-                src={`${base}/video/hero-locksmith-mobile.mp4`}
-                type="video/mp4"
-                media="(max-width: 767px)"
-              />
-              <source
-                src={`${base}/video/hero-locksmith.mp4`}
-                type="video/mp4"
-              />
-            </>
-          )}
-        </video>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={poster}
+          alt=""
+          className="h-full w-full object-cover opacity-50"
+          fetchPriority="high"
+        />
         {/* Layered overlays for legibility.
             Mobile: a single combined gradient (one paint pass) for the
             darkening vignette. The grid texture and brass glows are
@@ -109,8 +47,8 @@ export function Hero() {
       >
         <LogoMark className="h-7 w-7" />
         <div className="flex flex-col leading-tight">
-          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-brass-300">OH Lock & Key</span>
-          <span className="font-mono text-[10px] text-ink-300">BSIS #{BIZ.bsis}</span>
+          <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-brass-300">BH Drywall Metro Detroit</span>
+          <span className="font-mono text-[10px] text-ink-300">Licensed &amp; insured</span>
         </div>
       </div>
 
@@ -119,7 +57,7 @@ export function Hero() {
         className="absolute bottom-6 right-4 z-10 inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/15 px-3 py-1.5 text-xs font-semibold text-emerald-200 backdrop-blur md:right-6"
       >
         <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse-ring" />
-        Dispatching now · OC-wide
+        Dispatching crews · Metro Detroit
       </div>
 
       {/* Content */}
@@ -130,15 +68,15 @@ export function Hero() {
         >
           <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-brass-300 backdrop-blur">
             <ShieldCheck className="h-3.5 w-3.5" />
-            BSIS #{BIZ.bsis} · Licensed
+            Licensed &amp; insured · Mon–Sat
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-emerald-300 backdrop-blur">
             <Clock className="h-3.5 w-3.5" />
-            Open 24 / 7
+            Mon–Sat service
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700/80 bg-ink-900/60 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-ink-200 backdrop-blur">
             <MapPin className="h-3.5 w-3.5 text-brass-400" />
-            All of Orange County
+            All of Metro Detroit
           </span>
         </div>
 
@@ -147,7 +85,7 @@ export function Hero() {
           className="mt-8 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[0.4em] text-brass-300/90"
         >
           <span className="h-px w-10 bg-gradient-to-r from-transparent to-brass-500/60" />
-          OH Lock &amp; Key Solutions
+          BH Drywall Metro Detroit
           <span className="h-px w-10 bg-gradient-to-l from-transparent to-brass-500/60" />
         </div>
 
@@ -155,23 +93,21 @@ export function Hero() {
         <h1
           className="mt-4 max-w-4xl font-display text-[2.6rem] font-extrabold leading-[1.02] tracking-tight [text-shadow:0_4px_28px_rgba(0,0,0,0.7)] sm:text-5xl md:mt-5 md:text-6xl lg:text-7xl"
         >
-          Orange County&apos;s{" "}
-          <span className="text-brass-gradient">24/7 licensed locksmith</span>.
+          Metro Detroit&apos;s{" "}
+          <span className="text-brass-gradient">drywall hang, finish &amp; repair</span>.
         </h1>
 
-        {/* Sub-headline */}
         <p
           className="mx-auto mt-5 max-w-2xl text-base text-ink-200 sm:text-lg md:mt-6 md:text-xl"
         >
-          Lockouts, rekeys, smart locks, storefront, automotive, and safes —
-          dispatched any hour, any day, across every OC city.
+          Basements, tenant buildouts, patch &amp; texture, Level 5 smooth walls, and water-damage
+          rebuild — free estimates across Wayne, Oakland &amp; Macomb counties.
         </p>
 
-        {/* Service chip row */}
         <ul
           className="mt-7 flex flex-wrap justify-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-ink-300 md:mt-8 md:text-xs"
         >
-          {["Lockouts", "Rekeys", "Smart Locks", "Storefront", "Auto Keys", "Safes"].map((s) => (
+          {["Repair", "Residential", "Commercial", "Smooth finish", "Ceilings", "New build"].map((s) => (
             <li
               key={s}
               className="rounded-md border border-ink-700/70 bg-ink-900/50 px-2.5 py-1 backdrop-blur"
@@ -194,19 +130,19 @@ export function Hero() {
         >
           <li className="flex items-center gap-1.5">
             <Star className="h-4 w-4 text-brass-400" fill="currentColor" />
-            5-star rated · OC trusted
+            5-star rated · Michigan
           </li>
           <li className="flex items-center gap-1.5">
             <Sparkles className="h-4 w-4 text-brass-400" />
-            Non-destructive entry
+            Written estimates
           </li>
           <li className="flex items-center gap-1.5">
             <ShieldCheck className="h-4 w-4 text-brass-400" />
-            Background-checked techs
+            Licensed &amp; insured crews
           </li>
           <li className="flex items-center gap-1.5">
             <Wrench className="h-4 w-4 text-brass-400" />
-            Mobile workshop on every truck
+            Level 4 &amp; Level 5 finish
           </li>
         </ul>
 

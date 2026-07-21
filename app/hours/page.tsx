@@ -4,8 +4,8 @@ import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 
 export const metadata: Metadata = {
-  title: `Hours — Open 24/7`,
-  description: "OH Lock & Key Solutions is open 24 hours a day, 7 days a week, every day of the year — for all of Orange County, CA.",
+  title: `Hours — Open Mon–Sat`,
+  description: "BH Drywall Metro Detroit is open 24 hours a day, 7 days a week, every day of the year — for all of Metro Detroit, MI.",
   alternates: { canonical: "/hours" },
 };
 
@@ -45,7 +45,7 @@ export default function HoursPage() {
 
         <p className="mt-8 inline-flex items-center gap-2 text-xs text-ink-400">
           <ShieldCheck className="h-3.5 w-3.5 text-brass-400" />
-          California BSIS #{BIZ.bsis} · Licensed & insured
+          Michigan licensed #{BIZ.bsis} · Licensed & insured
         </p>
       </div>
     </section>

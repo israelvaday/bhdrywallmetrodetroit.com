@@ -7,9 +7,9 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: "FAQ — Orange County Locksmith Questions Answered",
+  title: "FAQ — Metro Detroit drywall contractor Questions Answered",
   description:
-    "Honest answers about pricing, service areas, smart locks, car keys, lockouts, BSIS licensing, and more from your licensed OC locksmith.",
+    "Answers about drywall pricing, service areas, finish levels, repairs, and hiring a licensed contractor in Metro Detroit.",
   alternates: { canonical: `${BIZ.url}/faq` },
 };
 
@@ -35,10 +35,10 @@ export default function FAQPage() {
           <div className="text-center md:text-left">
             <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">FAQ</p>
             <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-              <span className="text-brass-gradient">Real answers</span> from a real locksmith.
+              <span className="text-brass-gradient">Real answers</span> from a real drywall contractor.
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-ink-200 md:mx-0">
-              Pricing. Licensing. Smart locks. Car keys. After-hours service. Everything Orange County customers ask us, in one place.
+              Pricing. Licensing. Finish levels. Repairs & estimates. Everything Metro Detroit customers ask {BIZ.name}, in one place.
             </p>
           </div>
           <div className="relative aspect-[5/4] overflow-hidden rounded-3xl border border-brass-500/30">
@@ -91,7 +91,7 @@ export default function FAQPage() {
         </div>
       </section>
 
-      <LongFormFaq subject="OC Locksmith FAQ" kind="service" />
+      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />
       <FinalCTA />
     </>
   );

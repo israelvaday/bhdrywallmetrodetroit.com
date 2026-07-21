@@ -3,8 +3,9 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import { Search, MapPin, Crosshair, Loader2, AlertTriangle } from "lucide-react";
 import type { Area } from "@/lib/areas";
+import { BIZ } from "@/lib/business";
 
-const OC_BOUNDS = { minLat: 33.34, maxLat: 33.98, minLng: -118.14, maxLng: -117.40 };
+const METRO_BOUNDS = BIZ.metroBounds;
 
 function haversineMi(la1: number, lo1: number, la2: number, lo2: number) {
   const R = 3958.8, toRad = (d: number) => (d * Math.PI) / 180;
@@ -55,12 +56,12 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
     navigator.geolocation.getCurrentPosition(
       (pos) => {
         const { latitude: lat, longitude: lng } = pos.coords;
-        const inOC =
-          lat >= OC_BOUNDS.minLat &&
-          lat <= OC_BOUNDS.maxLat &&
-          lng >= OC_BOUNDS.minLng &&
-          lng <= OC_BOUNDS.maxLng;
-        setLoc({ phase: inOC ? "matched" : "out_of_area", lat, lng });
+        const inMetro =
+          lat >= METRO_BOUNDS.minLat &&
+          lat <= METRO_BOUNDS.maxLat &&
+          lng >= METRO_BOUNDS.minLng &&
+          lng <= METRO_BOUNDS.maxLng;
+        setLoc({ phase: inMetro ? "matched" : "out_of_area", lat, lng });
       },
       () => setLoc({ phase: "denied" }),
       { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
@@ -119,7 +120,7 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
           </button>
         </div>
         <p className="mt-2 text-center text-[11px] uppercase tracking-wider text-ink-500">
-          Real-time GPS · matches you to the nearest OC service area
+          Real-time GPS · matches you to the nearest Metro Detroit service area
         </p>
       </div>
 
@@ -137,10 +138,10 @@ export function AreaSearch({ areas }: { areas: Area[] }) {
       {loc.phase === "out_of_area" && topMatch && (
         <div className="mx-auto mt-6 max-w-2xl rounded-2xl border border-amber-500/30 bg-amber-500/5 p-4 text-sm">
           <div className="flex items-center gap-2 font-bold text-amber-300">
-            <AlertTriangle className="h-4 w-4" /> Outside our Orange County service zone
+            <AlertTriangle className="h-4 w-4" /> Outside our Metro Detroit service zone
           </div>
           <p className="mt-1 text-xs text-ink-300">
-            Closest OC service area to you is{" "}
+            Closest service area to you is{" "}
             <Link
               href={`/service-areas/${topMatch.a.slug}`}
               className="font-semibold text-brass-300 underline"

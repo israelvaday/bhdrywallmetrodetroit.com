@@ -13,12 +13,12 @@ import { Reveal } from "@/components/site/Reveal";
 import { LazyParallax, LazyFloatOnScroll } from "@/components/site/LazyScrollFx";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
-import { LocksmithGlossary } from "@/components/site/LocksmithGlossary";
+import { DrywallGlossary } from "@/components/site/DrywallGlossary";
 
 export const metadata: Metadata = {
-  title: `24/7 Licensed Orange County Locksmith`,
+  title: `Drywall Contractor — Hang, Finish & Repair`,
   description:
-    "OH Lock & Key Solutions — BSIS-licensed Orange County locksmith. 24/7 emergency lockout, rekey, smart locks, automotive, storefront, and safes. Serving all of OC.",
+    `${BIZ.name} — licensed & insured drywall across Metro Detroit. Residential & commercial hang, Level 5 finish, repair, texture, metal framing, and ceilings. Free estimates.`,
   alternates: { canonical: "/" },
 };
 
@@ -47,17 +47,17 @@ export default function HomePage() {
             <div className="mb-6">
               <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Coverage</p>
               <h2 className="mt-2 font-display text-3xl font-bold tracking-tight md:text-4xl">
-                All of Orange County — live dispatch radius.
+                All of Metro Detroit — service coverage map.
               </h2>
             </div>
           </Reveal>
           <LazyParallax strength={-40}>
             <Reveal variant="zoom" delay={0.05}>
               <ServiceMap
-                lat={33.7175}
-                lng={-117.8311}
-                zoom={10}
-                title="Orange County, CA"
+                lat={BIZ.metroMap.lat}
+                lng={BIZ.metroMap.lng}
+                zoom={BIZ.metroMap.zoom}
+                title="Metro Detroit, MI"
                 height={420}
               />
             </Reveal>
@@ -67,9 +67,9 @@ export default function HomePage() {
       <Reveal variant="bounce">
         <Reviews />
       </Reveal>
-      <LongFormFaq subject="OC Locksmith" kind="service" />
+      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />
       <BuyersGuide />
-      <LocksmithGlossary />
+      <DrywallGlossary />
       <Reveal variant="zoom">
         <FinalCTA />
       </Reveal>

@@ -20,7 +20,7 @@ export default function ThankYouPage() {
           Got it — we&apos;ll be in touch.
         </h1>
         <p className="mx-auto mt-4 max-w-md text-ink-200">
-          We received your quote request. A real locksmith will reach out shortly with a written estimate.
+          We received your quote request. A real drywall contractor will reach out shortly with a written estimate.
         </p>
         <div className="mt-7 flex flex-col items-center gap-4">
           <ContactCTA size="lg" />

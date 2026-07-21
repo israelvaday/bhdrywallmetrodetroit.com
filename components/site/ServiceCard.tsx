@@ -45,7 +45,7 @@ export function ServiceCard({
         <div className="absolute left-3 top-3 flex items-center gap-2 rounded-xl border border-brass-500/40 bg-ink-950/70 px-2.5 py-1.5 backdrop-blur">
           <LogoMark className="h-5 w-5" />
           <span className="text-[10px] font-bold uppercase tracking-wider text-brass-300">
-            OH Lock & Key
+            BH Drywall Metro Detroit
           </span>
         </div>
 

@@ -8,9 +8,9 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: { absolute: "Locksmith Blog — Tips & Guides for Orange County" },
+  title: { absolute: "Drywall Blog — Tips for Metro Detroit" },
   description:
-    "Practical locksmith guides from a licensed Orange County team — lockouts, rekeys, smart locks, car keys, master systems, and home security.",
+    "Drywall guides from BH Drywall Metro Detroit — basements, Level 5 finish, repairs, water damage, commercial TI, and hiring a contractor in Michigan.",
   alternates: { canonical: `${BIZ.url}/blog` },
 };
 
@@ -28,12 +28,12 @@ export default function BlogIndex() {
       <section className="relative bg-aurora py-20">
         <div className="absolute inset-0 bg-grid opacity-30" />
         <div className="relative mx-auto max-w-4xl px-4 text-center md:px-6">
-          <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">The OH Lock &amp; Key Blog</p>
+          <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">The BH Drywall Metro Detroit Blog</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            <span className="text-brass-gradient">Locksmith</span> wisdom for Orange County.
+            <span className="text-brass-gradient">Drywall</span> guides for Metro Detroit.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Real-world guides from our BSIS-licensed team — lockouts, rekeys, smart locks, master systems, and how to spot a scam.
+            Finish levels, repairs, basements, ceilings, and how to hire a licensed crew in Michigan.
           </p>
         </div>
       </section>
@@ -121,7 +121,7 @@ export default function BlogIndex() {
         </div>
       </section>
 
-      <LongFormFaq subject="OC Locksmith Knowledge" kind="service" />
+      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />
 
       <FinalCTA />
     </>

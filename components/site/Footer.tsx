@@ -14,14 +14,14 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <Logo size="md" />
           <p className="mt-4 max-w-xs text-sm text-ink-300">
-            Licensed Orange County locksmith. 24/7 mobile dispatch — residential, commercial, automotive, smart locks, and safes.
+            Licensed Metro Detroit drywall contractor. Mon–Sat — repair, hang, finish, texture, framing, and ceilings across Wayne, Oakland & Macomb.
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 md:justify-start">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/30 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300">
-              <ShieldCheck className="h-3.5 w-3.5" /> BSIS #{BIZ.bsis}
+              <ShieldCheck className="h-3.5 w-3.5" /> Licensed · {BIZ.bsis}
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
-              <Clock className="h-3.5 w-3.5" /> Open 24 / 7
+              <Clock className="h-3.5 w-3.5" /> Mon–Sat service
             </span>
           </div>
           {BIZ.social.instagram && (
@@ -81,9 +81,9 @@ export function Footer() {
 
         {/* CTA column */}
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
-          <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Get a locksmith</h2>
+          <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Get a drywall contractor</h2>
           <p className="mt-3 max-w-xs text-sm text-ink-300">
-            Tap a button — we&apos;ll dispatch a BSIS-licensed technician.
+            Tap a button — we&apos;ll dispatch a Licensed & insured technician.
           </p>
           <div className="mt-4">
             <ContactCTA size="sm" showLabels />
@@ -91,7 +91,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-7xl px-4 text-center text-xs text-ink-300 md:mt-10 md:px-6 md:text-left">
-        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. BSIS #{BIZ.bsis}. Serving all of Orange County, California.
+        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. Licensed · {BIZ.bsis}. Serving all of Metro Detroit, Michigan.
       </div>
     </footer>
   );

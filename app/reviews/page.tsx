@@ -5,8 +5,8 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BIZ } from "@/lib/business";
 
 export const metadata: Metadata = {
-  title: "Reviews — OH Lock & Key Solutions",
-  description: "Verified 5-star Google and Yelp reviews from OH Lock & Key Solutions customers across Orange County.",
+  title: "Reviews — BH Drywall Metro Detroit",
+  description: "Verified 5-star Google and Yelp reviews from BH Drywall Metro Detroit customers across Metro Detroit.",
   alternates: { canonical: `${BIZ.url}/reviews` },
 };
 
@@ -18,12 +18,12 @@ export default function ReviewsPage() {
         <div className="relative mx-auto max-w-4xl px-4 text-center md:px-6">
           <p className="text-sm font-semibold uppercase tracking-wider text-brass-400">Reviews</p>
           <h1 className="mt-3 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            What Orange County says about us.
+            What Metro Detroit says about us.
           </h1>
         </div>
       </section>
       <Reviews />
-      <LongFormFaq subject="OC Locksmith Reviews" kind="service" />
+      <LongFormFaq subject="Metro Detroit Drywall" kind="service" />
       <FinalCTA />
     </>
   );

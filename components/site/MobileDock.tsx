@@ -7,7 +7,7 @@ export function MobileDock() {
       <div className="mx-auto grid max-w-md grid-cols-3">
         <a
           href={BIZ.phoneHref}
-          aria-label="Call locksmith now"
+          aria-label="Call drywall contractor now"
           className="flex flex-col items-center gap-1 py-3 text-xs font-semibold text-brass-300"
         >
           <Phone className="h-5 w-5" />

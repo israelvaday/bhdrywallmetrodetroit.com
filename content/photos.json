@@ -1,1034 +1,660 @@
 [
   {
-    "id": "license-bsis-license-8663",
-    "src": "/photos/license--bsis-license-8663.jpeg",
-    "alt": "Bsis license 8663 \u2014 California BSIS locksmith license #8663 job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "license",
-    "kind": "trust",
-    "services": [
-      "license"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 3428964,
-    "source": "photos/00-BSIS-License/bsis-license-8663.jpeg"
-  },
-  {
-    "id": "commercial-commercial-door-mortise-lever",
-    "src": "/photos/commercial--commercial-door-mortise-lever.jpeg",
-    "alt": "Commercial door mortise lever \u2014 commercial locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "commercial",
-    "kind": "work",
-    "services": [
-      "commercial",
-      "rekey"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1708444,
-    "source": "photos/01-Commercial-Hardware/commercial-door-mortise-lever.jpeg"
-  },
-  {
-    "id": "commercial-commercial-exit-trim-lever-cylinder",
-    "src": "/photos/commercial--commercial-exit-trim-lever-cylinder.jpeg",
-    "alt": "Commercial exit trim lever cylinder \u2014 commercial locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "commercial",
-    "kind": "work",
-    "services": [
-      "commercial",
-      "rekey"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1029615,
-    "source": "photos/01-Commercial-Hardware/commercial-exit-trim-lever-cylinder.jpeg"
-  },
-  {
-    "id": "commercial-commercial-narrow-stile-keypad-lever",
-    "src": "/photos/commercial--commercial-narrow-stile-keypad-lever.jpeg",
-    "alt": "Commercial narrow stile keypad lever \u2014 commercial locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "commercial",
-    "kind": "work",
-    "services": [
-      "commercial",
-      "rekey"
-    ],
-    "width": 1206,
-    "height": 1591,
-    "ratio": 0.758,
-    "orientation": "portrait",
-    "bytes": 163736,
-    "source": "photos/01-Commercial-Hardware/commercial-narrow-stile-keypad-lever.jpeg"
-  },
-  {
-    "id": "commercial-commercial-rekey-high-security-key",
-    "src": "/photos/commercial--commercial-rekey-high-security-key.jpeg",
-    "alt": "Commercial rekey high security key \u2014 commercial locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "commercial",
-    "kind": "work",
-    "services": [
-      "commercial",
-      "rekey"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1419907,
-    "source": "photos/01-Commercial-Hardware/commercial-rekey-high-security-key.jpeg"
-  },
-  {
-    "id": "commercial-office-deadbolt-and-lever-with-new-keys",
-    "src": "/photos/commercial--office-deadbolt-and-lever-with-new-keys.jpeg",
-    "alt": "Office deadbolt and lever with new keys \u2014 commercial locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "commercial",
-    "kind": "work",
-    "services": [
-      "commercial",
-      "rekey"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 612852,
-    "source": "photos/01-Commercial-Hardware/office-deadbolt-and-lever-with-new-keys.jpeg"
-  },
-  {
-    "id": "storefront-adams-rite-mortise-lock-body-replacement",
-    "src": "/photos/storefront--adams-rite-mortise-lock-body-replacement.jpeg",
-    "alt": "Adams rite mortise lock body replacement \u2014 storefront door job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "storefront",
-    "kind": "work",
-    "services": [
-      "storefront",
-      "commercial"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 987919,
-    "source": "photos/02-Storefront-Glass-Doors/adams-rite-mortise-lock-body-replacement.jpeg"
-  },
-  {
-    "id": "storefront-storefront-adams-rite-cylinder-install",
-    "src": "/photos/storefront--storefront-adams-rite-cylinder-install.jpeg",
-    "alt": "Storefront adams rite cylinder install \u2014 storefront door job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "storefront",
-    "kind": "work",
-    "services": [
-      "storefront",
-      "commercial"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1613251,
-    "source": "photos/02-Storefront-Glass-Doors/storefront-adams-rite-cylinder-install.jpeg"
-  },
-  {
-    "id": "storefront-storefront-crossbar-panic-device-service",
-    "src": "/photos/storefront--storefront-crossbar-panic-device-service.jpeg",
-    "alt": "Storefront crossbar panic device service \u2014 storefront door job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "storefront",
-    "kind": "work",
-    "services": [
-      "storefront",
-      "commercial"
-    ],
-    "width": 1206,
-    "height": 1588,
-    "ratio": 0.7594,
-    "orientation": "portrait",
-    "bytes": 295178,
-    "source": "photos/02-Storefront-Glass-Doors/storefront-crossbar-panic-device-service.jpeg"
-  },
-  {
-    "id": "storefront-storefront-glass-mortise-cylinder-01",
-    "src": "/photos/storefront--storefront-glass-mortise-cylinder-01.jpeg",
-    "alt": "Storefront glass mortise cylinder 01 \u2014 storefront door job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "storefront",
-    "kind": "work",
-    "services": [
-      "storefront",
-      "commercial"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1315176,
-    "source": "photos/02-Storefront-Glass-Doors/storefront-glass-mortise-cylinder-01.jpeg"
-  },
-  {
-    "id": "storefront-storefront-paddle-hookbolt-service",
-    "src": "/photos/storefront--storefront-paddle-hookbolt-service.jpeg",
-    "alt": "Storefront paddle hookbolt service \u2014 storefront door job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "storefront",
-    "kind": "work",
-    "services": [
-      "storefront",
-      "commercial"
-    ],
-    "width": 1206,
-    "height": 1593,
-    "ratio": 0.7571,
-    "orientation": "portrait",
-    "bytes": 214475,
-    "source": "photos/02-Storefront-Glass-Doors/storefront-paddle-hookbolt-service.jpeg"
-  },
-  {
-    "id": "storefront-storefront-pivot-and-mortise-service",
-    "src": "/photos/storefront--storefront-pivot-and-mortise-service.jpeg",
-    "alt": "Storefront pivot and mortise service \u2014 storefront door job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "storefront",
-    "kind": "work",
-    "services": [
-      "storefront",
-      "commercial"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1953820,
-    "source": "photos/02-Storefront-Glass-Doors/storefront-pivot-and-mortise-service.jpeg"
-  },
-  {
-    "id": "residential-broken-key-extraction-deadbolt",
-    "src": "/photos/residential--broken-key-extraction-deadbolt.jpeg",
-    "alt": "Broken key extraction deadbolt \u2014 residential locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential",
-      "rekey",
-      "emergency"
-    ],
-    "width": 1206,
-    "height": 2622,
-    "ratio": 0.46,
-    "orientation": "portrait",
-    "bytes": 171543,
-    "source": "photos/03-Residential-Doors/broken-key-extraction-deadbolt.jpeg"
-  },
-  {
-    "id": "residential-french-door-deadbolt-drill-jig-install",
-    "src": "/photos/residential--french-door-deadbolt-drill-jig-install.jpeg",
-    "alt": "French door deadbolt drill jig install \u2014 residential locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential",
-      "rekey",
-      "emergency"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 2016114,
-    "source": "photos/03-Residential-Doors/french-door-deadbolt-drill-jig-install.jpeg"
-  },
-  {
-    "id": "residential-residential-brass-deadbolt-and-knob",
-    "src": "/photos/residential--residential-brass-deadbolt-and-knob.jpeg",
-    "alt": "Residential brass deadbolt and knob \u2014 residential locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential",
-      "rekey",
-      "emergency"
-    ],
-    "width": 2160,
-    "height": 3840,
-    "ratio": 0.5625,
-    "orientation": "portrait",
-    "bytes": 592161,
-    "source": "photos/03-Residential-Doors/residential-brass-deadbolt-and-knob.jpeg"
-  },
-  {
-    "id": "residential-residential-double-cylinder-deadbolt-set",
-    "src": "/photos/residential--residential-double-cylinder-deadbolt-set.jpeg",
-    "alt": "Residential double cylinder deadbolt set \u2014 residential locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential",
-      "rekey",
-      "emergency"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1767750,
-    "source": "photos/03-Residential-Doors/residential-double-cylinder-deadbolt-set.jpeg"
-  },
-  {
-    "id": "residential-residential-entry-deadbolt-and-knob-install-01",
-    "src": "/photos/residential--residential-entry-deadbolt-and-knob-install-01.jpeg",
-    "alt": "Residential entry deadbolt and knob install 01 \u2014 residential locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential",
-      "rekey",
-      "emergency"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1492868,
-    "source": "photos/03-Residential-Doors/residential-entry-deadbolt-and-knob-install-01.jpeg"
-  },
-  {
-    "id": "residential-residential-entry-deadbolt-and-knob-install-02",
-    "src": "/photos/residential--residential-entry-deadbolt-and-knob-install-02.jpeg",
-    "alt": "Residential entry deadbolt and knob install 02 \u2014 residential locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential",
-      "rekey",
-      "emergency"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1292228,
-    "source": "photos/03-Residential-Doors/residential-entry-deadbolt-and-knob-install-02.jpeg"
-  },
-  {
-    "id": "residential-residential-lockout-picking-service",
-    "src": "/photos/residential--residential-lockout-picking-service.jpeg",
-    "alt": "Residential lockout picking service \u2014 residential locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "residential",
-    "kind": "work",
-    "services": [
-      "residential",
-      "rekey",
-      "emergency"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 924141,
-    "source": "photos/03-Residential-Doors/residential-lockout-picking-service.jpeg"
-  },
-  {
-    "id": "smart-locks-double-entry-smart-keypad-deadbolt",
-    "src": "/photos/smart-locks--double-entry-smart-keypad-deadbolt.jpeg",
-    "alt": "Double entry smart keypad deadbolt \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 1206,
-    "height": 1593,
-    "ratio": 0.7571,
-    "orientation": "portrait",
-    "bytes": 276390,
-    "source": "photos/04-Smart-and-Keypad-Locks/double-entry-smart-keypad-deadbolt.jpeg"
-  },
-  {
-    "id": "smart-locks-lockly-fingerprint-storefront-install-01",
-    "src": "/photos/smart-locks--lockly-fingerprint-storefront-install-01.jpeg",
-    "alt": "Lockly fingerprint storefront install 01 \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1684835,
-    "source": "photos/04-Smart-and-Keypad-Locks/lockly-fingerprint-storefront-install-01.jpeg"
-  },
-  {
-    "id": "smart-locks-lockly-fingerprint-storefront-install-02",
-    "src": "/photos/smart-locks--lockly-fingerprint-storefront-install-02.jpeg",
-    "alt": "Lockly fingerprint storefront install 02 \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1649705,
-    "source": "photos/04-Smart-and-Keypad-Locks/lockly-fingerprint-storefront-install-02.jpeg"
-  },
-  {
-    "id": "smart-locks-lockly-storefront-hookbolt-strike-closeup",
-    "src": "/photos/smart-locks--lockly-storefront-hookbolt-strike-closeup.jpeg",
-    "alt": "Lockly storefront hookbolt strike closeup \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 4284,
-    "height": 5712,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1527861,
-    "source": "photos/04-Smart-and-Keypad-Locks/lockly-storefront-hookbolt-strike-closeup.jpeg"
-  },
-  {
-    "id": "smart-locks-pool-gate-lockey-mechanical-keypad",
-    "src": "/photos/smart-locks--pool-gate-lockey-mechanical-keypad.jpeg",
-    "alt": "Pool gate lockey mechanical keypad \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 1200,
-    "height": 1600,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 220021,
-    "source": "photos/04-Smart-and-Keypad-Locks/pool-gate-lockey-mechanical-keypad.jpeg"
-  },
-  {
-    "id": "smart-locks-residential-keypad-deadbolt-wood-door",
-    "src": "/photos/smart-locks--residential-keypad-deadbolt-wood-door.jpeg",
-    "alt": "Residential keypad deadbolt wood door \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 1206,
-    "height": 1577,
-    "ratio": 0.7647,
-    "orientation": "portrait",
-    "bytes": 217002,
-    "source": "photos/04-Smart-and-Keypad-Locks/residential-keypad-deadbolt-wood-door.jpeg"
-  },
-  {
-    "id": "smart-locks-schlage-black-keypad-deadbolt-interior",
-    "src": "/photos/smart-locks--schlage-black-keypad-deadbolt-interior.jpeg",
-    "alt": "Schlage black keypad deadbolt interior \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 1206,
-    "height": 1595,
-    "ratio": 0.7561,
-    "orientation": "portrait",
-    "bytes": 170497,
-    "source": "photos/04-Smart-and-Keypad-Locks/schlage-black-keypad-deadbolt-interior.jpeg"
-  },
-  {
-    "id": "smart-locks-schlage-black-keypad-deadbolt-side-door",
-    "src": "/photos/smart-locks--schlage-black-keypad-deadbolt-side-door.jpeg",
-    "alt": "Schlage black keypad deadbolt side door \u2014 smart lock install job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "smart-locks",
-    "kind": "work",
-    "services": [
-      "smart-locks",
-      "residential"
-    ],
-    "width": 1206,
-    "height": 1585,
-    "ratio": 0.7609,
-    "orientation": "portrait",
-    "bytes": 249052,
-    "source": "photos/04-Smart-and-Keypad-Locks/schlage-black-keypad-deadbolt-side-door.jpeg"
-  },
-  {
-    "id": "access-control-maglock-storefront-install",
-    "src": "/photos/access-control--maglock-storefront-install.jpeg",
-    "alt": "Maglock storefront install \u2014 access control job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "access-control",
-    "kind": "work",
-    "services": [
-      "access-control",
-      "commercial"
-    ],
-    "width": 1206,
-    "height": 1593,
-    "ratio": 0.7571,
-    "orientation": "portrait",
-    "bytes": 290851,
-    "source": "photos/05-Access-Control/maglock-storefront-install.jpeg"
-  },
-  {
-    "id": "access-control-maglock-with-power-supply-install",
-    "src": "/photos/access-control--maglock-with-power-supply-install.jpeg",
-    "alt": "Maglock with power supply install \u2014 access control job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "access-control",
-    "kind": "work",
-    "services": [
-      "access-control",
-      "commercial"
-    ],
-    "width": 1206,
-    "height": 1598,
-    "ratio": 0.7547,
-    "orientation": "portrait",
-    "bytes": 244930,
-    "source": "photos/05-Access-Control/maglock-with-power-supply-install.jpeg"
-  },
-  {
-    "id": "access-control-wired-rex-exit-button-install",
-    "src": "/photos/access-control--wired-rex-exit-button-install.jpeg",
-    "alt": "Wired rex exit button install \u2014 access control job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "access-control",
-    "kind": "work",
-    "services": [
-      "access-control",
-      "commercial"
-    ],
-    "width": 1206,
-    "height": 1591,
-    "ratio": 0.758,
-    "orientation": "portrait",
-    "bytes": 131774,
-    "source": "photos/05-Access-Control/wired-rex-exit-button-install.jpeg"
-  },
-  {
-    "id": "automotive-kia-key-fob-programming-autel",
-    "src": "/photos/automotive--kia-key-fob-programming-autel.jpeg",
-    "alt": "Kia key fob programming autel \u2014 auto locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "automotive",
-    "kind": "work",
-    "services": [
-      "automotive",
-      "emergency"
-    ],
-    "width": 1206,
-    "height": 1575,
-    "ratio": 0.7657,
-    "orientation": "portrait",
-    "bytes": 234041,
-    "source": "photos/06-Auto-Locksmith/kia-key-fob-programming-autel.jpeg"
-  },
-  {
-    "id": "automotive-toyota-door-panel-lock-repair",
-    "src": "/photos/automotive--toyota-door-panel-lock-repair.jpeg",
-    "alt": "Toyota door panel lock repair \u2014 auto locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "automotive",
-    "kind": "work",
-    "services": [
-      "automotive",
-      "emergency"
-    ],
-    "width": 1206,
-    "height": 1586,
-    "ratio": 0.7604,
-    "orientation": "portrait",
-    "bytes": 223104,
-    "source": "photos/06-Auto-Locksmith/toyota-door-panel-lock-repair.jpeg"
-  },
-  {
-    "id": "specialty-french-door-flush-bolt-matte-black",
-    "src": "/photos/specialty--french-door-flush-bolt-matte-black.jpeg",
-    "alt": "French door flush bolt matte black \u2014 specialty hardware job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "specialty",
-    "kind": "work",
-    "services": [
-      "specialty",
-      "residential"
-    ],
-    "width": 1206,
-    "height": 1593,
-    "ratio": 0.7571,
-    "orientation": "portrait",
-    "bytes": 233954,
-    "source": "photos/07-Specialty-Hardware/french-door-flush-bolt-matte-black.jpeg"
-  },
-  {
-    "id": "specialty-hoppe-multipoint-lock-mechanisms",
-    "src": "/photos/specialty--hoppe-multipoint-lock-mechanisms.jpeg",
-    "alt": "Hoppe multipoint lock mechanisms \u2014 specialty hardware job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "specialty",
-    "kind": "work",
-    "services": [
-      "specialty",
-      "residential"
-    ],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1768517,
-    "source": "photos/07-Specialty-Hardware/hoppe-multipoint-lock-mechanisms.jpeg"
-  },
-  {
-    "id": "safes-commercial-safe-drill-opening-01",
-    "src": "/photos/safes--commercial-safe-drill-opening-01.jpeg",
-    "alt": "Commercial safe drill opening 01 \u2014 safe locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "safes",
-    "kind": "work",
-    "services": [
-      "safes"
-    ],
-    "width": 1206,
-    "height": 1530,
-    "ratio": 0.7882,
-    "orientation": "portrait",
-    "bytes": 368248,
-    "source": "photos/08-Safe-Work/commercial-safe-drill-opening-01.jpeg"
-  },
-  {
-    "id": "safes-commercial-safe-drill-opening-02",
-    "src": "/photos/safes--commercial-safe-drill-opening-02.jpeg",
-    "alt": "Commercial safe drill opening 02 \u2014 safe locksmith job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "safes",
-    "kind": "work",
-    "services": [
-      "safes"
-    ],
-    "width": 1206,
-    "height": 1590,
-    "ratio": 0.7585,
-    "orientation": "portrait",
-    "bytes": 205409,
-    "source": "photos/08-Safe-Work/commercial-safe-drill-opening-02.jpeg"
-  },
-  {
-    "id": "branding-business-cards-and-keychain-bottle-openers-01",
-    "src": "/photos/branding--business-cards-and-keychain-bottle-openers-01.jpeg",
-    "alt": "Business cards and keychain bottle openers 01 \u2014 OH Lock & Key branding job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding",
-    "kind": "brand",
-    "services": [],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1312145,
-    "source": "photos/09-Branding-Marketing/business-cards-and-keychain-bottle-openers-01.jpeg"
-  },
-  {
-    "id": "branding-business-cards-and-keychain-bottle-openers-02",
-    "src": "/photos/branding--business-cards-and-keychain-bottle-openers-02.jpeg",
-    "alt": "Business cards and keychain bottle openers 02 \u2014 OH Lock & Key branding job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding",
-    "kind": "brand",
-    "services": [],
-    "width": 3024,
-    "height": 4032,
-    "ratio": 0.75,
-    "orientation": "portrait",
-    "bytes": 1161265,
-    "source": "photos/09-Branding-Marketing/business-cards-and-keychain-bottle-openers-02.jpeg"
-  },
-  {
-    "id": "branding-oh-lock-and-key-logo-artwork-01",
-    "src": "/photos/branding--oh-lock-and-key-logo-artwork-01.png",
-    "alt": "Oh lock and key logo artwork 01 \u2014 OH Lock & Key branding job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding",
-    "kind": "brand",
-    "services": [],
-    "width": 1536,
-    "height": 1024,
-    "ratio": 1.5,
-    "orientation": "landscape",
-    "bytes": 1434121,
-    "source": "photos/09-Branding-Marketing/oh-lock-and-key-logo-artwork-01.png"
-  },
-  {
-    "id": "branding-oh-lock-and-key-logo-artwork-02",
-    "src": "/photos/branding--oh-lock-and-key-logo-artwork-02.png",
-    "alt": "Oh lock and key logo artwork 02 \u2014 OH Lock & Key branding job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding",
-    "kind": "brand",
-    "services": [],
-    "width": 1254,
-    "height": 1254,
-    "ratio": 1.0,
-    "orientation": "square",
-    "bytes": 2088423,
-    "source": "photos/09-Branding-Marketing/oh-lock-and-key-logo-artwork-02.png"
-  },
-  {
-    "id": "branding-social-media-marketing-graphic",
-    "src": "/photos/branding--social-media-marketing-graphic.png",
-    "alt": "Social media marketing graphic \u2014 OH Lock & Key branding job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding",
-    "kind": "brand",
-    "services": [],
-    "width": 1206,
-    "height": 2622,
-    "ratio": 0.46,
-    "orientation": "portrait",
-    "bytes": 7775552,
-    "source": "photos/09-Branding-Marketing/social-media-marketing-graphic.png"
-  },
-  {
-    "id": "reviews-customer-review-screenshot-01",
-    "src": "/photos/reviews--customer-review-screenshot-01.png",
-    "alt": "Customer review screenshot 01 \u2014 Customer review of OH Lock & Key Solutions job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "reviews",
-    "kind": "review",
-    "services": [],
-    "width": 1206,
-    "height": 2622,
-    "ratio": 0.46,
-    "orientation": "portrait",
-    "bytes": 5207610,
-    "source": "photos/10-Reviews-and-Screenshots/customer-review-screenshot-01.png"
-  },
-  {
-    "id": "reviews-customer-review-screenshot-02",
-    "src": "/photos/reviews--customer-review-screenshot-02.png",
-    "alt": "Customer review screenshot 02 \u2014 Customer review of OH Lock & Key Solutions job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "reviews",
-    "kind": "review",
-    "services": [],
-    "width": 1206,
-    "height": 2622,
-    "ratio": 0.46,
-    "orientation": "portrait",
-    "bytes": 5911220,
-    "source": "photos/10-Reviews-and-Screenshots/customer-review-screenshot-02.png"
-  },
-  {
-    "id": "branding-generated-business-card-mockup-photo",
-    "src": "/photos/branding-generated--business-card-mockup-photo.png",
-    "alt": "Business card mockup photo \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1200,
-    "height": 896,
-    "ratio": 1.3393,
-    "orientation": "landscape",
-    "bytes": 867067,
-    "source": "photos/11-Generated-Branding/business-card-mockup-photo.png"
-  },
-  {
-    "id": "branding-generated-favicon-icon-product-shot",
-    "src": "/photos/branding-generated--favicon-icon-product-shot.png",
-    "alt": "Favicon icon product shot \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1024,
-    "height": 1024,
-    "ratio": 1.0,
-    "orientation": "square",
-    "bytes": 542287,
-    "source": "photos/11-Generated-Branding/favicon-icon-product-shot.png"
-  },
-  {
-    "id": "branding-generated-hero-banner-keys-and-tools-flatlay",
-    "src": "/photos/branding-generated--hero-banner-keys-and-tools-flatlay.png",
-    "alt": "Hero banner keys and tools flatlay \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
-    "orientation": "landscape",
-    "bytes": 809451,
-    "source": "photos/11-Generated-Branding/hero-banner-keys-and-tools-flatlay.png"
-  },
-  {
-    "id": "branding-generated-hero-locksmith-hands-installing-deadbolt",
-    "src": "/photos/branding-generated--hero-locksmith-hands-installing-deadbolt.png",
-    "alt": "Hero locksmith hands installing deadbolt \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
-    "orientation": "landscape",
-    "bytes": 778059,
-    "source": "photos/11-Generated-Branding/hero-locksmith-hands-installing-deadbolt.png"
-  },
-  {
-    "id": "branding-generated-orange-county-map-physical-mockup",
-    "src": "/photos/branding-generated--orange-county-map-physical-mockup.png",
-    "alt": "Orange county map physical mockup \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
-    "orientation": "landscape",
-    "bytes": 769446,
-    "source": "photos/11-Generated-Branding/orange-county-map-physical-mockup.png"
-  },
-  {
-    "id": "branding-generated-service-van-side-magnet-daylight",
-    "src": "/photos/branding-generated--service-van-side-magnet-daylight.png",
-    "alt": "Service van side magnet daylight \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
-    "orientation": "landscape",
-    "bytes": 810526,
-    "source": "photos/11-Generated-Branding/service-van-side-magnet-daylight.png"
-  },
-  {
-    "id": "branding-generated-service-van-three-quarter-front",
-    "src": "/photos/branding-generated--service-van-three-quarter-front.png",
-    "alt": "Service van three quarter front \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
-    "orientation": "landscape",
-    "bytes": 735065,
-    "source": "photos/11-Generated-Branding/service-van-three-quarter-front.png"
-  },
-  {
-    "id": "branding-generated-social-tile-emergency-callout-real",
-    "src": "/photos/branding-generated--social-tile-emergency-callout-real.png",
-    "alt": "Social tile emergency callout real \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1024,
-    "height": 1024,
-    "ratio": 1.0,
-    "orientation": "square",
-    "bytes": 768956,
-    "source": "photos/11-Generated-Branding/social-tile-emergency-callout-real.png"
-  },
-  {
-    "id": "branding-generated-social-tile-services-grid-real",
-    "src": "/photos/branding-generated--social-tile-services-grid-real.png",
-    "alt": "Social tile services grid real \u2014 OH Lock & Key marketing visual job by OH Lock & Key Solutions, Orange County (BSIS #8663)",
-    "category": "branding-generated",
-    "kind": "brand",
-    "services": [],
-    "width": 1024,
-    "height": 1024,
-    "ratio": 1.0,
-    "orientation": "square",
-    "bytes": 823682,
-    "source": "photos/11-Generated-Branding/social-tile-services-grid-real.png"
-  },
-  {
     "id": "service-hero-emergency",
     "src": "/photos/service-hero-emergency.png",
-    "alt": "24-Hour Emergency Locksmith by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Repair — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "emergency"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 716778,
-    "source": "photos/12-Service-Hero/service-hero-emergency.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-residential",
     "src": "/photos/service-hero-residential.png",
-    "alt": "Residential Locksmith by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Residential — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "residential"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 740587,
-    "source": "photos/12-Service-Hero/service-hero-residential.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-commercial",
     "src": "/photos/service-hero-commercial.png",
-    "alt": "Commercial Locksmith by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Commercial — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "commercial"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 643572,
-    "source": "photos/12-Service-Hero/service-hero-commercial.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-storefront",
     "src": "/photos/service-hero-storefront.png",
-    "alt": "Storefront & Glass Door by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Retail — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "storefront"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 742523,
-    "source": "photos/12-Service-Hero/service-hero-storefront.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-smart-locks",
     "src": "/photos/service-hero-smart-locks.png",
-    "alt": "Smart & Keypad Locks by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Smooth Finish — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "smart-locks"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 670393,
-    "source": "photos/12-Service-Hero/service-hero-smart-locks.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-access-control",
     "src": "/photos/service-hero-access-control.png",
-    "alt": "Access Control by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Framing — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "access-control"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 633550,
-    "source": "photos/12-Service-Hero/service-hero-access-control.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-automotive",
     "src": "/photos/service-hero-automotive.png",
-    "alt": "Auto Locksmith by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Water Damage — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "automotive"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 771901,
-    "source": "photos/12-Service-Hero/service-hero-automotive.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-specialty",
     "src": "/photos/service-hero-specialty.png",
-    "alt": "Specialty Hardware by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Texture — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "specialty"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 701079,
-    "source": "photos/12-Service-Hero/service-hero-specialty.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-safes",
     "src": "/photos/service-hero-safes.png",
-    "alt": "Safe Locksmith by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "Ceilings — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "safes"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 784706,
-    "source": "photos/12-Service-Hero/service-hero-safes.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "service-hero-rekey",
     "src": "/photos/service-hero-rekey.png",
-    "alt": "Rekey & Master-Key by OH Lock & Key Solutions \u2014 Orange County, CA (BSIS #8663).",
+    "alt": "New Build — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
       "rekey"
     ],
-    "width": 1376,
-    "height": 768,
-    "ratio": 1.7917,
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
     "orientation": "landscape",
-    "bytes": 840297,
-    "source": "photos/12-Service-Hero/service-hero-rekey.png"
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "logo-master-on-navy",
-    "src": "/photos/logo-master-on-navy.png",
-    "alt": "OH Lock & Key Solutions brand logo \u2014 BSIS #8663 Orange County locksmith.",
-    "category": "logo",
+    "src": "/logo.png",
+    "alt": "BH Drywall Metro Detroit logo",
+    "category": "brand",
     "kind": "brand",
     "services": [
       "brand"
     ],
-    "width": 1024,
-    "height": 1024,
-    "ratio": 1.0,
-    "orientation": "square",
-    "bytes": 661382,
-    "source": "photos/13-Logo/logo-master-on-navy.png"
+    "width": 512,
+    "height": 512,
+    "ratio": 1,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
   },
   {
     "id": "logo-icon-square",
-    "src": "/photos/logo-icon-square.png",
-    "alt": "OH Lock & Key Solutions brand logo \u2014 BSIS #8663 Orange County locksmith.",
-    "category": "logo",
+    "src": "/logo.png",
+    "alt": "BH Drywall Metro Detroit icon",
+    "category": "brand",
     "kind": "brand",
     "services": [
       "brand"
     ],
-    "width": 1024,
-    "height": 1024,
-    "ratio": 1.0,
-    "orientation": "square",
-    "bytes": 694467,
-    "source": "photos/13-Logo/logo-icon-square.png"
+    "width": 512,
+    "height": 512,
+    "ratio": 1,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "branding-hero-metro",
+    "src": "/photos/branding-generated--hero-drywall-metro-detroit.png",
+    "alt": "BH Drywall Metro Detroit crew finishing walls in a Michigan home",
+    "category": "branding-generated",
+    "kind": "hero",
+    "services": [
+      "residential",
+      "commercial"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "branding-map-metro",
+    "src": "/photos/branding-generated--metro-detroit-map-mockup.png",
+    "alt": "BH Drywall Metro Detroit Metro Detroit service area map",
+    "category": "branding-generated",
+    "kind": "brand",
+    "services": [
+      "brand"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--basement-finish",
+    "src": "/photos/gen--basement-finish.png",
+    "alt": "Finished basement drywall — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential",
+      "rekey"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--ceiling-grid",
+    "src": "/photos/gen--ceiling-grid.png",
+    "alt": "Suspended acoustical ceiling install — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "ceilings",
+    "kind": "work",
+    "services": [
+      "safes"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--commercial-buildout",
+    "src": "/photos/gen--commercial-buildout.png",
+    "alt": "Commercial tenant drywall buildout — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial",
+      "storefront"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--metal-framing",
+    "src": "/photos/gen--metal-framing.png",
+    "alt": "Metal stud partition framing — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "framing",
+    "kind": "work",
+    "services": [
+      "access-control"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--repair-patch",
+    "src": "/photos/gen--repair-patch.png",
+    "alt": "Drywall patch and texture blend — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "repair",
+    "kind": "work",
+    "services": [
+      "emergency",
+      "residential"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--residential-finish",
+    "src": "/photos/gen--residential-finish.png",
+    "alt": "Level 4 residential drywall finish — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--texture-knockdown",
+    "src": "/photos/gen--texture-knockdown.png",
+    "alt": "Knockdown ceiling texture — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "texture",
+    "kind": "work",
+    "services": [
+      "specialty"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen--water-damage",
+    "src": "/photos/gen--water-damage.png",
+    "alt": "Water damage drywall replacement — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "water",
+    "kind": "work",
+    "services": [
+      "automotive"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--bathroom-greenboard",
+    "src": "/photos/gen-v2--bathroom-greenboard.png",
+    "alt": "Bathroom moisture-resistant drywall — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--condo-highrise",
+    "src": "/photos/gen-v2--condo-highrise.png",
+    "alt": "Condo high-rise drywall finish — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial",
+      "residential"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--corner-bead",
+    "src": "/photos/gen-v2--corner-bead.png",
+    "alt": "Corner bead on drywall outside corner — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "framing",
+    "kind": "work",
+    "services": [
+      "residential",
+      "commercial"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--crew-sanding",
+    "src": "/photos/gen-v2--crew-sanding.png",
+    "alt": "Drywall crew pole sanding — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential",
+      "rekey"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--drywall-lift-hang",
+    "src": "/photos/gen-v2--drywall-lift-hang.png",
+    "alt": "Drywall lift hanging ceiling sheet — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "framing",
+    "kind": "work",
+    "services": [
+      "rekey",
+      "commercial"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--exterior-soffit",
+    "src": "/photos/gen-v2--exterior-soffit.png",
+    "alt": "Exterior soffit drywall repair — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential",
+      "storefront"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--fire-rated-taping",
+    "src": "/photos/gen-v2--fire-rated-taping.png",
+    "alt": "Fire-rated drywall taping — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial",
+      "access-control"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--garage-drywall",
+    "src": "/photos/gen-v2--garage-drywall.png",
+    "alt": "Garage drywall finish — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--kitchen-remodel",
+    "src": "/photos/gen-v2--kitchen-remodel.png",
+    "alt": "Kitchen remodel drywall finish — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential",
+      "emergency"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--level5-skim",
+    "src": "/photos/gen-v2--level5-skim.png",
+    "alt": "Level 5 skim coat smooth wall — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential",
+      "smart-locks"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--mud-taping-joint",
+    "src": "/photos/gen-v2--mud-taping-joint.png",
+    "alt": "Mud and tape on drywall joint — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential",
+      "rekey"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--multi-family-hall",
+    "src": "/photos/gen-v2--multi-family-hall.png",
+    "alt": "Multi-family hallway drywall — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "rekey",
+      "commercial"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--office-buildout-night",
+    "src": "/photos/gen-v2--office-buildout-night.png",
+    "alt": "After-hours commercial drywall buildout — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial",
+      "storefront"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--orange-peel-match",
+    "src": "/photos/gen-v2--orange-peel-match.png",
+    "alt": "Orange peel texture match — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "texture",
+    "kind": "work",
+    "services": [
+      "specialty"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--popcorn-removal",
+    "src": "/photos/gen-v2--popcorn-removal.png",
+    "alt": "Popcorn ceiling removal — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "texture",
+    "kind": "work",
+    "services": [
+      "specialty",
+      "residential"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--retail-soffit",
+    "src": "/photos/gen-v2--retail-soffit.png",
+    "alt": "Retail soffit drywall — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "storefront",
+      "commercial"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--stairwell-smooth",
+    "src": "/photos/gen-v2--stairwell-smooth.png",
+    "alt": "Smooth drywall stairwell — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "residential",
+    "kind": "work",
+    "services": [
+      "residential"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
+    "id": "gen-v2--warehouse-partition",
+    "src": "/photos/gen-v2--warehouse-partition.png",
+    "alt": "Warehouse partition drywall — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "commercial",
+    "kind": "work",
+    "services": [
+      "commercial",
+      "access-control"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
   }
 ]
