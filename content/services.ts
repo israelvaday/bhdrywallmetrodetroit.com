@@ -17,7 +17,7 @@ export type Service = {
 
 export const SERVICES: Service[] = [
   {
-    slug: "emergency",
+    slug: "drywall-repair",
     name: "Same-Day Drywall Repair",
     shortName: "Repair",
     icon: Siren,
@@ -35,7 +35,7 @@ export const SERVICES: Service[] = [
     keywords: ["drywall repair detroit", "same day drywall patch", "hole in wall repair mi"],
   },
   {
-    slug: "residential",
+    slug: "residential-drywall",
     name: "Residential Drywall",
     shortName: "Residential",
     icon: Home,
@@ -53,7 +53,7 @@ export const SERVICES: Service[] = [
     keywords: ["residential drywall detroit", "basement drywall mi", "drywall finishing metro detroit"],
   },
   {
-    slug: "commercial",
+    slug: "commercial-drywall",
     name: "Commercial Drywall",
     shortName: "Commercial",
     icon: Building2,
@@ -71,7 +71,7 @@ export const SERVICES: Service[] = [
     keywords: ["commercial drywall detroit", "tenant improvement drywall", "office drywall contractor mi"],
   },
   {
-    slug: "storefront",
+    slug: "retail-restaurant-buildouts",
     name: "Retail & Restaurant Buildouts",
     shortName: "Retail",
     icon: Store,
@@ -89,7 +89,7 @@ export const SERVICES: Service[] = [
     keywords: ["retail drywall detroit", "restaurant buildout drywall", "storefront contractor mi"],
   },
   {
-    slug: "smart-locks",
+    slug: "level-5-smooth-finish",
     name: "Level 5 Smooth Finish",
     shortName: "Smooth Finish",
     icon: Paintbrush,
@@ -107,7 +107,7 @@ export const SERVICES: Service[] = [
     keywords: ["level 5 drywall finish", "smooth wall skim coat detroit", "drywall for wallpaper mi"],
   },
   {
-    slug: "access-control",
+    slug: "metal-stud-framing",
     name: "Metal Stud Framing",
     shortName: "Framing",
     icon: Columns3,
@@ -125,7 +125,7 @@ export const SERVICES: Service[] = [
     keywords: ["metal stud framing detroit", "commercial framing contractor mi", "drywall framing metro detroit"],
   },
   {
-    slug: "automotive",
+    slug: "water-damage-drywall-repair",
     name: "Water Damage Restoration",
     shortName: "Water Damage",
     icon: Droplets,
@@ -143,7 +143,7 @@ export const SERVICES: Service[] = [
     keywords: ["water damage drywall detroit", "flood cut drywall mi", "basement drywall after flood"],
   },
   {
-    slug: "specialty",
+    slug: "texture-matching",
     name: "Texture & Custom Finishes",
     shortName: "Texture",
     icon: Layers,
@@ -161,7 +161,7 @@ export const SERVICES: Service[] = [
     keywords: ["drywall texture detroit", "knockdown texture mi", "popcorn ceiling removal detroit"],
   },
   {
-    slug: "safes",
+    slug: "acoustical-ceilings",
     name: "Acoustical Ceilings",
     shortName: "Ceilings",
     icon: Grid3X3,
@@ -179,7 +179,7 @@ export const SERVICES: Service[] = [
     keywords: ["acoustical ceiling detroit", "drop ceiling installation mi", "suspended ceiling contractor"],
   },
   {
-    slug: "rekey",
+    slug: "new-construction-drywall",
     name: "New Construction Hang & Finish",
     shortName: "New Build",
     icon: HardHat,

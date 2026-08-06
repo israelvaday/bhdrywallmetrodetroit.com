@@ -12,23 +12,23 @@ import { BIZ } from "@/lib/business";
 import { Button } from "@/components/ui/Button";
 
 type ServiceKey =
-  | "emergency" | "residential" | "commercial" | "storefront"
-  | "smart-locks" | "access-control" | "automotive" | "safes" | "rekey";
+  | "drywall-repair" | "residential-drywall" | "commercial-drywall" | "retail-restaurant-buildouts"
+  | "level-5-smooth-finish" | "metal-stud-framing" | "water-damage-drywall-repair" | "acoustical-ceilings" | "new-construction-drywall";
 
 type PropertyKey = "property-home" | "property-business" | "property-vehicle" | "property-other";
 
 type Urgency = "now" | "today" | "this-week" | "scheduling";
 
 const SERVICES: { key: ServiceKey; label: string; sub: string }[] = [
-  { key: "emergency",      label: "Same-day repair",     sub: "Holes, cracks, patches" },
-  { key: "residential",    label: "Residential",         sub: "Basements, remodels" },
-  { key: "commercial",     label: "Commercial",          sub: "Office & retail TI" },
-  { key: "storefront",     label: "Retail buildout",     sub: "Storefronts & restaurants" },
-  { key: "smart-locks",    label: "Level 5 / smooth",    sub: "Skim coat & smooth walls" },
-  { key: "access-control", label: "Metal framing",       sub: "Partitions & soffits" },
-  { key: "automotive",     label: "Water damage",        sub: "Flood cut & rebuild" },
-  { key: "safes",          label: "Ceilings",            sub: "Grid & gypsum ceilings" },
-  { key: "rekey",          label: "New construction",    sub: "Hang, tape, finish" },
+  { key: "drywall-repair",      label: "Same-day repair",     sub: "Holes, cracks, patches" },
+  { key: "residential-drywall",    label: "Residential",         sub: "Basements, remodels" },
+  { key: "commercial-drywall",     label: "Commercial",          sub: "Office & retail TI" },
+  { key: "retail-restaurant-buildouts",     label: "Retail buildout",     sub: "Storefronts & restaurants" },
+  { key: "level-5-smooth-finish",    label: "Level 5 / smooth",    sub: "Skim coat & smooth walls" },
+  { key: "metal-stud-framing", label: "Metal framing",       sub: "Partitions & soffits" },
+  { key: "water-damage-drywall-repair",     label: "Water damage",        sub: "Flood cut & rebuild" },
+  { key: "acoustical-ceilings",          label: "Ceilings",            sub: "Grid & gypsum ceilings" },
+  { key: "new-construction-drywall",          label: "New construction",    sub: "Hang, tape, finish" },
 ];
 
 const PROPERTIES: { key: PropertyKey; label: string; sub: string }[] = [

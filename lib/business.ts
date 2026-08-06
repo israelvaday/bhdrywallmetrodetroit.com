@@ -45,7 +45,7 @@ export const BIZ = {
     { day: 6, open: "00:00", close: "00:00", label: "Saturday", closed: true },
   ] as const,
   social: {
-    google: "",
+    google: "https://maps.google.com/maps?cid=14644009206441025037",
     yelp: "",
     facebook: "",
     instagram: "",

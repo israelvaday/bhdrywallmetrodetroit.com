@@ -15,18 +15,10 @@ export function localBusinessJsonLd() {
     url: BIZ.url,
     priceRange: "$$",
     address: {
-      "@type": "PostalAddress",
-      streetAddress: BIZ.address.street,
+      "@type": "PostalAddress",      // no streetAddress: service-area business, no storefront
       addressLocality: BIZ.address.locality,
-      addressRegion: BIZ.address.region,
-      postalCode: BIZ.address.postalCode,
-      addressCountry: BIZ.address.country,
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: BIZ.geo.lat,
-      longitude: BIZ.geo.lng,
-    },
+      addressRegion: BIZ.address.region,      addressCountry: BIZ.address.country,
+    },    // no geo: all six BH brands published the same downtown Detroit point
     areaServed: AREAS.map((a) => ({
       "@type": "City",
       name: a.name,
@@ -39,13 +31,8 @@ export function localBusinessJsonLd() {
         dayOfWeek: h.label,
         opens: h.open,
         closes: h.close,
-      })),
-    hasCredential: {
-      "@type": "EducationalOccupationalCredential",
-      credentialCategory: "license",
-      name: "Licensed & Insured Drywall Contractor",
-      identifier: BIZ.licenseId,
-    },
+      })),    // hasCredential removed: the identifier was the placeholder "Insured",
+    // not a licence number. Restore only with a real, verifiable number.
     sameAs: Object.values(BIZ.social).filter(Boolean),
   };
 }

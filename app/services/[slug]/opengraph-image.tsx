@@ -17,16 +17,16 @@ export function generateStaticParams() {
 }
 
 const ICONS: Record<string, string> = {
-  emergency: "🚨",
-  residential: "🏠",
-  commercial: "🏢",
-  storefront: "🏬",
-  "smart-locks": "✨",
-  "access-control": "🧱",
-  automotive: "💧",
-  specialty: "🎨",
-  safes: "🔲",
-  rekey: "🏗️",
+  "drywall-repair": "🚨",
+  "residential-drywall": "🏠",
+  "commercial-drywall": "🏢",
+  "retail-restaurant-buildouts": "🏬",
+  "level-5-smooth-finish": "✨",
+  "metal-stud-framing": "🧱",
+  "water-damage-drywall-repair": "💧",
+  "texture-matching": "🎨",
+  "acoustical-ceilings": "🔲",
+  "new-construction-drywall": "🏗️",
 };
 
 export default async function ServiceOg({ params }: { params: Promise<{ slug: string }> }) {
