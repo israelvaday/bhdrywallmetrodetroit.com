@@ -1,12 +1,12 @@
 [
   {
-    "id": "service-hero-emergency",
+    "id": "service-hero-drywall-repair",
     "src": "/photos/service-hero-emergency.png",
     "alt": "Repair — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "emergency"
+      "drywall-repair"
     ],
     "width": 1600,
     "height": 900,
@@ -16,13 +16,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-residential",
+    "id": "service-hero-residential-drywall",
     "src": "/photos/service-hero-residential.png",
     "alt": "Residential — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "residential"
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -32,13 +32,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-commercial",
+    "id": "service-hero-commercial-drywall",
     "src": "/photos/service-hero-commercial.png",
     "alt": "Commercial — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "commercial"
+      "commercial-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -48,13 +48,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-storefront",
+    "id": "service-hero-retail-restaurant-buildouts",
     "src": "/photos/service-hero-storefront.png",
     "alt": "Retail — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "storefront"
+      "retail-restaurant-buildouts"
     ],
     "width": 1600,
     "height": 900,
@@ -64,13 +64,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-smart-locks",
+    "id": "service-hero-level-5-smooth-finish",
     "src": "/photos/service-hero-smart-locks.png",
     "alt": "Smooth Finish — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "smart-locks"
+      "level-5-smooth-finish"
     ],
     "width": 1600,
     "height": 900,
@@ -80,13 +80,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-access-control",
+    "id": "service-hero-metal-stud-framing",
     "src": "/photos/service-hero-access-control.png",
     "alt": "Framing — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "access-control"
+      "metal-stud-framing"
     ],
     "width": 1600,
     "height": 900,
@@ -96,13 +96,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-automotive",
+    "id": "service-hero-water-damage-drywall-repair",
     "src": "/photos/service-hero-automotive.png",
     "alt": "Water Damage — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "automotive"
+      "water-damage-drywall-repair"
     ],
     "width": 1600,
     "height": 900,
@@ -112,13 +112,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-specialty",
+    "id": "service-hero-texture-matching",
     "src": "/photos/service-hero-specialty.png",
     "alt": "Texture — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "specialty"
+      "texture-matching"
     ],
     "width": 1600,
     "height": 900,
@@ -128,13 +128,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-safes",
+    "id": "service-hero-acoustical-ceilings",
     "src": "/photos/service-hero-safes.png",
     "alt": "Ceilings — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "safes"
+      "acoustical-ceilings"
     ],
     "width": 1600,
     "height": 900,
@@ -144,13 +144,13 @@
     "source": "generated"
   },
   {
-    "id": "service-hero-rekey",
+    "id": "service-hero-new-construction-drywall",
     "src": "/photos/service-hero-rekey.png",
     "alt": "New Build — BH Drywall Metro Detroit, Metro Detroit, MI",
     "category": "service-hero",
     "kind": "hero",
     "services": [
-      "rekey"
+      "new-construction-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -198,8 +198,8 @@
     "category": "branding-generated",
     "kind": "hero",
     "services": [
-      "residential",
-      "commercial"
+      "residential-drywall",
+      "commercial-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -231,8 +231,8 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential",
-      "rekey"
+      "residential-drywall",
+      "new-construction-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -248,7 +248,7 @@
     "category": "ceilings",
     "kind": "work",
     "services": [
-      "safes"
+      "acoustical-ceilings"
     ],
     "width": 1600,
     "height": 900,
@@ -264,8 +264,8 @@
     "category": "commercial",
     "kind": "work",
     "services": [
-      "commercial",
-      "storefront"
+      "commercial-drywall",
+      "retail-restaurant-buildouts"
     ],
     "width": 1600,
     "height": 900,
@@ -281,7 +281,7 @@
     "category": "framing",
     "kind": "work",
     "services": [
-      "access-control"
+      "metal-stud-framing"
     ],
     "width": 1600,
     "height": 900,
@@ -297,8 +297,8 @@
     "category": "repair",
     "kind": "work",
     "services": [
-      "emergency",
-      "residential"
+      "drywall-repair",
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -314,7 +314,7 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential"
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -330,7 +330,7 @@
     "category": "texture",
     "kind": "work",
     "services": [
-      "specialty"
+      "texture-matching"
     ],
     "width": 1600,
     "height": 900,
@@ -346,7 +346,7 @@
     "category": "water",
     "kind": "work",
     "services": [
-      "automotive"
+      "water-damage-drywall-repair"
     ],
     "width": 1600,
     "height": 900,
@@ -362,7 +362,7 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential"
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -378,8 +378,8 @@
     "category": "commercial",
     "kind": "work",
     "services": [
-      "commercial",
-      "residential"
+      "commercial-drywall",
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -395,8 +395,8 @@
     "category": "framing",
     "kind": "work",
     "services": [
-      "residential",
-      "commercial"
+      "residential-drywall",
+      "commercial-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -412,8 +412,8 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential",
-      "rekey"
+      "residential-drywall",
+      "new-construction-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -429,8 +429,8 @@
     "category": "framing",
     "kind": "work",
     "services": [
-      "rekey",
-      "commercial"
+      "new-construction-drywall",
+      "commercial-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -446,8 +446,8 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential",
-      "storefront"
+      "residential-drywall",
+      "retail-restaurant-buildouts"
     ],
     "width": 1600,
     "height": 900,
@@ -463,8 +463,8 @@
     "category": "commercial",
     "kind": "work",
     "services": [
-      "commercial",
-      "access-control"
+      "commercial-drywall",
+      "metal-stud-framing"
     ],
     "width": 1600,
     "height": 900,
@@ -480,7 +480,7 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential"
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -496,8 +496,8 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential",
-      "emergency"
+      "residential-drywall",
+      "drywall-repair"
     ],
     "width": 1600,
     "height": 900,
@@ -513,8 +513,8 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential",
-      "smart-locks"
+      "residential-drywall",
+      "level-5-smooth-finish"
     ],
     "width": 1600,
     "height": 900,
@@ -530,8 +530,8 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential",
-      "rekey"
+      "residential-drywall",
+      "new-construction-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -547,8 +547,8 @@
     "category": "commercial",
     "kind": "work",
     "services": [
-      "rekey",
-      "commercial"
+      "new-construction-drywall",
+      "commercial-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -564,8 +564,8 @@
     "category": "commercial",
     "kind": "work",
     "services": [
-      "commercial",
-      "storefront"
+      "commercial-drywall",
+      "retail-restaurant-buildouts"
     ],
     "width": 1600,
     "height": 900,
@@ -581,7 +581,7 @@
     "category": "texture",
     "kind": "work",
     "services": [
-      "specialty"
+      "texture-matching"
     ],
     "width": 1600,
     "height": 900,
@@ -597,8 +597,8 @@
     "category": "texture",
     "kind": "work",
     "services": [
-      "specialty",
-      "residential"
+      "texture-matching",
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -614,8 +614,8 @@
     "category": "commercial",
     "kind": "work",
     "services": [
-      "storefront",
-      "commercial"
+      "retail-restaurant-buildouts",
+      "commercial-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -631,7 +631,7 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential"
+      "residential-drywall"
     ],
     "width": 1600,
     "height": 900,
@@ -647,8 +647,8 @@
     "category": "commercial",
     "kind": "work",
     "services": [
-      "commercial",
-      "access-control"
+      "commercial-drywall",
+      "metal-stud-framing"
     ],
     "width": 1600,
     "height": 900,
