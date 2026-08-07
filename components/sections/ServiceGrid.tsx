@@ -14,7 +14,7 @@ export function ServiceGrid({ city }: { city?: string }) {
             Hang, finish, repair &amp; build out.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Ten drywall service lines across Metro Detroit. Tap a card for scope, photos, and a free estimate.
+            Eleven drywall service lines across Metro Detroit. Tap a card for scope, photos, and a free estimate.
           </p>
           <Link href="/services" className="mt-4 text-sm font-semibold text-brass-400 hover:text-brass-300">
             View all services →

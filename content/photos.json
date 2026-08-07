@@ -128,6 +128,22 @@
     "source": "generated"
   },
   {
+    "id": "service-hero-popcorn-ceiling-removal",
+    "src": "/photos/gen-v2--popcorn-removal.png",
+    "alt": "Popcorn ceiling removal — BH Drywall Metro Detroit, Metro Detroit, MI",
+    "category": "service-hero",
+    "kind": "hero",
+    "services": [
+      "popcorn-ceiling-removal"
+    ],
+    "width": 1600,
+    "height": 900,
+    "ratio": 1.778,
+    "orientation": "landscape",
+    "bytes": 120000,
+    "source": "generated"
+  },
+  {
     "id": "service-hero-acoustical-ceilings",
     "src": "/photos/service-hero-safes.png",
     "alt": "Ceilings — BH Drywall Metro Detroit, Metro Detroit, MI",
@@ -330,7 +346,8 @@
     "category": "texture",
     "kind": "work",
     "services": [
-      "texture-matching"
+      "texture-matching",
+      "popcorn-ceiling-removal"
     ],
     "width": 1600,
     "height": 900,
@@ -514,7 +531,8 @@
     "kind": "work",
     "services": [
       "residential-drywall",
-      "level-5-smooth-finish"
+      "level-5-smooth-finish",
+      "popcorn-ceiling-removal"
     ],
     "width": 1600,
     "height": 900,
@@ -631,7 +649,8 @@
     "category": "residential",
     "kind": "work",
     "services": [
-      "residential-drywall"
+      "residential-drywall",
+      "popcorn-ceiling-removal"
     ],
     "width": 1600,
     "height": 900,

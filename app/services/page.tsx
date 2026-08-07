@@ -24,7 +24,7 @@ export default function ServicesPage() {
             Full-service <span className="text-brass-gradient">Metro Detroit</span> drywall contractor.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Ten specialized service lines, one Licensed & insured team. Tap any card for details, pricing factors, and example jobs.
+            Eleven specialized service lines, one Licensed & insured team. Tap any card for details, pricing factors, and example jobs.
           </p>
         </div>
       </section>

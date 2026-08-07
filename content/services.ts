@@ -161,6 +161,28 @@ export const SERVICES: Service[] = [
     keywords: ["drywall texture detroit", "knockdown texture mi", "popcorn ceiling removal detroit"],
   },
   {
+    slug: "popcorn-ceiling-removal",
+    name: "Popcorn Ceiling Removal",
+    shortName: "Popcorn Ceilings",
+    icon: Hammer,
+    tagline: "Scraped, skimmed, and finished smooth — contained room by room.",
+    description:
+      "Popcorn ceiling removal across Wayne, Oakland, and Macomb counties: contained scrape, skim coat, and a paint-ready smooth ceiling. Tested before we scrape. Acoustic spray texture dates thousands of Metro Detroit ranches and split-levels built between the 1950s and 1980s. On anything built before roughly 1980 we do not touch the ceiling until it has been tested — and where abatement is required, a licensed abatement contractor removes the material and we take over at skim and finish. Cleared ceilings get plastic containment and HEPA dust control so the mess stays in the room it started in.",
+    bullets: [
+      "Pre-1980 ceilings tested before any scrape",
+      "Plastic containment & HEPA dust control",
+      "Skim coat to paint-ready smooth",
+      "Light retexture instead of flat, if you prefer",
+      "Finish work after licensed abatement clearance",
+    ],
+    intent: "service",
+    keywords: [
+      "popcorn ceiling removal near me",
+      "popcorn ceiling removal detroit",
+      "acoustic ceiling removal mi",
+    ],
+  },
+  {
     slug: "acoustical-ceilings",
     name: "Acoustical Ceilings",
     shortName: "Ceilings",

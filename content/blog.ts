@@ -370,7 +370,7 @@ Flat ceilings brighten rooms and help listings photograph better in Ferndale, Ro
 
 ## Schedule with BH Drywall Metro Detroit
 
-We walk ceilings, ask build year, recommend testing path, and quote scrape, skim, sand, and prime as integrated scope — not a low scrape number that hides skim reality.
+We walk ceilings, ask build year, recommend testing path, and quote scrape, skim, sand, and prime as integrated scope — not a low scrape number that hides skim reality. Full scope, containment detail, and example jobs live on our [popcorn ceiling removal](/services/popcorn-ceiling-removal/) service page.
 
 Phone (313) 236-4558 for popcorn ceiling removal and resurfacing across Metro Detroit MI. You get straight talk on asbestos era homes, containment, and a ceiling that finally matches the walls you already upgraded.
 `,
