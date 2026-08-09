@@ -6,6 +6,7 @@ import { Check, ShieldCheck, Clock, MapPin } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { SERVICES } from "@/content/services";
 import { photosForService, serviceHero } from "@/lib/photos";
+import { metaDescription } from "@/lib/meta";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LogoMark } from "@/components/site/Logo";
 import { ServiceMap } from "@/components/site/ServiceMap";
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!s) return {};
   return {
     title: s.name,
-    description: s.description.slice(0, 160),
+    description: metaDescription(s.description),
     alternates: { canonical: `/services/${s.slug}` },
   };
 }
