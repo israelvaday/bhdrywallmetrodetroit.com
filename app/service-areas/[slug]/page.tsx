@@ -11,6 +11,7 @@ import { ServiceMap } from "@/components/site/ServiceMap";
 import { DispatchTracker } from "@/components/site/DispatchTracker";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { serviceHero } from "@/lib/photos";
+import { metaDescription } from "@/lib/meta";
 import insightsJson from "@/content/area-insights.json";
 
 type Insight = {
@@ -31,11 +32,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const a = AREAS_BY_SLUG[slug];
   if (!a) return {};
   const info = INSIGHTS[slug];
-  const desc = info?.tagline
-    ? `${info.tagline} Free estimates from a licensed & insured drywall crew serving ${a.name}, MI.`
-    : `Drywall hang, finish, and repair in ${a.name}, Metro Detroit. Residential & commercial.`;
+  // "drywall repair near me" is this site's largest query and every page-1 position it
+  // holds sits on a service-area page, so title and snippet lead with repair intent
+  // instead of "contractor" and the generic tagline. The tagline still renders on-page.
+  const desc = metaDescription(
+    `Drywall repair, hang, and finish in ${a.name}, MI — patches, cracks, water damage, texture matching, and Level 5 smooth walls. Free written estimates.`
+  );
   return {
-    title: `Drywall Contractor in ${a.name}, MI`,
+    title: `Drywall Repair in ${a.name}, MI`,
     description: desc,
     keywords: info?.keywords,
     alternates: { canonical: `/service-areas/${a.slug}` },
