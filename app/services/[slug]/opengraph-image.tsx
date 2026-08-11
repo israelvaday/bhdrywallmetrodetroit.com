@@ -5,12 +5,7 @@ import { SERVICES } from "@/content/services";
 export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-
-export async function generateImageMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const s = SERVICES.find((x) => x.slug === slug);
-  return [{ id: slug, alt: s ? `${s.name} — ${BIZ.name}` : BIZ.name, size, contentType }];
-}
+export const alt = `Drywall services — ${BIZ.name}`;
 
 export function generateStaticParams() {
   return SERVICES.map((s) => ({ slug: s.slug }));
@@ -33,7 +28,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
   const { slug } = await params;
   const s = SERVICES.find((x) => x.slug === slug);
   const headline = s?.name ?? "Metro Detroit drywall contractor";
-  const tagline = s?.tagline ?? "Licensed & insured drywall contractor serving all of Metro Detroit.";
+  const tagline = s?.tagline ?? "Drywall hanging, finishing and repair across all of Metro Detroit.";
   const icon = (s && ICONS[s.slug]) ?? "🧱";
   const bullets = (s?.bullets ?? []).slice(0, 3);
 
@@ -90,7 +85,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
                 {BIZ.name.toUpperCase()}
               </div>
               <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-                METRO DETROIT · Licensed · {BIZ.bsis}
+                METRO DETROIT · WAYNE · OAKLAND · MACOMB
               </div>
             </div>
           </div>
@@ -109,7 +104,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               letterSpacing: 1,
             }}
           >
-            {s?.intent === "emergency" ? "⚡ SUN–THU 9–5 · FRI 9–12" : "✓ LICENSED & INSURED"}
+            {s?.intent === "emergency" ? "⚡ SUN–THU 9–5 · FRI 9–12" : "✓ FREE ESTIMATES"}
           </div>
         </div>
 

@@ -5,17 +5,7 @@ import { AREAS_BY_SLUG, AREAS } from "@/lib/areas";
 export const dynamic = "force-static";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-
-export async function generateImageMetadata({ params }: { params: Promise<{ slug: string }> }) {
-  const { slug } = await params;
-  const a = AREAS_BY_SLUG[slug];
-  return [{
-    id: slug,
-    alt: a ? `${a.name} drywall contractor — ${BIZ.name}` : `${BIZ.name} Service Area`,
-    size,
-    contentType,
-  }];
-}
+export const alt = `Drywall contractor across Metro Detroit — ${BIZ.name}`;
 
 export function generateStaticParams() {
   return AREAS.map((a) => ({ slug: a.slug }));
@@ -79,7 +69,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
               {BIZ.name.toUpperCase()}
             </div>
             <div style={{ fontSize: 15, color: "#C9A24A", marginTop: 4, letterSpacing: 2, fontWeight: 700 }}>
-              Licensed · {BIZ.bsis} · METRO DETROIT
+              METRO DETROIT DRYWALL
             </div>
           </div>
         </div>
@@ -106,7 +96,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             {name}
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", display: "flex" }}>
-            Licensed drywall contractor serving {sub} · Free estimates
+            Drywall repair, finishing & ceilings in {sub} · Free estimates
           </div>
         </div>
 
