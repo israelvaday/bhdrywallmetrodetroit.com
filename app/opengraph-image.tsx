@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { BIZ } from "@/lib/business";
 
 export const dynamic = "force-static";
-export const alt = `${BIZ.name} — Metro Detroit drywall contractor (Licensed · ${BIZ.bsis})`;
+export const alt = `${BIZ.name} — residential and commercial drywall across Wayne, Oakland and Macomb counties`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -80,17 +80,15 @@ export default async function OgImage() {
             Hang · Finish · Repair · Ceilings
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
-            Licensed & insured drywall across Wayne, Oakland & Macomb counties. Free estimates.
+            Residential & commercial drywall across Wayne, Oakland & Macomb counties. Free estimates.
           </div>
         </div>
 
         <div style={{ display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
-          <Chip>Licensed · {BIZ.bsis}</Chip>
           <Chip>{BIZ.phone}</Chip>
           <Chip>bhdrywallmetrodetroit.com</Chip>
-          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 10 }}>
-            <Star /><Star /><Star /><Star /><Star />
-            <div style={{ fontSize: 22, color: "#C8C4BB", marginLeft: 6 }}>5.0 · Metro Detroit</div>
+          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center" }}>
+            <div style={{ fontSize: 22, color: "#C8C4BB" }}>Sun–Thu 9–5 · Fri 9–12</div>
           </div>
         </div>
       </div>
@@ -118,8 +116,4 @@ function Chip({ children }: { children: React.ReactNode }) {
       {children}
     </div>
   );
-}
-
-function Star() {
-  return <div style={{ fontSize: 22, color: "#C9A24A", display: "flex" }}>★</div>;
 }
