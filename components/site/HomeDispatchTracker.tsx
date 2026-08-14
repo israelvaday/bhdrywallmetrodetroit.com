@@ -12,9 +12,6 @@ function inServiceArea(lat: number, lng: number) {
   return lat >= METRO_BOUNDS.minLat && lat <= METRO_BOUNDS.maxLat && lng >= METRO_BOUNDS.minLng && lng <= METRO_BOUNDS.maxLng;
 }
 
-const TECH_IDS = ["BH-C3","BH-C7","BH-C12","BH-C18","BH-C21","BH-C29","BH-C34","BH-C41","BH-C52","BH-C60"];
-const NAMES = ["Mike R.","James S.","Carlos P.","Devon H.","Marcus M.","Andre L.","Tomas G.","Ryan O.","Sam K.","Brian C."];
-
 function haversineKm(la1:number, lo1:number, la2:number, lo2:number){
   const R=6371, toRad=(d:number)=>d*Math.PI/180;
   const dLa=toRad(la2-la1), dLo=toRad(lo2-lo1);
@@ -59,12 +56,12 @@ export function HomeDispatchTracker({ service }: { service?: DispatchService } =
   const buttonLabel = service
     ? (isEmergency ? "Check same-day repair availability" : `Find nearest ${svcLabelLower} crew`)
     : "Check crew availability";
-  const buildLogs = (areaName:string, techId:string, techName:string, rating:string, eta:number, dist:string) => service
+  const buildLogs = (areaName:string, eta:number, dist:string) => service
     ? [
         `Location confirmed — ${areaName}, MI…`,
         `Filtering Licensed & insured units stocked for ${svcLabelLower}…`,
         `Cross-referencing today&rsquo;s ${svcLabelLower} job queue + live traffic…`,
-        `Match found — Crew ${techId} (${techName}) • ${rating}★ • ${svcLabel}`,
+        `${svcLabel} crew available in ${areaName}, MI…`,
         bulletSample ? `Scope noted: ${bulletSample.toLowerCase()}` : `Confirming scope for your request…`,
         `Callback window: ~${eta} min • ${dist} mi from you`,
       ]
@@ -72,7 +69,7 @@ export function HomeDispatchTracker({ service }: { service?: DispatchService } =
         `Location confirmed — ${areaName}, MI…`,
         `Pinging crews within 15 miles…`,
         `Cross-referencing schedule + drive time…`,
-        `Match found — Crew ${techId} (${techName}) • ${rating}★`,
+        `Crew available in ${areaName}, MI…`,
         `Route estimate for Metro Detroit traffic…`,
         `Callback window: ~${eta} min • ${dist} mi from you`,
       ];
@@ -81,7 +78,7 @@ export function HomeDispatchTracker({ service }: { service?: DispatchService } =
   const [progress,setProgress]=useState(0);
   const [logIdx,setLogIdx]=useState(0);
   const [area,setArea]=useState<Area|null>(null);
-  const [info,setInfo]=useState<{tech:string;id:string;rating:string;jobs:number;eta:number;dist:string}|null>(null);
+  const [info,setInfo]=useState<{eta:number;dist:string}|null>(null);
   const timers=useRef<ReturnType<typeof setTimeout>[]>([]);
 
   useEffect(()=>()=>{timers.current.forEach(clearTimeout);},[]);
@@ -113,20 +110,19 @@ export function HomeDispatchTracker({ service }: { service?: DispatchService } =
     // deterministic info from area slug + small jitter
     const seed = Array.from(a.slug).reduce((s,c)=>s+c.charCodeAt(0),0) + Math.floor(lat*100) + Math.floor(lng*100);
     const r=(()=>{ let x=Math.sin(seed)*10000; return ()=>{x=Math.sin(x)*10000; return x-Math.floor(x);}; })();
-    const techId=TECH_IDS[Math.floor(r()*TECH_IDS.length)];
-    const techName=NAMES[Math.floor(r()*NAMES.length)];
-    const rating=(4.7+r()*0.29).toFixed(2);
-    const jobs=900+Math.floor(r()*2400);
+    // Four draws that used to invent a tech id, a name, a star rating and a jobs count
+    // are burned here rather than deleted, so the ETA a visitor sees does not shift.
+    r(); r(); r(); r();
     const eta=15+Math.floor(r()*16);
     const distKm=haversineKm(lat,lng,a.lat,a.lng);
     const dist=(distKm*0.621371).toFixed(1);
-    setInfo({tech:techName,id:techId,rating,jobs,eta,dist});
-    runScanLogs(a.name,techId,techName,rating,eta,dist);
+    setInfo({eta,dist});
+    runScanLogs(a.name,eta,dist);
   }
 
-  function runScanLogs(name:string,techId:string,techName:string,rating:string,eta:number,dist:string){
+  function runScanLogs(name:string,eta:number,dist:string){
     setPhase("scanning"); setProgress(0); setLogIdx(0);
-    const logs=buildLogs(name,techId,techName,rating,eta,dist);
+    const logs=buildLogs(name,eta,dist);
     const step=650;
     for(let i=0;i<logs.length;i++){
       timers.current.push(setTimeout(()=>{
@@ -137,7 +133,7 @@ export function HomeDispatchTracker({ service }: { service?: DispatchService } =
   }
 
   const logs = area && info
-    ? buildLogs(area.name, info.id, info.tech, info.rating, info.eta, info.dist)
+    ? buildLogs(area.name, info.eta, info.dist)
     : [];
 
   return (
@@ -235,9 +231,9 @@ export function HomeDispatchTracker({ service }: { service?: DispatchService } =
               <div className="text-[11px] text-ink-400">{info.dist} mi away</div>
             </div>
             <div className="rounded-2xl border border-ink-700 bg-ink-950/60 p-3">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Tech</div>
-              <div className="mt-0.5 font-display text-base font-bold text-ink-50">{info.tech}</div>
-              <div className="text-[11px] text-ink-400">ID {info.id} • {info.rating}★ • {info.jobs}+ jobs</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Coverage</div>
+              <div className="mt-0.5 font-display text-base font-bold text-ink-50">{area.name}, MI</div>
+              <div className="text-[11px] text-ink-400">Wayne · Oakland · Macomb</div>
             </div>
             <div className="rounded-2xl border border-ink-700 bg-ink-950/60 p-3">
               <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Status</div>
@@ -249,7 +245,7 @@ export function HomeDispatchTracker({ service }: { service?: DispatchService } =
           </div>
           <div className="mt-4 rounded-2xl border border-brass-500/30 bg-ink-950/70 p-4">
             <p className="text-sm font-semibold text-ink-100">Confirm now to lock in this {info.eta}-minute ETA.</p>
-            <p className="mt-1 text-xs text-ink-400">Tech {info.id} is on hold for ~90 seconds. Tap below to confirm and dispatch.</p>
+            <p className="mt-1 text-xs text-ink-400">Tap below to confirm scope and schedule.</p>
             <a href={BIZ.phoneHref}
               className="mt-3 inline-flex items-center gap-2 rounded-full bg-brass-500 px-5 py-3 text-sm font-bold uppercase tracking-wider text-ink-950 shadow-lg shadow-brass-500/30 transition hover:bg-brass-400 active:translate-y-px">
               <Phone className="h-4 w-4"/> Confirm & lock ETA — {BIZ.phone}

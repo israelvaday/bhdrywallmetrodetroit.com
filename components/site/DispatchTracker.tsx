@@ -6,12 +6,6 @@ import { BIZ } from "@/lib/business";
 
 type Phase = "idle" | "scanning" | "matched";
 
-const CREW_IDS = [
-  "BH-C3", "BH-C7", "BH-C12", "BH-C18", "BH-C21", "BH-C29",
-  "BH-C34", "BH-C41", "BH-C52", "BH-C60",
-];
-const NAMES = ["Mike R.", "James S.", "Carlos P.", "Devon H.", "Marcus M.", "Andre L.", "Tomas G.", "Ryan O.", "Sam K.", "Brian C."];
-
 function rng(seed: number) {
   // Deterministic pseudo-random so SSR ETA isn't reshuffled on hydration
   let x = Math.sin(seed) * 10000;
@@ -25,10 +19,10 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
   const seed = Array.from(areaSlug).reduce((a, c) => a + c.charCodeAt(0), 0);
   const r = rng(seed);
 
-  const crewId = CREW_IDS[Math.floor(r() * CREW_IDS.length)];
-  const techName = NAMES[Math.floor(r() * NAMES.length)];
-  const rating = (4.7 + r() * 0.29).toFixed(2);
-  const jobsDone = 900 + Math.floor(r() * 2400);
+  // Four draws that used to invent a crew id, a technician name, a star rating and a
+  // jobs-completed count are burned here rather than deleted: the ETA and distance an
+  // area shows must not shift, they are the only promise-bearing numbers in this widget.
+  r(); r(); r(); r();
   const etaMin = 15 + Math.floor(r() * 16); // 15..30
   const distance = (0.4 + r() * 4.2).toFixed(1);
 
@@ -41,7 +35,7 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
     `Checking ${BIZ.name} crews near ${areaName}, MI…`,
     `Scanning finish & repair crews within 15 miles…`,
     `Cross-referencing today's schedule + drive time…`,
-    `Match found — Crew ${crewId} (${techName}) • ${rating}★`,
+    `Crew available in ${areaName}, MI…`,
     `Estimating route across Metro Detroit…`,
     `Callback window: ~${etaMin} min • ${distance} mi`,
   ];
@@ -160,9 +154,9 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
               <div className="text-[11px] text-ink-400">{distance} mi away</div>
             </div>
             <div className="rounded-2xl border border-ink-700 bg-ink-950/60 p-3">
-              <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Crew lead</div>
-              <div className="mt-0.5 font-display text-base font-bold text-ink-50">{techName}</div>
-              <div className="text-[11px] text-ink-400">ID {crewId} • {rating}★ • {jobsDone}+ jobs</div>
+              <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Coverage</div>
+              <div className="mt-0.5 font-display text-base font-bold text-ink-50">{areaName}, MI</div>
+              <div className="text-[11px] text-ink-400">Wayne · Oakland · Macomb</div>
             </div>
             <div className="rounded-2xl border border-ink-700 bg-ink-950/60 p-3">
               <div className="text-[10px] font-bold uppercase tracking-wider text-brass-300">Status</div>
@@ -177,7 +171,7 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
               Confirm now to hold this callback window.
             </p>
             <p className="mt-1 text-xs text-ink-400">
-              Crew {crewId} is on hold briefly. Call to confirm scope and schedule.
+              Call to confirm scope and schedule.
             </p>
             <a
               href={BIZ.phoneHref}
