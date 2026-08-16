@@ -15,10 +15,23 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 import { DrywallGlossary } from "@/components/site/DrywallGlossary";
 
+// The homepage was the one page both geo-title passes skipped. ec258ff gave the 101
+// area pages "Drywall Repair in <City>, MI" and d31c5e0 gave the 11 service pages
+// "<Service> in Metro Detroit, MI", but the site's largest page still rendered
+// "Drywall Contractor — Hang, Finish & Repair — BH Drywall Metro Detroit" — 69 chars,
+// so the only geography sat past the truncation point inside the brand suffix.
+// MEASURED: all 27 named queries on / are geo-modified Detroit terms and all 27 take
+// zero clicks — "drywall repair detroit" 23 impr at 38.4, "commercial drywall
+// contractor detroit" 10 at 60.7, "drywall contractor in detroit" 6 at 49.8. On that
+// last one /about outranks the homepage at 33.0, because /about's h1 reads "A real
+// Metro Detroit drywall contractor" and the homepage never pairs "contractor" with a
+// city anywhere. absolute, so the geo does not repeat against the layout suffix; the
+// head term is "contractor" rather than "repair" so this does not re-enter the
+// /service-areas/<city> "Drywall Repair in <City>, MI" cluster.
 export const metadata: Metadata = {
-  title: `Drywall Contractor — Hang, Finish & Repair`,
+  title: { absolute: `Drywall Contractor in Detroit, MI | BH Drywall` },
   description:
-    `${BIZ.name} — licensed & insured drywall across Metro Detroit. Residential & commercial hang, Level 5 finish, repair, texture, metal framing, and ceilings. Free estimates.`,
+    `Drywall contractor in Detroit, MI — residential and commercial hang, finish, repair, patching, texture, and metal framing across Metro Detroit. Free estimates.`,
   alternates: { canonical: "/" },
 };
 
