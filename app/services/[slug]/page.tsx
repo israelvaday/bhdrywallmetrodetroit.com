@@ -22,8 +22,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const s = SERVICES.find((x) => x.slug === slug);
   if (!s) return {};
+  // Every query with volume on this property carries a geo modifier, and the pages that
+  // win them are the service-area ones, titled "Drywall Repair in <City>, MI". Service
+  // page titles carried no geography, so the topically-exact page never competed: all
+  // 101 area pages name popcorn ceiling removal in body copy and Google ranks Troy and
+  // Sterling Heights at position 7 for it while /services/popcorn-ceiling-removal sits
+  // at zero. absolute, so the geo does not repeat against the layout's brand suffix.
   return {
-    title: s.name,
+    title: { absolute: `${s.name} in Metro Detroit, MI | BH Drywall` },
     description: metaDescription(s.description),
     alternates: { canonical: `/services/${s.slug}` },
   };
