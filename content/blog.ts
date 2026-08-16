@@ -532,6 +532,81 @@ From first sheet on a slab ranch to a 4,000-square-foot custom in Oakland County
 Call (313) 236-4558 to bid your plans or walk your framing. Metro Detroit new construction deserves phased drywall executed in order — so the last thing you worry about at certificate of occupancy is the wall behind your family photos.
 `,
   },
+
+  {
+    slug: "plaster-repair-vs-drywall-metro-detroit",
+    title: "Drywall and Plaster Repair in Metro Detroit: What Older Walls Actually Need",
+    metaTitle: "Drywall & Plaster Repair Metro Detroit Older Homes",
+    excerpt:
+      "Homes across Farmington Hills, Livonia, and Detroit were built before drywall existed. How to tell whether your plaster wall needs a patch, a skim coat, or new board.",
+    category: "Residential",
+    readMinutes: 8,
+    date: "2026-08-16",
+    heroImage: "/blog/plaster-repair-vs-drywall-metro-detroit-hero.jpg",
+    heroAlt: "Contractor skim coating a cracked plaster wall beside exposed wood lath in an older Metro Detroit home",
+    secondaryImage: "/blog/plaster-repair-vs-drywall-metro-detroit-secondary.jpg",
+    secondaryAlt: "Wood lath exposed behind a removed section of failed plaster with a sheet of drywall ready alongside",
+    body: `
+If your house in Farmington Hills, Livonia, Redford, or the older neighborhoods of Detroit was built before roughly 1955, the walls behind your paint are probably not drywall. They are lath and plaster — thin wood strips nailed across the studs, with two or three coats of plaster troweled over them. It is a completely different material with completely different failure modes, and treating it like drywall is how homeowners end up paying twice.
+
+We get called for this constantly, usually described as "cracks that keep coming back" or "a soft spot in the wall." The question underneath it is always the same: patch it, or tear it out and hang board? There is a real answer, and it depends on things you can check yourself in about ten minutes.
+
+## Why so many Metro Detroit walls are plaster, not drywall
+
+Drywall did not take over residential construction until the postwar building boom. Everything before that — the brick bungalows in Hamtramck and Highland Park, the colonials in Grosse Pointe and Royal Oak, the pre-war stock across Dearborn and Ferndale — went up as wood lath with a scratch coat, a brown coat, and a thin white finish coat on top.
+
+That plaster is harder and denser than drywall, which is why it has lasted eighty or ninety years. It is also brittle, and it depends entirely on the "keys" — the ribbons of plaster that squeezed through the gaps between lath strips and hardened behind them. As long as the keys are intact, the wall is solid. When they snap, the plaster is being held up by paint and friction, and no amount of surface patching changes that.
+
+Michigan's freeze-thaw swings work against those keys every single year. So does a century of doors slamming, floors settling, and radiators being replaced with forced air.
+
+## What plaster failure actually looks like
+
+Three patterns cover almost everything we see in Metro Detroit homes.
+
+- **Hairline map cracking.** Fine cracks in a spiderweb pattern across a whole wall or ceiling. Almost always cosmetic — the finish coat shrinking and aging. The plaster underneath is fine.
+- **Straight, recurring cracks.** Usually running from a door or window corner, or in a line across a ceiling. These follow framing movement. Patching without addressing what moves is why the crack returns every year.
+- **Bulging, soft, or drummy areas.** Press gently with your palm. If the wall flexes, moves, or sounds hollow, the keys are broken and the plaster has separated from the lath. This is the one that matters.
+
+That last test is the one to do before calling anybody. A wall that sounds hollow over a two-foot area is a completely different job than a wall with a crack in it, and guessing wrong sends the scope in the wrong direction before anyone picks up a knife.
+
+## Repair the plaster or replace the wall with drywall?
+
+Here is the honest breakdown we give homeowners on site.
+
+**Repair the plaster when** the failure is under about a third of the wall, the rest is tight to the lath, and the room has original trim, plaster crown, or curved corners worth keeping. Re-anchoring loose plaster with washers, filling with setting-type compound, and skimming the surface preserves detail that drywall cannot reproduce. In houses in Grosse Pointe and the historic pockets of Detroit, that detail is a real part of the property's value.
+
+**Replace with drywall when** the plaster is failing across most of the wall, when there has been sustained water damage from a roof or a burst pipe, or when the wall is coming apart anyway for wiring, insulation, or new plumbing. At that point plaster repair is more expensive than board and finishes no better. We hang, tape, and finish to match the surrounding rooms.
+
+**The hybrid, which is what we actually do most often:** remove the failed section only, hang drywall inside that opening, and shim it out so the new board sits flush with the surrounding plaster. Old plaster runs thicker than half-inch board, so this only looks right if somebody accounts for the depth difference before hanging. Done properly the seam disappears. Done carelessly you get a visible ledge that shows up the first time afternoon light rakes across the wall.
+
+## Blending new work into an old wall
+
+This is where most plaster jobs are won or lost, and it is the part homeowners never think to ask about.
+
+New drywall inside an old plaster wall creates a joint between two materials that expand at different rates. We bed that joint with mesh and setting-type compound rather than standard all-purpose mud, because setting compound is harder and shrinks less — it holds up where the two surfaces meet.
+
+Then there is the surface itself. Ninety-year-old plaster is rarely flat and almost never smooth in the modern sense. It has a gentle roll to it and often a light hand-troweled texture. Dropping a dead-flat drywall patch into that wall reads as a patch forever, no matter how good the taping is. Getting it to disappear takes deliberate [texture matching](/services/texture-matching) across the transition, and on a feature wall it sometimes means skimming the whole surface to a [Level 5 smooth finish](/services/level-5-smooth-finish) so the eye has nothing to catch on.
+
+If you are only dealing with a small opening — an old thermostat, a removed sconce, a doorknob strike — the sizing logic is the same as on any wall, and we walked through it in [drywall hole repair vs. large patch](/blog/drywall-hole-repair-vs-large-patch).
+
+## Dust, lead paint, and living in the house while we work
+
+Plaster demolition produces far more dust than drywall work, and it is a heavier, grittier dust that travels. We seal the room, mask returns, and run negative air rather than relying on a sheet taped over the doorway.
+
+Two things need testing before anyone opens a wall in a pre-1978 house:
+
+- **Lead paint.** Almost universal in Metro Detroit homes of this age. Disturbing painted plaster releases it, so the surface gets tested first and the containment plan matches what the test says. We will tell you what we find before work starts, not after.
+- **Asbestos.** Less common in wall plaster than in ceiling texture, but some pre-1980 finish coats and joint compounds contain it. Testing settles it quickly. If you have textured ceilings in the same house, the same caution applies — see our guide to [popcorn ceiling removal in Metro Detroit](/blog/popcorn-ceiling-removal-metro-detroit).
+
+Neither of these is a reason to panic or to leave a failing wall alone. They are a reason to test before demolition instead of finding out halfway through.
+
+## Getting a straight answer on your walls
+
+Do the palm test on the areas that worry you. Note whether the cracks are fine and spidery or straight and recurring. Take a photo in raking light — hold a phone flashlight flat against the wall and shoot along the surface, which shows bulges that head-on photos hide completely.
+
+Then call BH Drywall Metro Detroit at (313) 236-4558. We handle [drywall and plaster repair](/services/drywall-repair) across Wayne, Oakland, and Macomb counties, and we will walk the wall with you and say plainly which of the three approaches your room needs. Sometimes that answer is a two-hour patch. Sometimes it is a full room. You should know which one you are buying before anyone starts.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
