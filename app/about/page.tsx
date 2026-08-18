@@ -2,14 +2,34 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { ShieldCheck, Award, Wrench, Users, Phone, MapPin, Clock } from "lucide-react";
 import { BIZ } from "@/lib/business";
+import { metaDescription } from "@/lib/meta";
 import { LICENSE_PHOTO, BRAND_PHOTOS } from "@/lib/photos";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
+// The one significant page all three geo-title passes skipped. ec258ff titled the 101
+// area pages, d31c5e0 the 11 service pages and 8ee5d1a the homepage; /about still
+// rendered "About - BH Drywall Metro Detroit - BH Drywall Metro Detroit" live, because
+// the title hardcoded the brand and layout.tsx then appended it again via the
+// `%s - ${BIZ.name}` template: 58 characters, the brand twice, not one unique term.
+// MEASURED: /about is the site's #3 page by impressions and by clicks (82 impressions,
+// 1 click, position 39.2 over the 28 days to 2026-08-15) and all six of its named
+// queries are buyer intent at zero clicks: "framing and drywall detroit" 9 impr at 42.8,
+// "drywall contractor in detroit" 7 at 33.0, "residential drywall contractor detroit"
+// 7 at 51.1, "drywall contractors detroit mi" 5 at 46.4, "drywall detroit" 3 at 47.0,
+// "commercial drywall contractor detroit" 2 at 56.0. It ranks on its h1 alone ("A real
+// Metro Detroit drywall contractor"); the title contributed nothing.
+// absolute, and matching the "| BH Drywall" convention d31c5e0 and 8ee5d1a set, so the
+// brand appears once. The head term is deliberately NOT "drywall contractor in Detroit":
+// 8ee5d1a assigned that phrase to the homepage and its 2026-09-16 read is watching /
+// against /about on exactly that query, so re-entering it here would cannibalise the
+// homepage and destroy that read. Company identity is the angle this page can own.
 export const metadata: Metadata = {
-  title: "About — BH Drywall Metro Detroit",
-  description: `Meet the ${BIZ.name} team — licensed & insured drywall across Wayne, Oakland, and Macomb counties.`,
+  title: { absolute: "Owner-Operated Drywall Crew in Metro Detroit, MI | BH Drywall" },
+  description: metaDescription(
+    `${BIZ.name} is a small owner-operated drywall crew across Wayne, Oakland and Macomb counties. We answer our own phones and scope jobs in writing.`
+  ),
   alternates: { canonical: `${BIZ.url}/about` },
 };
 
