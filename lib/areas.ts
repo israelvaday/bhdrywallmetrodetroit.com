@@ -35,10 +35,22 @@ function haversine(a: Area, b: Area): number {
   return 2 * R * Math.asin(Math.sqrt(h));
 }
 
+/**
+ * A city's own sub-areas come first and are never cut, then the nearest other areas
+ * fill the remainder. Ranking purely by distance dropped 18 of Detroit's 24
+ * neighbourhood pages off their own parent city page.
+ */
 export function nearbyAreas(area: Area, count = 5): Area[] {
-  return AREAS.filter((a) => a.slug !== area.slug)
-    .map((a) => ({ a, d: haversine(area, a) }))
-    .sort((x, y) => x.d - y.d)
-    .slice(0, count)
-    .map((x) => x.a);
+  const byDistance = (list: Area[]) =>
+    list
+      .map((a) => ({ a, d: haversine(area, a) }))
+      .sort((x, y) => x.d - y.d)
+      .map((x) => x.a);
+
+  const children = byDistance(AREAS.filter((a) => a.parent === area.slug));
+  const others = byDistance(
+    AREAS.filter((a) => a.slug !== area.slug && a.parent !== area.slug)
+  );
+
+  return [...children, ...others].slice(0, Math.max(count, children.length));
 }
