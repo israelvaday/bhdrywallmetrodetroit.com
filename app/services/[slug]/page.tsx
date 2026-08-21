@@ -6,6 +6,7 @@ import { Check, ShieldCheck, Clock, MapPin } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { SERVICES } from "@/content/services";
 import { photosForService, serviceHero } from "@/lib/photos";
+import { breadcrumbJsonLd } from "@/lib/schema";
 import { metaDescription } from "@/lib/meta";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LogoMark } from "@/components/site/Logo";
@@ -43,8 +44,19 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
   const Icon = s.icon;
   const allShots = photosForService(s.slug).filter((p) => p.kind === "work").slice(0, 8);
 
+  // Trailing slashes match the canonical this page emits.
+  const crumbs = breadcrumbJsonLd([
+    { name: "Home", url: `${BIZ.url}/` },
+    { name: "Services", url: `${BIZ.url}/services/` },
+    { name: s.name, url: `${BIZ.url}/services/${s.slug}/` },
+  ]);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
       <section className="relative overflow-hidden border-b border-ink-800 bg-ink-950">
         {hero && (
           <>

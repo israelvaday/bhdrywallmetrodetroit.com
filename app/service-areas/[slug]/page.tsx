@@ -11,6 +11,7 @@ import { ServiceMap } from "@/components/site/ServiceMap";
 import { DispatchTracker } from "@/components/site/DispatchTracker";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { serviceHero } from "@/lib/photos";
+import { breadcrumbJsonLd } from "@/lib/schema";
 import { metaDescription } from "@/lib/meta";
 import insightsJson from "@/content/area-insights.json";
 
@@ -54,8 +55,23 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
   const hero = serviceHero("emergency") ?? serviceHero("residential");
   const info: Insight = INSIGHTS[slug] ?? {};
 
+  // 50 of the 101 areas are neighbourhoods with a real parent city in the data, but that
+  // hierarchy was expressed nowhere Google could read it. Trailing slashes match the
+  // canonical this page emits.
+  const parent = a.parent ? AREAS_BY_SLUG[a.parent] : null;
+  const crumbs = breadcrumbJsonLd([
+    { name: "Home", url: `${BIZ.url}/` },
+    { name: "Service Areas", url: `${BIZ.url}/service-areas/` },
+    ...(parent ? [{ name: parent.name, url: `${BIZ.url}/service-areas/${parent.slug}/` }] : []),
+    { name: a.name, url: `${BIZ.url}/service-areas/${a.slug}/` },
+  ]);
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(crumbs) }}
+      />
       <section className="relative overflow-hidden border-b border-ink-800 bg-ink-950">
         {hero && (
           <>
