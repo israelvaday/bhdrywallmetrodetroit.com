@@ -7,7 +7,13 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 
 export const metadata: Metadata = {
-  title: "drywall contractor Services in Metro Detroit",
+  // The generator left this hub with an unproofed template string: "drywall contractor
+  // Services in Metro Detroit", lowercase-leading, with "Metro Detroit" repeated against
+  // the layout's brand suffix and the exact phrase people search - "drywall services" -
+  // never formed. The page drew ZERO impressions in 28 days while "drywall services" (61
+  // impr, pos 17.3) and "drywall service" (11 impr, pos 12.1) landed on service-AREA
+  // pages instead. Same absolute pattern the 11 detail pages got in d31c5e0.
+  title: { absolute: "Drywall Services in Metro Detroit, MI | BH Drywall" },
   description:
     "All drywall services from BH Drywall Metro Detroit — repair, residential, commercial, smooth finish, framing, water damage, texture, ceilings, and new construction.",
   alternates: { canonical: `${BIZ.url}/services` },
