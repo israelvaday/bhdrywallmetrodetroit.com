@@ -38,7 +38,7 @@ Basements are not just another floor. Concrete foundations breathe, seasonal gro
 
 ## Start with framing and insulation — not drywall
 
-Drywall only performs as well as what is behind it. In most Metro Detroit basements we see either steel stud or wood framing on standoffs from the foundation wall, with rigid or batt insulation in the cavity. Gaps at the sill plate, rim joist, and any plumbing chases must be sealed before board. Cold spots that are not addressed will show up later as ghosting or condensation stains on the finished surface.
+Drywall only performs as well as what is behind it. In most Metro Detroit basements we see either steel stud or wood framing on standoffs from the foundation wall, with rigid or batt insulation in the cavity. Gaps at the sill plate, rim joist, and any plumbing chases must be sealed before board. Cold spots that are not addressed will show up later as ghosting or condensation stains on the finished surface. How [framing and drywall](/blog/framing-and-drywall-metro-detroit) fit together, including backing layout and soffit planning, is covered in its own guide.
 
 We also verify ceiling height against local code and egress requirements if bedrooms are involved. Low soffits around ducts are common; we plan drywall breaks so joints land on backing and future cracks are minimized. Homeowners in Warren, Troy, and Dearborn often underestimate how much layout work happens before mud touches the wall.
 
@@ -605,6 +605,99 @@ Neither of these is a reason to panic or to leave a failing wall alone. They are
 Do the palm test on the areas that worry you. Note whether the cracks are fine and spidery or straight and recurring. Take a photo in raking light — hold a phone flashlight flat against the wall and shoot along the surface, which shows bulges that head-on photos hide completely.
 
 Then call BH Drywall Metro Detroit at (313) 236-4558. We handle [drywall and plaster repair](/services/drywall-repair) across Wayne, Oakland, and Macomb counties, and we will walk the wall with you and say plainly which of the three approaches your room needs. Sometimes that answer is a two-hour patch. Sometimes it is a full room. You should know which one you are buying before anyone starts.
+`,
+  },
+  {
+    slug: "framing-and-drywall-metro-detroit",
+    title: "Framing and Drywall in Metro Detroit: What the Studs Decide Before the Board Goes Up",
+    metaTitle: "Framing & Drywall Metro Detroit: Metal Stud Guide",
+    excerpt:
+      "Most drywall problems are framing problems nobody caught in time. Steel studs or wood, spacing, backing, and the checks worth doing before a single sheet gets hung in Wayne, Oakland, or Macomb county.",
+    category: "Residential",
+    readMinutes: 8,
+    date: "2026-08-24",
+    heroImage: "/blog/framing-and-drywall-metro-detroit-hero.jpg",
+    heroAlt: "Crew standing metal studs for interior partition walls in a Metro Detroit basement before drywall goes up",
+    secondaryImage: "/blog/framing-and-drywall-metro-detroit-secondary.jpg",
+    secondaryAlt: "Plywood backing screwed between metal studs at TV mount height with wiring run through the stud knockouts",
+    body: `
+People search for "framing and drywall" as one phrase, and they are right to. On a real job the two are one continuous operation, and the first one sets the ceiling on how good the second can look. We can hang and finish carefully over bad framing and the wall will still read as wavy the first time afternoon light comes across it. There is no finish level that fixes a stud sitting out of plane.
+
+So before you scope a basement in Sterling Heights, a partition in a Southfield office, or a bedroom split in Livonia, it is worth understanding what happens in the framing stage and which parts of it you can check yourself. Most of the callbacks we see on somebody else's drywall trace back to a decision made before the board ever arrived.
+
+## Steel studs or wood: what really decides it here
+
+Both work. The choice is usually made by the conditions, not by preference.
+
+**Steel wins below grade and in commercial space.** Galvanized studs do not warp, cup, twist, rot, or feed mold, and they do not care about the humidity swings a Metro Detroit basement goes through between February and July. Wood studs sitting against a cool foundation wall are the ones that move a year later and telegraph a seam. For interior partitions carrying nothing but drywall, light gauge steel is dimensionally stable, non combustible, and lands straighter out of the bundle. It also arrives with knockouts already punched, so electrical and low voltage run without anyone drilling the framing.
+
+**Wood still makes sense** on small residential jobs, where trim carpenters have to attach to it later, and where you need to hang real weight directly off the wall without planning ahead. Every trade that follows is comfortable with it, and for a single closet or one short wall it is often faster.
+
+**Where people get it wrong** is treating gauge as an afterthought. Light 25 gauge steel is fine for a standard non load bearing partition. It is not fine for a wall that will carry cabinets, a heavy mirror wall, or a commercial door in constant use. Heavier gauge in those bays costs very little at framing time and is expensive to add once the wall is closed.
+
+## The framing faults that show up in the finish
+
+These are the ones that cost money later, in rough order of how often we find them.
+
+- **Studs out of plane.** One stud sitting proud or shy of its neighbors by even a quarter inch produces a shadow line across the finished wall that no amount of mud hides. A straightedge held across the face of the framing finds it in seconds.
+- **Bowed or twisted stock.** Common in wood, rare in steel. Crowning the lumber and running every crown the same direction is basic, and it gets skipped constantly.
+- **Walls out of plumb.** Trim and doors are what expose this, usually after the drywall is painted.
+- **Spacing too wide on the ceiling.** Framing at 24 inches on center under half inch board sags between the joists, especially with texture or a heavy paint build. Ceilings want tighter spacing or thicker board, and this is not the place to save money.
+- **Nothing behind the joints.** Butt joints need backing. A seam floating between two studs is a seam that cracks.
+
+You can check the first three yourself with a six foot level and ten minutes, before anyone hangs anything. If the framing is not right, that is the moment to fix it. Every hour after that is more expensive.
+
+## Backing and blocking: the step nobody asks about
+
+This is the part homeowners never think to raise and regret most.
+
+Backing is solid material set between the studs so something can be screwed to the wall later. Once drywall is up the studs are invisible, and anything heavy that does not land on one is hanging off gypsum. Gypsum is not a structural material.
+
+Plan backing before the wall closes for:
+
+- Wall mounted televisions, especially full motion arms, which multiply the load as they extend
+- Kitchen and laundry cabinets, floating shelves, and closet systems
+- Grab bars and any bathroom accessory meant to take real weight, which have to hit solid material to be worth anything
+- Handrails at basement stairs
+- Headboards, heavy mirrors, and anything else going up at a fixed height
+
+It takes minutes at framing, and it is the difference between a clean mount and cutting a finished wall open. When we frame, we ask where the television and the cabinets are going before we close a bay, because that conversation is free now and costly later.
+
+## Soffits, bulkheads, and the Metro Detroit basement ceiling
+
+Basements are where framing gets interesting, because nothing down there is straight. Ducts, beams, waste lines, and gas piping all run below the joists, and boxing them in is most of the framing labor on a typical finish.
+
+Two things matter. First, keep soffits as tight to the obstruction as the trades allow, because every inch you give away is headroom you cannot get back, and headroom is the whole point of finishing a basement. Second, decide where the drywall joints will land on those soffits before framing them, so seams sit on solid backing instead of in mid air at an outside corner. Soffit corners crack when they are not backed properly, and they are awkward to repair once the room is painted.
+
+Bottom track on a concrete slab needs the right fastener and a capillary break, so the framing is not wicking moisture off the floor. Wood going down against concrete needs to be pressure treated. Small detail, large problem avoided.
+
+We also check ceiling height and egress against local requirements when bedrooms are part of the plan, and we sequence hang and finish around rough inspections so nothing finished gets opened back up. Detroit, Royal Oak, Warren, and Clinton Township each run their own timelines, and building around them is part of scheduling.
+
+## What we frame, and what we do not
+
+Worth being plain about this. We build non load bearing work: interior partitions, soffits and bulkheads, shaft and chase walls, backing and blocking layout, and sound rated assemblies. That covers the large majority of interior remodeling.
+
+We do not remove or modify structure. If your plan involves taking out a wall that is carrying load, opening a bearing wall for a kitchen, or anything holding up the floor above, that needs a structural engineer and the appropriate trade, and we will say so on the walkthrough rather than afterward. Framing a partition and altering the frame of a house are different jobs, and only one of them is ours.
+
+## Sound, and why steel helps
+
+If the wall sits between a bedroom and a living room, or a basement theater and the stairs, framing is where sound performance gets decided. Once the board is on, the remaining options are expensive.
+
+Steel studs outperform wood here, which surprises people. A light gauge steel stud flexes rather than passing vibration straight through, so a steel framed partition with insulation in the cavity is quieter than the same wall built in wood. Size the batt insulation to the cavity, seal the perimeter, and watch anything that penetrates the wall, because outlets set back to back in the same bay undo the rest of it. For a media room, a heavier assembly is worth discussing at framing and pointless to raise afterward.
+
+## Getting the sequence right before fall
+
+Basement projects across Wayne, Oakland, and Macomb counties cluster in fall and winter, which means the framing conversations are happening now for work landing between September and the holidays. The order matters more than people expect.
+
+Framing goes first. Then electrical, plumbing, and HVAC rough in through the framed walls. Then insulation, then inspection where it applies, and only then does drywall arrive. Jobs that pull board in before the rough trades are finished end up cutting open finished walls, and the finish never quite recovers.
+
+If you are planning a basement, the [basement drywall finishing guide](/blog/basement-drywall-finishing-metro-detroit) covers what happens after the framing stage, including moisture strategy and board selection. On a new build or a full gut, the whole sequence is laid out in [new construction drywall phases](/blog/new-construction-drywall-phases). For office and retail space, the build out version of this conversation is in [commercial tenant drywall in Detroit](/blog/commercial-tenant-drywall-detroit).
+
+## Have somebody look at the framing first
+
+If your walls are already framed and drywall is about to arrive, run a straightedge across the studs and a level on the corners before the board shows up. Photograph anything that looks off. It is a twenty minute check that heads off the single most common finish complaint we get called about.
+
+If the framing has not happened yet, call BH Drywall Metro Detroit at (313) 236-4558. We handle [metal stud framing](/services/metal-stud-framing) and the hang and finish that follows across Wayne, Oakland, and Macomb counties, and running both with one crew removes the argument about whose stage caused the wavy wall. We will walk the space, mark where backing needs to go, and give you a sequence that fits the inspections and the other trades. If a wall you want gone is carrying load, we will tell you that on the first visit.
 `,
   },
 ];
