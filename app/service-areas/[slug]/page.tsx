@@ -36,11 +36,26 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   // "drywall repair near me" is this site's largest query and every page-1 position it
   // holds sits on a service-area page, so title and snippet lead with repair intent
   // instead of "contractor" and the generic tagline. The tagline still renders on-page.
+  //
+  // 50 of the 101 areas are neighbourhoods, and 36 of those carry a name that never
+  // names its own city, so the geo read "Midtown, MI" / "East Side, MI" — places that
+  // do not exist. Every query these pages actually draw carries the parent city
+  // instead ("drywall contractor in detroit" on /detroit-midtown/ and /detroit-north-end/),
+  // so the city goes in. The other 14 already say it ("Southwest Detroit", "Downtown
+  // Royal Oak") and the 51 city pages are unaffected: both keep the exact string they
+  // have today.
+  const needsCity = Boolean(a.parent) && !a.name.toLowerCase().includes(a.city.toLowerCase());
+  const geo = needsCity ? `${a.name}, ${a.city}, MI` : `${a.name}, MI`;
   const desc = metaDescription(
-    `Drywall repair, hang, and finish in ${a.name}, MI — patches, cracks, water damage, texture matching, and Level 5 smooth walls. Free written estimates.`
+    `Drywall repair, hang, and finish in ${geo} — patches, cracks, water damage, texture matching, and Level 5 smooth walls. Free written estimates.`
   );
   return {
-    title: `Drywall Repair in ${a.name}, MI`,
+    // Absolute only where a city was added: "Detroit" would otherwise repeat against the
+    // layout's "— BH Drywall Metro Detroit" suffix and push the tail past truncation.
+    // Same reason d31c5e0 set the 11 service page titles absolute.
+    title: needsCity
+      ? { absolute: `Drywall Repair in ${geo} | BH Drywall` }
+      : `Drywall Repair in ${geo}`,
     description: desc,
     keywords: info?.keywords,
     alternates: { canonical: `/service-areas/${a.slug}` },
