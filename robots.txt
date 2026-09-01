@@ -1,7 +1,6 @@
 User-Agent: *
 Allow: /
 Disallow: /api/
-Disallow: /admin/
 Disallow: /thank-you
 
 Host: https://bhdrywallmetrodetroit.com
