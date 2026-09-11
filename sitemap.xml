@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://bhdrywallmetrodetroit.com/</loc>
-<lastmod>2026-08-16T22:54:20.000Z</lastmod>
+<lastmod>2026-09-11T15:43:40.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>1</priority>
 </url>
@@ -56,7 +56,7 @@
 </url>
 <url>
 <loc>https://bhdrywallmetrodetroit.com/blog/</loc>
-<lastmod>2026-07-21T15:12:34.000Z</lastmod>
+<lastmod>2026-09-11T15:51:58.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.75</priority>
 </url>
@@ -195,6 +195,12 @@
 <url>
 <loc>https://bhdrywallmetrodetroit.com/blog/framing-and-drywall-metro-detroit/</loc>
 <lastmod>2026-08-24T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://bhdrywallmetrodetroit.com/blog/happy-rosh-hashanah-2026/</loc>
+<lastmod>2026-09-11T16:00:00.000Z</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
