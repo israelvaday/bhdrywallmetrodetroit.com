@@ -700,6 +700,61 @@ If your walls are already framed and drywall is about to arrive, run a straighte
 If the framing has not happened yet, call BH Drywall Metro Detroit at (313) 236-4558. We handle [metal stud framing](/services/metal-stud-framing) and the hang and finish that follows across Wayne, Oakland, and Macomb counties, and running both with one crew removes the argument about whose stage caused the wavy wall. We will walk the space, mark where backing needs to go, and give you a sequence that fits the inspections and the other trades. If a wall you want gone is carrying load, we will tell you that on the first visit.
 `,
   },
+  {
+    slug: "happy-rosh-hashanah-2026",
+    title: "Happy Rosh Hashanah: Holiday Hours and a Wall Checklist",
+    metaTitle: "Happy Rosh Hashanah 2026: Holiday Hours | BH Drywall",
+    excerpt:
+      "Shana Tova! We are closed Saturday, Sept 12 and Sunday, Sept 13 for Rosh Hashanah and reopen Monday, Sept 14 at 9:00 AM. Plus a new-year wall checklist.",
+    category: "Residential",
+    readMinutes: 4,
+    date: "2026-09-11",
+    heroImage: "/blog/happy-rosh-hashanah-2026-hero.jpg",
+    heroAlt: "Round braided challah, a jar of honey with a wooden dipper and sliced apples on a white quartz kitchen island, with oak hardwood floors and painted walls behind",
+    secondaryImage: "/blog/happy-rosh-hashanah-2026-secondary.jpg",
+    secondaryAlt: "Sunlit kitchen with painted white walls, a bright window and oak floors, with challah, honey and apple slices set out on the island for Rosh Hashanah",
+    body: `
+Rosh Hashanah, the Jewish New Year, begins at sundown on Friday, September 11, 2026. Our team is taking the holiday off, and we want everyone who works with us to know exactly when we are closed and when we are back. Below you will find our holiday hours, a little about the holiday itself, and a short wall checklist for starting the new year with a tidy house.
+
+## Rosh Hashanah holiday hours
+
+- **Friday, September 11:** open our regular Friday hours, 9:00 AM to 12:00 PM.
+- **Saturday, September 12:** closed. This is the first day of Rosh Hashanah, and it is also Shabbat.
+- **Sunday, September 13:** closed for the second day of Rosh Hashanah. On a normal week we are open on Sunday from 9:00 AM to 5:00 PM, so please note the change.
+- **Monday, September 14:** back to our regular hours, starting at 9:00 AM.
+
+Our regular schedule is Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM. We are closed every Saturday. If a repair is on your list for after the holiday, give us a call once we reopen on Monday.
+
+## What is Rosh Hashanah?
+
+Rosh Hashanah means "head of the year." It is the Jewish New Year, observed on the first and second days of the Hebrew month of Tishrei, and this year it welcomes the year 5787.
+
+The holiday begins at sundown. Here in Metro Detroit, candles are lit at 7:31 PM on Friday, September 11, and the holiday ends at 8:28 PM on Sunday, September 13, according to Hebcal's times for Oak Park, Michigan. The first day, Saturday, September 12, is also Shabbat, so the shofar is sounded on the second day, Sunday.
+
+A few of the traditions you may see on holiday tables this weekend:
+
+- **Apples dipped in honey,** a wish for a sweet year.
+- **A round challah,** which stands for the cycle of the year.
+- **The greeting.** "Shana Tova" means "a good year," and "Shana Tova u'Metukah" means "a good and sweet year."
+
+Yom Kippur follows soon after, beginning at sundown on Sunday, September 20.
+
+## A new-year wall checklist
+
+A new year is a good moment to look around the house, especially with family coming over for holiday meals. None of this takes long, and you can do all of it yourself.
+
+- **Patch small nail holes and dings before guests arrive.** A little lightweight spackle, a putty knife, a light sanding once it is dry, and a dab of paint take care of most of them. Work in good light so you can see when the spot sits flush with the wall.
+- **Look for cracks at the corners of doors and windows.** Hairline cracks often show up first where a wall meets the corner of an opening. Take a photo and note the date, so later you can tell whether a crack is getting longer or coming back after a patch.
+- **Check the ceiling under bathrooms for water stains.** A yellow or brown mark on the ceiling below a tub, shower or toilet can be a sign of a slow leak above it. Find the source before you paint over a stain, or it may simply come back.
+- **Keep a little matching paint for touch-ups.** A small jar of each room's wall color, labeled with the room name, lets you cover a patch with the same color instead of guessing at the store.
+
+## See you Monday
+
+From all of us at BH Drywall Metro Detroit, Shana Tova u'Metukah: a good and sweet year to everyone celebrating, and a good season to all of our neighbors in Metro Detroit.
+
+We are back on Monday, September 14 at 9:00 AM. If something on the checklist turns into a bigger question, like a crack that keeps coming back or a ceiling stain you cannot trace, call us at (313) 236-4558 or use the buttons below. For more on patching, see our [drywall repair](/services/drywall-repair) page and our guide to [small hole repair versus a large patch](/blog/drywall-hole-repair-vs-large-patch).
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {

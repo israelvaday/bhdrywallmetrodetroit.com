@@ -79,7 +79,7 @@ const AREA_SOURCES = [
 export function buildSitemap(): MetadataRoute.Sitemap {
   const staticPages: {
     path: string;
-    source: string;
+    source: string | string[];
     priority: number;
     changeFrequency: MetadataRoute.Sitemap[0]["changeFrequency"];
   }[] = [
@@ -92,7 +92,8 @@ export function buildSitemap(): MetadataRoute.Sitemap {
     { path: "/gallery", source: "app/gallery/page.tsx", priority: 0.8, changeFrequency: "monthly" },
     { path: "/reviews", source: "app/reviews/page.tsx", priority: 0.8, changeFrequency: "monthly" },
     { path: "/faq", source: "app/faq/page.tsx", priority: 0.75, changeFrequency: "monthly" },
-    { path: "/blog", source: "app/blog/page.tsx", priority: 0.75, changeFrequency: "weekly" },
+    // The index renders every post from content/blog.ts, so a new or edited post changes it too.
+    { path: "/blog", source: ["app/blog/page.tsx", "content/blog.ts"], priority: 0.75, changeFrequency: "weekly" },
     { path: "/hours", source: "app/hours/page.tsx", priority: 0.7, changeFrequency: "monthly" },
     { path: "/license", source: "app/license/page.tsx", priority: 0.65, changeFrequency: "yearly" },
   ];
@@ -100,7 +101,7 @@ export function buildSitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages.map(({ path, source, priority, changeFrequency }) => ({
       url: sitemapUrl(path),
-      lastModified: revised(source),
+      lastModified: revised(...(Array.isArray(source) ? source : [source])),
       changeFrequency,
       priority,
     })),
