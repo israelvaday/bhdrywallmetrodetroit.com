@@ -708,7 +708,7 @@ If the framing has not happened yet, call BH Drywall Metro Detroit at (313) 236-
       "Shana Tova! We are closed Saturday, Sept 12 and Sunday, Sept 13 for Rosh Hashanah and reopen Monday, Sept 14 at 9:00 AM. Plus a new-year wall checklist.",
     category: "Residential",
     readMinutes: 4,
-    date: "2026-09-11",
+    date: "2026-09-11T12:00:00",
     heroImage: "/blog/happy-rosh-hashanah-2026-hero.jpg",
     heroAlt: "Round braided challah, a jar of honey with a wooden dipper and sliced apples on a white quartz kitchen island, with oak hardwood floors and painted walls behind",
     secondaryImage: "/blog/happy-rosh-hashanah-2026-secondary.jpg",
