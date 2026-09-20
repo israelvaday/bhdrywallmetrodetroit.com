@@ -755,6 +755,70 @@ From all of us at BH Drywall Metro Detroit, Shana Tova u'Metukah: a good and swe
 We are back on Monday, September 14 at 9:00 AM. If something on the checklist turns into a bigger question, like a crack that keeps coming back or a ceiling stain you cannot trace, call us at (313) 236-4558 or use the buttons below. For more on patching, see our [drywall repair](/services/drywall-repair) page and our guide to [small hole repair versus a large patch](/blog/drywall-hole-repair-vs-large-patch).
 `,
   },
+  {
+    slug: "yom-kippur-2026",
+    title: "Yom Kippur 2026: Holiday Hours and a Fall Wall Checklist",
+    metaTitle: "Yom Kippur 2026 Holiday Hours | BH Drywall",
+    excerpt:
+      "We are closed Sunday, Sept 20 and Monday, Sept 21 for Yom Kippur and reopen Tuesday, Sept 22 at 9:00 AM. Plus a fall checklist for your walls.",
+    category: "Residential",
+    readMinutes: 4,
+    // Local noon on purpose, same as the Rosh Hashanah post: formatDate reads a bare
+    // "2026-09-20" as UTC midnight, which a Detroit-time build prints as September 19.
+    date: "2026-09-20T12:00:00-04:00",
+    heroImage: "/blog/plaster-repair-vs-drywall-metro-detroit-secondary.jpg",
+    heroAlt:
+      "Quiet empty room with the tools set down for the day, a trowel, taping knives and a dust mask on a canvas drop cloth and a sheet of drywall leaning against the wall",
+    secondaryImage: "/blog/plaster-repair-vs-drywall-metro-detroit-hero.jpg",
+    secondaryAlt:
+      "Worker in dusty coveralls skimming compound over a cracked wall with a wide trowel, drop cloths over the hardwood floor and a bucket at his feet",
+    body: `
+Yom Kippur, the Day of Atonement, begins at sundown on Sunday, September 20, 2026 and ends at nightfall on Monday, September 21. BH Drywall Metro Detroit is closed for both days and back on Tuesday morning. Below are our holiday hours, a short note on the day itself, and a checklist you can walk yourself before the Michigan indoor season starts.
+
+## Yom Kippur holiday hours
+
+- **Sunday, September 20:** closed. On a normal week we are open Sunday from 9:00 AM to 5:00 PM, so please note the change.
+- **Monday, September 21:** closed. On a normal week we are open from 9:00 AM to 5:00 PM.
+- **Tuesday, September 22:** back to our regular hours, starting at 9:00 AM.
+
+Our regular schedule is Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours).
+
+You are welcome to leave a message or send the [quote form](/quote) while we are closed. We work through them in the order they arrive once we are back on Tuesday.
+
+## What is Yom Kippur?
+
+Yom Kippur is the Day of Atonement, the most solemn day of the Jewish year. It falls on the tenth day of the Hebrew month of Tishrei, ten days after Rosh Hashanah, and it closes the season that opened with the new year 5787.
+
+Like every Jewish holiday, it begins at sundown. Here in Metro Detroit, candles are lit at 7:15 PM on Sunday, September 20, and the day ends at 8:13 PM on Monday, September 21. It is kept with a fast of about twenty five hours and a day spent largely in synagogue, which is why our phones and our crews are quiet straight through.
+
+The customary wish before the fast begins is an easy and meaningful fast. After it ends, people greet each other with g'mar chatima tova, roughly a wish to be sealed for good in the year ahead.
+
+## A fall checklist for your walls
+
+None of this needs a contractor. It is a ten minute walk around the house, and it catches the things that get expensive when they wait for spring.
+
+- **Look at the ceiling under every bathroom.** A yellow or brown ring below a tub, shower or toilet usually means a slow leak above it. Find the source before you paint over it, or the stain comes back.
+- **Check the corners of doors and windows.** Hairline cracks show up first where a wall meets the corner of an opening. Photograph them and note the date, so next year you can tell whether a crack grew or held still.
+- **Feel the outside walls after the first cold night.** A cold spot or a damp patch on a wall that faces the weather points at insulation or air sealing behind the board, not at the drywall itself.
+- **Patch the small stuff now.** Nail holes, door knob dings and old picture hangers take lightweight compound, a putty knife, a light sanding once it is dry and a dab of paint. Work in good light so you can see when the patch sits flush with the wall.
+- **Keep a labeled jar of each room's paint.** A touch up with the same can beats a guess at the paint counter six months later.
+
+## When it is worth a call instead
+
+Four of the things on that list are better looked at than patched over.
+
+- A crack that comes back after two patches is usually movement, not a bad patch.
+- A ceiling stain that spreads, or one you cannot trace to a fixture above it.
+- Any wall that stayed wet. [Water damage](/blog/water-damage-flood-cut-michigan) has to be cut out and dried before new board goes up, or the problem simply moves behind the patch.
+- A wall or ceiling that sounds hollow when you tap it, which in older Metro Detroit houses is often [plaster letting go of its lath](/blog/plaster-repair-vs-drywall-metro-detroit).
+
+## See you Tuesday
+
+To everyone observing the day, we wish you an easy and meaningful fast, and a good year to all of our neighbors across Wayne, Oakland and Macomb counties.
+
+We are back on Tuesday, September 22 at 9:00 AM, and we work through messages in the order they came in. Call us at (313) 236-4558 or use the buttons below. For the patching questions above, our [drywall repair](/services/drywall-repair) page and our guide to [small hole repair versus a large patch](/blog/drywall-hole-repair-vs-large-patch) cover most of what comes up.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
