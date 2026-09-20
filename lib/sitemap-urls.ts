@@ -65,6 +65,17 @@ function revised(...sources: string[]): Date {
   return newest === undefined ? BUILD_TIME : new Date(newest);
 }
 
+// HOLIDAY-NOTICE:START yom-kippur-2026 homepage lastmod pin
+// The temporary closure notice is a component rendered from app/page.tsx, so the homepage
+// lastmod would move to the day the notice shipped and again to the day it comes off.
+// Nothing the homepage says about drywall changed on either day, and 4deb012 exists
+// precisely to stop this sitemap claiming pages changed when they did not. So the homepage
+// keeps the date it already publishes, 2026-09-14T01:52:31.000Z, which is the date live
+// right now. Delete this constant and the `path === "/" ? ... :` reference below together
+// with the notice, which puts the homepage back on revised("app/page.tsx").
+const HOLIDAY_NOTICE_HOME_PIN = new Date("2026-09-14T01:52:31.000Z");
+// HOLIDAY-NOTICE:END
+
 /** The files behind every /services/<slug> and /service-areas/<slug> page. */
 const SERVICE_SOURCES = ["content/services.ts", "app/services/[slug]/page.tsx"];
 const AREA_SOURCES = [
@@ -101,7 +112,9 @@ export function buildSitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages.map(({ path, source, priority, changeFrequency }) => ({
       url: sitemapUrl(path),
-      lastModified: revised(...(Array.isArray(source) ? source : [source])),
+      // HOLIDAY-NOTICE:START yom-kippur-2026
+      lastModified: path === "/" ? HOLIDAY_NOTICE_HOME_PIN : revised(...(Array.isArray(source) ? source : [source])),
+      // HOLIDAY-NOTICE:END
       changeFrequency,
       priority,
     })),
