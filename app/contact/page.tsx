@@ -51,7 +51,7 @@ export default function ContactPage() {
             </div>
             <p className="mt-3 text-sm text-ink-200">
               <strong className="text-white">Sun–Thu 9am–5pm · Fri 9am–12pm</strong> — see our{" "}
-              <a href="/hours" className="text-brass-300 underline-offset-2 hover:underline">hours page</a>{" "}
+              <a href="/hours/" className="text-brass-300 underline-offset-2 hover:underline">hours page</a>{" "}
               for same-day repair when crews are available. Real people answer — not a robocall.
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function ContactPage() {
               <p className="mt-2 text-sm text-ink-200">
                 Want everything in writing first? Use our picture-driven quote tool. You&apos;ll answer a handful of plain-language questions, upload any photos that help, and get a clear written quote back — no hidden trip fees, no surprise add-ons, and no obligation. Most quotes go out the same day, usually within an hour during business hours.
               </p>
-              <a href="/quote" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
+              <a href="/quote/" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
                 Start the quote →
               </a>
             </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
             </p>
             <p className="mt-3">
               <strong className="text-white">Where we go.</strong> Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Clinton Township, and 90+ cities and neighborhoods — see our{" "}
-              <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">service area map</a>.
+              <a href="/service-areas/" className="text-brass-300 underline-offset-2 hover:underline">service area map</a>.
             </p>
           </div>
         </div>

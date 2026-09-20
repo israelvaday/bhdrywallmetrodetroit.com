@@ -17,7 +17,7 @@ export function ContactCTA({
         <Phone className="h-5 w-5" />
         {showLabels && "Call Now"}
       </LinkButton>
-      <LinkButton href="/quote" variant="primary" size={size} aria-label="Request a free quote">
+      <LinkButton href="/quote/" variant="primary" size={size} aria-label="Request a free quote">
         <ClipboardList className="h-5 w-5" />
         {showLabels && "Free Quote"}
       </LinkButton>

@@ -22,7 +22,7 @@ export function MobileDock() {
           Email
         </a>
         <a
-          href="/quote"
+          href="/quote/"
           aria-label="Get a free quote"
           className="flex flex-col items-center gap-1 py-3 text-xs font-semibold text-ink-100"
         >

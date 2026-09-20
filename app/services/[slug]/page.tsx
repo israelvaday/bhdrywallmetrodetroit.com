@@ -222,7 +222,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           </p>
           <p>
             We serve all of Metro Detroit for {s.shortName.toLowerCase()} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
-            <a href="/service-areas" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>. Estimates are scheduled; same-day repair when crews are available.
+            <a href="/service-areas/" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>. Estimates are scheduled; same-day repair when crews are available.
           </p>
           <p>
             Pricing for {s.shortName.toLowerCase()} is transparent: itemized where scope varies and flat packages where it doesn&apos;t. You get a written quote before work starts, and the number we agree on is the number you pay — no hidden trip fees and no surprise add-ons. If something on site changes the scope, we explain it, put a new number in writing, and you can decline without owing anything.
