@@ -26,13 +26,13 @@ BH Drywall Metro Detroit is a Michigan drywall contractor serving Detroit and th
 ## Site map
 
 - Home: https://bhdrywallmetrodetroit.com/
-- Services: https://bhdrywallmetrodetroit.com/services
-- Service areas: https://bhdrywallmetrodetroit.com/service-areas
-- Free quote: https://bhdrywallmetrodetroit.com/quote
-- Contact: https://bhdrywallmetrodetroit.com/contact
-- Gallery: https://bhdrywallmetrodetroit.com/gallery
-- Blog: https://bhdrywallmetrodetroit.com/blog
-- FAQ: https://bhdrywallmetrodetroit.com/faq
+- Services: https://bhdrywallmetrodetroit.com/services/
+- Service areas: https://bhdrywallmetrodetroit.com/service-areas/
+- Free quote: https://bhdrywallmetrodetroit.com/quote/
+- Contact: https://bhdrywallmetrodetroit.com/contact/
+- Gallery: https://bhdrywallmetrodetroit.com/gallery/
+- Blog: https://bhdrywallmetrodetroit.com/blog/
+- FAQ: https://bhdrywallmetrodetroit.com/faq/
 
 ## Usage
 
