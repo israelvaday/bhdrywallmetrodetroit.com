@@ -76,6 +76,41 @@ function revised(...sources: string[]): Date {
 const HOLIDAY_NOTICE_HOME_PIN = new Date("2026-09-14T01:52:31.000Z");
 // HOLIDAY-NOTICE:END
 
+/**
+ * The ten pre-rename `/services/<donor-slug>/` URLs, served as meta-refresh stubs from
+ * `public/services/`. They are NOT pages and carry priority 0.1 — they are listed only so
+ * Google refetches them.
+ *
+ * Measured 2026-09-17 and again 2026-09-21 with the URL Inspection API: seven of the ten
+ * still read "Submitted and indexed" as their OWN canonical, last crawled 2026-07-23 to
+ * 2026-08-03 — i.e. Google is holding the full pre-rename, pre-scrub pages, from before the
+ * 08-06 fabricated-testimonial purge. Nothing links to a stub and nothing listed it, so
+ * there was no signal asking for the refetch that makes a redirect land. The three that
+ * happened to be recrawled (08-26, 08-27, 09-13) all read "Page with redirect" pointing at
+ * the right target, so the stubs themselves work; only the fetch was missing.
+ *
+ * Control: bh-flooring lists its nine identical stubs in its sitemap at priority 0.1 and
+ * Google refetched all nine within a week.
+ *
+ * lastmod is `revised()` over the stub file itself, not the build date — 2026-08-13, when
+ * 9266fec de-keyworded them. That is both true and newer than the seven stale crawls, while
+ * correctly telling Google nothing new about the three already processed.
+ *
+ * Withdraw these entries once all ten read "Page with redirect".
+ */
+const LEGACY_SERVICE_STUBS = [
+  "access-control",
+  "automotive",
+  "commercial",
+  "emergency",
+  "rekey",
+  "residential",
+  "safes",
+  "smart-locks",
+  "specialty",
+  "storefront",
+];
+
 /** The files behind every /services/<slug> and /service-areas/<slug> page. */
 const SERVICE_SOURCES = ["content/services.ts", "app/services/[slug]/page.tsx"];
 const AREA_SOURCES = [
@@ -135,6 +170,12 @@ export function buildSitemap(): MetadataRoute.Sitemap {
       lastModified: revised(...AREA_SOURCES),
       changeFrequency: "monthly" as const,
       priority: a.main ? 0.82 : a.kind === "city" ? 0.72 : 0.65,
+    })),
+    ...LEGACY_SERVICE_STUBS.map((slug) => ({
+      url: sitemapUrl(`/services/${slug}`),
+      lastModified: revised(`public/services/${slug}/index.html`),
+      changeFrequency: "yearly" as const,
+      priority: 0.1,
     })),
   ];
 }
