@@ -819,6 +819,69 @@ To everyone observing the day, we wish you an easy and meaningful fast, and a go
 We are back on Tuesday, September 22 at 9:00 AM, and we work through messages in the order they came in. Call us at (313) 236-4558 or use the buttons below. For the patching questions above, our [drywall repair](/services/drywall-repair) page and our guide to [small hole repair versus a large patch](/blog/drywall-hole-repair-vs-large-patch) cover most of what comes up.
 `,
   },
+  {
+    slug: "sukkot-2026",
+    title: "Happy Sukkot 2026: Holiday Hours and a Wall Checklist for Busy Doorways",
+    metaTitle: "Sukkot 2026 Holiday Hours | BH Drywall",
+    excerpt:
+      "Chag Sameach! We are closed Saturday, Sept 26 and Sunday, Sept 27 for Sukkot and reopen Monday, Sept 28 at 9:00 AM. Plus a checklist for busy doorways.",
+    category: "Residential",
+    readMinutes: 4,
+    // Local noon on purpose, same as the Rosh Hashanah and Yom Kippur posts: formatDate reads a
+    // bare "2026-09-25" as UTC midnight, which a Detroit-time build prints as September 24.
+    date: "2026-09-25T12:00:00-04:00",
+    heroImage: "/blog/sukkot-2026-hero.jpg",
+    heroAlt:
+      "A simple backyard sukkah with linen walls and a roof of leafy branches and bamboo poles, a table inside set with a white cloth, pears, pomegranates and small pumpkins, and fallen maple leaves on the lawn",
+    secondaryImage: "/blog/sukkot-2026-secondary.jpg",
+    secondaryAlt:
+      "Painted living room wall beside a glass patio door with three small dings freshly filled with compound, and a putty knife, a sanding sponge and a tub of compound on a drop cloth below",
+    body: `
+Sukkot, the Jewish harvest festival, begins at sundown on Friday, September 25, 2026. BH Drywall Metro Detroit is closed for the first two days of the holiday and back on Monday morning. Below are our holiday hours, a few words about the holiday itself, and a short checklist for the walls that take the most knocks when the house fills up with guests.
+
+## Sukkot holiday hours
+
+- **Friday, September 25:** open our regular Friday hours, 9:00 AM to 12:00 PM.
+- **Saturday, September 26:** closed. This is the first day of Sukkot, and it is also Shabbat.
+- **Sunday, September 27:** closed for the second day of Sukkot. On a normal week we are open on Sunday from 9:00 AM to 5:00 PM, so please note the change.
+- **Monday, September 28:** back to our regular hours, starting at 9:00 AM.
+
+Our regular schedule is Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours).
+
+You are welcome to leave a message or send the [quote form](/quote) while we are closed. We work through them in the order they arrive once we are back on Monday.
+
+## What is Sukkot?
+
+Sukkot is the harvest festival of the Jewish year. It begins on the fifteenth day of the Hebrew month of Tishrei, five days after Yom Kippur, and it lasts a week.
+
+For that week, families build a sukkah, a small temporary hut in the yard or on a balcony, with a roof of branches or leaves laid loosely enough to see the sky through it. Meals are eaten outside in the sukkah, often with friends and neighbors, in memory of the huts the Israelites lived in during their years in the desert and the shelters farmers slept in at harvest time.
+
+Here in Metro Detroit, candles are lit at 7:06 PM on Friday, September 25, and the first two days end at 8:03 PM on Sunday, September 27, according to Hebcal's times for Oak Park, Michigan. Monday, September 28 is one of the intermediate days of the festival, and it is a regular working day for us. The customary greeting is Chag Sameach, a happy holiday.
+
+## A checklist for busy doorways
+
+A week of meals outside means a lot of trips through the back door with plates, folding chairs and a table or two, and the walls along that path take the knocks. None of this needs a contractor, and it takes about ten minutes.
+
+- **Look at the wall behind every door that swings open.** A handle that hits the wall leaves a dent first and a round hole later. A small door stop on the baseboard or on the hinge costs a few dollars and ends it.
+- **Run a hand along the outside corners.** Carrying a table around a corner is the classic way to dent the metal corner bead. A shallow dent takes a coat of compound. A corner that is cracked, loose or bulging needs the bead replaced.
+- **Watch for nail pops once the heat comes on.** When the furnace starts and the air dries out, the framing shrinks a little and nail heads push out of the board as small round bumps, often in a neat line. Drive a drywall screw about an inch and a half from the nail, tap the nail back in, and cover both with compound.
+- **Check the wall under windows and beside the patio door after a rain.** Board that is stained, soft or crumbling at the bottom often means water is getting past a seal on the outside. Fix the leak before you fix the wall.
+- **Patch the small stuff while the light is good.** Nail holes and chair dings take lightweight compound, a putty knife, a light sanding once it is dry and a dab of paint.
+
+## When it is worth a call instead
+
+- A hole bigger than your fist, which needs a patch with backing behind it rather than filler.
+- A corner bead that is cracked or loose along its length.
+- Nail pops that keep coming back in the same area, or that show up along a ceiling seam.
+- Any board that stayed wet. [Water damage](/blog/water-damage-flood-cut-michigan) has to be cut out and dried before new board goes up, or the problem simply moves behind the patch.
+
+## See you Monday
+
+From all of us at BH Drywall Metro Detroit, Chag Sameach: a happy Sukkot to everyone celebrating, and a good fall to all of our neighbors across Wayne, Oakland and Macomb counties.
+
+We are back on Monday, September 28 at 9:00 AM, and we work through messages in the order they came in. Call us at (313) 236-4558 or use the buttons below. For the patching questions above, our [drywall repair](/services/drywall-repair) page and our guide to [small hole repair versus a large patch](/blog/drywall-hole-repair-vs-large-patch) cover most of what comes up.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
