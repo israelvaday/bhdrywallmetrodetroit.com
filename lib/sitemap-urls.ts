@@ -137,6 +137,13 @@ export function buildSitemap(): MetadataRoute.Sitemap {
     ...staticPages.map(({ path, source, priority, changeFrequency }) => ({
       url: sitemapUrl(path),
       lastModified: revised(...(Array.isArray(source) ? source : [source])),
+      // HOLIDAY-NOTICE:START simchat-torah-2026 homepage lastmod pin
+      // The temporary closure notice is rendered from app/page.tsx, so the homepage lastmod
+      // would move to the day the notice shipped. Nothing the homepage says about drywall
+      // changed, so it keeps the date it already publishes, 2026-09-28T02:00:57.000Z (live
+      // on 2026-09-30). This override comes off with the notice.
+      ...(path === "/" ? { lastModified: new Date("2026-09-28T02:00:57.000Z") } : {}),
+      // HOLIDAY-NOTICE:END
       changeFrequency,
       priority,
     })),
