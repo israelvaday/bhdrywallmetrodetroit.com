@@ -882,6 +882,91 @@ From all of us at BH Drywall Metro Detroit, Chag Sameach: a happy Sukkot to ever
 We are back on Monday, September 28 at 9:00 AM, and we work through messages in the order they came in. Call us at (313) 236-4558 or use the buttons below. For the patching questions above, our [drywall repair](/services/drywall-repair) page and our guide to [small hole repair versus a large patch](/blog/drywall-hole-repair-vs-large-patch) cover most of what comes up.
 `,
   },
+  {
+    slug: "ceiling-cracks-drywall-seams-heating-season",
+    title: "Why Is My Ceiling Cracking Along the Drywall Seams? A Metro Detroit Heating Season Guide",
+    metaTitle: "Ceiling Cracks Along Drywall Seams | Metro Detroit",
+    excerpt:
+      "Straight hairline cracks along ceiling seams usually show up when the furnace comes on. Here is what causes them in Metro Detroit homes, which ones to watch, and how a lasting repair is done.",
+    category: "Residential",
+    readMinutes: 6,
+    // Local noon on purpose, same as the holiday posts: formatDate reads a bare date as UTC
+    // midnight, which a Detroit-time build prints a day early.
+    date: "2026-10-01T12:00:00-04:00",
+    heroImage: "/blog/popcorn-ceiling-removal-metro-detroit-secondary.png",
+    heroAlt:
+      "Freshly finished smooth ceiling and walls in an empty Metro Detroit living room, with a ladder, a bucket of compound and drop cloths on the floor",
+    secondaryImage: "/blog/drywall-hole-repair-vs-large-patch-hero.png",
+    secondaryAlt:
+      "Drywall repair taped off with blue painter's tape and skimmed with compound, with a bucket of compound and a putty knife on a drop cloth below",
+    body: `
+A straight hairline crack that runs along a ceiling seam is almost always movement, not a failing house. In Metro Detroit it shows up most in October and November: the furnace comes on, the indoor air dries out, the wood framing above the ceiling shrinks a little, and the weakest line in the ceiling, the taped joint between two sheets of drywall, gives first. Most of these cracks are cosmetic, a few are worth a closer look, and the lasting fix is to re-tape the joint, not to smear more compound over it.
+
+With the first cool fronts of the fall moving through Southeast Michigan and furnaces starting up from Royal Oak to Livonia, this is the time of year these calls begin. Here is how to read the crack in your ceiling.
+
+## Why seams crack when the heat comes on
+
+A drywall ceiling is a set of 4 foot wide sheets screwed to joists or roof trusses, with paper or mesh tape and joint compound bridging every seam. The sheets themselves barely move. The wood they hang from does.
+
+- **Dry winter air shrinks the framing.** Lumber takes on moisture through a humid Michigan summer and gives it back once the heat runs. A joist or truss that shrinks even slightly pulls on the screws along a seam, and the tape line is where that shows.
+- **Butt joints are the weak spot.** Where two short ends of drywall meet, there is no tapered edge to bury the tape in, so the joint is thinner and more likely to crack. Those are the cracks that run across a room rather than along its length.
+- **Tape that never bonded.** If the tape was laid on too little compound, it can let go along its length. You see a crack with a slightly raised edge, or a strip of tape you can lift with a fingernail.
+- **New construction settling.** A house in its first year or two in Macomb or Oakland County is still drying out. Seam cracks in the first heating season are common and usually stop after the second.
+
+## The crack at the wall and ceiling corner: truss uplift
+
+If the crack runs along the top of an interior wall, where it meets the ceiling, and it opens in winter and closes again in summer, the likely cause is truss uplift. It is common in homes built with roof trusses, which describes a lot of the ranches, colonials and newer subdivisions across Troy, Warren, Sterling Heights and Southfield.
+
+In winter the top of each truss sits in a cold, dry attic while the bottom sits against the warm ceiling and buried in insulation. The two parts dry out at different rates, and the bottom of the truss can bow upward slightly. Where the ceiling drywall is fastened to the truss near an interior wall, it lifts with it and tears the corner open.
+
+Patching that corner with more compound does not hold, because it moves again next winter. The repair that lasts takes the movement out of the joint: the ceiling edge is detached from the truss near the wall and held with drywall clips to the wall plate instead, so the ceiling can flex without cracking, or the corner is finished with a trim detail that hides the seasonal gap.
+
+## When a ceiling crack needs a closer look
+
+Most seam cracks are cosmetic. These signs point to something more than seasonal movement:
+
+- **A brown or yellow stain along the crack.** That is water, usually from a bathroom above, a roof leak or an ice dam later in the winter. Find and fix the leak first. Wet board has to be cut out and dried, as covered in our guide to [water damage and flood cuts](/blog/water-damage-flood-cut-michigan).
+- **A ceiling that sags or bellies** between joists, or tape that hangs loose in a strip.
+- **A crack that is wider at one end** than the other, or that continues down a wall, especially with doors that suddenly stick.
+- **Cracks in a spider web or random pattern** on an older ceiling. In pre-war Detroit, Grosse Pointe and Dearborn homes, that is often [plaster pulling away from its lath](/blog/plaster-repair-vs-drywall-metro-detroit), which is a different repair.
+
+A crack that keeps widening is worth a call. A thin, straight line that stays the same width is not an emergency.
+
+## What to do this week
+
+- **Mark it.** Put a light pencil tick at each end of the crack and write the date next to it. In a month you will know whether it grew.
+- **Keep the humidity steady.** Indoor air in a Michigan winter can drop well below what wood framing likes. A furnace humidifier or a room unit set to a moderate level slows the shrinking that opens seams. Keep it moderate, because too much humidity causes condensation on cold windows and walls.
+- **Do not caulk it yet.** Caulk and a fresh coat of paint hide the line for a few weeks, then it reappears with a messier edge. If the crack is seasonal, the best time to fix it is after the heating season has settled in, so the repair is made at the framing's driest point.
+
+## How a lasting seam repair is done
+
+A seam that has cracked once will crack again if it is only filled. The approach that holds:
+
+- **Open it up.** Cut away any loose or bubbled tape and scrape out the cracked compound along the full length of the seam, not just the visible crack.
+- **Fix the fasteners.** Add drywall screws on both sides of the joint into the framing, and reset any popped nails or screws nearby.
+- **Re-tape with setting compound.** A setting type compound bonds harder than premixed mud and holds up better on a ceiling. Fresh tape is embedded in it, then covered with two finish coats that are feathered wide so the seam does not show.
+- **Match the ceiling.** A smooth ceiling is sanded and primed. A textured or popcorn ceiling needs the texture rebuilt over the repair, which is where most do-it-yourself patches stand out. Our [texture matching](/services/texture-matching) work is about making that line disappear.
+- **Prime and paint the whole ceiling plane**, or at least to the nearest break, so the sheen matches.
+
+## What drives the cost of the repair
+
+We do not price ceiling repairs from a photo, because a few things change the job a lot:
+
+- **How many seams and how long they are**, and whether the tape has let go or only the top coat cracked.
+- **Ceiling height and access**, for example a two story foyer or a stairwell.
+- **The finish.** A smooth ceiling is simpler than knockdown, orange peel or popcorn texture that has to be matched.
+- **Whether the cause has to be fixed first**: a leak, loose fasteners, or truss uplift that needs clips at the wall.
+- **Painting.** Whether we prime only the repair or repaint the full ceiling.
+
+Call (313) 236-4558 for a price on your job.
+
+## Ceiling crack repair in Metro Detroit
+
+BH Drywall Metro Detroit repairs cracked seams, popped fasteners and corner cracks in homes across Wayne, Oakland and Macomb counties, and we tell you plainly when a crack is cosmetic and can wait. See our [drywall repair in Metro Detroit](/services/drywall-repair) page for the kind of work we take on.
+
+To have a cracked ceiling looked at, call us at (313) 236-4558 or send the [contact form](/quote) with a photo of the crack. We are open Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and closed on Saturdays.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
