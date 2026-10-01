@@ -146,7 +146,20 @@ export function QuoteWizard() {
       files.forEach((f) => fd.append("files", f, f.name));
 
       if (quoteApi) {
-        const res = await fetch(quoteApi, { method: "POST", body: fd });
+        // The live endpoint is a Cloudflare worker that parses JSON only: a multipart body gets
+        // 400 "Invalid JSON" (probed 2026-09-30). So this branch sends the text fields as JSON.
+        // Photos cannot travel in that body; their count goes into the message so the team asks.
+        const note = files.length
+          ? `${message ? message + "\n\n" : ""}[${files.length} photo${files.length === 1 ? "" : "s"} chosen on the website form; ask the customer to text them to ${BIZ.phone}.]`
+          : message;
+        const res = await fetch(quoteApi, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name, phone, email, location,
+            service: svcLabel, property: propLabel, urgency: urgLabel, message: note,
+          }),
+        });
         if (!res.ok) throw new Error("Server error");
         toast.success("Message sent. We will be in touch shortly.");
         window.location.href = "/thank-you";

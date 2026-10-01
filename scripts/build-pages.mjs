@@ -12,7 +12,8 @@ const STASH = path.join(ROOT, "..", "_api_stash_build_bh-drywall");
 
 // The static export has no API route, so without this the contact form fell back to mailto: and
 // leads were lost. The live endpoint answers on the site's own domain (it emailed the owner in
-// August 2026) and parses both multipart and JSON. Owner decision 2026-09-30: contact forms only.
+// August 2026). It parses JSON only, so QuoteWizard posts JSON on this path. Owner decision
+// 2026-09-30: contact forms only.
 const QUOTE_API_URL = "https://bhdrywallmetrodetroit.com/api/quote";
 
 function run(cmd) {
