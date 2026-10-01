@@ -31,8 +31,10 @@ import { HolidayNoticeSimchatTorah2026 } from "@/components/site/HolidayNoticeSi
 // city anywhere. absolute, so the geo does not repeat against the layout suffix; the
 // head term is "contractor" rather than "repair" so this does not re-enter the
 // /service-areas/<city> "Drywall Repair in <City>, MI" cluster.
+// 2026-09-30, owner: service words lead the title. "popcorn ceiling removal" is the homepage's
+// best-placed query (pos 4.8, 90d), so it joins the head term.
 export const metadata: Metadata = {
-  title: { absolute: `Drywall Contractor in Detroit, MI | BH Drywall` },
+  title: { absolute: `Drywall Contractor Detroit: Repair, Install & Popcorn Removal` },
   description:
     `Drywall contractor in Detroit, MI — residential and commercial hang, finish, repair, patching, texture, and metal framing across Metro Detroit. Free estimates.`,
   alternates: { canonical: "/" },
