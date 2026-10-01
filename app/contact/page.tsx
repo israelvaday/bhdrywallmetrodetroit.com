@@ -8,7 +8,7 @@ import { ServiceMap } from "@/components/site/ServiceMap";
 export const metadata: Metadata = {
   title: `Contact — Metro Detroit drywall contractor`,
   description:
-    "Reach BH Drywall Metro Detroit Sun–Thu 9am–5pm · Fri 9am–12pm. Tap to call, text photos, or request a free quote. Licensed & insured — serving all of Metro Detroit, MI.",
+    "Reach BH Drywall Metro Detroit Sun–Thu 9am–5pm · Fri 9am–12pm. Tap to call, text photos, or send us a message. Serving all of Metro Detroit, MI.",
   alternates: { canonical: "/contact" },
 };
 
@@ -22,10 +22,10 @@ export default function ContactPage() {
             <Clock className="h-3.5 w-3.5" /> Sun–Thu 9am–5pm · Fri 9am–12pm
           </div>
           <h1 className="mt-5 font-display text-4xl font-extrabold tracking-tight md:text-6xl">
-            Get a <span className="text-brass-gradient">licensed drywall contractor</span>.
+            Talk to a <span className="text-brass-gradient">real drywall contractor</span>.
           </h1>
           <p className="mt-4 text-ink-200">
-            Skip the small talk. Tap a button — we&apos;ll connect you with a licensed drywall estimator anywhere in Metro Detroit.
+            Skip the small talk. Tap a button and we&apos;ll connect you with our drywall team anywhere in Metro Detroit.
           </p>
           <div className="mt-7 flex justify-center">
             <ContactCTA size="lg" showEmail />
@@ -38,10 +38,10 @@ export default function ContactPage() {
           <div className="rounded-3xl border border-brass-500/30 bg-brass-500/5 p-6">
             <div className="flex items-center gap-2 text-brass-300">
               <ShieldCheck className="h-5 w-5" />
-              <span className="text-sm font-semibold uppercase tracking-wider">Licensed</span>
+              <span className="text-sm font-semibold uppercase tracking-wider">Our crews</span>
             </div>
             <p className="mt-3 text-sm text-ink-200">
-              {BIZ.bsis} — liability and workers comp. Background-checked crews on every job.
+              Background-checked crews on every job.
             </p>
           </div>
           <div className="rounded-3xl border border-emerald-500/30 bg-emerald-500/5 p-6">
@@ -95,7 +95,7 @@ export default function ContactPage() {
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
               <h3 className="font-display text-xl font-bold text-white">Call</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Call {BIZ.name} at {BIZ.phone}. You&apos;ll reach someone who schedules drywall work — not a national call center. Share your city, finish level, and timeline; we&apos;ll book a walk-through or photo-based estimate.
+                Call {BIZ.name} at {BIZ.phone}. You&apos;ll reach someone who schedules drywall work — not a national call center. Share your city, finish level, and timeline; we&apos;ll book a walk-through or go over your photos.
               </p>
               <a href={BIZ.phoneHref} className="mt-4 inline-block font-mono text-brass-300 underline-offset-4 hover:underline">
                 {BIZ.phone}
@@ -104,19 +104,19 @@ export default function ContactPage() {
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
               <h3 className="font-display text-xl font-bold text-white">Text photos</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Text photos of the wall, ceiling, or damage to {BIZ.phone}. Wide shots plus close-ups help us quote patch work, texture match, or full-room finish without an extra trip. Great for basement projects, tenant punch lists, and insurance documentation.
+                Text photos of the wall, ceiling, or damage to {BIZ.phone}. Wide shots plus close-ups help us scope patch work, texture match, or full-room finish without an extra trip. Great for basement projects, tenant punch lists, and insurance documentation.
               </p>
               <a href={BIZ.smsHref} className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
                 Text {BIZ.phone} →
               </a>
             </div>
             <div className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
-              <h3 className="font-display text-xl font-bold text-white">Free written quote</h3>
+              <h3 className="font-display text-xl font-bold text-white">Send us a message</h3>
               <p className="mt-2 text-sm text-ink-200">
-                Want everything in writing first? Use our picture-driven quote tool. You&apos;ll answer a handful of plain-language questions, upload any photos that help, and get a clear written quote back — no hidden trip fees, no surprise add-ons, and no obligation. Most quotes go out the same day, usually within an hour during business hours.
+                Prefer to write it down? Use our picture-driven contact form. You&apos;ll answer a handful of plain-language questions, upload any photos that help, and we&apos;ll call or text you back. Most messages get a reply the same day, usually within an hour during business hours.
               </p>
               <a href="/quote/" className="mt-4 inline-block text-sm font-semibold text-brass-300 underline-offset-4 hover:underline">
-                Start the quote →
+                Send a message →
               </a>
             </div>
           </div>

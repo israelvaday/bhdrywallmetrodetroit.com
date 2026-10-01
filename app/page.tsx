@@ -36,7 +36,7 @@ import { HolidayNoticeSimchatTorah2026 } from "@/components/site/HolidayNoticeSi
 export const metadata: Metadata = {
   title: { absolute: `Drywall Contractor Detroit: Repair, Install & Popcorn Removal` },
   description:
-    `Drywall contractor in Detroit, MI — residential and commercial hang, finish, repair, patching, texture, and metal framing across Metro Detroit. Free estimates.`,
+    `Drywall contractor in Detroit, MI — residential and commercial hang, finish, repair, patching, texture, and metal framing across Metro Detroit.`,
   alternates: { canonical: "/" },
 };
 

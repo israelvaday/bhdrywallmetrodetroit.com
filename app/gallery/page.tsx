@@ -66,8 +66,8 @@ export default function GalleryPage() {
           <div>
             <h2 className="font-display text-2xl font-bold text-white md:text-3xl">Before you hire</h2>
             <p className="mt-3">
-              Every job starts with a written scope: finish level, texture, timeline, and price. Send photos to{" "}
-              {BIZ.phone} for a faster estimate.
+              Every job starts with a written scope: finish level, texture, and timeline. Send photos to{" "}
+              {BIZ.phone} for a faster answer.
             </p>
           </div>
         </div>

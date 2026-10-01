@@ -9,7 +9,7 @@ import { LongFormFaq } from "@/components/site/LongFormFaq";
 export const metadata: Metadata = {
   title: "FAQ — Metro Detroit drywall contractor Questions Answered",
   description:
-    "Answers about drywall pricing, service areas, finish levels, repairs, and hiring a licensed contractor in Metro Detroit.",
+    "Answers about what drives drywall cost, service areas, finish levels, repairs, and hiring a drywall contractor in Metro Detroit.",
   alternates: { canonical: `${BIZ.url}/faq` },
 };
 
@@ -38,7 +38,7 @@ export default function FAQPage() {
               <span className="text-brass-gradient">Real answers</span> from a real drywall contractor.
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-ink-200 md:mx-0">
-              Pricing. Licensing. Finish levels. Repairs & estimates. Everything Metro Detroit customers ask {BIZ.name}, in one place.
+              Cost factors. Finish levels. Repairs. Scheduling. Everything Metro Detroit customers ask {BIZ.name}, in one place.
             </p>
           </div>
           <div className="relative aspect-[5/4] overflow-hidden rounded-3xl border border-brass-500/30">

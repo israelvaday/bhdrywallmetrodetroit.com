@@ -185,7 +185,7 @@ Store patch kits work for tiny holes. Beyond that, frustration rises: compound s
 
 ## Get a clear scope from BH Drywall Metro Detroit
 
-Send photos if you like — we still verify in person for texture and moisture. We quote by repair class: spot, backed patch, or sheet replacement, with texture and primer notes spelled out.
+Send photos if you like — we still verify in person for texture and moisture. We scope by repair class: spot, backed patch, or sheet replacement, with texture and primer notes spelled out.
 
 Dial (313) 236-4558 to schedule repair visits anywhere in Metro Detroit MI. We arrive with backing stock, compound, and the patience to feather until the wall is truly gone under your lights.
 `,
@@ -294,7 +294,7 @@ Open offices with demountable partitions still need permanent drywall at cores, 
 
 ## Property manager maintenance programs
 
-Multi-tenant centers in Madison Heights, Oak Park, and along Eight Mile see recurring damage: loading dock hits, wayfinding anchor scars, water heater closet leaks. BH Drywall Metro Detroit offers response lists for managers who need consistent vendor paperwork — COI, W-9, and photo closeouts for asset files.
+Multi-tenant centers in Madison Heights, Oak Park, and along Eight Mile see recurring damage: loading dock hits, wayfinding anchor scars, water heater closet leaks. BH Drywall Metro Detroit offers response lists for managers who need consistent vendor paperwork, with a W-9 and photo closeouts for asset files.
 
 Matching decade-old orange peel in a hallway wing is slower than new hang but cheaper than repainting entire corridors. We sample texture and confirm under corridor LED before promising invisible patches.
 
@@ -370,7 +370,7 @@ Flat ceilings brighten rooms and help listings photograph better in Ferndale, Ro
 
 ## Schedule with BH Drywall Metro Detroit
 
-We walk ceilings, ask build year, recommend testing path, and quote scrape, skim, sand, and prime as integrated scope — not a low scrape number that hides skim reality. Full scope, containment detail, and example jobs live on our [popcorn ceiling removal](/services/popcorn-ceiling-removal/) service page.
+We walk ceilings, ask build year, recommend testing path, and scope scrape, skim, sand, and prime as one integrated job — not a low scrape number that hides skim reality. Full scope, containment detail, and example jobs live on our [popcorn ceiling removal](/services/popcorn-ceiling-removal/) service page.
 
 Phone (313) 236-4558 for popcorn ceiling removal and resurfacing across Metro Detroit MI. You get straight talk on asbestos era homes, containment, and a ceiling that finally matches the walls you already upgraded.
 `,
@@ -388,7 +388,7 @@ Phone (313) 236-4558 for popcorn ceiling removal and resurfacing across Metro De
     heroImage: "/blog/hire-drywall-contractor-michigan-checklist-hero.png",
     heroAlt: "Homeowner reviewing drywall contract scope with contractor in Metro Detroit",
     secondaryImage: "/blog/hire-drywall-contractor-michigan-checklist-secondary.png",
-    secondaryAlt: "Insured drywall crew with tools and protection at a Michigan job site",
+    secondaryAlt: "Drywall crew with tools and protection at a Michigan job site",
     body: `
 Drywall looks straightforward until joints telegraph, corners crack, or an inspector red-tags a commercial suite. Hiring the lowest hourly bid without a written scope is how Metro Detroit MI homeowners and business owners lose weeks and repainting budgets. BH Drywall Metro Detroit built this checklist so you can compare contractors fairly — and so you know what we will put in writing when you call (313) 236-4558.
 
@@ -398,7 +398,7 @@ Drywall looks straightforward until joints telegraph, corners crack, or an inspe
 - General liability insurance and workers compensation — ask for current certificates; your project should not become your homeowner policy’s problem if someone is hurt.
 - References or recent photos of similar work — repairs, new construction, commercial TI, not unrelated trades.
 
-We provide documentation when general contractors and property managers require it. If a bidder refuses insurance proof, stop there.
+If a bidder refuses to show proof of insurance, stop there.
 
 ### Written scope beats verbal promises
 
@@ -439,7 +439,7 @@ BH Drywall Metro Detroit treats occupied residences with floor protection and da
 ## Red flags
 
 - Large upfront deposits with no schedule tied to progress.
-- No mention of finish level or texture on repair quotes.
+- No mention of finish level or texture on repair bids.
 - Willingness to skim over wet water damage without metering.
 - Cannot explain fire taping on commercial rated walls.
 - Only accepts cash and provides no written warranty on workmanship.
@@ -783,7 +783,7 @@ Yom Kippur, the Day of Atonement, begins at sundown on Sunday, September 20, 202
 
 Our regular schedule is Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours).
 
-You are welcome to leave a message or send the [quote form](/quote) while we are closed. We work through them in the order they arrive once we are back on Tuesday.
+You are welcome to leave a message or send the [contact form](/quote) while we are closed. We work through them in the order they arrive once we are back on Tuesday.
 
 ## What is Yom Kippur?
 
@@ -848,7 +848,7 @@ Sukkot, the Jewish harvest festival, begins at sundown on Friday, September 25, 
 
 Our regular schedule is Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and we are closed on Saturdays. They are always listed on our [hours page](/hours).
 
-You are welcome to leave a message or send the [quote form](/quote) while we are closed. We work through them in the order they arrive once we are back on Monday.
+You are welcome to leave a message or send the [contact form](/quote) while we are closed. We work through them in the order they arrive once we are back on Monday.
 
 ## What is Sukkot?
 

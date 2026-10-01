@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Clock, ShieldCheck } from "lucide-react";
+import { Clock } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 
@@ -76,11 +76,6 @@ export default function HoursPage() {
         <div className="mt-10 flex justify-center">
           <ContactCTA size="lg" />
         </div>
-
-        <p className="mt-8 inline-flex items-center gap-2 text-xs text-ink-400">
-          <ShieldCheck className="h-3.5 w-3.5 text-brass-400" />
-          Michigan licensed #{BIZ.bsis} · Licensed & insured
-        </p>
       </div>
     </section>
   );

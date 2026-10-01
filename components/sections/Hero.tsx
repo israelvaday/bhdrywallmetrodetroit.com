@@ -1,6 +1,6 @@
 "use client";
 
-import { ShieldCheck, Star, Clock, MapPin, Sparkles, Wrench } from "lucide-react";
+import { Phone, Clock, MapPin, Sparkles, Wrench } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { ContactCTA } from "@/components/site/ContactCTA";
 import { LogoMark } from "@/components/site/Logo";
@@ -51,7 +51,7 @@ export function Hero() {
         <LogoMark className="h-7 w-7" />
         <div className="flex flex-col leading-tight">
           <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-brass-300">BH Drywall Metro Detroit</span>
-          <span className="font-mono text-[10px] text-ink-300">Licensed &amp; insured</span>
+          <span className="font-mono text-[10px] text-ink-300">Metro Detroit, MI</span>
         </div>
       </div>
 
@@ -70,8 +70,8 @@ export function Hero() {
           className="flex flex-wrap items-center justify-center gap-2"
         >
           <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-brass-500/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-brass-300 backdrop-blur">
-            <ShieldCheck className="h-3.5 w-3.5" />
-            Licensed &amp; insured · Sun–Thu 9am–5pm
+            <Wrench className="h-3.5 w-3.5" />
+            Residential &amp; commercial
           </span>
           <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-emerald-300 backdrop-blur">
             <Clock className="h-3.5 w-3.5" />
@@ -104,7 +104,7 @@ export function Hero() {
           className="mx-auto mt-5 max-w-2xl text-base text-ink-200 sm:text-lg md:mt-6 md:text-xl"
         >
           Basements, tenant buildouts, patch &amp; texture, Level 5 smooth walls, and water-damage
-          rebuild — free estimates across Wayne, Oakland &amp; Macomb counties.
+          rebuild across Wayne, Oakland &amp; Macomb counties.
         </p>
 
         <ul
@@ -132,16 +132,16 @@ export function Hero() {
           className="mt-9 flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm text-ink-200 md:mt-12"
         >
           <li className="flex items-center gap-1.5">
-            <Star className="h-4 w-4 text-brass-400" fill="currentColor" />
-            5-star rated · Michigan
+            <MapPin className="h-4 w-4 text-brass-400" />
+            Owner-operated · Michigan
           </li>
           <li className="flex items-center gap-1.5">
             <Sparkles className="h-4 w-4 text-brass-400" />
-            Written estimates
+            Written scope
           </li>
           <li className="flex items-center gap-1.5">
-            <ShieldCheck className="h-4 w-4 text-brass-400" />
-            Licensed &amp; insured crews
+            <Phone className="h-4 w-4 text-brass-400" />
+            We answer our own phones
           </li>
           <li className="flex items-center gap-1.5">
             <Wrench className="h-4 w-4 text-brass-400" />

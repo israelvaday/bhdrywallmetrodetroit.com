@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { ShieldCheck, Award, Wrench, Users, Phone, MapPin, Clock } from "lucide-react";
+import { FileText, Wrench, Users, Phone, MapPin, Clock } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { metaDescription } from "@/lib/meta";
 import { LICENSE_PHOTO, BRAND_PHOTOS } from "@/lib/photos";
@@ -73,15 +73,15 @@ export default function AboutPage() {
               Built on trust, not call-center tricks.
             </h2>
             <p className="mt-4 text-ink-300">
-              Most online &ldquo;drywall&rdquo; ads are lead brokers. We&apos;re a local crew — licensed &amp; insured, and you talk to the estimator scheduling your job.
+              Most online &ldquo;drywall&rdquo; ads are lead brokers. We&apos;re a local crew, and you talk to the person scheduling your job.
             </p>
             <p className="mt-4 text-ink-300">
               We handle basements, remodels, commercial tenant improvements, texture matching, flood-cut rebuilds, and new-construction hang &amp; finish across Metro Detroit.
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
-                { Icon: ShieldCheck, label: "Licensed & Insured", value: "COI on request" },
-                { Icon: Award,       label: "5-Star Rated", value: "Local reviews" },
+                { Icon: FileText,    label: "Written scope", value: "Every job" },
+                { Icon: Phone,       label: "Direct line", value: "No call center" },
                 { Icon: Wrench,      label: "Finish levels", value: "Level 4 & 5" },
                 { Icon: Users,       label: "Local Team",  value: "Metro Detroit" },
               ].map(({ Icon, label, value }) => (
@@ -143,10 +143,10 @@ export default function AboutPage() {
           </div>
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { title: "Never bait & switch.", body: "The price we quote on the phone is the price on your invoice — not a $19 lure that becomes $400 at your door." },
-              { title: "Never unmarked.", body: "Our trucks are branded, our uniforms have a name tag, and our contractor license rides in every glovebox." },
+              { title: "Never bait & switch.", body: "We put the scope in writing before work starts, and any change is explained and written down first. No teaser price that grows at your door." },
+              { title: "Never unmarked.", body: "Our trucks are branded and our uniforms have a name tag." },
               { title: "Never drill first.", body: "Non-destructive entry is the standard. Drilling is a last resort, and only after we've explained why." },
-              { title: "Never anonymous.", body: "You'll know the dispatcher's name. You'll know the tech's name. You'll have a receipt with our license number." },
+              { title: "Never anonymous.", body: "You'll know the dispatcher's name. You'll know the tech's name. You'll have a written receipt with our business name and phone number." },
             ].map((v) => (
               <div key={v.title} className="rounded-2xl border border-ink-800 bg-ink-900/50 p-6">
                 <h3 className="font-display text-lg font-extrabold">{v.title}</h3>

@@ -1,5 +1,5 @@
 "use client";
-import { Phone, ClipboardList, Mail } from "lucide-react";
+import { Phone, MessageSquare, Mail } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { LinkButton } from "@/components/ui/Button";
 import { cn } from "@/lib/cn";
@@ -17,9 +17,9 @@ export function ContactCTA({
         <Phone className="h-5 w-5" />
         {showLabels && "Call Now"}
       </LinkButton>
-      <LinkButton href="/quote/" variant="primary" size={size} aria-label="Request a free quote">
-        <ClipboardList className="h-5 w-5" />
-        {showLabels && "Free Quote"}
+      <LinkButton href="/quote/" variant="primary" size={size} aria-label="Contact us">
+        <MessageSquare className="h-5 w-5" />
+        {showLabels && "Contact Us"}
       </LinkButton>
       {showEmail && (
         <LinkButton href={BIZ.emailHref} variant="ghost" size={size} aria-label="Email us">

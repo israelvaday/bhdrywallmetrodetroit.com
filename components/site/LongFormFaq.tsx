@@ -46,7 +46,7 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
             Questions about {topic}
           </h2>
           <p className="mt-3 text-sm text-ink-200 md:text-base">
-            Straight answers from {BIZ.name} — useful whether you hire us or another licensed drywall crew in{" "}
+            Straight answers from {BIZ.name}, useful whether you hire us or another drywall crew in{" "}
             {place}. Tap a question to expand.
           </p>
         </header>
@@ -54,7 +54,7 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
         <CollapsibleQ q={`Do you serve ${place} on short notice?`}>
           <p>
             For repairs and small patches we often book same-day or next-day when a crew is in your area. Larger hang
-            and finish jobs are scheduled from a written estimate. Call {BIZ.phone} with photos for the fastest quote.
+            and finish jobs are scheduled from a written scope. Call {BIZ.phone} with photos for the fastest answer.
           </p>
         </CollapsibleQ>
 
@@ -62,7 +62,7 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
           <p>
             Most rooms are <strong className="text-white">Level 4</strong> — taped joints, screws covered, ready for
             flat or eggshell paint. Rooms with big windows, gloss paint, or wallpaper need{" "}
-            <strong className="text-white">Level 5</strong> (full skim). We note this on every estimate so your painter
+            <strong className="text-white">Level 5</strong> (full skim). We note this in every written scope so your painter
             does not reject the walls on walkthrough.
           </p>
         </CollapsibleQ>
@@ -75,18 +75,18 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q="How do you price drywall work?">
+        <CollapsibleQ q="What drives the cost of drywall work?">
           <p>
-            By scope: square footage, ceiling height, finish level, texture, and access (occupied vs empty). Repairs
-            are usually a minimum visit plus labor and materials. Commercial work is bid from plans or a site walk with
-            phased schedules for occupied buildings.
+            The scope: square footage, ceiling height, finish level, texture, and access (occupied vs empty). Repairs
+            depend on the size of the damage and the texture that has to be matched. Commercial work is bid from plans
+            or a site walk with phased schedules for occupied buildings. Call {BIZ.phone} for a price on your job.
           </p>
         </CollapsibleQ>
 
         <CollapsibleQ q="Do you work with general contractors and property managers?">
           <p>
             Yes. We sub hang/finish crews to GCs, handle tenant-improvement drywall, and invoice on net terms for
-            repeat clients. COIs and W-9 available on request.
+            repeat clients. W-9 available on request.
           </p>
         </CollapsibleQ>
 
@@ -98,11 +98,11 @@ export function LongFormFaq({ subject, kind }: { subject: string; kind: "area" |
           </p>
         </CollapsibleQ>
 
-        <CollapsibleQ q={`Why choose a licensed crew in ${place}?`}>
+        <CollapsibleQ q={`What should I ask any drywall crew in ${place}?`}>
           <p>
-            Drywall looks simple until corners, fire ratings, or occupied spaces are involved. Licensed & insured
-            contractors carry liability and workers comp — protecting you if something goes wrong. {BIZ.name} puts scope,
-            price, and schedule in writing before work starts.
+            Drywall looks simple until corners, fire ratings, or occupied spaces are involved. Ask any contractor for a
+            written scope that names the finish level, texture, cleanup, and schedule before work starts. {BIZ.name}
+            puts all of that in writing on every job.
           </p>
         </CollapsibleQ>
       </div>

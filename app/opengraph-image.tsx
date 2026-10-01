@@ -80,7 +80,7 @@ export default async function OgImage() {
             Hang · Finish · Repair · Ceilings
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", maxWidth: 980, display: "flex" }}>
-            Residential & commercial drywall across Wayne, Oakland & Macomb counties. Free estimates.
+            Residential & commercial drywall across Wayne, Oakland & Macomb counties.
           </div>
         </div>
 

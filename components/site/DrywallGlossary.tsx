@@ -12,7 +12,7 @@ export function DrywallGlossary() {
           </h2>
           <p className="mt-3 text-ink-300">
             Whether you are comparing bids in Warren or planning a basement finish in Livonia, these are the terms
-            BH Drywall Metro Detroit uses on every estimate — so you know exactly what you are paying for.
+            BH Drywall Metro Detroit uses in every written scope, so you know exactly what you are paying for.
           </p>
         </header>
 

@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s — ${BIZ.name}`,
   },
   description:
-    `${BIZ.name} — licensed & insured drywall hang, finish, repair, and commercial work across Metro Detroit. Free estimates — call ${BIZ.phone}.`,
+    `${BIZ.name}: drywall hang, finish, repair, and commercial work across Metro Detroit. Call ${BIZ.phone}.`,
   keywords: [
     "drywall contractor Detroit",
     "drywall repair Metro Detroit",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     title: `${BIZ.name} — Metro Detroit Drywall Contractor`,
     description:
-      "Licensed & insured drywall hang, finish, repair, and commercial work across Wayne, Oakland & Macomb counties.",
+      "Drywall hang, finish, repair, and commercial work across Wayne, Oakland & Macomb counties.",
     images: [
       {
         url: "/opengraph-image.png",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: `${BIZ.name} — Metro Detroit drywall contractor`,
-    description: "Licensed Metro Detroit drywall. Sun–Thu 9am–5pm · Fri 9am–12pm. Licensed & insured.",
+    description: "Metro Detroit drywall. Sun–Thu 9am–5pm · Fri 9am–12pm.",
     images: ["/opengraph-image.png"],
   },
   alternates: { canonical: "/" },

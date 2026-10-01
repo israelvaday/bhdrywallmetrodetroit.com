@@ -13,7 +13,7 @@ export function localBusinessJsonLd() {
     telephone: BIZ.phoneE164,
     email: BIZ.email,
     url: BIZ.url,
-    priceRange: "$$",
+    // no priceRange: this site shows no prices (owner, 2026-09-30)
     address: {
       "@type": "PostalAddress",      // no streetAddress: service-area business, no storefront
       addressLocality: BIZ.address.locality,

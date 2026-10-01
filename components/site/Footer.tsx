@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ShieldCheck, Clock, Instagram, ChevronDown } from "lucide-react";
+import { MapPin, Clock, Instagram, ChevronDown } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { MAIN_AREAS } from "@/lib/areas";
 import { SERVICES } from "@/content/services";
@@ -14,11 +14,11 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <Logo size="md" />
           <p className="mt-4 max-w-xs text-sm text-ink-300">
-            Licensed Metro Detroit drywall contractor. Sun–Thu 9am–5pm · Fri 9am–12pm · Sat closed — repair, hang, finish, texture, framing, and ceilings across Wayne, Oakland & Macomb.
+            Metro Detroit drywall contractor. Sun–Thu 9am–5pm · Fri 9am–12pm · Sat closed — repair, hang, finish, texture, framing, and ceilings across Wayne, Oakland & Macomb.
           </p>
           <div className="mt-3 flex flex-wrap justify-center gap-2 md:justify-start">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/30 bg-brass-500/10 px-3 py-1.5 text-xs font-semibold text-brass-300">
-              <ShieldCheck className="h-3.5 w-3.5" /> Licensed · {BIZ.bsis}
+              <MapPin className="h-3.5 w-3.5" /> Wayne · Oakland · Macomb
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300">
               <Clock className="h-3.5 w-3.5" /> Sun–Thu 9am–5pm · Fri 9am–12pm
@@ -83,7 +83,7 @@ export function Footer() {
         <div className="flex flex-col items-center text-center md:items-start md:text-left">
           <h2 className="font-display text-sm font-semibold tracking-wide text-ink-100">Get a drywall contractor</h2>
           <p className="mt-3 max-w-xs text-sm text-ink-300">
-            Tap a button — a licensed estimator or crew lead will follow up fast.
+            Tap a button and a crew lead will follow up fast.
           </p>
           <div className="mt-4">
             <ContactCTA size="sm" showLabels />
@@ -91,7 +91,7 @@ export function Footer() {
         </div>
       </div>
       <div className="mx-auto mt-8 max-w-7xl px-4 text-center text-xs text-ink-300 md:mt-10 md:px-6 md:text-left">
-        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. Licensed · {BIZ.bsis}. Serving all of Metro Detroit, Michigan. · Built, designed & promoted by{" "}
+        © {new Date().getFullYear()} {BIZ.name}. All rights reserved. Serving all of Metro Detroit, Michigan. · Built, designed & promoted by{" "}
         <a
           href="https://www.gothamsitestudio.com/"
           target="_blank"

@@ -28,7 +28,7 @@ export function BrandShowcase() {
             A real, local drywall contractor — not a call-center middleman.
           </h2>
           <p className="mt-3 max-w-2xl text-ink-300">
-            Branded vans, a real Detroit office, and a Licensed & insured crew you can actually meet.
+            Branded vans, a real Detroit office, and a crew you can actually meet.
           </p>
         </div>
 

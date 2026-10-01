@@ -9,7 +9,7 @@ export type FAQSection = {
 };
 
 export const FAQ_HERO_IMAGE = "/photos/branding-generated--hero-drywall-metro-detroit.png";
-export const FAQ_HERO_ALT = "BH Drywall Metro Detroit estimator reviewing a drywall finish with a homeowner";
+export const FAQ_HERO_ALT = "BH Drywall Metro Detroit crew lead reviewing a drywall finish with a homeowner";
 
 export const FAQ_SECTIONS: FAQSection[] = [
   {
@@ -20,7 +20,7 @@ export const FAQ_SECTIONS: FAQSection[] = [
     items: [
       {
         q: "Are you a local drywall company or a referral service?",
-        a: "BH Drywall Metro Detroit is a local, licensed & insured drywall contractor. You speak with our team directly — not a national lead broker.",
+        a: "BH Drywall Metro Detroit is a local drywall contractor. You speak with our team directly, not a national lead broker.",
       },
       {
         q: "What areas do you serve?",
@@ -31,8 +31,8 @@ export const FAQ_SECTIONS: FAQSection[] = [
         a: "Sunday–Thursday 9:00 AM–5:00 PM, Friday 9:00 AM–12:00 PM. Closed Saturday. Same-day repair slots when crews are available.",
       },
       {
-        q: "Do you offer free estimates?",
-        a: "Yes. We provide written estimates for hang, finish, repair, and commercial projects before work begins.",
+        q: "How do I get a price for my job?",
+        a: "Call (313) 236-4558 for a price on your job, or send us a message with photos. We confirm the scope, finish level, and access, and put the job in writing before work begins.",
       },
       {
         q: "What payment methods do you accept?",
@@ -42,25 +42,21 @@ export const FAQ_SECTIONS: FAQSection[] = [
   },
   {
     id: "pricing",
-    title: "Pricing",
-    emoji: "💰",
-    description: "How drywall bids are built.",
+    title: "Cost factors",
+    emoji: "📐",
+    description: "What drives the cost of drywall work.",
     items: [
       {
-        q: "How do you price drywall work?",
-        a: "By scope: square footage, finish level (Level 4 vs Level 5), ceiling height, texture match, and access. We measure on-site or from plans — not vague per-square-foot phone quotes without context.",
+        q: "What drives the cost of drywall work?",
+        a: "The scope: square footage, finish level (Level 4 vs Level 5), ceiling height, texture match, and access. We measure on site or from plans rather than guessing over the phone. Call (313) 236-4558 for a price on your job.",
       },
       {
         q: "How much does drywall repair cost?",
-        a: "Small patches often start around $200–$400. Larger repairs, ceiling work, or texture blending are quoted after photos or a site visit.",
+        a: "It depends on the size of the damage, whether the board behind it is dry and sound, the texture that has to be matched, the ceiling height, and how much priming and blending the wall needs before paint. A small patch on a smooth wall is a very different job from a stained ceiling. Call (313) 236-4558 for a price on your job, or text photos for a faster answer.",
       },
       {
-        q: "Do you charge a trip fee?",
-        a: "Diagnostic visits for small repairs may include a minimum service charge credited toward the repair when you approve the work.",
-      },
-      {
-        q: "Are there hidden fees?",
-        a: "No. Change orders are written and signed before extra work — especially on commercial and insurance jobs.",
+        q: "What if the scope changes once work starts?",
+        a: "Change orders are written and signed before extra work, especially on commercial and insurance jobs.",
       },
     ],
   },
@@ -92,12 +88,8 @@ export const FAQ_SECTIONS: FAQSection[] = [
     id: "trust",
     title: "Trust & quality",
     emoji: "✅",
-    description: "Credentials and expectations.",
+    description: "What to expect on the job.",
     items: [
-      {
-        q: "Are you licensed and insured?",
-        a: "Yes. We carry general liability and workers comp. Certificate of insurance available for commercial clients.",
-      },
       {
         q: "Who will be on my job?",
         a: "BH Drywall Metro Detroit crews — not anonymous subcontractors sent by a call center.",

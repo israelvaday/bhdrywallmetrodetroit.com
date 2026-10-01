@@ -75,7 +75,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <div className="flex flex-wrap items-center gap-2">
             <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
               <LogoMark className="h-4 w-4" />
-              BH Drywall Metro Detroit · Licensed · {BIZ.bsis}
+              BH Drywall Metro Detroit
             </span>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
               <Clock className="h-3.5 w-3.5" /> Sun–Thu 9am–5pm · Fri 9am–12pm
@@ -138,10 +138,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <div className="rounded-3xl border border-brass-500/30 bg-brass-500/5 p-5">
               <div className="flex items-center gap-2 text-brass-300">
                 <ShieldCheck className="h-5 w-5" />
-                <span className="text-sm font-semibold uppercase tracking-wider">Licensed & insured</span>
+                <span className="text-sm font-semibold uppercase tracking-wider">Written scope</span>
               </div>
               <p className="mt-2 text-sm text-ink-200">
-                {BIZ.name} is licensed and {BIZ.bsis.toLowerCase()} for residential and commercial drywall in Michigan. General liability and workers compensation certificates available for property managers and GCs.
+                {BIZ.name} puts finish level, texture, materials, and schedule in writing before work starts, for homeowners, property managers, and GCs.
               </p>
             </div>
             <div className="rounded-3xl border border-ink-800 bg-ink-900/50 p-5">
@@ -160,7 +160,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <div className="mx-auto max-w-7xl px-4 md:px-6">
             <Reveal>
               <h2 className="font-display text-2xl font-bold md:text-3xl">Real {s.shortName.toLowerCase()} jobs</h2>
-              <p className="mt-2 text-ink-300">Photos from real Metro Detroit jobs by our licensed crew.</p>
+              <p className="mt-2 text-ink-300">Images of the kind of {s.shortName.toLowerCase()} work our crew does across Metro Detroit.</p>
             </Reveal>
             <RevealStagger className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4" stagger={0.05}>
               {allShots.map((p) => (
@@ -218,17 +218,17 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             More about {s.shortName.toLowerCase()} in Metro Detroit
           </h2>
           <p>
-            {s.description} Every {s.shortName.toLowerCase()} job is handled by {BIZ.name} — {BIZ.bsis.toLowerCase()}, background-checked finishers and hangers with stocked trucks. When you call or text, you talk directly with our team, not a remote call center.
+            {s.description} Every {s.shortName.toLowerCase()} job is handled by {BIZ.name}: background-checked finishers and hangers with stocked trucks. When you call or text, you talk directly with our team, not a remote call center.
           </p>
           <p>
             We serve all of Metro Detroit for {s.shortName.toLowerCase()} — Detroit, Dearborn, Warren, Sterling Heights, Troy, Livonia, Royal Oak, Farmington Hills, Pontiac, Southfield, Westland, Taylor, and every city in our{" "}
-            <a href="/service-areas/" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>. Estimates are scheduled; same-day repair when crews are available.
+            <a href="/service-areas/" className="text-brass-300 underline-offset-2 hover:underline">coverage map</a>. Walkthroughs are scheduled; same-day repair when crews are available.
           </p>
           <p>
-            Pricing for {s.shortName.toLowerCase()} is transparent: itemized where scope varies and flat packages where it doesn&apos;t. You get a written quote before work starts, and the number we agree on is the number you pay — no hidden trip fees and no surprise add-ons. If something on site changes the scope, we explain it, put a new number in writing, and you can decline without owing anything.
+            What drives the cost of {s.shortName.toLowerCase()} is the scope: square footage, finish level, texture, ceiling height, and access. We put that scope in writing before work starts, and if something on site changes it, we explain the change and write it down before any extra work. Call {BIZ.phone} for a price on your job.
           </p>
           <p>
-            We document finish level, texture, and materials so you have records for paint contractors, property managers, and insurance. That&apos;s the difference between a dedicated Metro Detroit drywall crew and a low-bid handyman without insurance.
+            We document finish level, texture, and materials so you have records for paint contractors, property managers, and insurance. That&apos;s the difference between a dedicated Metro Detroit drywall crew and a low-bid handyman.
           </p>
         </div>
       </section>
@@ -241,7 +241,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <h2 className="font-display text-3xl font-extrabold md:text-4xl">
               Need {s.shortName.toLowerCase()} service now?
             </h2>
-            <p className="mt-3 text-ink-200">A Licensed & insured drywall contractor is one tap away.</p>
+            <p className="mt-3 text-ink-200">A Metro Detroit drywall contractor is one tap away.</p>
             <div className="mt-6 flex justify-center">
               <ContactCTA size="lg" />
             </div>

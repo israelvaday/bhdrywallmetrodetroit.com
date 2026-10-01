@@ -1,20 +1,18 @@
-// Single source of truth for NAP, hours, license, links.
+// Single source of truth for NAP, hours, links.
+// Owner decisions 2026-09-30: this business holds no licence, the site shows no prices, and
+// every form is a contact form. The old licenseId / bsis credential fields (both the
+// placeholder "Insured") and the unused quotesEmail were removed with every template line
+// that rendered them; do not add a licence, insurance or price field back.
 export const BIZ = {
   name: "BH Drywall Metro Detroit",
   legalName: "BH Drywall Metro Detroit",
-  tagline: "Licensed & Insured Drywall — Free Estimates Across Metro Detroit",
+  tagline: "Drywall Hang, Finish & Repair Across Metro Detroit",
   phone: "(313) 236-4558",
   phoneE164: "+13132364558",
   phoneHref: "tel:+13132364558",
   smsHref: "sms:+13132364558",
   email: "info@bhdrywallmetrodetroit.com",
   emailHref: "mailto:info@bhdrywallmetrodetroit.com",
-  /** Routed via Cloudflare Email Routing → your personal inbox (see Cloudflare dashboard). */
-  quotesEmail: "quotes@bhdrywallmetrodetroit.com",
-  /** Shown in trust badges (contractor credentials). */
-  licenseId: "Insured",
-  /** Legacy field name used in templates — displays contractor credential line. */
-  bsis: "Insured",
   url: "https://bhdrywallmetrodetroit.com",
   address: {
     street: "Metro Detroit Service Area",

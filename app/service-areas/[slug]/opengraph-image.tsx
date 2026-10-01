@@ -96,7 +96,7 @@ export default async function AreaOg({ params }: { params: Promise<{ slug: strin
             {name}
           </div>
           <div style={{ fontSize: 28, color: "#C8C4BB", display: "flex" }}>
-            Drywall repair, finishing & ceilings in {sub} · Free estimates
+            Drywall repair, finishing & ceilings in {sub}
           </div>
         </div>
 

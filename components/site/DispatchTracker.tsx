@@ -36,7 +36,7 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
     `Scanning finish & repair crews within 15 miles…`,
     `Cross-referencing today's schedule + drive time…`,
     `Crew available in ${areaName}, MI…`,
-    `Estimating route across Metro Detroit…`,
+    `Planning route across Metro Detroit…`,
     `Callback window: ~${etaMin} min • ${distance} mi`,
   ];
 
@@ -88,7 +88,7 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
           Live scheduling
         </span>
         <span className="inline-flex items-center gap-1.5 rounded-full border border-brass-500/40 bg-ink-950/70 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-brass-300">
-          <ShieldCheck className="h-3 w-3" /> Licensed · {BIZ.bsis}
+          <ShieldCheck className="h-3 w-3" /> Wayne · Oakland · Macomb
         </span>
         <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-700 bg-ink-950/60 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-ink-200">
           <MapPin className="h-3 w-3 text-brass-400" /> {areaName}, MI
@@ -110,7 +110,7 @@ export function DispatchTracker({ areaName, areaSlug }: { areaName: string; area
       {phase === "idle" && (
         <>
           <p className="relative mt-2 text-sm text-ink-300 md:text-base">
-            Tap below — we&apos;ll check which {BIZ.name} crew is closest and return an estimated callback time.
+            Tap below — we&apos;ll check which {BIZ.name} crew is closest and return an approximate callback time.
           </p>
           <button
             type="button"

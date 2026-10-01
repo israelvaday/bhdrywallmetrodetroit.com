@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const needsCity = Boolean(a.parent) && !a.name.toLowerCase().includes(a.city.toLowerCase());
   const geo = needsCity ? `${a.name}, ${a.city}, MI` : `${a.name}, MI`;
   const desc = metaDescription(
-    `Drywall repair, hang, and finish in ${geo} — patches, cracks, water damage, texture matching, and Level 5 smooth walls. Free written estimates.`
+    `Drywall repair, hang, and finish in ${geo} — patches, cracks, water damage, texture matching, and Level 5 smooth walls. Call ${BIZ.phone}.`
   );
   return {
     // Absolute only where a city was added: "Detroit" would otherwise repeat against the
@@ -106,7 +106,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             <div>
               <div className="flex flex-wrap items-center gap-2">
                 <span className="inline-flex items-center gap-2 rounded-full border border-brass-500/40 bg-ink-950/70 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-brass-300 backdrop-blur">
-                  <ShieldCheck className="h-3.5 w-3.5" /> Licensed · {BIZ.bsis}
+                  <ShieldCheck className="h-3.5 w-3.5" /> Written scope
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/40 bg-emerald-500/10 px-3 py-1.5 text-xs font-semibold text-emerald-300 backdrop-blur">
                   <Clock className="h-3.5 w-3.5" /> Sun–Thu 9am–5pm · Fri 9am–12pm
@@ -275,9 +275,9 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             Drywall work we do in {a.name}
           </h2>
           <p>
-            {a.name} is inside our regular Metro Detroit service area. {BIZ.name} schedules free estimates for hang,
-            finish, repair, and commercial projects — with written scope before crews mobilize. Call {BIZ.phone} or
-            request a quote online; a real estimator reviews photos or walks the site, not a national call center.
+            {a.name} is inside our regular Metro Detroit service area. {BIZ.name} schedules hang, finish, repair, and
+            commercial projects with a written scope before crews mobilize. Call {BIZ.phone} or send us a message
+            online; a real crew lead reviews photos or walks the site, not a national call center.
           </p>
           <p>
             Residential jobs in {a.name} often include basement finishing, patch-and-texture after plumbing or
@@ -291,9 +291,9 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
             progress for occupied buildings.
           </p>
           <p>
-            Pricing is itemized: board, finish level, texture, ceiling height, and access. Compare bids using the same
-            finish spec — Level 4 vs Level 5 changes cost more than brand of gypsum. We carry liability and workers
-            comp; certificates are available for commercial clients.
+            What drives the cost: board, finish level, texture, ceiling height, and access. Compare bids using the same
+            finish spec, since Level 4 vs Level 5 changes cost more than the brand of gypsum. Call {BIZ.phone} for a
+            price on your job.
           </p>
         </div>
       </section>
@@ -305,7 +305,7 @@ export default async function AreaPage({ params }: { params: Promise<{ slug: str
           <h2 className="font-display text-3xl font-extrabold md:text-4xl">
             Need a drywall contractor in {a.name} now?
           </h2>
-          <p className="mt-3 text-ink-200">One tap reaches {BIZ.name} — licensed & insured drywall.</p>
+          <p className="mt-3 text-ink-200">One tap reaches {BIZ.name}.</p>
           <div className="mt-6 flex justify-center">
             <ContactCTA size="lg" />
           </div>

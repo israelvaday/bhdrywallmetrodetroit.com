@@ -16,13 +16,12 @@ export function BuyersGuide() {
         </header>
 
         <p>
-          <strong className="text-white">1. Verify license and insurance.</strong> Ask for proof of general liability
-          and workers comp. For commercial jobs, request a certificate naming your building or GC as additional
-          insured.
+          <strong className="text-white">1. Know who is on site.</strong> Get the company name, a direct phone
+          number, and the name of the person running the crew in writing before work starts.
         </p>
         <p>
           <strong className="text-white">2. Define finish level.</strong> Level 4 vs Level 5 changes labor cost more
-          than board cost. Put it in the quote.
+          than board cost. Put it in the written scope.
         </p>
         <p>
           <strong className="text-white">3. Texture match in writing.</strong> &quot;Match existing&quot; should name
@@ -41,9 +40,9 @@ export function BuyersGuide() {
           written and signed — not verbal add-ons at invoice time.
         </p>
         <p>
-          {BIZ.name} provides written estimates, serves Wayne, Oakland, and Macomb counties, and answers questions at{" "}
-          {BIZ.phone}. Compare two bids using the same finish level and scope — then decide on crew quality and schedule,
-          not just the lowest number.
+          {BIZ.name} puts every job in a written scope, serves Wayne, Oakland, and Macomb counties, and answers
+          questions at {BIZ.phone}. Compare two bids using the same finish level and scope, then decide on crew quality
+          and schedule, not just the lowest number.
         </p>
       </div>
     </section>

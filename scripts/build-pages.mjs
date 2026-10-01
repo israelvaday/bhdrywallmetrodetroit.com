@@ -6,11 +6,18 @@ import path from "node:path";
 
 const ROOT = process.cwd();
 const API = path.join(ROOT, "app", "api");
-const STASH = path.join(ROOT, "..", "_api_stash_build");
+// Repo-unique: bh-air-duct's build used the same "../_api_stash_build" folder, so two builds at once
+// could delete or swap each other's app/api.
+const STASH = path.join(ROOT, "..", "_api_stash_build_bh-drywall");
+
+// The static export has no API route, so without this the contact form fell back to mailto: and
+// leads were lost. The live endpoint answers on the site's own domain (it emailed the owner in
+// August 2026) and parses both multipart and JSON. Owner decision 2026-09-30: contact forms only.
+const QUOTE_API_URL = "https://bhdrywallmetrodetroit.com/api/quote";
 
 function run(cmd) {
   console.log("[build:pages]", cmd);
-  execSync(cmd, { stdio: "inherit", env: { ...process.env, NEXT_EXPORT: "1", NEXT_PUBLIC_GH_PAGES: "1" } });
+  execSync(cmd, { stdio: "inherit", env: { ...process.env, NEXT_EXPORT: "1", NEXT_PUBLIC_GH_PAGES: "1", NEXT_PUBLIC_QUOTE_API_URL: QUOTE_API_URL } });
 }
 
 if (fs.existsSync(API)) {

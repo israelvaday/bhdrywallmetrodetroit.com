@@ -1,4 +1,4 @@
-import { Phone, Mail, ClipboardList } from "lucide-react";
+import { Phone, Mail, MessageSquare } from "lucide-react";
 import { BIZ } from "@/lib/business";
 
 export function MobileDock() {
@@ -23,11 +23,11 @@ export function MobileDock() {
         </a>
         <a
           href="/quote/"
-          aria-label="Get a free quote"
+          aria-label="Contact us"
           className="flex flex-col items-center gap-1 py-3 text-xs font-semibold text-ink-100"
         >
-          <ClipboardList className="h-5 w-5" />
-          Free Quote
+          <MessageSquare className="h-5 w-5" />
+          Contact Us
         </a>
       </div>
     </div>

@@ -33,7 +33,7 @@ export default function BlogIndex() {
             <span className="text-brass-gradient">Drywall</span> guides for Metro Detroit.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-ink-200">
-            Finish levels, repairs, basements, ceilings, and how to hire a licensed crew in Michigan.
+            Finish levels, repairs, basements, ceilings, and how to hire a drywall crew in Michigan.
           </p>
         </div>
       </section>

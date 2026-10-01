@@ -104,7 +104,7 @@ export default async function ServiceOg({ params }: { params: Promise<{ slug: st
               letterSpacing: 1,
             }}
           >
-            {s?.intent === "emergency" ? "⚡ SUN–THU 9–5 · FRI 9–12" : "✓ FREE ESTIMATES"}
+            {s?.intent === "emergency" ? "⚡ SUN–THU 9–5 · FRI 9–12" : "✓ WRITTEN SCOPE"}
           </div>
         </div>
 

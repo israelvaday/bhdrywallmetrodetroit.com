@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Calendar, Clock, ShieldCheck } from "lucide-react";
+import { ArrowLeft, Calendar, Clock } from "lucide-react";
 import { BIZ } from "@/lib/business";
 import { BLOG_POSTS, findPost } from "@/content/blog";
 import { ContactCTA } from "@/components/site/ContactCTA";
@@ -220,9 +220,6 @@ export default async function BlogPostPage(
                 <span className="inline-flex items-center gap-1.5">
                   <Clock className="h-4 w-4" /> {post.readMinutes} min read
                 </span>
-                <span className="inline-flex items-center gap-1.5">
-                  <ShieldCheck className="h-4 w-4 text-brass-400" /> Licensed · {BIZ.bsis}
-                </span>
               </div>
             </div>
           </div>
@@ -238,7 +235,7 @@ export default async function BlogPostPage(
               Need a drywall contractor in Metro Detroit?
             </h3>
             <p className="mx-auto mt-2 max-w-xl text-sm text-ink-200 md:text-base">
-              Licensed & insured (#{BIZ.bsis}), Sunday through Thursday 9am to 5pm and Friday until noon, Wayne, Oakland & Macomb counties. Tap a button and a tech is on the way.
+              Sunday through Thursday 9am to 5pm and Friday until noon, Wayne, Oakland & Macomb counties. Tap a button and a tech is on the way.
             </p>
             <div className="mt-5 flex justify-center">
               <ContactCTA size="lg" />
