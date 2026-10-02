@@ -19,16 +19,18 @@ type PropertyKey = "property-home" | "property-business" | "property-vehicle" | 
 
 type Urgency = "now" | "today" | "this-week" | "scheduling";
 
-const SERVICES: { key: ServiceKey; label: string; sub: string }[] = [
-  { key: "drywall-repair",      label: "Same-day repair",     sub: "Holes, cracks, patches" },
-  { key: "residential-drywall",    label: "Residential",         sub: "Basements, remodels" },
-  { key: "commercial-drywall",     label: "Commercial",          sub: "Office & retail TI" },
-  { key: "retail-restaurant-buildouts",     label: "Retail buildout",     sub: "Storefronts & restaurants" },
-  { key: "level-5-smooth-finish",    label: "Level 5 / smooth",    sub: "Skim coat & smooth walls" },
-  { key: "metal-stud-framing", label: "Metal framing",       sub: "Partitions & soffits" },
-  { key: "water-damage-drywall-repair",     label: "Water damage",        sub: "Flood cut & rebuild" },
-  { key: "acoustical-ceilings",          label: "Ceilings",            sub: "Grid & gypsum ceilings" },
-  { key: "new-construction-drywall",          label: "New construction",    sub: "Hang, tape, finish" },
+// img: the tile photo in public/photos/quote/. The files kept the slugs they had before the
+// service keys were re-themed (b4817ca9), so each key names its own photo instead of `${key}.png`.
+const SERVICES: { key: ServiceKey; label: string; sub: string; img: string }[] = [
+  { key: "drywall-repair",      label: "Same-day repair",     sub: "Holes, cracks, patches", img: "emergency" },
+  { key: "residential-drywall",    label: "Residential",         sub: "Basements, remodels", img: "residential" },
+  { key: "commercial-drywall",     label: "Commercial",          sub: "Office & retail TI", img: "commercial" },
+  { key: "retail-restaurant-buildouts",     label: "Retail buildout",     sub: "Storefronts & restaurants", img: "storefront" },
+  { key: "level-5-smooth-finish",    label: "Level 5 / smooth",    sub: "Skim coat & smooth walls", img: "smart-locks" },
+  { key: "metal-stud-framing", label: "Metal framing",       sub: "Partitions & soffits", img: "access-control" },
+  { key: "water-damage-drywall-repair",     label: "Water damage",        sub: "Flood cut & rebuild", img: "automotive" },
+  { key: "acoustical-ceilings",          label: "Ceilings",            sub: "Grid & gypsum ceilings", img: "safes" },
+  { key: "new-construction-drywall",          label: "New construction",    sub: "Hang, tape, finish", img: "rekey" },
 ];
 
 const PROPERTIES: { key: PropertyKey; label: string; sub: string }[] = [
@@ -91,9 +93,13 @@ export function QuoteWizard() {
     }
   }, [step, service, property, urgency, name, phone, location]);
 
-  function next() {
-    if (!canAdvance) return;
-    if (step < STEP_LABELS.length - 1) setStep((s) => s + 1);
+  // A tile tap calls next(true) from a timeout. That closure still holds the canAdvance of the
+  // render before the tap, so it never advanced; the tap itself is the selection, so skip the
+  // check and advance only from the step the tap happened on (a double tap cannot skip a step).
+  function next(fromTile?: unknown) {
+    if (fromTile !== true && !canAdvance) return;
+    const from = step;
+    setStep((s) => (s === from && s < STEP_LABELS.length - 1 ? s + 1 : s));
   }
   function back() {
     if (step > 0) setStep((s) => s - 1);
@@ -237,12 +243,12 @@ export function QuoteWizard() {
                     <button
                       key={s.key}
                       type="button"
-                      onClick={() => { setService(s.key); setTimeout(next, 150); }}
+                      onClick={() => { setService(s.key); setTimeout(() => next(true), 150); }}
                       className={`group relative overflow-hidden rounded-2xl border text-left transition focus:outline-none ${service === s.key ? "border-brass-400 ring-2 ring-brass-500/40" : "border-ink-800 hover:border-brass-500/50"}`}
                     >
                       <div className="relative aspect-square w-full bg-ink-950">
                         <Image
-                          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/photos/quote/${s.key}.png`}
+                          src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/photos/quote/${s.img}.png`}
                           alt={s.label}
                           fill
                           sizes="(max-width: 640px) 50vw, 33vw"
@@ -274,7 +280,7 @@ export function QuoteWizard() {
                     <button
                       key={p.key}
                       type="button"
-                      onClick={() => { setProperty(p.key); setTimeout(next, 150); }}
+                      onClick={() => { setProperty(p.key); setTimeout(() => next(true), 150); }}
                       className={`group relative overflow-hidden rounded-2xl border text-left transition focus:outline-none ${property === p.key ? "border-brass-400 ring-2 ring-brass-500/40" : "border-ink-800 hover:border-brass-500/50"}`}
                     >
                       <div className="relative aspect-square w-full bg-ink-950">
@@ -314,7 +320,7 @@ export function QuoteWizard() {
                       <button
                         key={u.key}
                         type="button"
-                        onClick={() => { setUrgency(u.key); setTimeout(next, 150); }}
+                        onClick={() => { setUrgency(u.key); setTimeout(() => next(true), 150); }}
                         className={`flex items-start gap-3 rounded-2xl border p-4 text-left transition ${active ? "border-brass-400 bg-brass-500/10 ring-2 ring-brass-500/40" : "border-ink-800 hover:border-brass-500/50"}`}
                       >
                         <span className={`mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-full ${active ? "bg-brass-500 text-ink-950" : "bg-ink-800 text-brass-300"}`}>
