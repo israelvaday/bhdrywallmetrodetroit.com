@@ -967,6 +967,80 @@ BH Drywall Metro Detroit repairs cracked seams, popped fasteners and corner crac
 To have a cracked ceiling looked at, call us at (313) 236-4558 or send the [contact form](/quote) with a photo of the crack. We are open Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and closed on Saturdays.
 `,
   },
+  {
+    slug: "water-damaged-ceiling-drywall-after-roof-leak",
+    title: "Water-Damaged Ceiling After a Roof Leak: Can the Drywall Be Repaired, or Does It Need Replacing?",
+    metaTitle: "Water Damaged Ceiling Drywall After a Roof Leak",
+    excerpt:
+      "A stain, a bubble or a sag in the ceiling after the September storms? Here is how to tell whether water damaged ceiling drywall can be patched or has to come down, and what to do first in a Metro Detroit home.",
+    category: "Residential",
+    readMinutes: 6,
+    // Local noon on purpose, same as the other posts: a bare date prints a day early.
+    date: "2026-10-05T12:00:00-04:00",
+    heroImage: "/blog/water-damage-flood-cut-michigan-secondary.png",
+    heroAlt: "New drywall installed after water damage restoration in Metro Detroit",
+    secondaryImage: "/blog/popcorn-ceiling-removal-metro-detroit-hero.png",
+    secondaryAlt: "Worker removing popcorn ceiling texture in a Metro Detroit ranch home",
+    body: `
+If the ceiling drywall only has a dry stain and is still flat and firm, it can usually be repaired: seal the stain with a stain blocking primer and repaint. If the board is soft, bubbled, sagging, or was wet for more than a day or two, that section has to be cut out and replaced. Wet gypsum loses its strength and does not regain it when it dries. Either way, the roof or pipe leak has to be fixed first, or the new ceiling gets ruined the same way.
+
+The question is coming up across Metro Detroit right now for a reason. On September 2 and 3 the National Weather Service confirmed an EF-2 tornado on Detroit's east side, the first in the city since 1997, plus smaller tornadoes in Lincoln Park and Marysville. Areas south of M-59 took 2 to 4 inches of rain, and wind damage reached Livonia, Plymouth, Allen Park and Inkster. Some roof damage from a storm like that shows up a month later, as a brown ring on a bedroom ceiling or a soft spot near an exterior wall.
+
+## Step one: stop the water and make it safe
+
+- **Find the source before anything else.** Lifted or missing shingles, flashing around a chimney or vent, a damaged gutter that backs up under the roof edge, or a branch that punctured the decking. If the leak is not from the roof, look at the bathroom or the plumbing above the stain.
+- **A ceiling that is bulging with water can come down.** Keep people out from under it and move what you can. If a light fixture sits in the wet area, turn that circuit off at the panel.
+- **Take photos** of the ceiling, the attic and the roof damage before anything is removed. If you are filing an insurance claim, ask your insurer what they need before the damaged board is thrown away.
+
+## Repair or replace: how to read your ceiling
+
+### Usually repairable
+
+- **A dry stain on a flat, firm ceiling.** Press gently near the stain. If it feels as hard as the rest of the ceiling, the board is sound.
+- **Small cracked or peeling paint** around the stain, with no softness underneath.
+- **A seam whose tape lifted a little** after getting damp, if the board on both sides is still solid.
+
+The repair is a coat of stain blocking primer (plain latex paint lets the brown ring bleed back through), any loose tape re-set, and a repaint of the whole ceiling plane so the sheen matches.
+
+### Needs to come out
+
+- **Soft, crumbly or swollen board.** Gypsum that has soaked up water turns chalky and will not hold screws.
+- **Sagging or bellying between the joists.** A ceiling that has dropped will not lift back flat, and a saturated sheet can fall later even after it dries.
+- **Bubbled or blistered paper,** or drywall tape hanging in strips.
+- **A musty smell or dark spotting.** Drywall that stays wet for more than 24 to 48 hours can start growing mold, often on the back side where you cannot see it.
+- **Wet insulation above it.** If the attic insulation over the stain is soaked, it holds water against the new board. It needs to be pulled and replaced too.
+
+Replacement does not mean the whole room. The damaged section is cut back to the nearest joists, a few inches past the wet area, the cavity is dried and checked, and new board is screwed in, taped and finished so it blends with the rest of the ceiling.
+
+## Things specific to Metro Detroit homes
+
+- **Popcorn ceilings.** Many 1950s to 1970s ranches and colonials in Warren, Southfield, Royal Oak and Livonia still have acoustic popcorn texture. Wet popcorn often sags and peels in sheets. Ceiling texture applied before the 1980s can contain asbestos, so have a sample tested before anyone scrapes or cuts it. Once the area is replaced, the texture is either rebuilt to match or the ceiling is taken smooth; our [popcorn ceiling removal](/services/popcorn-ceiling-removal) page covers that choice.
+- **Plaster ceilings.** Pre-war homes in Detroit, Dearborn and the Grosse Pointes often have plaster on wood lath, not drywall. Water can loosen the plaster from the lath even when the surface looks fine. That is a different repair, explained in our guide to [plaster repair versus drywall](/blog/plaster-repair-vs-drywall-metro-detroit).
+- **Ice dams are next.** A roof that leaked in a September storm is the roof most likely to leak again when ice dams form in January. Fix the roof and check the attic insulation and ventilation now, before you finish the ceiling, so you only do it once.
+
+## Drying before the new drywall goes up
+
+New board over a wet cavity traps the moisture and invites mold behind fresh paint. Before the ceiling is closed up, the joists and the cavity should be dry to the touch and, ideally, checked with a moisture meter. With the furnace running in October, a small ceiling opening often dries in a few days with a fan and the area left open. Larger losses may need a restoration company with dehumidifiers first, and we can work after them. Our guide to [water damage and flood cuts](/blog/water-damage-flood-cut-michigan) covers the drying side in more detail.
+
+## What drives the cost of the repair
+
+We do not price water damaged ceilings from a photo, because a few things change the job a lot:
+
+- **How big the wet area is,** and whether the board can be sealed and painted or has to be replaced.
+- **What is above the ceiling:** wet insulation, a bathroom, or an attic with limited access.
+- **The finish to match:** smooth, knockdown, orange peel or popcorn texture.
+- **Ceiling height** and what has to be moved or protected in the room.
+- **Painting:** spot priming only, or repainting the full ceiling so it matches.
+
+Call (313) 236-4558 for a price on your job.
+
+## Water damaged ceiling repair in Metro Detroit
+
+BH Drywall Metro Detroit cuts out and replaces water damaged ceiling drywall, re-tapes seams and matches texture in homes across Wayne, Oakland and Macomb counties. We will tell you plainly when a stain only needs primer and paint. See our page on [water damaged drywall repair in Metro Detroit](/services/water-damage-drywall-repair) for the work we take on.
+
+To have a stained or sagging ceiling looked at, call us at (313) 236-4558 or send the [contact form](/quote) with a photo of the ceiling. We are open Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and closed on Saturdays.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
