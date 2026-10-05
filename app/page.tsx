@@ -15,9 +15,6 @@ import { LazyParallax, LazyFloatOnScroll } from "@/components/site/LazyScrollFx"
 import { LongFormFaq } from "@/components/site/LongFormFaq";
 import { BuyersGuide } from "@/components/site/BuyersGuide";
 import { DrywallGlossary } from "@/components/site/DrywallGlossary";
-// HOLIDAY-NOTICE:START simchat-torah-2026
-import { HolidayNoticeSimchatTorah2026 } from "@/components/site/HolidayNoticeSimchatTorah2026";
-// HOLIDAY-NOTICE:END
 
 // The homepage was the one page both geo-title passes skipped. ec258ff gave the 101
 // area pages "Drywall Repair in <City>, MI" and d31c5e0 gave the 11 service pages
@@ -44,9 +41,6 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <>
-      {/* HOLIDAY-NOTICE:START simchat-torah-2026 */}
-      <HolidayNoticeSimchatTorah2026 />
-      {/* HOLIDAY-NOTICE:END */}
       <Hero />
       <section className="border-y border-ink-800 bg-ink-950/60 py-12 md:py-16">
         <div className="mx-auto max-w-7xl px-4 md:px-6">
