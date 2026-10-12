@@ -1041,6 +1041,98 @@ BH Drywall Metro Detroit cuts out and replaces water damaged ceiling drywall, re
 To have a stained or sagging ceiling looked at, call us at (313) 236-4558 or send the [contact form](/quote) with a photo of the ceiling. We are open Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and closed on Saturdays.
 `,
   },
+  {
+    slug: "basement-ceiling-drywall-or-drop-ceiling-pipes-ducts",
+    title: "Drywall or Drop Ceiling in a Basement With Pipes and Ducts? A Metro Detroit Guide",
+    metaTitle: "Basement Ceiling: Drywall or Drop Ceiling With Pipes",
+    excerpt:
+      "Finishing a basement this fall and the ceiling is full of pipes and ductwork? Here is when drywall works, when a drop ceiling is the better call, and what has to stay reachable in a Metro Detroit home.",
+    category: "Residential",
+    readMinutes: 6,
+    // Local noon on purpose, same as the other posts: a bare date prints a day early.
+    date: "2026-10-12T12:00:00-04:00",
+    heroImage: "/blog/basement-drywall-finishing-metro-detroit-hero.png",
+    heroAlt: "Crew hanging moisture-resistant drywall on framed basement walls in a Metro Detroit home",
+    secondaryImage: "/blog/basement-drywall-finishing-metro-detroit-secondary.png",
+    secondaryAlt: "Freshly mudded and sanded basement drywall ready for primer in Michigan",
+    body: `
+You can drywall a basement ceiling that has pipes and ducts in it, and in most Metro Detroit basements it is the better looking choice, because it keeps every inch of headroom. The rule is that anything you may need to reach later cannot be buried: shutoff valves, drain cleanouts, electrical junction boxes and duct dampers each need an access panel, or that part of the ceiling should be a drop ceiling. Many basements end up with both: drywall over the open joist bays, a boxed soffit around the main duct, and a small section of removable tile where the plumbing is busiest.
+
+Basement finishing season starts in Southeast Michigan about now, once the yard work ends and the furnace comes on, so this is the question we hear most in October. Here is how to decide for your own ceiling.
+
+## What has to stay reachable
+
+Before any ceiling goes up, walk the basement with a flashlight and a roll of painter's tape and mark each of these:
+
+- **Water shutoff valves**, including the ones for outdoor spigots that get closed every fall.
+- **Drain cleanouts** on the main stack and on horizontal drain lines.
+- **Electrical junction boxes.** A box with wire splices in it has to remain accessible. It cannot be covered with drywall.
+- **Gas shutoffs and unions** on the lines to the furnace, water heater, dryer and range.
+- **Duct dampers**, the small levers on round ducts that balance the heat between rooms.
+- **Anything that has leaked before**, such as the drain under an upstairs bathroom.
+
+If the marks are few and spread out, drywall with access panels works well. If one area of the ceiling is covered in tape, that area is a good candidate for a drop ceiling.
+
+## When drywall is the right ceiling
+
+- **Low headroom.** Drywall sits tight to the joists and costs you well under an inch. A drop ceiling grid needs a few inches of clearance below the lowest obstruction to get the tiles in and out. In a 1920s Detroit bungalow or a 1950s ranch in Warren, Livonia or Royal Oak, those inches often decide whether the room feels like part of the house.
+- **You want it to look like the upstairs.** A flat painted ceiling with recessed lights reads as a finished room. That matters if you plan to sell.
+- **The mechanicals are tidy.** In a newer home in Troy or Sterling Heights, where the plumbing runs inside the joist bays and the ductwork follows one line, there is little to work around.
+- **Sound.** Drywall with insulation above it does more to quiet footsteps and voices than a light ceiling tile.
+
+## When a drop ceiling is the better call
+
+- **A lot of plumbing overhead.** Older Metro Detroit homes often have cast iron drain stacks, galvanized supply lines and decades of added valves. If a plumber will be back, a tile you can lift beats a ceiling you have to cut.
+- **A bathroom or kitchen directly above.** After a leak, a stained tile is swapped in a minute. Wet drywall has to be cut out, dried and refinished, as covered in our guide to a [water damaged ceiling after a leak](/blog/water-damaged-ceiling-drywall-after-roof-leak).
+- **Wiring you expect to change**, such as a future bar, a home theater or a bedroom.
+- **Enough height to spare**, usually in newer homes with taller basement walls.
+
+We install and repair suspended ceilings as well as drywall. Our [acoustical ceilings](/services/acoustical-ceilings) page covers grid and tile work.
+
+## The hybrid most basements end up with
+
+- **Drywall on the main field** of the ceiling, screwed to the joists.
+- **A framed and drywalled soffit** around the trunk duct and the steel beam, kept as tight as the ductwork allows so you do not lose more headroom than you have to.
+- **Paintable access panels** under each shutoff, cleanout and damper. A flush panel painted with the ceiling is hard to spot.
+- **A drop ceiling in the utility corner** or under the bathroom group, where access matters more than looks.
+
+Planned before the framing starts, the soffits line up with the room layout and look intentional. Decided at the end, they look like boxes.
+
+## Headroom, code and permits
+
+Residential building codes set a minimum finished ceiling height for habitable basement rooms, generally around 7 feet, with a lower allowance under beams, ducts and soffits. Many older basements in Detroit, Dearborn and Ferndale are close to that line before any ceiling goes on, which is one more reason drywall wins there.
+
+Most cities in Wayne, Oakland and Macomb counties require a building permit to finish a basement, and a bedroom needs an egress window. The rules and the code edition in force vary by city, so confirm the ceiling height, permit and inspection requirements with your local building department before the ceiling is closed. The electrical, plumbing and mechanical rough work has to pass inspection first.
+
+## Before the ceiling goes up
+
+- **Fix what is easy to fix now.** A slow drip, a corroded valve, uninsulated ducts or old wiring will never be cheaper to deal with than while the joists are open. In a pre-war home, have an electrician look at any old cloth covered wiring before it is covered.
+- **Insulate the cold water lines** so they do not sweat on the back of the new ceiling in a humid Michigan summer.
+- **Photograph every joist bay** with a tape measure in the frame. In ten years that photo tells a plumber exactly where to cut.
+- **Choose the board.** Basement ceilings are usually 1/2 inch or 5/8 inch drywall. Sag resistant ceiling board is worth it on wider joist spacing, and your building department may call for a specific type or thickness.
+- **Plan the lighting** before the board is hung, not after.
+
+Our guide to [basement drywall finishing in Metro Detroit](/blog/basement-drywall-finishing-metro-detroit) covers the walls, moisture and the finishing sequence.
+
+## What drives the cost
+
+We do not price a basement ceiling from a photo, because a few things change the job a lot:
+
+- **The size of the ceiling** and how much of it is drywall, soffit or grid.
+- **How many soffits and access panels** have to be framed and finished.
+- **Ceiling height and obstructions,** which set how the sheets are hung and how many joints there are.
+- **The level of finish** and whether we prime and paint.
+- **Whether the walls are part of the same job.**
+
+Call (313) 236-4558 for a price on your job.
+
+## Basement ceilings in Metro Detroit
+
+BH Drywall Metro Detroit hangs and finishes basement ceilings, frames and wraps soffits around ductwork, sets access panels and installs drop ceilings in homes across Wayne, Oakland and Macomb counties. See our page on [residential drywall in Metro Detroit](/services/residential-drywall) for the work we take on.
+
+To have your basement ceiling looked at, call us at (313) 236-4558 or send the [contact form](/quote) with a few photos of the joists and ductwork. We are open Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and closed on Saturdays.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
