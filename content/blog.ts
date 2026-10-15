@@ -1133,6 +1133,81 @@ BH Drywall Metro Detroit hangs and finishes basement ceilings, frames and wraps 
 To have your basement ceiling looked at, call us at (313) 236-4558 or send the [contact form](/quote) with a few photos of the joists and ductwork. We are open Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and closed on Saturdays.
 `,
   },
+  {
+    slug: "repair-popcorn-ceiling-without-removing-it",
+    title: "Can You Repair a Popcorn Ceiling Without Removing It? A Metro Detroit Guide",
+    metaTitle: "Repair a Popcorn Ceiling Without Removing It",
+    excerpt:
+      "A hole, a crack or a water stain in a popcorn ceiling does not always mean the whole ceiling has to come down. Here is when a patch works, when it will never blend, and the test to do first in an older Metro Detroit home.",
+    category: "Residential",
+    readMinutes: 6,
+    // Local noon on purpose, same as the other posts: a bare date prints a day early.
+    date: "2026-10-15T12:00:00-04:00",
+    heroImage: "/blog/popcorn-ceiling-removal-metro-detroit-hero.png",
+    heroAlt: "Popcorn ceiling texture being worked on in a Metro Detroit ranch home",
+    secondaryImage: "/blog/popcorn-ceiling-removal-metro-detroit-secondary.png",
+    secondaryAlt: "Smooth ceiling finish in a Michigan home after textured ceiling work",
+    body: `
+Yes. A popcorn ceiling can usually be repaired without removing it, as long as the damage is small and the texture is still bonded to the drywall. A hole from an old light fixture, a crack along a seam or a dried water stain can be patched and re-textured in place. A patch will not blend if the damaged area is large, if the texture is loose or sagging, or if the ceiling has been painted several times. In a home built before about 1980, have the texture tested for asbestos before anyone cuts, scrapes or sands it.
+
+With the furnace on and more time spent indoors, this is the season people notice the old fixture scar or the stain over the bathroom. Here is how to tell which kind of ceiling you have.
+
+## When a patch works
+
+- **Small holes and fixture scars.** A moved light, a removed ceiling fan or a smoke detector that was relocated leaves a hole that can be filled with drywall and re-textured.
+- **Hairline cracks along a seam.** If the drywall is not sagging, the joint can be re-taped and the texture rebuilt over it.
+- **A dry, old water stain.** Once the leak is fixed and the drywall is dry and solid, the stain is sealed with a stain-blocking primer. If the texture came loose with the water, that spot is scraped back and re-sprayed.
+- **The texture is still firmly attached.** Press gently with a fingertip in an out-of-the-way spot. If it holds, the ceiling can take a patch.
+
+## When it will never blend
+
+- **The damaged area is large.** Popcorn texture yellows and collects dust over decades. New texture is bright white, so a large patch shows even after painting.
+- **The ceiling has been painted.** Paint fills the texture and changes how it catches light. A repaired spot in a painted ceiling usually means repainting the whole room.
+- **The texture is sagging or falling off.** That usually means moisture or poor bonding behind it. A patch will not hold, and the drywall under it may need work too.
+- **Raking light.** A room with a big window or a light fixture shining across the ceiling shows every edge. In that kind of room, a section of the ceiling or the whole room may need to be done to look right.
+
+## Test before anyone cuts into it
+
+Popcorn ceilings were sprayed in Metro Detroit homes from the 1950s into the early 1980s, which covers thousands of ranches and split-levels in Livonia, Warren, Southfield, Royal Oak and Troy. Texture from that era can contain asbestos, and you cannot tell by looking. Before a patch, a lab test on a small sample says whether the ceiling can be worked on as normal drywall or needs an abatement contractor first. A cracked or damaged area is exactly the spot not to disturb until you have the result.
+
+Leave a damaged spot alone in the meantime: do not scrape, sand or vacuum loose texture with a household vacuum.
+
+## How we repair a popcorn ceiling in place
+
+- **Find and fix the cause first.** A stain comes back if the roof, the plumbing or the bathroom above is still leaking. A crack comes back if the framing is still moving.
+- **Repair the drywall.** Holes get a drywall patch, cracks get re-taped, and soft or stained board is cut out and replaced.
+- **Seal it.** A stain-blocking primer keeps old water marks from bleeding through.
+- **Rebuild the texture.** Popcorn texture is sprayed or rolled in light coats and feathered past the edges of the repair so there is no ridge.
+- **Paint if needed.** If the rest of the ceiling is painted, the repaired area is painted to match, which often means the whole ceiling plane.
+
+Our guide to [popcorn ceiling removal in Metro Detroit](/blog/popcorn-ceiling-removal-metro-detroit/) covers what happens when removal is the better choice.
+
+## Repair or remove: a quick way to decide
+
+- **Repair** when the damage is one or two small spots, the texture is bonded, and you are happy with the popcorn look.
+- **Remove** when the damage is spread across the ceiling, the texture is loose, or you were already thinking about a smooth ceiling and recessed lights. Once a ceiling needs a large repair, removing the texture and skim coating it is often the better use of the work.
+
+Our page on [popcorn ceiling removal](/services/popcorn-ceiling-removal/) explains removal, skim coating and finishing, and our [texture matching](/services/texture-matching/) page covers repairs that have to blend with an existing finish.
+
+## What drives the cost
+
+We do not price a popcorn ceiling repair from a photo, because a few things change the job a lot:
+
+- **The size and number of damaged spots.**
+- **The asbestos test result**, which decides how the ceiling can be worked on.
+- **Whether the drywall underneath needs repair or replacement.**
+- **Whether the ceiling is painted**, which decides how much of it has to be repainted.
+- **Ceiling height and access**, such as a vaulted living room or a stairwell.
+
+Call (313) 236-4558 for a price on your job.
+
+## Popcorn ceiling repairs in Metro Detroit
+
+BH Drywall Metro Detroit patches, re-textures and removes popcorn ceilings in homes across Wayne, Oakland and Macomb counties, from Detroit and Dearborn to Livonia, Royal Oak, Troy and Warren.
+
+To have a damaged popcorn ceiling looked at, call us at (313) 236-4558 or send the [contact form](/quote/) with a photo of the damage and the year your home was built. We are open Sunday through Thursday from 9:00 AM to 5:00 PM and Friday from 9:00 AM to 12:00 PM, and closed on Saturdays.
+`,
+  },
 ];
 
 export function findPost(slug: string): BlogPost | undefined {
